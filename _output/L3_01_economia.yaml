@@ -1,0 +1,427 @@
+# Descrições L3 - Tema 01: Economia e Finanças
+# Gerado em: 2025-12-18
+
+- code: "01.01.01"
+  label: "Política Fiscal"
+  description: |
+    Gestão de receitas, despesas públicas, metas fiscais e arcabouço fiscal.
+    Inclui superávit/déficit primário, resultado do Tesouro Nacional e cumprimento de regras orçamentárias.
+  keywords:
+    - arcabouço fiscal
+    - meta fiscal
+    - superávit primário
+    - déficit primário
+    - resultado fiscal
+    - Tesouro Nacional
+    - despesa pública
+    - receita pública
+    - regra de ouro
+    - limite de gastos
+  examples:
+    - "Governo anuncia cumprimento da meta de resultado primário no primeiro trimestre"
+    - "Tesouro Nacional divulga resultado fiscal com superávit de R$ 50 bilhões"
+    - "Ministério da Fazenda propõe ajustes no arcabouço fiscal para 2026"
+
+- code: "01.01.02"
+  label: "Autonomia Econômica"
+  description: |
+    Políticas para redução de dependência externa, soberania econômica e fortalecimento da indústria nacional.
+    Inclui substituição de importações, reindustrialização e segurança econômica estratégica.
+  keywords:
+    - soberania econômica
+    - autonomia estratégica
+    - reindustrialização
+    - substituição de importações
+    - dependência externa
+    - indústria nacional
+    - conteúdo local
+    - cadeia produtiva nacional
+    - resiliência econômica
+  examples:
+    - "Governo lança programa de reindustrialização para reduzir dependência externa"
+    - "Medidas para fortalecer autonomia econômica do Brasil em setores estratégicos"
+    - "Plano de soberania econômica prevê substituição de importações em semicondutores"
+
+- code: "01.01.03"
+  label: "Análise Econômica"
+  description: |
+    Estudos, diagnósticos, projeções e análises sobre indicadores macroeconômicos.
+    Inclui relatórios sobre PIB, inflação, emprego, consumo e perspectivas econômicas.
+  keywords:
+    - projeção econômica
+    - indicadores econômicos
+    - análise macroeconômica
+    - PIB
+    - inflação
+    - IPCA
+    - taxa de desemprego
+    - consumo das famílias
+    - crescimento econômico
+    - conjuntura econômica
+  examples:
+    - "Ministério da Fazenda projeta crescimento do PIB de 2,5% para 2025"
+    - "Análise aponta recuperação do consumo das famílias no segundo trimestre"
+    - "Relatório de conjuntura econômica indica desaceleração da inflação"
+
+- code: "01.01.04"
+  label: "Boletim Econômico"
+  description: |
+    Publicações periódicas oficiais com dados consolidados sobre desempenho da economia.
+    Inclui boletins mensais, trimestrais e relatórios de acompanhamento econômico.
+  keywords:
+    - boletim econômico
+    - relatório mensal
+    - acompanhamento econômico
+    - dados econômicos
+    - estatísticas oficiais
+    - publicação periódica
+    - balanço econômico
+    - panorama econômico
+  examples:
+    - "Banco Central divulga Boletim Focus com projeções do mercado para inflação e PIB"
+    - "Ministério da Economia publica boletim mensal com dados de arrecadação e emprego"
+    - "Boletim trimestral aponta melhora nos indicadores econômicos do país"
+
+- code: "01.02.01"
+  label: "Fiscalização Econômica"
+  description: |
+    Ações de controle, auditoria e monitoramento de atividades econômicas e financeiras.
+    Inclui fiscalização de empresas, operações financeiras e cumprimento de normas econômicas.
+  keywords:
+    - fiscalização financeira
+    - auditoria fiscal
+    - controle econômico
+    - operação de fiscalização
+    - monitoramento financeiro
+    - irregularidades econômicas
+    - inspeção fiscal
+    - prestação de contas
+  examples:
+    - "Receita Federal deflagra operação de fiscalização em empresas do setor financeiro"
+    - "Banco Central intensifica monitoramento de operações financeiras suspeitas"
+    - "TCU aponta irregularidades em prestação de contas de órgãos federais"
+
+- code: "01.02.02"
+  label: "Tributação e Impostos"
+  description: |
+    Sistema tributário federal, alíquotas, tributos, impostos e reformas tributárias.
+    Inclui IRPF, IRPJ, IPI, IOF, PIS, COFINS e discussões sobre reforma tributária.
+  keywords:
+    - reforma tributária
+    - imposto de renda
+    - IRPF
+    - IRPJ
+    - IPI
+    - IOF
+    - PIS/COFINS
+    - alíquota
+    - carga tributária
+    - simplificação tributária
+    - IVA
+  examples:
+    - "Governo envia ao Congresso proposta de reforma tributária com criação do IVA"
+    - "Receita Federal anuncia reajuste na tabela do Imposto de Renda para 2025"
+    - "Redução de alíquota do IPI para produtos da indústria automotiva"
+
+- code: "01.02.03"
+  label: "Combate à Evasão Fiscal"
+  description: |
+    Medidas contra sonegação, lavagem de dinheiro, paraísos fiscais e crimes contra a ordem tributária.
+    Inclui operações contra fraudes fiscais e recuperação de créditos tributários.
+  keywords:
+    - sonegação fiscal
+    - evasão fiscal
+    - lavagem de dinheiro
+    - paraíso fiscal
+    - crime tributário
+    - fraude fiscal
+    - recuperação de crédito tributário
+    - offshore
+    - declaração falsa
+    - operação policial
+  examples:
+    - "Receita Federal e PF deflagram operação contra esquema de sonegação de R$ 2 bilhões"
+    - "Governo recupera R$ 500 milhões em créditos tributários de empresas sonegadoras"
+    - "Brasil assina acordo internacional para combate a paraísos fiscais"
+
+- code: "01.02.04"
+  label: "Regulamentação Financeira"
+  description: |
+    Normas, regulamentos e supervisão do sistema financeiro nacional e mercado de capitais.
+    Inclui resoluções do Banco Central, CVM e regras para instituições financeiras.
+  keywords:
+    - regulação financeira
+    - Banco Central
+    - CVM
+    - sistema financeiro nacional
+    - mercado de capitais
+    - resolução bacen
+    - supervisão bancária
+    - normas prudenciais
+    - regulamentação bancária
+    - open banking
+  examples:
+    - "Banco Central publica nova resolução sobre capital mínimo de instituições financeiras"
+    - "CVM estabelece regras mais rígidas para ofertas públicas de ações"
+    - "CMN aprova regulamentação do open banking no sistema financeiro brasileiro"
+
+- code: "01.03.01"
+  label: "Atração de Investimentos"
+  description: |
+    Políticas e ações para atrair investimento estrangeiro direto e capital externo ao Brasil.
+    Inclui missões internacionais, incentivos fiscais e promoção de oportunidades de investimento.
+  keywords:
+    - investimento estrangeiro direto
+    - IED
+    - atração de capital
+    - investidor estrangeiro
+    - ambiente de negócios
+    - incentivos fiscais
+    - missão empresarial
+    - roadshow
+    - concessões
+    - privatizações
+  examples:
+    - "Governo realiza roadshow nos EUA para atrair investimentos em infraestrutura"
+    - "Brasil recebe US$ 70 bilhões em investimento estrangeiro direto em 2024"
+    - "Ministério lança programa de incentivos fiscais para atração de multinacionais"
+
+- code: "01.03.02"
+  label: "Investimentos no Exterior"
+  description: |
+    Investimentos brasileiros no exterior, expansão internacional de empresas nacionais e acordos de investimento.
+    Inclui proteção de investimentos brasileiros e parcerias estratégicas internacionais.
+  keywords:
+    - investimento brasileiro no exterior
+    - internacionalização de empresas
+    - expansão internacional
+    - acordo de investimento
+    - proteção de investimentos
+    - empresas brasileiras no exterior
+    - mercado externo
+  examples:
+    - "Empresas brasileiras investem US$ 20 bilhões em projetos na América Latina"
+    - "Brasil assina acordo bilateral de proteção de investimentos com Angola"
+    - "BNDES apoia internacionalização de empresas nacionais na África"
+
+- code: "01.03.03"
+  label: "Investimentos Verdes"
+  description: |
+    Investimentos em projetos sustentáveis, economia de baixo carbono e finanças verdes.
+    Inclui títulos verdes, financiamento climático e fundos ESG.
+  keywords:
+    - investimento sustentável
+    - economia de baixo carbono
+    - título verde
+    - green bond
+    - financiamento climático
+    - fundo ESG
+    - investimento ambiental
+    - transição energética
+    - carbono neutro
+  examples:
+    - "Tesouro Nacional lança título público verde para financiar projetos sustentáveis"
+    - "Brasil capta US$ 2 bilhões com emissão de green bonds no mercado internacional"
+    - "BNDES anuncia linha de crédito para investimentos em economia de baixo carbono"
+
+- code: "01.03.04"
+  label: "Balança Comercial"
+  description: |
+    Resultados de exportações, importações, saldo comercial e fluxo de comércio exterior.
+    Inclui dados mensais e anuais da balança comercial e análise de desempenho setorial.
+  keywords:
+    - balança comercial
+    - exportação
+    - importação
+    - saldo comercial
+    - superávit comercial
+    - déficit comercial
+    - corrente de comércio
+    - pauta exportadora
+    - destinos de exportação
+  examples:
+    - "Balança comercial registra superávit de US$ 8 bilhões em novembro"
+    - "Exportações brasileiras crescem 12% impulsionadas por agronegócio e minério"
+    - "Brasil reduz déficit comercial com China após aumento de vendas de soja"
+
+- code: "01.03.05"
+  label: "Política de Comércio Internacional"
+  description: |
+    Acordos comerciais, barreiras tarifárias, negociações multilaterais e política externa comercial.
+    Inclui Mercosul, OMC, acordos bilaterais e disputas comerciais.
+  keywords:
+    - acordo comercial
+    - tarifa de importação
+    - barreira comercial
+    - OMC
+    - Mercosul
+    - livre comércio
+    - acordo bilateral
+    - negociação comercial
+    - protecionismo
+    - disputa comercial
+  examples:
+    - "Brasil e União Europeia concluem negociações de acordo de livre comércio"
+    - "Governo reduz tarifas de importação para produtos de tecnologia"
+    - "Mercosul avança em negociações comerciais com países asiáticos"
+
+- code: "01.04.01"
+  label: "Apoio Financeiro a Pequenas Empresas"
+  description: |
+    Linhas de crédito, garantias e programas de financiamento para micro, pequenas e médias empresas.
+    Inclui Pronampe, linhas emergenciais e simplificação de acesso ao crédito.
+  keywords:
+    - Pronampe
+    - crédito para pequenas empresas
+    - MPE
+    - microempresa
+    - pequena empresa
+    - garantia de crédito
+    - linha de financiamento
+    - capital de giro
+    - empreendedorismo
+  examples:
+    - "Governo amplia Pronampe com R$ 10 bilhões para pequenas empresas"
+    - "Caixa e BNDES lançam linha de crédito com juros reduzidos para MPEs"
+    - "Programa de garantia facilita acesso ao crédito para microempreendedores"
+
+- code: "01.04.02"
+  label: "Apoio Financeiro para Inovação"
+  description: |
+    Financiamento de pesquisa, desenvolvimento tecnológico, startups e inovação industrial.
+    Inclui FINEP, fundos setoriais e investimento em ciência e tecnologia.
+  keywords:
+    - FINEP
+    - financiamento à inovação
+    - pesquisa e desenvolvimento
+    - P&D
+    - startup
+    - fundo setorial
+    - inovação tecnológica
+    - ciência e tecnologia
+    - investimento em inovação
+  examples:
+    - "FINEP destina R$ 1 bilhão para projetos de inovação em empresas brasileiras"
+    - "Governo lança programa de crédito subsidiado para startups de tecnologia"
+    - "BNDES cria fundo de R$ 500 milhões para investimento em pesquisa e desenvolvimento"
+
+- code: "01.04.03"
+  label: "Financiamento de Infraestrutura"
+  description: |
+    Recursos para projetos de infraestrutura logística, energética, urbana e social.
+    Inclui PAC, financiamento de obras públicas e parcerias público-privadas.
+  keywords:
+    - PAC
+    - financiamento de obras
+    - infraestrutura
+    - projeto de infraestrutura
+    - PPP
+    - parceria público-privada
+    - obra pública
+    - BNDES
+    - crédito de longo prazo
+  examples:
+    - "BNDES libera R$ 15 bilhões para financiamento de obras do novo PAC"
+    - "Governo anuncia linha de crédito para PPPs em projetos de infraestrutura"
+    - "Caixa financia projetos de mobilidade urbana em capitais brasileiras"
+
+- code: "01.04.04"
+  label: "Microcrédito e Inclusão Financeira"
+  description: |
+    Acesso a serviços financeiros para populações de baixa renda, microcrédito produtivo e bancarização.
+    Inclui programas de inclusão financeira, correspondentes bancários e crédito popular.
+  keywords:
+    - microcrédito
+    - inclusão financeira
+    - bancarização
+    - microcrédito produtivo orientado
+    - crédito popular
+    - população de baixa renda
+    - correspondente bancário
+    - acesso ao crédito
+    - empreendedor informal
+  examples:
+    - "Caixa expande programa de microcrédito para empreendedores de baixa renda"
+    - "Banco Central lança iniciativa de inclusão financeira para população desbancarizada"
+    - "Programa de microcrédito produtivo orientado beneficia 500 mil famílias"
+
+- code: "01.05.01"
+  label: "Economia Circular"
+  description: |
+    Modelo econômico de reutilização, reciclagem, redução de resíduos e cadeias produtivas circulares.
+    Inclui logística reversa, valorização de resíduos e economia regenerativa.
+  keywords:
+    - economia circular
+    - reciclagem
+    - logística reversa
+    - resíduos sólidos
+    - reaproveitamento
+    - produção sustentável
+    - valorização de resíduos
+    - economia regenerativa
+    - ciclo de vida
+  examples:
+    - "Governo lança plano nacional de economia circular para redução de resíduos"
+    - "Ministério apoia cadeias produtivas de reciclagem e logística reversa"
+    - "Empresas brasileiras aderem a programa de economia circular do governo"
+
+- code: "01.05.02"
+  label: "Economia Digital"
+  description: |
+    Transformação digital da economia, e-commerce, fintechs, plataformas digitais e negócios online.
+    Inclui regulação de plataformas, tributação digital e digitalização de serviços financeiros.
+  keywords:
+    - economia digital
+    - transformação digital
+    - e-commerce
+    - fintech
+    - plataforma digital
+    - marketplace
+    - pagamento digital
+    - tributação digital
+    - negócio digital
+  examples:
+    - "Governo propõe regulamentação de plataformas digitais e grandes marketplaces"
+    - "Receita Federal anuncia novas regras de tributação para e-commerce internacional"
+    - "Brasil registra crescimento de 40% na economia digital em 2024"
+
+- code: "01.05.03"
+  label: "Economia Solidária"
+  description: |
+    Cooperativismo, empreendimentos solidários, comércio justo e economia popular.
+    Inclui apoio a cooperativas, associações produtivas e redes de economia solidária.
+  keywords:
+    - economia solidária
+    - cooperativismo
+    - cooperativa
+    - comércio justo
+    - empreendimento solidário
+    - economia popular
+    - associação produtiva
+    - autogestão
+    - banco comunitário
+  examples:
+    - "Governo amplia recursos para cooperativas e empreendimentos de economia solidária"
+    - "Programa de fortalecimento do cooperativismo beneficia 200 mil famílias"
+    - "Ministério apoia criação de redes de comércio justo em comunidades tradicionais"
+
+- code: "01.05.04"
+  label: "Criptomoedas e Finanças Descentralizadas"
+  description: |
+    Regulação de criptoativos, blockchain, moedas digitais e finanças descentralizadas (DeFi).
+    Inclui marco legal de criptomoedas, Real Digital e supervisão de exchanges.
+  keywords:
+    - criptomoeda
+    - criptoativo
+    - bitcoin
+    - blockchain
+    - Real Digital
+    - CBDC
+    - exchange de criptomoedas
+    - finança descentralizada
+    - DeFi
+    - token digital
+  examples:
+    - "Banco Central lança piloto do Real Digital com instituições financeiras"
+    - "Receita Federal regulamenta tributação de operações com criptomoedas"
+    - "CVM estabelece regras para supervisão de exchanges de criptoativos no Brasil"

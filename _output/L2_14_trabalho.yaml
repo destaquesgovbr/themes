@@ -1,0 +1,109 @@
+# Descrições L2 - Tema 14: Trabalho e Emprego
+# Gerado em: 2025-12-18
+
+- code: "14.01"
+  label: "Mercado de Trabalho"
+  description: |
+    Abrange a dinâmica do mercado de trabalho brasileiro, incluindo estatísticas de emprego e desemprego, estratégias de inserção profissional de grupos específicos, serviços de intermediação entre trabalhadores e empregadores, desenvolvimento de carreiras e participação em fóruns internacionais sobre trabalho. Contempla desde dados quantitativos sobre ocupação e renda até iniciativas para ampliar a empregabilidade de populações vulneráveis.
+  keywords:
+    - emprego e renda
+    - taxa de desemprego
+    - CAGED
+    - PNAD
+    - inserção no mercado
+    - intermediação de mão de obra
+    - SINE
+    - Carteira de Trabalho Digital
+    - carreira profissional
+    - certificação profissional
+    - Conferência Internacional do Trabalho
+    - OIT
+    - mercado formal
+    - informalidade
+    - empregabilidade
+
+- code: "14.02"
+  label: "Legislação Trabalhista"
+  description: |
+    Engloba o arcabouço legal que rege as relações de trabalho no Brasil, incluindo direitos fundamentais garantidos pela CLT, diferentes modalidades de contratos de trabalho, sistemas digitais de gestão trabalhista, instrumentos de negociação coletiva entre empregadores e trabalhadores, e procedimentos de rescisão contratual. Aborda tanto os direitos individuais quanto os coletivos dos trabalhadores.
+  keywords:
+    - direitos trabalhistas
+    - CLT
+    - férias
+    - 13º salário
+    - FGTS
+    - contratos de trabalho
+    - trabalho intermitente
+    - terceirização
+    - Carteira de Trabalho Digital
+    - CTPS Digital
+    - acordos coletivos
+    - convenções coletivas
+    - negociação coletiva
+    - rescisão contratual
+    - verbas rescisórias
+
+- code: "14.03"
+  label: "Programas de Emprego"
+  description: |
+    Compreende iniciativas governamentais voltadas à geração e manutenção de empregos, incluindo programas de capacitação e qualificação profissional, incentivos fiscais e subsídios para contratação, políticas ativas de emprego coordenadas pelo poder público, ações de inclusão produtiva de grupos vulneráveis e programas específicos de apoio ao primeiro emprego de jovens sem experiência profissional.
+  keywords:
+    - qualificação profissional
+    - capacitação
+    - PRONATEC
+    - Sistema S
+    - incentivos ao emprego
+    - desoneração da folha
+    - jovem aprendiz
+    - políticas ativas de emprego
+    - CODEFAT
+    - FAT
+    - inclusão no trabalho
+    - Lei de Cotas
+    - pessoas com deficiência
+    - primeiro emprego
+    - economia solidária
+
+- code: "14.04"
+  label: "Auditoria e Inspeção do Trabalho"
+  description: |
+    Abrange as atividades de fiscalização e auditoria das relações de trabalho conduzidas pelo Ministério do Trabalho e Emprego, incluindo verificação de obrigações tributárias e previdenciárias, inspeções de cumprimento de normas trabalhistas, campanhas de erradicação do trabalho infantil, operações de combate ao trabalho análogo à escravidão, e monitoramento sistemático das condições laborais em setores críticos.
+  keywords:
+    - auditoria fiscal do trabalho
+    - AFT
+    - inspeção do trabalho
+    - fiscalização trabalhista
+    - SIT
+    - combate ao trabalho infantil
+    - PETI
+    - erradicação do trabalho infantil
+    - combate ao trabalho escravo
+    - trabalho análogo à escravidão
+    - Lista Suja
+    - GEFM
+    - resgate de trabalhadores
+    - monitoramento de condições
+    - radar SIT
+
+- code: "14.05"
+  label: "Segurança e Saúde no Trabalho"
+  description: |
+    Trata da proteção da integridade física e mental dos trabalhadores, envolvendo a elaboração e atualização de Normas Regulamentadoras, ações preventivas de acidentes ocupacionais, gestão de condições ambientais como ruído e temperatura, adequação ergonômica dos postos de trabalho, e programas de vigilância e promoção da saúde ocupacional. Visa garantir ambientes laborais seguros e saudáveis.
+  keywords:
+    - Normas Regulamentadoras
+    - NRs
+    - SST
+    - Segurança e Saúde no Trabalho
+    - prevenção de acidentes
+    - CAT
+    - EPI
+    - CIPA
+    - insalubridade
+    - periculosidade
+    - ergonomia
+    - NR-17
+    - LER
+    - DORT
+    - saúde ocupacional
+    - PCMSO
+    - medicina do trabalho

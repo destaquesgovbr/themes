@@ -1,0 +1,271 @@
+# Descrições L3 - Tema 23: Estatísticas e Dados Públicos
+# Gerado em: 2025-12-18
+
+- code: "23.01.01"
+  label: "Censo Demográfico"
+  description: |
+    Levantamento decenal da população brasileira realizado pelo IBGE, incluindo
+    dados sobre habitantes, domicílios e características socioeconômicas.
+  keywords:
+    - censo demográfico, IBGE, censo 2022
+    - recenseamento, contagem populacional
+    - dados censitários, população brasileira
+    - agente censitário
+  examples:
+    - "IBGE divulga primeiros resultados do Censo Demográfico 2022"
+    - "Censo populacional revela crescimento de 6,5% da população brasileira"
+    - "Governo lança campanha de conscientização para participação no Censo"
+
+- code: "23.01.02"
+  label: "Censo Agropecuário"
+  description: |
+    Pesquisa do IBGE sobre estabelecimentos rurais, produção agrícola, pecuária,
+    uso da terra e características da agropecuária nacional.
+  keywords:
+    - censo agropecuário, IBGE, agricultura
+    - estabelecimentos rurais, produção agrícola
+    - pecuária, uso da terra
+    - agricultura familiar
+  examples:
+    - "Censo Agropecuário mostra aumento da agricultura familiar no Brasil"
+    - "IBGE divulga dados sobre produção agrícola em estabelecimentos rurais"
+    - "Levantamento aponta crescimento da pecuária no Centro-Oeste"
+
+- code: "23.01.03"
+  label: "Pesquisa de Emprego e Renda"
+  description: |
+    Pesquisas periódicas sobre mercado de trabalho, desemprego, ocupação e
+    rendimentos, como PNAD Contínua e Caged.
+  keywords:
+    - PNAD Contínua, taxa de desemprego
+    - mercado de trabalho, IBGE, Caged
+    - desocupação, renda do trabalho
+    - população ocupada
+  examples:
+    - "PNAD Contínua aponta taxa de desemprego de 8,5% no trimestre"
+    - "Pesquisa do IBGE mostra crescimento do emprego formal no país"
+    - "Rendimento médio do trabalhador brasileiro sobe 2,3%, indica PNAD"
+
+- code: "23.01.04"
+  label: "Pesquisa de Saúde"
+  description: |
+    Levantamentos sobre condições de saúde da população, acesso a serviços,
+    doenças, hábitos e indicadores sanitários.
+  keywords:
+    - pesquisa de saúde, PNS, IBGE
+    - indicadores de saúde, condições de saúde
+    - acesso ao SUS, doenças crônicas
+    - Vigitel, Ministério da Saúde
+  examples:
+    - "Pesquisa Nacional de Saúde revela aumento de doenças crônicas no Brasil"
+    - "IBGE divulga dados sobre acesso da população ao SUS"
+    - "Levantamento mostra cobertura vacinal em diferentes regiões do país"
+
+- code: "23.01.05"
+  label: "Pesquisa de Educação"
+  description: |
+    Estudos sobre sistema educacional brasileiro, matrículas, desempenho escolar,
+    alfabetização e acesso à educação.
+  keywords:
+    - pesquisa de educação, Censo Escolar
+    - PNAD Educação, INEP, MEC
+    - matrículas escolares, alfabetização
+    - desempenho escolar
+  examples:
+    - "Censo Escolar registra aumento de matrículas na educação infantil"
+    - "Pesquisa do IBGE aponta redução do analfabetismo no Brasil"
+    - "INEP divulga dados sobre desempenho de estudantes em avaliações nacionais"
+
+- code: "23.02.01"
+  label: "Índice de Preços"
+  description: |
+    Indicadores de inflação e variação de preços como IPCA, INPC, IGP-M,
+    medidos por IBGE, FGV e outras instituições.
+  keywords:
+    - IPCA, INPC, inflação, IBGE
+    - IGP-M, FGV, índice de preços
+    - variação de preços, cesta básica
+    - Banco Central, meta de inflação
+  examples:
+    - "IBGE divulga IPCA de novembro com inflação de 0,28%"
+    - "Inflação acumulada no ano atinge 4,5%, segundo índice oficial"
+    - "Índice de preços ao consumidor registra alta em alimentos e bebidas"
+
+- code: "23.02.02"
+  label: "Indicadores de Pobreza"
+  description: |
+    Dados e estatísticas sobre pobreza, extrema pobreza, desigualdade social
+    e linha de pobreza.
+  keywords:
+    - pobreza, extrema pobreza, linha de pobreza
+    - IBGE, IPEA, desigualdade social
+    - vulnerabilidade, CadÚnico
+    - índice de pobreza
+  examples:
+    - "IBGE aponta redução da extrema pobreza no Brasil em 2023"
+    - "Pesquisa mostra que 10% da população vive abaixo da linha de pobreza"
+    - "Indicadores revelam queda da desigualdade social no país"
+
+- code: "23.02.03"
+  label: "Índice de Desenvolvimento Humano (IDH)"
+  description: |
+    Indicador composto que mede desenvolvimento humano considerando renda,
+    educação e longevidade.
+  keywords:
+    - IDH, Índice de Desenvolvimento Humano
+    - PNUD, ONU, desenvolvimento humano
+    - IDHM, qualidade de vida
+    - Atlas do Desenvolvimento Humano
+  examples:
+    - "Brasil sobe no ranking do IDH global, aponta relatório da ONU"
+    - "Estudo mostra evolução do Índice de Desenvolvimento Humano em municípios"
+    - "IDH brasileiro atinge 0,765, segundo dados mais recentes"
+
+- code: "23.02.04"
+  label: "Taxa de Desemprego"
+  description: |
+    Indicadores específicos sobre desocupação e desemprego, incluindo taxa de
+    desemprego, desalentados e subutilização.
+  keywords:
+    - taxa de desemprego, desocupação
+    - PNAD Contínua, IBGE, desempregados
+    - desalento, subutilização
+    - população economicamente ativa
+  examples:
+    - "Taxa de desemprego cai para 7,8% no trimestre, informa IBGE"
+    - "Número de desocupados atinge 8,4 milhões de brasileiros"
+    - "Indicador de subutilização da força de trabalho recua para 18,2%"
+
+- code: "23.02.05"
+  label: "Taxa de Escolaridade"
+  description: |
+    Indicadores sobre níveis de escolarização, frequência escolar e anos de estudo.
+  keywords:
+    - taxa de escolaridade, anos de estudo
+    - IBGE, escolarização, MEC
+    - frequência escolar, conclusão escolar
+    - indicadores educacionais
+  examples:
+    - "Pesquisa mostra aumento da taxa de escolaridade entre jovens brasileiros"
+    - "IBGE divulga dados sobre anos médios de estudo da população"
+    - "Indicador aponta crescimento na conclusão do ensino médio"
+
+- code: "23.03.01"
+  label: "Dados Abertos"
+  description: |
+    Iniciativas de abertura e disponibilização de bases de dados públicos em
+    formatos acessíveis e reutilizáveis.
+  keywords:
+    - dados abertos, open data, dados.gov.br
+    - Portal de Dados Abertos, transparência
+    - formato aberto, API pública
+    - reutilização de dados
+  examples:
+    - "Governo amplia catálogo de dados abertos com novas bases públicas"
+    - "Portal dados.gov.br disponibiliza datasets de educação e saúde"
+    - "Iniciativa de dados abertos facilita acesso a informações governamentais"
+
+- code: "23.03.02"
+  label: "Infraestrutura de Dados Públicos (IDP)"
+  description: |
+    Sistemas, plataformas e infraestruturas tecnológicas que organizam e
+    disponibilizam dados públicos de forma padronizada.
+  keywords:
+    - Infraestrutura de Dados Públicos, IDP
+    - integração de dados, padrão de dados
+    - governança de dados, catálogo de dados
+    - SERPRO, DATAPREV
+  examples:
+    - "Governo lança Infraestrutura de Dados Públicos para integrar bases federais"
+    - "Nova plataforma centraliza acesso a dados de diferentes órgãos"
+    - "IDP promove padronização e qualidade de dados governamentais"
+
+- code: "23.03.03"
+  label: "Integração de Bases de Dados"
+  description: |
+    Projetos e ações de conexão e compartilhamento entre diferentes bases de dados
+    de órgãos públicos.
+  keywords:
+    - integração de bases, compartilhamento de dados
+    - interoperabilidade, cruzamento de dados
+    - CPF como chave, unificação de cadastros
+    - e-Social, CNIS, governo digital
+  examples:
+    - "Receita Federal integra bases de dados com INSS para combater fraudes"
+    - "Projeto unifica cadastros de beneficiários de programas sociais"
+    - "Órgãos federais compartilham dados para melhorar gestão pública"
+
+- code: "23.04.01"
+  label: "Portal da Transparência"
+  description: |
+    Plataforma online que disponibiliza informações sobre receitas, despesas,
+    transferências e execução orçamentária do governo federal.
+  keywords:
+    - Portal da Transparência, CGU
+    - gastos públicos, orçamento federal
+    - despesas públicas, receitas federais
+    - portaldatransparencia.gov.br
+  examples:
+    - "Portal da Transparência registra aumento de acessos em 2024"
+    - "CGU atualiza Portal com dados de execução orçamentária do ano"
+    - "Cidadãos podem consultar gastos públicos por órgão e programa"
+
+- code: "23.04.02"
+  label: "Lei de Acesso à Informação (LAI)"
+  description: |
+    Aplicação e cumprimento da Lei 12.527/2011 que garante direito de acesso
+    a informações públicas.
+  keywords:
+    - Lei de Acesso à Informação, LAI, Lei 12.527
+    - pedido de informação, e-SIC
+    - transparência ativa, transparência passiva
+    - direito à informação
+  examples:
+    - "CGU divulga balanço de pedidos atendidos pela Lei de Acesso à Informação"
+    - "Governo responde 95% das solicitações via LAI dentro do prazo"
+    - "Cidadão pode solicitar informações públicas pelo sistema e-SIC"
+
+- code: "23.04.03"
+  label: "Relatórios de Prestação de Contas"
+  description: |
+    Documentos oficiais de demonstração de resultados, execução orçamentária
+    e financeira apresentados por órgãos públicos.
+  keywords:
+    - prestação de contas, relatório de gestão
+    - TCU, contas públicas
+    - execução orçamentária, balanço público
+    - LRF, Lei de Responsabilidade Fiscal
+  examples:
+    - "Governo apresenta relatório de prestação de contas ao TCU"
+    - "Ministério divulga balanço anual com execução orçamentária de 2024"
+    - "Relatório quadrimestral mostra cumprimento de metas fiscais"
+
+- code: "23.04.04"
+  label: "Auditorias e Fiscalizações Públicas"
+  description: |
+    Resultados de auditorias, inspeções e fiscalizações realizadas por órgãos
+    de controle em políticas e programas governamentais.
+  keywords:
+    - auditoria, fiscalização, CGU, TCU
+    - inspeção, relatório de auditoria
+    - irregularidades, achados de auditoria
+    - controle externo, recomendações
+  examples:
+    - "CGU aponta irregularidades em fiscalização de programa federal"
+    - "Auditoria do TCU recomenda ajustes em execução de convênios"
+    - "Relatório de fiscalização identifica economicidade em contratações"
+
+- code: "23.04.05"
+  label: "Dados sobre Licitações e Contratos Públicos"
+  description: |
+    Informações sobre processos licitatórios, contratos administrativos
+    e compras governamentais.
+  keywords:
+    - licitações, contratos públicos, ComprasNet
+    - pregão eletrônico, edital
+    - compras governamentais, fornecedores
+    - Portal de Compras
+  examples:
+    - "Portal de Compras divulga editais de licitações abertas no governo federal"
+    - "Dados sobre contratos públicos ficam disponíveis para consulta online"
+    - "Governo publica informações sobre processos de pregão eletrônico"

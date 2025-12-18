@@ -1,0 +1,287 @@
+# Descrições L3 - Tema 16: Turismo
+# Gerado em: 2025-12-18
+
+- code: "16.01.01"
+  label: "Campanhas de Divulgação"
+  description: |
+    Campanhas publicitárias e ações de marketing turístico para promover o Brasil como destino.
+    Inclui materiais promocionais, publicidade em mídias e branding turístico nacional.
+  keywords:
+    - campanha turística, marketing turístico
+    - Embratur, Visit Brasil, marca Brasil
+    - divulgação turística, material promocional
+    - publicidade turística, branding
+  examples:
+    - "Embratur lança campanha 'Visit Brasil' para atrair turistas internacionais"
+    - "MTur investe R$ 50 milhões em nova campanha publicitária do turismo brasileiro"
+    - "Governo federal lança material promocional do Brasil para feiras internacionais"
+
+- code: "16.01.02"
+  label: "Parcerias e Cooperação Internacional"
+  description: |
+    Acordos, parcerias e cooperação bilateral ou multilateral em turismo com outros países e organismos internacionais.
+  keywords:
+    - cooperação internacional, parceria internacional
+    - memorando de entendimento, OMT
+    - Organização Mundial do Turismo
+    - acordo bilateral, intercâmbio turístico
+  examples:
+    - "Brasil e Portugal assinam acordo de cooperação para desenvolvimento do turismo"
+    - "MTur firma parceria com OMT para capacitação de profissionais brasileiros"
+    - "Embratur estabelece convênio com agências de turismo da América Latina"
+
+- code: "16.01.03"
+  label: "Promoção de Destinos Nacionais"
+  description: |
+    Promoção de destinos turísticos brasileiros de abrangência nacional ou internacional, como capitais,
+    ícones turísticos e roteiros integrados que conectam múltiplas regiões do país.
+  keywords:
+    - destino nacional, turismo Brasil
+    - Rio de Janeiro, São Paulo, Foz do Iguaçu, Salvador
+    - Fernando de Noronha, Amazônia, Pantanal
+    - Cristo Redentor, patrimônio mundial
+  examples:
+    - "Governo promove Rio de Janeiro e Foz do Iguaçu em feira internacional de turismo"
+    - "Fernando de Noronha é destaque em campanha nacional de turismo sustentável"
+    - "MTur lança roteiro integrado conectando Amazônia, Pantanal e litoral nordestino"
+
+- code: "16.01.04"
+  label: "Promoção de Destinos Regionais"
+  description: |
+    Promoção de destinos turísticos de escopo regional, estadual ou municipal, incluindo cidades históricas,
+    praias locais, serras e atrativos de abrangência limitada.
+  keywords:
+    - destino regional, turismo regional
+    - circuito regional, rota turística estadual
+    - Bonito, Gramado, Ouro Preto, Paraty
+    - serra gaúcha, litoral paulista
+  examples:
+    - "Governo do Mato Grosso do Sul promove Bonito como destino de ecoturismo"
+    - "Circuito da Serra Gaúcha recebe investimentos para promoção turística"
+    - "Cidades históricas de Minas Gerais lançam rota integrada da Estrada Real"
+
+- code: "16.02.01"
+  label: "Investimentos em Hospedagem"
+  description: |
+    Investimentos, incentivos fiscais e programas de desenvolvimento da rede hoteleira e meios de hospedagem.
+  keywords:
+    - hotel, pousada, resort, hospedagem
+    - rede hoteleira, Fungetur
+    - investimento hoteleiro, financiamento
+    - setor hoteleiro, empreendimento
+  examples:
+    - "Fungetur libera R$ 200 milhões para modernização de hotéis no Nordeste"
+    - "Governo anuncia incentivos fiscais para construção de resorts em Fernando de Noronha"
+    - "MTur financia reforma de pousadas em cidades históricas de Minas Gerais"
+
+- code: "16.02.02"
+  label: "Transporte e Acessibilidade"
+  description: |
+    Infraestrutura de transporte e acessibilidade para turistas, incluindo aeroportos, rodovias,
+    sinalização turística e adaptações para pessoas com deficiência.
+  keywords:
+    - aeroporto turístico, transporte turístico
+    - rodovia turística, sinalização turística
+    - acessibilidade turística, turismo acessível
+    - terminal turístico, mobilidade
+  examples:
+    - "Governo investe em sinalização turística nas rodovias de acesso a Gramado"
+    - "Aeroporto de Bonito recebe melhorias para ampliar capacidade de turistas"
+    - "MTur lança programa de acessibilidade em pontos turísticos do Rio de Janeiro"
+
+- code: "16.02.03"
+  label: "Centros de Informação Turística"
+  description: |
+    Implantação e manutenção de centros de atendimento ao turista, postos de informação e estruturas de orientação.
+  keywords:
+    - centro de atendimento, posto de informação, CAT
+    - quiosque turístico, orientação turística
+    - atendimento ao turista, balcão de informações
+  examples:
+    - "Salvador inaugura cinco novos centros de atendimento ao turista no centro histórico"
+    - "MTur instala postos de informação turística em terminais rodoviários do país"
+    - "Brasília amplia rede de quiosques de orientação para visitantes"
+
+- code: "16.02.04"
+  label: "Infraestrutura em Parques Naturais e Áreas de Lazer"
+  description: |
+    Investimentos em estrutura física de parques nacionais, áreas de proteção ambiental e espaços de lazer turístico.
+  keywords:
+    - parque nacional, unidade de conservação
+    - trilha turística, mirante, centro de visitantes
+    - ICMBio, infraestrutura de parque
+    - área de lazer, parque ecológico
+  examples:
+    - "ICMBio investe em novas trilhas e mirantes no Parque Nacional do Iguaçu"
+    - "Governo inaugura centro de visitantes no Parque Nacional da Chapada dos Veadeiros"
+    - "Parque Nacional de Fernando de Noronha recebe infraestrutura de acessibilidade"
+
+- code: "16.03.01"
+  label: "Feiras e Exposições"
+  description: |
+    Organização e participação em feiras comerciais, exposições de turismo e eventos do setor turístico.
+  keywords:
+    - feira de turismo, exposição turística
+    - ABAV, WTM, ITB, Fitur
+    - rodada de negócios, estande
+    - Festuris, salão de turismo
+  examples:
+    - "Embratur participa da WTM London com estande do Brasil"
+    - "ABAV Expo 2025 reúne profissionais do turismo em São Paulo"
+    - "Brasil apresenta destinos turísticos na ITB Berlim com apoio do MTur"
+
+- code: "16.03.02"
+  label: "Festivais e Celebrações Locais"
+  description: |
+    Festas populares, festivais culturais, celebrações tradicionais e eventos comunitários com potencial turístico.
+  keywords:
+    - festival, festa popular, Carnaval
+    - festa junina, São João, bumba-meu-boi
+    - festival gastronômico, tradição local
+    - folclore, manifestação cultural
+  examples:
+    - "Governo apoia realização do São João de Campina Grande com recursos do MTur"
+    - "Festival de Parintins recebe investimentos para ampliar estrutura turística"
+    - "MTur inclui festas juninas do Nordeste em calendário oficial de eventos turísticos"
+
+- code: "16.03.03"
+  label: "Eventos Esportivos de Turismo"
+  description: |
+    Competições esportivas, maratonas, torneios e eventos esportivos com impacto turístico.
+  keywords:
+    - evento esportivo, maratona, competição
+    - turismo esportivo, surf, vela
+    - corrida de rua, torneio
+    - campeonato, evento náutico
+  examples:
+    - "Maratona do Rio de Janeiro atrai 30 mil turistas para a cidade"
+    - "Etapa brasileira do Mundial de Surf movimenta economia de Fernando de Noronha"
+    - "MTur apoia realização de torneio internacional de vela em Búzios"
+
+- code: "16.03.04"
+  label: "Congressos e Conferências"
+  description: |
+    Congressos científicos, conferências técnicas, convenções empresariais e eventos corporativos
+    que atraem turismo de negócios.
+  keywords:
+    - congresso, conferência, convenção
+    - turismo de negócios, MICE
+    - centro de convenções, evento corporativo
+    - simpósio, fórum
+  examples:
+    - "São Paulo sediará congresso internacional de medicina com 15 mil participantes"
+    - "MTur promove Brasil como destino de turismo de negócios em conferência global"
+    - "Centro de Convenções de Brasília recebe evento corporativo com 5 mil executivos"
+
+- code: "16.04.01"
+  label: "Turismo Ecológico e de Natureza"
+  description: |
+    Desenvolvimento e promoção do ecoturismo, turismo de observação da natureza e atividades turísticas
+    em ambientes naturais.
+  keywords:
+    - ecoturismo, turismo ecológico, turismo de natureza
+    - observação de aves, birdwatching
+    - turismo de aventura, trilha ecológica
+    - Bonito, Amazônia, Pantanal, Chapada
+  examples:
+    - "MTur lança programa de incentivo ao ecoturismo na Amazônia"
+    - "Bonito se consolida como referência em turismo ecológico sustentável"
+    - "Governo apoia roteiro de observação de aves no Pantanal"
+
+- code: "16.04.02"
+  label: "Práticas Sustentáveis em Destinos Turísticos"
+  description: |
+    Implementação de práticas de sustentabilidade em destinos turísticos, incluindo gestão de resíduos,
+    eficiência energética e certificações ambientais.
+  keywords:
+    - sustentabilidade turística, turismo responsável
+    - certificação ambiental, selo verde
+    - gestão de resíduos, eficiência energética
+    - destino sustentável, boas práticas
+  examples:
+    - "Fernando de Noronha implementa sistema de gestão de resíduos em hotéis"
+    - "MTur certifica 50 destinos turísticos com selo de sustentabilidade"
+    - "Gramado adota práticas de eficiência energética em equipamentos turísticos"
+
+- code: "16.04.03"
+  label: "Proteção de Patrimônio Cultural e Natural"
+  description: |
+    Preservação e conservação de patrimônios históricos, culturais e naturais em destinos turísticos.
+  keywords:
+    - patrimônio cultural, patrimônio histórico
+    - patrimônio natural, UNESCO, IPHAN
+    - tombamento, preservação, conservação
+    - patrimônio mundial, restauração
+  examples:
+    - "IPHAN restaura conjunto arquitetônico de Ouro Preto para turismo"
+    - "MTur investe na preservação do patrimônio histórico de Salvador"
+    - "Parque Nacional da Serra da Capivara recebe recursos para conservação de pinturas rupestres"
+
+- code: "16.05.01"
+  label: "Formação Profissional em Turismo"
+  description: |
+    Cursos técnicos, graduação, pós-graduação e programas de formação profissional em turismo e hotelaria.
+  keywords:
+    - formação em turismo, curso de turismo
+    - técnico em turismo, hotelaria
+    - Pronatec Turismo, qualificação profissional
+    - turismólogo, gestão de eventos
+  examples:
+    - "MTur lança programa de bolsas para cursos técnicos em turismo"
+    - "Pronatec Turismo qualifica 5 mil profissionais em hotelaria no Nordeste"
+    - "Governo federal apoia criação de curso superior em gestão de turismo"
+
+- code: "16.05.02"
+  label: "Qualificação de Guias Turísticos"
+  description: |
+    Capacitação, certificação e registro de guias de turismo e condutores ambientais.
+  keywords:
+    - guia de turismo, condutor turístico
+    - CADASTUR, registro de guia
+    - formação de guia, guia credenciado
+    - guia ambiental, guia especializado
+  examples:
+    - "MTur capacita 200 guias de turismo em Foz do Iguaçu"
+    - "Programa de qualificação certifica guias ambientais para Amazônia"
+    - "Governo lança curso de formação de guias turísticos no Rio de Janeiro"
+
+- code: "16.05.03"
+  label: "Cursos de Atendimento ao Cliente"
+  description: |
+    Capacitação em atendimento, hospitalidade e relacionamento com turistas para profissionais do setor.
+  keywords:
+    - atendimento ao turista, hospitalidade
+    - excelência no atendimento, experiência do cliente
+    - curso de atendimento, qualidade no serviço
+  examples:
+    - "Sebrae e MTur oferecem curso de atendimento ao turista em Salvador"
+    - "Profissionais de hotéis participam de capacitação em hospitalidade"
+    - "Programa de qualificação melhora atendimento em pontos turísticos de Brasília"
+
+- code: "16.05.04"
+  label: "Treinamentos para Hotéis e Restaurantes"
+  description: |
+    Capacitação específica para profissionais de meios de hospedagem e gastronomia turística.
+  keywords:
+    - treinamento hoteleiro, gestão hoteleira
+    - restaurante turístico, gastronomia
+    - governança hoteleira, segurança alimentar
+    - chef, garçom, camareira
+  examples:
+    - "MTur e Senac capacitam funcionários de hotéis em padrões de qualidade"
+    - "Programa de qualificação treina chefs para restaurantes turísticos no Nordeste"
+    - "Treinamento em governança hoteleira certifica 300 camareiras em São Paulo"
+
+- code: "16.05.05"
+  label: "Idiomas para Profissionais do Turismo"
+  description: |
+    Cursos de idiomas estrangeiros voltados para profissionais do turismo, com foco em inglês e espanhol.
+  keywords:
+    - inglês para turismo, idiomas para turismo
+    - espanhol turístico, curso de inglês
+    - vocabulário turístico, comunicação turística
+    - capacitação linguística
+  examples:
+    - "MTur oferece curso de inglês para profissionais de turismo no Rio de Janeiro"
+    - "Programa de qualificação ensina espanhol para guias turísticos da fronteira"
+    - "Mil profissionais do turismo recebem capacitação em idiomas antes da Copa"

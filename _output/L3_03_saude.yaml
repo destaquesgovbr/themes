@@ -1,0 +1,482 @@
+# Descrições L3 - Tema 03: Saúde
+# Gerado em: 2025-12-18
+
+- code: "03.01.01"
+  label: "Atenção Primária"
+  description: "Serviços básicos de saúde oferecidos em Unidades Básicas de Saúde (UBS) e estratégias de Saúde da Família. Primeiro ponto de contato da população com o sistema de saúde."
+  keywords:
+    - UBS
+    - Unidade Básica de Saúde
+    - Estratégia Saúde da Família
+    - ESF
+    - atenção básica
+    - posto de saúde
+    - agente comunitário de saúde
+    - ACS
+    - médico de família
+    - consulta básica
+    - prevenção
+    - triagem
+    - encaminhamento
+    - Programa Saúde da Família
+    - PSF
+  examples:
+    - "Governo amplia horário de funcionamento de UBS em 500 municípios"
+    - "Ministério da Saúde convoca 2 mil médicos para Estratégia Saúde da Família"
+    - "Novas Unidades Básicas de Saúde serão inauguradas em comunidades rurais"
+
+- code: "03.01.02"
+  label: "Assistência em Saúde"
+  description: "Serviços de atendimento médico-hospitalar, incluindo consultas especializadas, exames, internações e procedimentos de média e alta complexidade no SUS."
+  keywords:
+    - atendimento hospitalar
+    - internação
+    - consulta especializada
+    - exame
+    - procedimento médico
+    - cirurgia eletiva
+    - hospital público
+    - leito
+    - fila de espera
+    - agendamento
+    - atendimento ambulatorial
+    - média complexidade
+    - alta complexidade
+  examples:
+    - "SUS realiza 450 mil cirurgias eletivas em outubro"
+    - "Governo reduz fila de espera para consultas especializadas em 30%"
+    - "Ministério amplia oferta de exames de tomografia no SUS"
+
+- code: "03.01.03"
+  label: "Atenção Integral"
+  description: "Abordagem integrada e humanizada do cuidado em saúde, articulando diferentes níveis de atenção e promovendo continuidade do tratamento ao longo da vida do paciente."
+  keywords:
+    - cuidado integral
+    - atenção integrada
+    - humanização
+    - acolhimento
+    - rede de atenção à saúde
+    - continuidade do cuidado
+    - integralidade
+    - longitudinalidade
+    - referência e contrarreferência
+    - política nacional de humanização
+  examples:
+    - "Ministério lança política de humanização do atendimento no SUS"
+    - "Rede integrada de saúde conecta atenção básica a hospitais especializados"
+    - "Programa de acolhimento com classificação de risco é expandido"
+
+- code: "03.01.04"
+  label: "Linhas de Cuidado"
+  description: "Protocolos e fluxos assistenciais estruturados para condições específicas de saúde, organizando o atendimento desde a prevenção até o tratamento especializado."
+  keywords:
+    - linha de cuidado
+    - protocolo clínico
+    - fluxo assistencial
+    - diretriz terapêutica
+    - rede temática
+    - percurso terapêutico
+    - condição crônica
+    - doença crônica
+    - hipertensão
+    - diabetes
+    - câncer
+    - tuberculose
+    - protocolo de atendimento
+  examples:
+    - "SUS lança nova linha de cuidado para pacientes com diabetes"
+    - "Protocolo clínico para tratamento de câncer é atualizado"
+    - "Rede de atenção à pessoa com hipertensão é ampliada em 12 estados"
+
+- code: "03.01.05"
+  label: "Manejo Clínico"
+  description: "Diretrizes técnicas e condutas terapêuticas para diagnóstico, tratamento e acompanhamento de doenças e condições de saúde no âmbito do SUS."
+  keywords:
+    - manejo clínico
+    - conduta terapêutica
+    - tratamento
+    - terapêutica
+    - diagnóstico
+    - acompanhamento clínico
+    - diretriz clínica
+    - guideline
+    - prescrição
+    - medicação
+    - sintoma
+    - evolução clínica
+    - manejo de caso
+  examples:
+    - "Ministério divulga novo guia de manejo clínico da COVID-19"
+    - "Diretrizes para tratamento de dengue grave são atualizadas"
+    - "SUS adota protocolo internacional para manejo de sepse"
+
+- code: "03.02.01"
+  label: "Combate à Dengue"
+  description: "Ações governamentais de prevenção, controle e tratamento da dengue, incluindo combate ao mosquito Aedes aegypti e mobilização da população."
+  keywords:
+    - dengue
+    - Aedes aegypti
+    - fumacê
+    - fumigação
+    - borrifação
+    - eliminação de criadouros
+    - mosquito da dengue
+    - arbovirose
+    - campanha contra dengue
+    - mutirão de limpeza
+    - agente de endemias
+    - chikungunya
+    - zika
+  examples:
+    - "Governo federal mobiliza mutirão contra dengue em 200 cidades"
+    - "Ministério da Saúde distribui 5 milhões de larvicidas para combate ao Aedes"
+    - "Campanha 'Dez minutos contra a dengue' alcança 15 milhões de pessoas"
+
+- code: "03.02.02"
+  label: "Saúde da Criança"
+  description: "Programas e iniciativas voltados para o cuidado integral de crianças, incluindo puericultura, crescimento e desenvolvimento infantil, e redução da mortalidade."
+  keywords:
+    - saúde da criança
+    - puericultura
+    - crescimento e desenvolvimento
+    - mortalidade infantil
+    - primeira infância
+    - caderneta da criança
+    - teste do pezinho
+    - aleitamento materno
+    - amamentação
+    - pediatria
+    - saúde neonatal
+    - Programa Criança Feliz
+  examples:
+    - "Taxa de mortalidade infantil no Brasil cai para menor nível da história"
+    - "Ministério amplia cobertura do teste do pezinho no SUS"
+    - "Campanha de aleitamento materno será intensificada em agosto"
+
+- code: "03.02.03"
+  label: "Saúde Mental"
+  description: "Políticas de atenção psicossocial, prevenção ao suicídio, tratamento de transtornos mentais e promoção do bem-estar emocional da população."
+  keywords:
+    - saúde mental
+    - atenção psicossocial
+    - CAPS
+    - Centro de Atenção Psicossocial
+    - depressão
+    - ansiedade
+    - transtorno mental
+    - prevenção ao suicídio
+    - Setembro Amarelo
+    - saúde emocional
+    - bem-estar psicológico
+    - reforma psiquiátrica
+    - desinstitucionalização
+    - apoio psicológico
+  examples:
+    - "Governo federal inaugura 50 novos CAPS para atendimento em saúde mental"
+    - "Campanha Setembro Amarelo reforça prevenção ao suicídio"
+    - "Ministério lança programa de apoio psicológico gratuito via telefone"
+
+- code: "03.02.04"
+  label: "Alimentação Saudável"
+  description: "Promoção de hábitos alimentares adequados, combate à obesidade e desnutrição, e educação nutricional para prevenção de doenças crônicas."
+  keywords:
+    - alimentação saudável
+    - nutrição
+    - obesidade
+    - sobrepeso
+    - guia alimentar
+    - educação nutricional
+    - segurança alimentar
+    - desnutrição
+    - hábitos alimentares
+    - dieta equilibrada
+    - prevenção de doenças crônicas
+    - alimentação escolar
+  examples:
+    - "Ministério lança nova edição do Guia Alimentar para população brasileira"
+    - "Campanha incentiva redução do consumo de açúcar e sódio"
+    - "Programa de combate à obesidade infantil é ampliado em escolas públicas"
+
+- code: "03.03.01"
+  label: "Vigilância em Saúde"
+  description: "Monitoramento epidemiológico de doenças, análise de indicadores de saúde, investigação de surtos e sistema de notificação de agravos."
+  keywords:
+    - vigilância epidemiológica
+    - monitoramento
+    - notificação compulsória
+    - agravo
+    - surto
+    - epidemia
+    - investigação epidemiológica
+    - indicador de saúde
+    - boletim epidemiológico
+    - sistema de informação em saúde
+    - vigilância sanitária ambiental
+    - Centro de Informações Estratégicas
+  examples:
+    - "Ministério monitora surto de sarampo em três estados da região Norte"
+    - "Boletim epidemiológico aponta queda de 20% nos casos de tuberculose"
+    - "Sistema de vigilância detecta aumento de casos de hepatite viral"
+
+- code: "03.03.02"
+  label: "Inovação em Saúde"
+  description: "Incorporação de novas tecnologias, equipamentos e procedimentos no SUS, incluindo avaliação de eficácia e custo-efetividade de inovações médicas."
+  keywords:
+    - inovação tecnológica
+    - tecnologia em saúde
+    - CONITEC
+    - incorporação de tecnologia
+    - equipamento médico
+    - dispositivo
+    - telemedicina
+    - telessaúde
+    - prontuário eletrônico
+    - e-saúde
+    - novo procedimento
+    - nova técnica
+    - avaliação de tecnologia em saúde
+  examples:
+    - "SUS incorpora nova tecnologia para tratamento de leucemia"
+    - "Ministério amplia uso de telemedicina em áreas remotas"
+    - "CONITEC aprova inclusão de medicamento inovador no SUS"
+
+- code: "03.03.03"
+  label: "Controle de Doenças"
+  description: "Programas de prevenção, controle e erradicação de doenças transmissíveis e crônicas, incluindo estratégias de redução de incidência e prevalência."
+  keywords:
+    - controle de doença
+    - prevenção
+    - doença transmissível
+    - doença infecciosa
+    - tuberculose
+    - hanseníase
+    - malária
+    - HIV/AIDS
+    - hepatites virais
+    - doença negligenciada
+    - erradicação
+    - eliminação
+    - programa nacional de controle
+  examples:
+    - "Brasil reduz casos de hanseníase em 15% nos últimos dois anos"
+    - "Programa Nacional de Controle da Tuberculose é fortalecido"
+    - "Ministério lança plano de eliminação da malária na Amazônia"
+
+- code: "03.03.04"
+  label: "Inspeção de Produtos"
+  description: "Fiscalização e controle de qualidade de medicamentos, alimentos, cosméticos e produtos para saúde pela ANVISA e órgãos reguladores."
+  keywords:
+    - ANVISA
+    - Agência Nacional de Vigilância Sanitária
+    - fiscalização
+    - inspeção sanitária
+    - medicamento
+    - remédio
+    - produto para saúde
+    - dispositivo médico
+    - alimento
+    - cosmético
+    - registro sanitário
+    - autorização
+    - controle de qualidade
+    - lote
+  examples:
+    - "ANVISA suspende lote de medicamento após detecção de irregularidades"
+    - "Agência intensifica fiscalização de cosméticos falsificados"
+    - "Ministério recolhe lote de alimento contaminado em 12 estados"
+
+- code: "03.03.05"
+  label: "Fiscalização de Serviços de Saúde"
+  description: "Inspeção e regulação de estabelecimentos de saúde, clínicas, hospitais e serviços médicos para garantia de padrões de qualidade e segurança."
+  keywords:
+    - fiscalização sanitária
+    - inspeção
+    - estabelecimento de saúde
+    - hospital
+    - clínica
+    - laboratório
+    - licença sanitária
+    - alvará
+    - interdição
+    - auto de infração
+    - padrão de qualidade
+    - acreditação
+    - serviço de saúde privado
+  examples:
+    - "Vigilância sanitária interdita clínica por irregularidades em SP"
+    - "ANVISA inicia fiscalização em hospitais que realizam transplantes"
+    - "Laboratórios de análises clínicas serão fiscalizados em operação nacional"
+
+- code: "03.04.01"
+  label: "Políticas de Saúde Pública"
+  description: "Formulação, implementação e avaliação de políticas nacionais de saúde, incluindo diretrizes, planos e estratégias do Ministério da Saúde."
+  keywords:
+    - política nacional de saúde
+    - diretriz
+    - planejamento em saúde
+    - gestão do SUS
+    - Ministério da Saúde
+    - pasta da saúde
+    - conferência de saúde
+    - conselho de saúde
+    - financiamento da saúde
+    - orçamento
+    - pacto pela saúde
+    - reforma do SUS
+    - política pública
+  examples:
+    - "Ministério da Saúde apresenta Plano Nacional de Saúde 2024-2027"
+    - "Governo federal anuncia aumento de 10% no orçamento do SUS"
+    - "Conferência Nacional de Saúde debate prioridades para próximos anos"
+
+- code: "03.04.02"
+  label: "Epidemiologia"
+  description: "Estudos sobre distribuição e determinantes de doenças na população, análise de padrões epidemiológicos e produção de evidências para políticas de saúde."
+  keywords:
+    - epidemiologia
+    - estudo epidemiológico
+    - incidência
+    - prevalência
+    - perfil epidemiológico
+    - transição epidemiológica
+    - fator de risco
+    - determinante social
+    - pesquisa epidemiológica
+    - inquérito
+    - análise de dados
+    - estatística de saúde
+    - carga de doença
+  examples:
+    - "Estudo epidemiológico revela aumento de doenças cardiovasculares no país"
+    - "Pesquisa mapeia perfil epidemiológico da população brasileira"
+    - "Inquérito nacional avalia prevalência de obesidade em adultos"
+
+- code: "03.04.03"
+  label: "Educação em Saúde"
+  description: "Ações educativas para promoção da saúde, conscientização da população sobre prevenção de doenças e adoção de hábitos saudáveis."
+  keywords:
+    - educação em saúde
+    - promoção da saúde
+    - campanha educativa
+    - conscientização
+    - prevenção de doenças
+    - autocuidado
+    - orientação à população
+    - informação em saúde
+    - saúde na escola
+    - capacitação
+    - multiplicador
+    - agente educador
+    - material educativo
+  examples:
+    - "Ministério lança campanha educativa sobre prevenção de doenças sexualmente transmissíveis"
+    - "Programa de educação em saúde alcança 10 mil escolas públicas"
+    - "Material educativo sobre hipertensão será distribuído em UBS"
+
+- code: "03.04.04"
+  label: "Controle de Fatores Ambientais"
+  description: "Monitoramento e controle de fatores ambientais que afetam a saúde, incluindo qualidade da água, ar, solo e gestão de resíduos de serviços de saúde."
+  keywords:
+    - saúde ambiental
+    - vigilância ambiental
+    - qualidade da água
+    - potabilidade
+    - saneamento básico
+    - esgoto
+    - poluição do ar
+    - contaminação
+    - resíduo de serviço de saúde
+    - RSS
+    - controle de vetores
+    - zoonose
+    - saúde e ambiente
+  examples:
+    - "Ministério monitora qualidade da água em 500 municípios brasileiros"
+    - "Programa de controle de zoonoses é ampliado em áreas urbanas"
+    - "Governo reforça fiscalização de descarte de resíduos de serviços de saúde"
+
+- code: "03.05.01"
+  label: "Saúde Bucal"
+  description: "Políticas e programas de atenção odontológica, prevenção de doenças bucais e ampliação do acesso a serviços de saúde bucal no SUS."
+  keywords:
+    - saúde bucal
+    - odontologia
+    - Brasil Sorridente
+    - CEO
+    - dentista
+    - atendimento odontológico
+    - prevenção de cárie
+    - fluoretação
+    - prótese dentária
+    - tratamento dentário
+    - equipe de saúde bucal
+    - higiene oral
+  examples:
+    - "Programa Brasil Sorridente entrega 50 mil próteses dentárias"
+    - "Ministério amplia equipes de saúde bucal em Unidades Básicas"
+    - "SUS realiza 2 milhões de atendimentos odontológicos em novembro"
+
+- code: "03.05.02"
+  label: "Saúde do Idoso"
+  description: "Atenção integral à saúde da pessoa idosa, incluindo prevenção de fragilidades, promoção do envelhecimento ativo e cuidados de longa duração."
+  keywords:
+    - saúde do idoso
+    - pessoa idosa
+    - envelhecimento ativo
+    - envelhecimento saudável
+    - fragilidade
+    - geriatria
+    - Estatuto do Idoso
+    - política do idoso
+    - cuidado de longa duração
+    - instituição de longa permanência
+    - ILPI
+    - prevenção de quedas
+  examples:
+    - "Ministério lança programa de prevenção de quedas em idosos"
+    - "SUS amplia atendimento geriátrico especializado em 100 municípios"
+    - "Política Nacional do Idoso é atualizada com novas diretrizes"
+
+- code: "03.05.03"
+  label: "Saúde do Trabalhador"
+  description: "Vigilância, prevenção e assistência à saúde relacionada ao trabalho, incluindo controle de riscos ocupacionais e reabilitação profissional."
+  keywords:
+    - saúde do trabalhador
+    - saúde ocupacional
+    - acidente de trabalho
+    - doença ocupacional
+    - CEREST
+    - Centro de Referência em Saúde do Trabalhador
+    - vigilância em saúde do trabalhador
+    - risco ocupacional
+    - ambiente de trabalho
+    - LER/DORT
+    - reabilitação profissional
+    - exposição ocupacional
+  examples:
+    - "Ministério amplia rede de CEREST para vigilância em saúde do trabalhador"
+    - "Campanha nacional alerta para prevenção de acidentes de trabalho"
+    - "SUS registra redução de casos de doenças ocupacionais em 2024"
+
+- code: "03.05.04"
+  label: "Pesquisa e Desenvolvimento em Saúde"
+  description: "Fomento à pesquisa científica, inovação e desenvolvimento tecnológico em saúde, incluindo ensaios clínicos e produção de conhecimento."
+  keywords:
+    - pesquisa em saúde
+    - pesquisa científica
+    - ensaio clínico
+    - estudo clínico
+    - inovação tecnológica
+    - desenvolvimento
+    - DECIT
+    - CNPq
+    - Fiocruz
+    - produção de conhecimento
+    - ciência
+    - edital de pesquisa
+    - financiamento
+    - pesquisa translacional
+  examples:
+    - "Ministério anuncia edital de R$ 50 milhões para pesquisas em saúde"
+    - "Estudo brasileiro sobre nova vacina avança para fase 3"
+    - "Fiocruz inaugura centro de pesquisa em doenças tropicais"

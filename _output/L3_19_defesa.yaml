@@ -1,0 +1,375 @@
+# Descrições L3 - Tema 19: Defesa e Forças Armadas
+# Gerado em: 2025-12-18
+
+- code: "19.01.01"
+  label: "Inteligência e Contrainteligência"
+  description: |
+    Atividades de produção de conhecimento estratégico, monitoramento de ameaças e proteção de informações
+    sensíveis conduzidas por órgãos de inteligência civil e militar.
+  keywords:
+    - ABIN, Agência Brasileira de Inteligência
+    - contrainteligência, segredo de Estado
+    - GSI, Gabinete de Segurança Institucional
+    - SISBIN, inteligência militar
+  examples:
+    - "ABIN apresenta relatório de inteligência sobre ameaças à segurança nacional"
+    - "GSI promove capacitação em contrainteligência para agentes federais"
+    - "Ministério da Defesa integra sistemas de inteligência das Forças Armadas"
+
+- code: "19.01.02"
+  label: "Proteção de Infraestruturas Críticas"
+  description: |
+    Medidas de segurança física e cibernética para proteger instalações estratégicas como usinas, portos,
+    refinarias e sistemas de comunicação.
+  keywords:
+    - infraestrutura crítica, proteção de instalações
+    - segurança de usinas, portos estratégicos
+    - defesa cibernética, vigilância de instalações
+    - PNPC, Plano Nacional de Proteção
+  examples:
+    - "Forças Armadas reforçam segurança em usinas hidrelétricas da Amazônia"
+    - "Ministério da Defesa atualiza protocolo de proteção de infraestruturas críticas"
+    - "Exercício militar testa resposta a ameaça em refinaria estratégica"
+
+- code: "19.01.03"
+  label: "Combate ao Terrorismo"
+  description: |
+    Ações preventivas e repressivas contra organizações ou indivíduos que planejam ou executam atos terroristas
+    em território nacional ou contra interesses brasileiros.
+  keywords:
+    - antiterrorismo, contraterrorismo
+    - Lei Antiterrorismo, organizações terroristas
+    - radicalização, grupos extremistas
+    - cooperação internacional antiterrorismo
+  examples:
+    - "Brasil intensifica monitoramento de ameaças terroristas em fronteiras"
+    - "ABIN coordena ações de combate ao financiamento do terrorismo"
+    - "Ministério da Defesa participa de exercício internacional antiterrorista"
+
+- code: "19.01.04"
+  label: "Segurança de Fronteiras"
+  description: |
+    Vigilância, controle e defesa das fronteiras terrestres, aéreas e marítimas contra tráfico, contrabando
+    e ameaças à soberania.
+  keywords:
+    - segurança de fronteira, patrulhamento
+    - SISFRON, Sistema de Monitoramento de Fronteiras
+    - Calha Norte, controle de fronteira
+    - PEF, Pelotão Especial de Fronteira
+  examples:
+    - "Exército amplia pelotões de fronteira na Amazônia Ocidental"
+    - "SISFRON monitora movimentação suspeita em fronteira com Paraguai"
+    - "Operação Ágata combate crimes transfronteiriços na região Sul"
+
+- code: "19.01.05"
+  label: "Controle do Espaço Aéreo e Marítimo"
+  description: |
+    Vigilância, monitoramento e defesa do espaço aéreo nacional e águas jurisdicionais brasileiras
+    através de sistemas de detecção e interceptação.
+  keywords:
+    - controle do espaço aéreo, defesa aérea
+    - SIVAM, SIPAM, FAB
+    - Amazônia Azul, patrulha naval
+    - interceptação de aeronaves
+  examples:
+    - "FAB intercepta aeronave irregular em operação na Amazônia"
+    - "SIPAM detecta 15 voos clandestinos em região de fronteira"
+    - "Marinha intensifica patrulhamento na Amazônia Azul"
+
+- code: "19.02.01"
+  label: "Operações de Paz"
+  description: |
+    Participação das Forças Armadas brasileiras em missões de paz da ONU para manutenção da estabilidade
+    e segurança em regiões de conflito.
+  keywords:
+    - missão de paz, peacekeeping
+    - capacetes azuis, MINUSTAH, UNIFIL
+    - missão no Haiti, missão no Líbano
+    - tropas brasileiras, BRABAT
+  examples:
+    - "Militares brasileiros são condecorados por atuação em missão da ONU no Líbano"
+    - "Brasil encerra participação na missão de paz no Haiti após 13 anos"
+    - "Novo contingente brasileiro embarca para missão de paz na África"
+
+- code: "19.02.02"
+  label: "Operações no Exterior"
+  description: |
+    Ações militares ou de apoio conduzidas pelas Forças Armadas fora do território nacional, excluindo missões de paz.
+  keywords:
+    - operação militar no exterior, evacuação
+    - repatriação, missão militar internacional
+    - resgate de nacionais, KC-390
+    - transporte estratégico
+  examples:
+    - "FAB realiza operação para repatriar brasileiros de zona de conflito"
+    - "Marinha presta assistência humanitária a país atingido por furacão"
+    - "Exército envia missão médica para apoio em país parceiro"
+
+- code: "19.02.03"
+  label: "Cooperação Internacional em Defesa"
+  description: |
+    Acordos, parcerias e atividades conjuntas entre o Brasil e outros países em temas de defesa,
+    compartilhamento de tecnologia e capacitação militar.
+  keywords:
+    - cooperação militar, acordo de defesa
+    - parceria estratégica, CPLP
+    - ZOPACAS, indústria de defesa
+    - exportação de equipamentos militares
+  examples:
+    - "Brasil e Argentina assinam acordo de cooperação em defesa cibernética"
+    - "Ministério da Defesa recebe delegação militar de países africanos"
+    - "Brasil exporta veículos blindados Guarani para país parceiro"
+
+- code: "19.02.04"
+  label: "Treinamentos e Exercícios Militares"
+  description: |
+    Atividades de adestramento, instrução e simulações operacionais para aprimoramento da prontidão
+    e capacitação das Forças Armadas.
+  keywords:
+    - exercício militar, treinamento militar
+    - CRUZEX, UNITAS, AMAZÔNIA
+    - prontidão operacional, manobra
+    - exercício combinado
+  examples:
+    - "FAB realiza exercício CRUZEX com participação de 10 países"
+    - "Marinha conduz exercício UNITAS com forças navais das Américas"
+    - "Exército inicia maior exercício militar do ano na Região Norte"
+
+- code: "19.02.05"
+  label: "Operações Antidrogas"
+  description: |
+    Ações militares de combate ao tráfico de drogas, incluindo patrulhamento, interceptação de carregamentos
+    e destruição de pistas clandestinas.
+  keywords:
+    - combate ao narcotráfico, operação antidrogas
+    - pista clandestina, interceptação
+    - Operação Ágata, Operação Sentinela
+    - apreensão de entorpecentes
+  examples:
+    - "Exército destroi 12 pistas clandestinas em operação antidrogas na Amazônia"
+    - "FAB intercepta aeronave carregada com 500 kg de cocaína"
+    - "Operação conjunta apreende 2 toneladas de drogas em região de fronteira"
+
+- code: "19.03.01"
+  label: "Preparação para Desastres"
+  description: |
+    Ações preventivas de capacitação, planejamento e estruturação de recursos para resposta a desastres
+    naturais ou tecnológicos antes que ocorram.
+  keywords:
+    - preparação para desastres, planejamento de emergência
+    - SEDEC, Secretaria de Defesa Civil
+    - simulado de desastre, CENAD
+    - gestão de riscos, sistema de alerta
+  examples:
+    - "Defesa Civil realiza simulado de evacuação em área de risco de inundação"
+    - "Governo capacita 500 agentes municipais em gestão de desastres"
+    - "SEDEC lança campanha de preparação para temporada de chuvas"
+
+- code: "19.03.02"
+  label: "Planejamento de Evacuação"
+  description: |
+    Elaboração de protocolos, rotas e procedimentos para remoção ordenada e segura de população
+    de áreas sob ameaça de desastres.
+  keywords:
+    - plano de evacuação, rota de fuga
+    - evacuação preventiva, zona de evacuação
+    - sinalização de rotas, área de risco
+    - remoção preventiva
+  examples:
+    - "Defesa Civil atualiza plano de evacuação de área costeira sujeita a tsunami"
+    - "Município instala sinalização de rotas de evacuação em região serrana"
+    - "Governo elabora protocolo de evacuação para barragens em risco"
+
+- code: "19.03.03"
+  label: "Resposta a Desastres"
+  description: |
+    Ações imediatas de socorro, resgate e assistência implementadas durante ou logo após
+    a ocorrência de desastres naturais ou tecnológicos.
+  keywords:
+    - resposta a desastres, socorro a vítimas
+    - enchente, deslizamento, seca
+    - estado de calamidade, situação de emergência
+    - Defesa Civil Nacional
+  examples:
+    - "Defesa Civil mobiliza equipes após deslizamento em área urbana"
+    - "Governo decreta estado de calamidade e intensifica resposta a enchentes"
+    - "Mais de 500 famílias recebem assistência após desastre no Sul"
+
+- code: "19.03.04"
+  label: "Monitoramento de Riscos Naturais"
+  description: |
+    Vigilância contínua de fenômenos naturais potencialmente perigosos através de sistemas de detecção,
+    previsão e alerta precoce.
+  keywords:
+    - monitoramento de riscos, alerta de desastres
+    - CEMADEN, previsão de desastres
+    - monitoramento hidrológico, pluviometria
+    - alerta antecipado, área de risco
+  examples:
+    - "CEMADEN emite alerta de deslizamento para 15 municípios da Serra"
+    - "Sistema de monitoramento detecta elevação crítica do nível de rios"
+    - "Defesa Civil instala sensores de movimento em encostas de risco"
+
+- code: "19.03.05"
+  label: "Gestão de Abrigos"
+  description: |
+    Administração, organização e operação de espaços temporários para acolhimento de pessoas desabrigadas
+    ou desalojadas por desastres.
+  keywords:
+    - abrigo temporário, desabrigados, desalojados
+    - acolhimento emergencial, ginásio
+    - cadastro de abrigados, donativos
+    - kits de higiene
+  examples:
+    - "Defesa Civil organiza abrigos temporários para 300 famílias atingidas"
+    - "Governo estrutura ginásio para receber desabrigados por enchente"
+    - "Equipes distribuem kits de higiene em abrigos do Rio Grande do Sul"
+
+- code: "19.04.01"
+  label: "Resgate e Salvamento"
+  description: |
+    Operações especializadas de busca, localização e retirada de pessoas em situações de risco iminente
+    ou após desastres.
+  keywords:
+    - resgate, salvamento, busca e salvamento, SAR
+    - Corpo de Bombeiros, resgate em altura
+    - resgate em escombros, resgate aquático
+    - cães de busca, helicóptero de resgate
+  examples:
+    - "Equipes de resgate localizam sobreviventes em área de deslizamento"
+    - "FAB realiza 20 resgates aéreos em região isolada por enchente"
+    - "Bombeiros resgatam vítimas soterradas em desabamento de prédio"
+
+- code: "19.04.02"
+  label: "Logística de Emergência"
+  description: |
+    Planejamento e execução de transporte, armazenamento e distribuição de suprimentos essenciais
+    em situações de emergência.
+  keywords:
+    - logística emergencial, distribuição de suprimentos
+    - donativos, água potável, medicamentos
+    - ponte aérea, cestas básicas
+    - mobilização de recursos
+  examples:
+    - "Forças Armadas estabelecem ponte aérea para levar suprimentos a região isolada"
+    - "Defesa Civil distribui 5 mil cestas básicas a famílias atingidas"
+    - "Governo mobiliza caminhões-pipa para abastecer cidade sem água"
+
+- code: "19.04.03"
+  label: "Ações Humanitárias"
+  description: |
+    Assistência médica, psicológica, social e material prestada a populações afetadas por desastres
+    ou emergências.
+  keywords:
+    - ação humanitária, assistência humanitária
+    - hospital de campanha, apoio psicológico
+    - atendimento médico emergencial
+    - proteção de grupos vulneráveis
+  examples:
+    - "Ministério da Saúde instala hospital de campanha em área de desastre"
+    - "Equipes prestam atendimento psicológico a vítimas de tragédia"
+    - "Governo distribui kits de primeira necessidade a famílias desabrigadas"
+
+- code: "19.04.04"
+  label: "Reconstrução Pós-Desastre"
+  description: |
+    Ações de recuperação, reconstrução de infraestrutura e reabilitação de serviços após desastres
+    para restaurar normalidade.
+  keywords:
+    - reconstrução, recuperação pós-desastre
+    - obras de recuperação, reassentamento
+    - recuperação de estradas, moradias
+    - financiamento de reconstrução
+  examples:
+    - "Governo libera R$ 50 milhões para reconstrução de cidade atingida"
+    - "Início das obras de recuperação de infraestrutura em área de desastre"
+    - "Programa federal vai reconstruir 500 moradias em região afetada"
+
+- code: "19.04.05"
+  label: "Assistência a Deslocados Internos"
+  description: |
+    Apoio e proteção a pessoas forçadas a deixar suas residências dentro do território nacional
+    devido a desastres, conflitos ou emergências.
+  keywords:
+    - deslocados internos, desabrigados
+    - reassentamento, alojamento provisório
+    - cadastro de deslocados, proteção social
+    - relocação, moradia provisória
+  examples:
+    - "Governo cadastra famílias deslocadas por rompimento de barragem"
+    - "Programa de assistência atende 2 mil deslocados por desastre ambiental"
+    - "Ministério articula reassentamento de comunidade deslocada por enchente"
+
+- code: "19.05.01"
+  label: "Planejamento de Defesa Nacional"
+  description: |
+    Formulação de diretrizes estratégicas, documentos doutrinários e políticas de longo prazo
+    para orientar a defesa nacional.
+  keywords:
+    - planejamento estratégico, END
+    - Estratégia Nacional de Defesa, PND
+    - Livro Branco de Defesa
+    - capacidades estratégicas
+  examples:
+    - "Ministério da Defesa atualiza Estratégia Nacional de Defesa para 2025"
+    - "Governo lança nova edição do Livro Branco de Defesa Nacional"
+    - "Conselho de Defesa aprova diretrizes estratégicas para próxima década"
+
+- code: "19.05.02"
+  label: "Modernização das Forças Armadas"
+  description: |
+    Programas de renovação de equipamentos, sistemas de armas e capacidades operacionais das Forças Armadas.
+  keywords:
+    - modernização militar, reequipamento
+    - KC-390, Gripen, PROSUB
+    - sistemas de armas, submarino nuclear
+    - tecnologia militar
+  examples:
+    - "FAB recebe novos caças Gripen em cerimônia oficial"
+    - "Marinha lança submarino convencional do Programa PROSUB"
+    - "Exército inicia recebimento de novos veículos blindados Guarani"
+
+- code: "19.05.03"
+  label: "Estratégia de Defesa Cibernética"
+  description: |
+    Políticas, capacidades e ações para proteção de sistemas militares contra ataques cibernéticos
+    e desenvolvimento de capacidades ofensivas e defensivas no ciberespaço.
+  keywords:
+    - defesa cibernética, ciberdefesa
+    - CDCiber, Centro de Defesa Cibernética
+    - segurança cibernética militar
+    - guerra cibernética
+  examples:
+    - "Ministério da Defesa inaugura Centro de Defesa Cibernética em Brasília"
+    - "Forças Armadas realizam exercício de defesa contra ataques cibernéticos"
+    - "Brasil desenvolve capacidades de guerra eletrônica e cibernética"
+
+- code: "19.05.04"
+  label: "Desenvolvimento Militar"
+  description: |
+    Pesquisa, desenvolvimento e inovação em tecnologias de defesa, incluindo projetos nacionais
+    de armamentos e parcerias tecnológicas.
+  keywords:
+    - P&D em defesa, pesquisa militar
+    - autonomia estratégica, transferência de tecnologia
+    - ITA, IME, projeto nacional
+    - inovação em defesa
+  examples:
+    - "Exército testa protótipo de veículo blindado desenvolvido no Brasil"
+    - "Projeto nacional desenvolve radar de vigilância aérea de longo alcance"
+    - "Parceria entre MD e universidades impulsiona inovação em defesa"
+
+- code: "19.05.05"
+  label: "Relações com a Indústria de Defesa"
+  description: |
+    Interface entre o Estado e empresas fabricantes de produtos de defesa, incluindo políticas de fomento,
+    contratos, regulação e incentivos à base industrial.
+  keywords:
+    - indústria de defesa, base industrial
+    - ABIMDE, empresas de defesa
+    - contratos de defesa, Embraer Defesa
+    - exportação de defesa
+  examples:
+    - "Ministério da Defesa assina contrato de R$ 2 bilhões com indústria nacional"
+    - "Governo lança programa de incentivo à base industrial de defesa"
+    - "Empresa brasileira exporta sistema de defesa aérea para país africano"

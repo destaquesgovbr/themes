@@ -1,0 +1,212 @@
+# Descrições L3 - Tema 20: Políticas Públicas e Governança
+# Gerado em: 2025-12-18
+
+- code: "20.01.01"
+  label: "Controle Interno"
+  description: |
+    Abrange auditorias internas, sistemas de controle governamental, corregedorias e ações de fiscalização
+    realizadas por órgãos como CGU e TCU.
+  keywords:
+    - CGU, TCU, auditoria, corregedoria
+    - controle interno, SIAFI, compliance público
+    - prestação de contas, irregularidades
+    - responsabilização, sindicância
+  examples:
+    - "CGU realiza auditoria em contratos da administração federal"
+    - "TCU identifica irregularidades em prestação de contas de ministério"
+    - "Corregedoria apura desvios no uso de recursos públicos"
+
+- code: "20.01.02"
+  label: "Controle Social"
+  description: |
+    Refere-se à participação cidadã na fiscalização de políticas públicas através de conselhos, ouvidorias
+    e plataformas de denúncia.
+  keywords:
+    - controle social, participação cidadã
+    - ouvidoria, denúncia, Fala.BR, e-Ouv
+    - conselho gestor, audiência pública
+    - cidadão fiscalizador
+  examples:
+    - "Portal Fala.BR recebe denúncias de cidadãos sobre irregularidades"
+    - "Conselho Nacional de Saúde realiza audiência pública sobre gastos do SUS"
+    - "Ouvidoria da União amplia canais de atendimento para controle social"
+
+- code: "20.01.03"
+  label: "Integridade Pública"
+  description: |
+    Engloba programas de ética, combate à corrupção, compliance público, conflito de interesses
+    e promoção de cultura de integridade na administração.
+  keywords:
+    - integridade pública, ética pública
+    - anticorrupção, compliance, conflito de interesses
+    - Comissão de Ética Pública, probidade
+    - governança ética
+  examples:
+    - "Governo lança programa de integridade para prevenção à corrupção"
+    - "Comissão de Ética Pública atualiza normas sobre conflito de interesses"
+    - "Ministério implementa código de conduta ética para servidores"
+
+- code: "20.02.01"
+  label: "Fortalecimento Institucional"
+  description: |
+    Trata de iniciativas para fortalecer capacidades organizacionais, modernização de estruturas governamentais
+    e desenvolvimento institucional.
+  keywords:
+    - fortalecimento institucional, modernização
+    - desenvolvimento organizacional, efetividade
+    - gestão por resultados, indicadores
+    - maturidade institucional
+  examples:
+    - "MGI lança programa de fortalecimento institucional para autarquias federais"
+    - "Iniciativa aprimora capacidade de gestão de órgãos públicos"
+    - "Projeto desenvolve indicadores de desempenho para instituições governamentais"
+
+- code: "20.02.02"
+  label: "Reforma Administrativa"
+  description: |
+    Abrange mudanças estruturais profundas na administração pública, reorganização de ministérios,
+    criação/extinção de órgãos e alterações no funcionalismo.
+  keywords:
+    - reforma administrativa, reestruturação
+    - reorganização ministerial, fusão de órgãos
+    - PEC da reforma, enxugamento
+    - transformação administrativa
+  examples:
+    - "Governo anuncia reforma administrativa com fusão de ministérios"
+    - "PEC da reforma administrativa é enviada ao Congresso Nacional"
+    - "Reestruturação extingue autarquias e reorganiza secretarias federais"
+
+- code: "20.02.03"
+  label: "Melhorias na Gestão"
+  description: |
+    Engloba otimização de processos, digitalização, automação, redução de burocracia e implementação
+    de boas práticas gerenciais.
+  keywords:
+    - melhoria de processos, desburocratização
+    - digitalização, automação, gov.br
+    - eficiência operacional, inovação em gestão
+    - modernização de serviços
+  examples:
+    - "Governo simplifica processos administrativos e reduz burocracia em 30%"
+    - "Digitalização de serviços públicos acelera atendimento no gov.br"
+    - "Ministério implementa automação para melhorar eficiência operacional"
+
+- code: "20.03.01"
+  label: "Recursos Humanos"
+  description: |
+    Refere-se a gestão de pessoas no setor público, políticas de RH, carreira, remuneração, benefícios
+    e avaliação de desempenho.
+  keywords:
+    - recursos humanos, gestão de pessoas
+    - carreira pública, remuneração, SIAPE
+    - avaliação de desempenho, progressão funcional
+    - política de pessoal
+  examples:
+    - "MGI divulga nova política de avaliação de desempenho para servidores federais"
+    - "Governo reajusta tabela de remuneração de carreiras do executivo"
+    - "Plano de carreira do serviço público é atualizado com novas progressões"
+
+- code: "20.03.02"
+  label: "Capacitação de Servidores"
+  description: |
+    Abrange treinamentos, cursos, programas de desenvolvimento profissional e educação continuada
+    para servidores públicos.
+  keywords:
+    - capacitação, treinamento, ENAP
+    - desenvolvimento profissional, educação continuada
+    - qualificação, aperfeiçoamento
+    - desenvolvimento de competências
+  examples:
+    - "ENAP oferece curso de gestão pública para servidores federais"
+    - "Programa de capacitação treina 5 mil funcionários em inovação digital"
+    - "Ministério lança plano de desenvolvimento profissional para força de trabalho"
+
+- code: "20.03.03"
+  label: "Licitações e Contratos"
+  description: |
+    Engloba processos licitatórios, contratações públicas, pregões, dispensa, inexigibilidade
+    e gestão contratual.
+  keywords:
+    - licitação, contratação pública, pregão
+    - Lei 14.133, Nova Lei de Licitações
+    - ComprasNet, edital, fornecedor
+    - gestão de contratos
+  examples:
+    - "Governo publica edital de licitação para obras de infraestrutura"
+    - "Nova Lei de Licitações simplifica processos de contratação pública"
+    - "ComprasNet registra aumento de 20% em pregões eletrônicos federais"
+
+- code: "20.04.01"
+  label: "Concursos Públicos"
+  description: |
+    Refere-se exclusivamente a processos seletivos para ingresso no serviço público, editais, provas,
+    nomeações e homologações.
+  keywords:
+    - concurso público, seleção pública
+    - edital, prova, nomeação, homologação
+    - posse, provimento, vaga
+    - carreira, cargo público
+  examples:
+    - "Governo federal autoriza concurso público para 2 mil vagas em ministérios"
+    - "Edital de concurso para carreiras da administração pública é publicado"
+    - "Resultado final de seleção pública nomeia 500 novos servidores"
+
+- code: "20.04.02"
+  label: "Serviços Públicos"
+  description: |
+    Abrange oferta, qualidade, regulação e prestação de serviços públicos à população, incluindo
+    infraestrutura de serviços e padrões de atendimento.
+  keywords:
+    - serviços públicos, prestação de serviços
+    - qualidade, carta de serviços
+    - gov.br, serviços digitais
+    - universalização, acesso
+  examples:
+    - "Governo amplia oferta de serviços públicos digitais no portal gov.br"
+    - "Carta de Serviços ao Cidadão estabelece padrões de qualidade no atendimento"
+    - "Ministério universaliza acesso a serviços essenciais em regiões remotas"
+
+- code: "20.04.03"
+  label: "Atendimento à População"
+  description: |
+    Trata especificamente da interação direta entre governo e cidadão, canais de atendimento,
+    SAC, centrais telefônicas e experiência do usuário.
+  keywords:
+    - atendimento, cidadão, SAC
+    - canal de atendimento, experiência do usuário
+    - ouvidoria, satisfação, reclamação
+    - atendimento presencial, digital
+  examples:
+    - "Central 156 amplia horário de atendimento à população em todo o país"
+    - "Governo melhora experiência do usuário em canais de atendimento digital"
+    - "Pesquisa avalia satisfação da população com atendimento em órgãos públicos"
+
+- code: "20.05.01"
+  label: "Sociedade Civil"
+  description: |
+    Engloba relações entre governo e organizações da sociedade civil, ONGs, OSCs, parcerias,
+    termos de fomento e colaboração.
+  keywords:
+    - sociedade civil, OSC, ONG
+    - parceria, termo de fomento, MROSC
+    - terceiro setor, voluntariado
+    - Marco Regulatório
+  examples:
+    - "Governo firma parcerias com OSCs para implementação de políticas sociais"
+    - "Edital seleciona organizações da sociedade civil para projetos de fomento"
+    - "Marco Regulatório das OSCs facilita cooperação entre governo e terceiro setor"
+
+- code: "20.05.02"
+  label: "Transparência e Diálogo"
+  description: |
+    Refere-se a comunicação governamental, divulgação de informações, portais de transparência,
+    dados abertos e diálogo com a sociedade.
+  keywords:
+    - transparência, dados abertos, Portal da Transparência
+    - LAI, Lei de Acesso à Informação
+    - comunicação governamental, dados.gov.br
+    - accountability, diálogo social
+  examples:
+    - "Portal da Transparência disponibiliza dados abertos sobre gastos federais"
+    - "Governo amplia transparência ativa com divulgação de informações em tempo real"
+    - "LAI registra aumento de pedidos de acesso à informação pública"

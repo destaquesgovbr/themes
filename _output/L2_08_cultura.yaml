@@ -1,0 +1,95 @@
+# Descrições L2 - Tema 08: Cultura, Artes e Patrimônio
+# Gerado em: 2025-12-18
+
+- code: "08.01"
+  label: "Eventos Culturais"
+  description: |
+    Contempla a realização e promoção de eventos que difundem expressões artísticas e culturais junto à comunidade. Engloba festivais, feiras, mostras, exposições, apresentações artísticas, celebrações tradicionais e encontros que fortalecem a vida cultural local. Visa democratizar o acesso à cultura e promover a integração social através de manifestações artísticas diversas.
+  keywords:
+    - festivais culturais
+    - feiras de arte
+    - mostras artísticas
+    - exposições
+    - apresentações musicais
+    - eventos tradicionais
+    - festas populares
+    - encontros comunitários
+    - programação cultural
+    - agenda cultural
+    - espetáculos
+    - celebrações culturais
+
+- code: "08.02"
+  label: "Preservação do Patrimônio"
+  description: |
+    Abrange ações de identificação, proteção, conservação e valorização do patrimônio cultural material e imaterial. Inclui a preservação de bens históricos, manifestações culturais tradicionais, sítios naturais de valor cultural, além de iniciativas de educação patrimonial e restauração. Busca garantir a transmissão da memória e identidade cultural para as gerações futuras.
+  keywords:
+    - patrimônio histórico
+    - patrimônio imaterial
+    - patrimônio natural
+    - tombamento
+    - educação patrimonial
+    - restauração
+    - conservação
+    - memória cultural
+    - bens culturais
+    - sítios históricos
+    - salvaguarda
+    - inventário cultural
+    - preservação arquitetônica
+
+- code: "08.03"
+  label: "Incentivo às Artes"
+  description: |
+    Engloba políticas e programas de fomento à produção e circulação artística em suas diversas linguagens. Compreende apoio direto a artistas, editais de financiamento, programas de formação e capacitação, e incentivo à produção audiovisual, artes plásticas, música, teatro e outras expressões. Visa fortalecer a cadeia produtiva da cultura e garantir condições para o desenvolvimento artístico.
+  keywords:
+    - apoio a artistas
+    - editais culturais
+    - financiamento cultural
+    - leis de incentivo
+    - formação artística
+    - capacitação cultural
+    - produção audiovisual
+    - artes plásticas
+    - fomento à cultura
+    - residências artísticas
+    - bolsas para artistas
+    - prêmios culturais
+
+- code: "08.04"
+  label: "Cultura e Identidade Nacional"
+  description: |
+    Trata da valorização e promoção das expressões culturais que conformam a identidade brasileira. Abrange o artesanato, língua, tradições, costumes, cultura popular e o reconhecimento de mestres e mestras da cultura. Destaca a diversidade cultural do país e as manifestações regionais que constituem o patrimônio cultural nacional.
+  keywords:
+    - artesanato brasileiro
+    - cultura popular
+    - tradições brasileiras
+    - costumes regionais
+    - diversidade cultural
+    - mestres da cultura
+    - identidade nacional
+    - saberes tradicionais
+    - manifestações populares
+    - folclore
+    - culturas regionais
+    - língua portuguesa
+    - brasilidade
+
+- code: "08.05"
+  label: "Cultura e Inovação"
+  description: |
+    Contempla iniciativas que articulam cultura, tecnologia e desenvolvimento econômico sustentável. Engloba cultura digital, economia criativa, intercâmbio cultural, pontos de cultura e atuação de agentes culturais comunitários. Promove a inovação nos processos de produção, difusão e fruição cultural, além de fortalecer redes colaborativas e a integração entre diferentes territórios e comunidades.
+  keywords:
+    - cultura digital
+    - economia criativa
+    - tecnologia cultural
+    - intercâmbio cultural
+    - pontos de cultura
+    - agentes culturais
+    - redes culturais
+    - inovação cultural
+    - integração cultural
+    - cooperação cultural
+    - empreendedorismo criativo
+    - democratização cultural
+    - cultura colaborativa

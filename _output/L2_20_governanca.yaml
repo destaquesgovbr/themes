@@ -1,0 +1,105 @@
+# Descrições L2 - Tema 20: Políticas Públicas e Governança
+# Gerado em: 2025-12-18
+
+- code: "20.01"
+  label: "Transparência e Prestação de Contas"
+  description: |
+    Abrange mecanismos de controle interno e social da administração pública, incluindo auditorias, corregedorias, sistemas de fiscalização e ouvidorias. Engloba também programas de integridade pública, combate à corrupção, ética no serviço público e promoção da transparência através de órgãos como CGU e TCU.
+  keywords:
+    - controle interno
+    - controle social
+    - CGU
+    - TCU
+    - auditoria
+    - corregedoria
+    - prestação de contas
+    - integridade pública
+    - anticorrupção
+    - ética pública
+    - compliance público
+    - ouvidoria
+    - denúncia
+    - conflito de interesses
+    - probidade
+
+- code: "20.02"
+  label: "Planejamento Governamental"
+  description: |
+    Compreende iniciativas de fortalecimento da capacidade institucional do Estado, reformas estruturais na administração pública e otimização de processos governamentais. Inclui programas de modernização organizacional, reorganização ministerial, desburocratização, digitalização de serviços e implementação de práticas de gestão por resultados.
+  keywords:
+    - planejamento governamental
+    - fortalecimento institucional
+    - modernização administrativa
+    - reforma administrativa
+    - reestruturação
+    - desburocratização
+    - melhoria de processos
+    - digitalização
+    - automação
+    - gov.br
+    - eficiência operacional
+    - gestão por resultados
+    - transformação digital
+    - inovação em gestão
+
+- code: "20.03"
+  label: "Gestão Pública"
+  description: |
+    Engloba políticas de recursos humanos no setor público, gestão de pessoas, carreiras, remuneração e avaliação de desempenho. Abrange também processos de capacitação e desenvolvimento profissional de servidores, além de licitações, contratações públicas, pregões e gestão de contratos conforme a legislação vigente.
+  keywords:
+    - gestão pública
+    - recursos humanos
+    - gestão de pessoas
+    - carreira pública
+    - remuneração
+    - SIAPE
+    - avaliação de desempenho
+    - capacitação
+    - treinamento
+    - ENAP
+    - desenvolvimento profissional
+    - licitação
+    - contratação pública
+    - pregão
+    - Nova Lei de Licitações
+
+- code: "20.04"
+  label: "Administração Pública"
+  description: |
+    Refere-se à gestão operacional do Estado, incluindo processos seletivos para ingresso no serviço público através de concursos. Contempla a prestação de serviços públicos à população, padrões de qualidade, canais de atendimento ao cidadão e experiência do usuário em interações com o governo.
+  keywords:
+    - administração pública
+    - concurso público
+    - seleção pública
+    - nomeação
+    - posse
+    - serviços públicos
+    - prestação de serviços
+    - atendimento ao cidadão
+    - carta de serviços
+    - gov.br
+    - serviços digitais
+    - qualidade no atendimento
+    - experiência do usuário
+    - SAC
+
+- code: "20.05"
+  label: "Participação e Colaboração Social"
+  description: |
+    Abrange relações entre governo e sociedade civil organizada, incluindo parcerias com ONGs, OSCs, termos de fomento e colaboração. Contempla também políticas de transparência ativa, acesso à informação pública, dados abertos, comunicação governamental e mecanismos de diálogo social para fortalecimento da democracia participativa.
+  keywords:
+    - participação social
+    - sociedade civil
+    - OSC
+    - ONG
+    - terceiro setor
+    - parceria
+    - termo de fomento
+    - MROSC
+    - transparência
+    - dados abertos
+    - Portal da Transparência
+    - LAI
+    - Lei de Acesso à Informação
+    - comunicação governamental
+    - accountability

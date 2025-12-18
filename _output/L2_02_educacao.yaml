@@ -1,0 +1,83 @@
+# Descrições L2 - Tema 02: Educação
+# Gerado em: 2025-12-18
+
+- code: "02.01"
+  label: "Ensino Básico"
+  description: |
+    Abrange todas as etapas da educação básica, desde a educação infantil até o ensino fundamental, incluindo programas de apoio essenciais como alimentação escolar e conectividade digital. Engloba políticas voltadas para creches, pré-escolas, anos iniciais e finais do ensino fundamental, além de iniciativas para garantir merenda de qualidade e acesso à internet nas escolas públicas.
+  keywords:
+    - educação infantil
+    - creche
+    - pré-escola
+    - ensino fundamental
+    - alfabetização
+    - IDEB
+    - merenda escolar
+    - PNAE
+    - alimentação escolar
+    - internet nas escolas
+    - conectividade escolar
+    - inclusão digital
+    - livro didático
+    - PNLD
+
+- code: "02.02"
+  label: "Ensino Superior"
+  description: |
+    Compreende políticas e programas relacionados à educação superior, com foco especial em pesquisa científica e inovação tecnológica. Inclui o fomento à pós-graduação stricto sensu, bolsas de mestrado e doutorado, programas de iniciação científica e parcerias entre universidades e setor produtivo.
+  keywords:
+    - ensino superior
+    - universidade
+    - pesquisa científica
+    - CNPq
+    - Capes
+    - bolsa de mestrado
+    - bolsa de doutorado
+    - iniciação científica
+    - PIBIC
+    - inovação tecnológica
+    - pós-graduação
+    - pesquisa e desenvolvimento
+
+- code: "02.03"
+  label: "Educação Profissional e Capacitação"
+  description: |
+    Engloba todas as modalidades de educação voltadas para a formação e qualificação profissional, desde a aprendizagem regulamentada para jovens até cursos técnicos e programas de capacitação para trabalhadores. Abrange a formação inicial e continuada, ensino técnico integrado ao médio, institutos federais, requalificação profissional e políticas estruturantes como Pronatec e Novos Caminhos.
+  keywords:
+    - educação profissional
+    - jovem aprendiz
+    - aprendizagem profissional
+    - capacitação
+    - requalificação
+    - curso técnico
+    - formação profissional
+    - ensino técnico
+    - institutos federais
+    - IFET
+    - Pronatec
+    - Novos Caminhos
+    - certificação profissional
+    - qualificação
+    - FIC
+
+- code: "02.04"
+  label: "Programas e Políticas Educacionais"
+  description: |
+    Reúne as diretrizes, estratégias e programas transversais que orientam o sistema educacional brasileiro como um todo. Inclui o Plano Nacional de Educação, Base Nacional Comum Curricular, políticas de financiamento estudantil (FIES, ProUni), educação inclusiva, campanhas de combate à evasão, bolsas de estudo, programas de assistência estudantil e iniciativas de apoio pedagógico e orientação vocacional.
+  keywords:
+    - políticas educacionais
+    - PNE
+    - BNCC
+    - Novo Ensino Médio
+    - FIES
+    - ProUni
+    - bolsa de estudos
+    - financiamento estudantil
+    - educação inclusiva
+    - educação especial
+    - AEE
+    - campanha educativa
+    - busca ativa escolar
+    - combate à evasão
+    - reforço escolar
+    - EJA

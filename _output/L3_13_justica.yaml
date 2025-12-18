@@ -1,0 +1,172 @@
+# Descrições L3 - Tema 13: Justiça e Direitos Humanos
+# Gerado em: 2025-12-18
+
+- code: "13.01.01"
+  label: "Advocacia Pública"
+  description: |
+    Abrange atuação da Advocacia-Geral da União (AGU), Procuradorias e advocacia pública em defesa
+    dos interesses da União, Estados e Municípios em processos judiciais e consultoria jurídica.
+  keywords:
+    - AGU, Advocacia-Geral da União, Advogado-Geral da União
+    - Procuradoria Federal, Procuradoria-Geral Federal, PGF
+    - Procuradoria da Fazenda Nacional, PGFN
+    - consultoria jurídica, defesa da União, representação judicial
+    - contencioso, pareceres jurídicos, ações judiciais
+  examples:
+    - "AGU obtém vitória em ação sobre privatização de empresa estatal"
+    - "Advocacia-Geral da União economiza R$ 50 bilhões em acordos judiciais"
+    - "Procuradoria Federal emite parecer sobre legalidade de programa social"
+
+- code: "13.01.02"
+  label: "Direitos do Consumidor"
+  description: |
+    Trata da proteção e defesa dos direitos do consumidor, atuação do SENACON, PROCON, aplicação
+    do Código de Defesa do Consumidor (CDC) e fiscalização de relações de consumo.
+  keywords:
+    - SENACON, Secretaria Nacional do Consumidor
+    - PROCON, Fundação de Proteção e Defesa do Consumidor
+    - CDC, Código de Defesa do Consumidor
+    - direitos do consumidor, proteção ao consumidor
+    - recall, produtos defeituosos, consumidor.gov.br
+  examples:
+    - "SENACON autua empresas por práticas abusivas contra consumidores"
+    - "Governo lança campanha de conscientização sobre direitos do consumidor"
+    - "PROCON fiscaliza preços abusivos em produtos essenciais"
+
+- code: "13.01.03"
+  label: "Justiça e Lei"
+  description: |
+    Engloba funcionamento do sistema judiciário, políticas do CNJ, administração da Justiça,
+    legislação, projetos de lei, reformas jurídicas e modernização do Judiciário.
+  keywords:
+    - CNJ, Conselho Nacional de Justiça
+    - STF, Supremo Tribunal Federal, STJ, Superior Tribunal de Justiça
+    - Justiça Federal, Justiça Estadual, tribunais
+    - legislação, projetos de lei, reforma judiciária
+    - PJe, processo eletrônico, acesso à Justiça
+  examples:
+    - "CNJ lança programa de digitalização de processos em todo o país"
+    - "Presidente sanciona lei que altera Código de Processo Civil"
+    - "Justiça Federal implementa sistema de audiências por videoconferência"
+
+- code: "13.01.04"
+  label: "Prevenção e Combate à Corrupção"
+  description: |
+    Aborda ações de prevenção, detecção e combate à corrupção, atuação da CGU, TCU, MPF,
+    operações anticorrupção, transparência pública e controle interno.
+  keywords:
+    - CGU, Controladoria-Geral da União
+    - TCU, Tribunal de Contas da União
+    - MPF, Ministério Público Federal
+    - combate à corrupção, anticorrupção, Polícia Federal
+    - Portal da Transparência, LAI, improbidade administrativa
+  examples:
+    - "CGU identifica irregularidades em obras públicas e aciona TCU"
+    - "Operação da Polícia Federal combate fraude em licitações federais"
+    - "Governo lança plano nacional de combate à corrupção e transparência"
+
+- code: "13.02.01"
+  label: "Direitos das Crianças"
+  description: |
+    Trata da proteção e promoção dos direitos de crianças e adolescentes, aplicação do ECA,
+    políticas do CONANDA, combate à violência infantil e exploração.
+  keywords:
+    - ECA, Estatuto da Criança e do Adolescente
+    - CONANDA, Conselho Nacional dos Direitos da Criança
+    - proteção infantil, exploração infantil, trabalho infantil
+    - violência contra crianças, Conselho Tutelar
+    - adoção, guarda, medidas socioeducativas
+  examples:
+    - "Governo amplia programa de combate ao trabalho infantil no Brasil"
+    - "Ministério lança campanha de conscientização sobre direitos das crianças"
+    - "Brasil atualiza política nacional de proteção à infância e adolescência"
+
+- code: "13.02.02"
+  label: "Justiça Social"
+  description: |
+    Engloba políticas de redução de desigualdades, inclusão social, distribuição de renda,
+    acesso equitativo a serviços públicos e oportunidades.
+  keywords:
+    - justiça social, equidade, igualdade social
+    - redução de desigualdades, inclusão social
+    - distribuição de renda, políticas inclusivas
+    - populações vulneráveis, mobilidade social
+  examples:
+    - "Governo apresenta plano de redução de desigualdades regionais"
+    - "Ministério amplia acesso de famílias vulneráveis a programas sociais"
+    - "Brasil implementa política de justiça social para comunidades periféricas"
+
+- code: "13.02.03"
+  label: "Liberdade Religiosa"
+  description: |
+    Aborda garantia da liberdade de culto, combate à intolerância religiosa, proteção de
+    manifestações religiosas e laicidade do Estado.
+  keywords:
+    - liberdade religiosa, liberdade de culto, liberdade de crença
+    - intolerância religiosa, discriminação religiosa
+    - laicidade, Estado laico, diversidade religiosa
+    - templos religiosos, manifestações religiosas
+  examples:
+    - "Ministério lança campanha contra intolerância religiosa no Brasil"
+    - "Governo reforça proteção a templos e manifestações religiosas"
+    - "Brasil promove diálogo inter-religioso e respeito à diversidade de crenças"
+
+- code: "13.02.04"
+  label: "Políticas Antidiscriminatórias"
+  description: |
+    Trata de combate a todas as formas de discriminação (racial, de gênero, LGBTQIA+, etária,
+    pessoa com deficiência), promoção de igualdade e políticas afirmativas.
+  keywords:
+    - antidiscriminação, combate à discriminação
+    - igualdade racial, racismo, igualdade de gênero
+    - LGBTQIA+, homofobia, transfobia
+    - políticas afirmativas, ações afirmativas, cotas
+    - crimes de ódio, discurso de ódio
+  examples:
+    - "Governo lança plano nacional de combate ao racismo e discriminação"
+    - "Ministério amplia políticas afirmativas para grupos vulneráveis"
+    - "Brasil promove campanha de conscientização contra crimes de ódio"
+
+- code: "13.02.05"
+  label: "Justiça Climática"
+  description: |
+    Aborda equidade na distribuição de impactos e benefícios de políticas ambientais,
+    proteção de comunidades vulneráveis às mudanças climáticas e responsabilização por danos ambientais.
+  keywords:
+    - justiça climática, justiça ambiental
+    - mudanças climáticas, vulnerabilidade climática
+    - comunidades tradicionais, povos indígenas
+    - racismo ambiental, transição justa
+    - direitos ambientais, defensores ambientais
+  examples:
+    - "Brasil inclui comunidades tradicionais em política de adaptação climática"
+    - "Governo lança programa de proteção a populações vulneráveis às mudanças climáticas"
+    - "Ministério promove justiça climática com foco em regiões mais afetadas por secas"
+
+- code: "13.03.01"
+  label: "Direitos das Crianças"
+  description: |
+    [Relacionado a 13.02.01] Trata da proteção e promoção dos direitos de crianças
+    e adolescentes no contexto de direitos fundamentais.
+  keywords:
+    - ECA, Estatuto da Criança e do Adolescente
+    - CONANDA, direitos das crianças, infância
+    - proteção infantil, Conselho Tutelar
+  examples:
+    - "Governo amplia programa de combate ao trabalho infantil"
+    - "Ministério lança campanha sobre direitos das crianças"
+    - "Brasil atualiza política de proteção à infância"
+
+- code: "13.03.02"
+  label: "Liberdade Religiosa"
+  description: |
+    [Relacionado a 13.02.03] Aborda garantia da liberdade de culto no contexto
+    de direitos fundamentais constitucionais.
+  keywords:
+    - liberdade religiosa, liberdade de culto
+    - intolerância religiosa, laicidade
+    - diversidade religiosa, templos religiosos
+  examples:
+    - "Ministério lança campanha contra intolerância religiosa"
+    - "Governo reforça proteção a manifestações religiosas"
+    - "Brasil promove diálogo inter-religioso"

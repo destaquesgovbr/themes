@@ -1,0 +1,186 @@
+# Descrições L3 - Tema 15: Desenvolvimento Social
+# Gerado em: 2025-12-18
+
+- code: "15.01.01"
+  label: "Bolsa Família"
+  description: |
+    Programa de transferência de renda condicionada do governo federal para famílias em situação de pobreza
+    e extrema pobreza, com condicionalidades em saúde, educação e assistência social.
+  keywords:
+    - Bolsa Família, PBF, transferência de renda
+    - CadÚnico, Cadastro Único, benefício social
+    - MDS, Ministério do Desenvolvimento Social
+    - cartão Bolsa Família, Caixa Tem
+    - benefício adicional, primeira infância
+  examples:
+    - "Governo anuncia reajuste de 10% no valor do Bolsa Família para 2025"
+    - "MDS amplia Bolsa Família para mais 500 mil famílias cadastradas no CadÚnico"
+    - "Calendário de pagamento do Bolsa Família é divulgado para o mês de janeiro"
+
+- code: "15.01.02"
+  label: "Iniciativa Social"
+  description: |
+    Programas e ações sociais de caráter geral que promovem inclusão, cidadania e desenvolvimento comunitário,
+    não classificados em categorias específicas.
+  keywords:
+    - iniciativa social, projeto social, ação comunitária
+    - inclusão social, desenvolvimento comunitário
+    - terceiro setor, OSC, parcerias sociais
+    - inovação social, voluntariado
+  examples:
+    - "MDS lança iniciativa de inclusão digital para comunidades ribeirinhas da Amazônia"
+    - "Governo firma parceria com ONGs para projetos de desenvolvimento comunitário em periferias"
+    - "Nova iniciativa social promove oficinas de capacitação em 100 municípios brasileiros"
+
+- code: "15.01.03"
+  label: "Juventude no Campo"
+  description: |
+    Programas voltados para jovens rurais com foco em permanência no campo através de capacitação profissional,
+    acesso à tecnologia agrícola, empreendedorismo rural e geração de renda.
+  keywords:
+    - juventude no campo, jovem rural, capacitação rural
+    - empreendedorismo agrícola, tecnologia agrícola
+    - sucessão rural, fixação no campo
+    - cooperativismo jovem, SENAR
+  examples:
+    - "Programa Juventude no Campo oferece cursos de mecanização agrícola para 5 mil jovens"
+    - "MDA lança linha de crédito específica para empreendedorismo da juventude rural"
+    - "Jovens do campo recebem capacitação em tecnologias digitais para agricultura de precisão"
+
+- code: "15.01.04"
+  label: "Programas para a Juventude"
+  description: |
+    Políticas públicas destinadas a jovens de 15 a 29 anos em áreas urbanas, abrangendo educação,
+    primeiro emprego, cultura, esporte, saúde e participação cidadã.
+  keywords:
+    - juventude, jovens, políticas para juventude
+    - primeiro emprego, jovem aprendiz
+    - Projovem, ProUni, FIES
+    - protagonismo juvenil, conselho de juventude
+  examples:
+    - "Governo lança edital do Projovem com 50 mil vagas em cursos profissionalizantes urbanos"
+    - "Ministério da Juventude anuncia programa de primeiro emprego para jovens de periferias"
+    - "Nova política de juventude articula educação, cultura e esporte em 200 cidades"
+
+- code: "15.01.05"
+  label: "Juventude Rural"
+  description: |
+    Ações de assistência social, educação básica, acesso a direitos e desenvolvimento humano de jovens
+    em áreas rurais. Foco em aspectos sociais, educacionais e de cidadania.
+  keywords:
+    - juventude rural, jovem do campo, educação rural
+    - escola do campo, transporte escolar rural
+    - bolsa permanência, Pronera
+    - cidadania rural, acesso à educação
+  examples:
+    - "MDS amplia acesso de jovens rurais ao Bolsa Família com condicionalidades educacionais"
+    - "Programa leva ensino médio e internet banda larga para comunidades rurais isoladas"
+    - "Governo implementa política de assistência social com foco na juventude do campo"
+
+- code: "15.01.06"
+  label: "Atenção ao Idoso"
+  description: |
+    Políticas de proteção, cuidado e promoção de direitos das pessoas idosas, incluindo programas de
+    assistência social, centros de convivência, cuidadores e combate à violência contra o idoso.
+  keywords:
+    - idoso, terceira idade, pessoa idosa
+    - BPC idoso, LOAS, benefício assistencial
+    - centro de convivência, ILPI
+    - cuidador de idoso, Estatuto do Idoso
+    - envelhecimento ativo, violência contra idoso
+  examples:
+    - "MDS inaugura 200 novos centros de convivência para idosos em todo o país"
+    - "Governo amplia BPC para idosos em situação de vulnerabilidade social"
+    - "Programa Nacional de Cuidadores capacita 10 mil profissionais para atenção ao idoso"
+
+- code: "15.02.01"
+  label: "Combate à Desigualdade"
+  description: |
+    Políticas estruturais de redução de desigualdades sociais, econômicas e regionais, incluindo
+    redistribuição de renda, equidade de oportunidades e justiça social.
+  keywords:
+    - desigualdade social, redução de desigualdades
+    - equidade, justiça social, redistribuição de renda
+    - Gini, desigualdade regional
+    - mobilidade social, políticas redistributivas
+  examples:
+    - "Brasil reduz índice de Gini com políticas de redistribuição de renda e acesso universal"
+    - "Governo lança plano nacional de combate às desigualdades regionais e sociais"
+    - "Estudo mostra queda na desigualdade social após expansão de programas redistributivos"
+
+- code: "15.02.02"
+  label: "Combate à Fome"
+  description: |
+    Ações de segurança alimentar e nutricional para garantir acesso regular a alimentos adequados,
+    incluindo distribuição de alimentos, bancos de alimentos e cozinhas comunitárias.
+  keywords:
+    - fome, segurança alimentar, insegurança alimentar
+    - banco de alimentos, cozinhas comunitárias
+    - restaurantes populares, PNAE
+    - alimentação escolar, cestas básicas
+    - desnutrição, soberania alimentar
+  examples:
+    - "Governo retoma Programa Fome Zero com distribuição de cestas básicas para 2 milhões de famílias"
+    - "MDS inaugura 500 cozinhas comunitárias e restaurantes populares em áreas vulneráveis"
+    - "Programa de cisternas beneficia 100 mil famílias no Semiárido com acesso à água e alimentos"
+
+- code: "15.02.03"
+  label: "Apoio Emergencial"
+  description: |
+    Auxílios e benefícios temporários para situações de emergência, calamidade pública, desastres naturais
+    ou crises econômicas.
+  keywords:
+    - auxílio emergencial, benefício emergencial
+    - calamidade pública, desastre natural
+    - desabrigados, desalojados
+    - Defesa Civil, ajuda humanitária
+    - crise econômica, auxílio extraordinário
+  examples:
+    - "Governo libera auxílio emergencial para famílias atingidas por enchentes no Sul do país"
+    - "MDS anuncia assistência emergencial para 50 mil famílias desabrigadas por desastres naturais"
+    - "Benefício emergencial temporário é prorrogado para trabalhadores informais afetados pela crise"
+
+- code: "15.02.04"
+  label: "Igualdade Social"
+  description: |
+    Promoção de direitos iguais e combate a discriminações relacionadas a gênero, raça, orientação sexual,
+    deficiência e origem social.
+  keywords:
+    - igualdade social, equidade de gênero, igualdade racial
+    - inclusão LGBTQIA+, políticas afirmativas
+    - diversidade, direitos humanos
+    - pessoas com deficiência, acessibilidade
+  examples:
+    - "Governo lança plano nacional de promoção da igualdade racial e combate ao racismo"
+    - "Políticas afirmativas ampliam acesso de mulheres e negros a programas sociais federais"
+    - "MDS implementa estratégia de inclusão de pessoas LGBTQIA+ em situação de vulnerabilidade"
+
+- code: "15.03.01"
+  label: "Benefícios Previdenciários"
+  description: |
+    Concessão, manutenção e pagamento de benefícios do Regime Geral de Previdência Social (RGPS),
+    incluindo aposentadorias, pensões, auxílios-doença e salário-maternidade.
+  keywords:
+    - benefícios previdenciários, INSS, RGPS
+    - aposentadoria por idade, aposentadoria por tempo de contribuição
+    - pensão por morte, auxílio-doença, salário-maternidade
+    - Meu INSS, perícia médica
+  examples:
+    - "INSS inicia pagamento de aposentadorias e pensões para 38 milhões de beneficiários em janeiro"
+    - "Governo antecipa calendário de análise de benefícios previdenciários para reduzir fila do INSS"
+    - "INSS facilita concessão de auxílio-doença com perícia médica online pelo aplicativo Meu INSS"
+
+- code: "15.03.02"
+  label: "Assistência à Aposentadoria"
+  description: |
+    Serviços de orientação, atendimento e suporte para acesso a benefícios previdenciários,
+    incluindo planejamento de aposentadoria e cálculo de tempo de contribuição.
+  keywords:
+    - assistência à aposentadoria, orientação previdenciária
+    - planejamento de aposentadoria, cálculo de benefício
+    - atendimento INSS, educação previdenciária
+    - mutirão de atendimento, caravana do INSS
+  examples:
+    - "INSS lança programa de educação previdenciária para orientar trabalhadores sobre aposentadoria"
+    - "Mutirão de atendimento do INSS oferece assistência à aposentadoria em 50 cidades do interior"
+    - "Governo disponibiliza ferramenta online para cálculo e planejamento de aposentadoria"

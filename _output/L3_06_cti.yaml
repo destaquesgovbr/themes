@@ -1,0 +1,390 @@
+# Descrições L3 - Tema 06: Ciência, Tecnologia e Inovação
+# Gerado em: 2025-12-18
+
+- code: "06.01.01"
+  label: "Ciência Aberta"
+  description: |
+    Políticas e iniciativas de acesso aberto a dados, publicações e infraestruturas
+    de pesquisa. Inclui repositórios científicos, dados abertos de pesquisa e
+    democratização do conhecimento científico.
+  keywords:
+    - ciência aberta
+    - acesso aberto
+    - open science
+    - dados abertos de pesquisa
+    - repositório científico
+    - publicação aberta
+    - periódico de acesso aberto
+    - infraestrutura de pesquisa
+    - compartilhamento de dados
+    - democratização do conhecimento
+    - transparência científica
+  examples:
+    - "MCTI lança plataforma nacional de dados abertos de pesquisa científica"
+    - "Brasil adere a acordo internacional de ciência aberta e acesso livre"
+
+- code: "06.01.02"
+  label: "Ciência e Democracia"
+  description: |
+    Participação social na ciência, divulgação científica e combate à desinformação.
+    Inclui comunicação pública da ciência, engajamento cidadão em CT&I e alfabetização
+    científica da população.
+  keywords:
+    - divulgação científica
+    - popularização da ciência
+    - ciência cidadã
+    - participação social
+    - combate à desinformação
+    - fake news científica
+    - alfabetização científica
+    - letramento científico
+    - comunicação pública da ciência
+    - Semana Nacional de CT&I
+  examples:
+    - "Governo federal amplia programas de divulgação científica em escolas públicas"
+    - "CNPq lança edital para projetos de combate à desinformação científica"
+
+- code: "06.01.03"
+  label: "Inteligência em Dados"
+  description: |
+    Infraestrutura, análise e gestão de dados científicos e governamentais.
+    Inclui supercomputação, big data para pesquisa, bancos de dados científicos
+    e inteligência de dados para CT&I.
+  keywords:
+    - big data científico
+    - supercomputação
+    - computação de alto desempenho
+    - infraestrutura de dados
+    - banco de dados científico
+    - análise de dados científicos
+    - ciência de dados
+    - SINAPAD
+    - Santos Dumont (supercomputador)
+    - curadoria de dados
+    - gestão de dados de pesquisa
+  examples:
+    - "MCTI investe em ampliação da capacidade do supercomputador Santos Dumont"
+    - "Governo lança rede nacional de infraestrutura de dados científicos"
+
+- code: "06.02.01"
+  label: "Inteligência Artificial"
+  description: |
+    Desenvolvimento, aplicação e governança de IA. Inclui estratégias nacionais
+    de IA, modelos de linguagem, aprendizado de máquina e IA aplicada ao setor
+    público.
+  keywords:
+    - inteligência artificial
+    - IA
+    - machine learning
+    - estratégia brasileira de IA
+    - EBIA
+    - aprendizado de máquina
+    - deep learning
+    - IA generativa
+    - modelo de linguagem
+    - IA no setor público
+    - automação inteligente
+    - algoritmo
+    - rede neural
+  examples:
+    - "Governo federal apresenta Estratégia Brasileira de Inteligência Artificial"
+    - "MCTI e Serpro desenvolvem modelo de IA em português para administração pública"
+
+- code: "06.02.02"
+  label: "Propriedade Intelectual"
+  description: |
+    Proteção e gestão de patentes, marcas e direitos autorais. Inclui registro
+    de patentes pelo INPI, propriedade industrial, direitos de software e políticas
+    de PI em instituições de pesquisa.
+  keywords:
+    - propriedade intelectual
+    - PI
+    - patente
+    - INPI
+    - registro de patente
+    - marca registrada
+    - propriedade industrial
+    - direito autoral
+    - software
+    - proteção de invenção
+    - NIT
+    - núcleo de inovação tecnológica
+    - licenciamento tecnológico
+  examples:
+    - "INPI reduz prazo de análise de pedidos de patentes tecnológicas"
+    - "Embrapa registra patente de tecnologia agrícola em parceria com universidades"
+
+- code: "06.02.03"
+  label: "Novas Tecnologias"
+  description: |
+    Desenvolvimento e aplicação de tecnologias emergentes além de IA. Inclui
+    blockchain, internet das coisas, computação quântica, biotecnologia, nanotecnologia
+    e outras tecnologias de fronteira.
+  keywords:
+    - tecnologia emergente
+    - tecnologia de fronteira
+    - blockchain
+    - internet das coisas
+    - IoT
+    - computação quântica
+    - quantum computing
+    - biotecnologia
+    - nanotecnologia
+    - impressão 3D
+    - manufatura aditiva
+    - robótica
+    - drones
+    - 5G
+    - 6G
+  examples:
+    - "Brasil investe em pesquisa de computação quântica com centro nacional"
+    - "MCTI anuncia programa de fomento a biotecnologia e nanotecnologia"
+
+- code: "06.02.04"
+  label: "Transferência de Tecnologia"
+  description: |
+    Transferência de conhecimento e tecnologia entre instituições de pesquisa,
+    empresas e sociedade. Inclui licenciamento tecnológico, spin-offs acadêmicos,
+    cooperação ICT-empresa e comercialização de pesquisa.
+  keywords:
+    - transferência de tecnologia
+    - TT
+    - licenciamento tecnológico
+    - contrato de tecnologia
+    - spin-off
+    - empresa derivada
+    - cooperação ICT-empresa
+    - parceria universidade-empresa
+    - comercialização de pesquisa
+    - royalties
+    - Marco Legal de CT&I
+  examples:
+    - "Universidades federais ampliam transferência de tecnologia para setor produtivo"
+    - "Finep lança programa de apoio à comercialização de pesquisas científicas"
+
+- code: "06.03.01"
+  label: "Inovação e Startups"
+  description: |
+    Ecossistema de startups, empreendedorismo inovador e programas de aceleração.
+    Inclui apoio a startups tecnológicas, venture capital público, parques tecnológicos
+    e incubadoras.
+  keywords:
+    - startup
+    - ecossistema de startups
+    - empreendedorismo inovador
+    - scale-up
+    - incubadora
+    - aceleradora
+    - parque tecnológico
+    - venture capital
+    - investimento em startups
+    - Startup Brasil
+    - Centelha
+    - empresa de base tecnológica
+  examples:
+    - "MCTI e Finep lançam edital de R$ 50 milhões para startups de tecnologia"
+    - "Programa Centelha seleciona startups inovadoras em todos os estados"
+
+- code: "06.03.02"
+  label: "Inovação Aberta"
+  description: |
+    Colaboração aberta entre organizações para inovação. Inclui desafios de
+    inovação, hackathons governamentais, cocriação e compartilhamento de recursos
+    para inovação entre setores.
+  keywords:
+    - inovação aberta
+    - open innovation
+    - desafio de inovação
+    - hackathon
+    - cocriação
+    - colaboração aberta
+    - living lab
+    - laboratório vivo
+    - prototipagem colaborativa
+    - sandbox regulatório
+    - inovação colaborativa
+  examples:
+    - "Governo federal abre desafio de inovação para soluções em saúde pública"
+    - "MCTI realiza hackathon nacional para desenvolvimento de tecnologias sociais"
+
+- code: "06.03.03"
+  label: "Inovação em Rede"
+  description: |
+    Redes e ecossistemas de inovação entre instituições e regiões. Inclui sistemas
+    regionais de inovação, arranjos produtivos locais tecnológicos, redes temáticas
+    de pesquisa e desenvolvimento e ambientes de inovação.
+  keywords:
+    - rede de inovação
+    - ecossistema de inovação
+    - sistema regional de inovação
+    - APL tecnológico
+    - ambiente de inovação
+    - habitat de inovação
+    - cluster tecnológico
+    - polo de inovação
+    - rede temática
+    - rede colaborativa
+    - tripla hélice
+    - quádrupla hélice
+  examples:
+    - "MCTI articula rede nacional de polos de inovação tecnológica"
+    - "Governo fortalece sistema regional de inovação no Nordeste"
+
+- code: "06.03.04"
+  label: "Política de Inovação"
+  description: |
+    Políticas públicas, estratégias e programas de fomento à inovação. Inclui
+    Estratégia Nacional de Inovação, Lei de Inovação, incentivos fiscais e fundos
+    de apoio à inovação empresarial.
+  keywords:
+    - política de inovação
+    - estratégia de inovação
+    - Lei de Inovação
+    - Lei do Bem
+    - incentivo fiscal à inovação
+    - subvenção econômica
+    - fundo de inovação
+    - FNDCT
+    - Marco Legal de CT&I
+    - PD&I empresarial
+  examples:
+    - "Governo federal anuncia nova estratégia nacional de inovação para 2025-2030"
+    - "MCTI amplia recursos do FNDCT para projetos de inovação empresarial"
+
+- code: "06.04.01"
+  label: "Inovação e Sustentabilidade"
+  description: |
+    Inovações voltadas à sustentabilidade ambiental, social e econômica. Inclui
+    tecnologias para economia circular, bioeconomia, soluções baseadas na natureza
+    e inovação para desenvolvimento sustentável.
+  keywords:
+    - inovação sustentável
+    - tecnologia sustentável
+    - bioeconomia
+    - economia circular
+    - solução baseada na natureza
+    - biomimética
+    - tecnologia social
+    - inovação social
+    - Amazônia 4.0
+    - bioindústria
+  examples:
+    - "MCTI lança programa de bioeconomia para valorização da biodiversidade brasileira"
+    - "Finep apoia projetos de inovação em economia circular e reciclagem avançada"
+
+- code: "06.04.02"
+  label: "Inovação e Descarbonização"
+  description: |
+    Tecnologias e inovações para redução de emissões e neutralidade climática.
+    Inclui captura de carbono, energias renováveis inovadoras, hidrogênio verde
+    e tecnologias de mitigação climática.
+  keywords:
+    - descarbonização
+    - neutralidade de carbono
+    - net zero
+    - captura de carbono
+    - CCS
+    - CCUS
+    - hidrogênio verde
+    - H2V
+    - transição energética
+    - energia limpa
+    - tecnologia de baixo carbono
+    - mitigação climática
+  examples:
+    - "Brasil investe em pesquisa de hidrogênio verde e captura de carbono"
+    - "MCTI lança edital para tecnologias de descarbonização industrial"
+
+- code: "06.04.03"
+  label: "Tecnologias Verdes"
+  description: |
+    Desenvolvimento de tecnologias limpas e ambientalmente responsáveis. Inclui
+    energias renováveis, eficiência energética, mobilidade sustentável, tratamento
+    de resíduos e tecnologias de remediação ambiental.
+  keywords:
+    - tecnologia verde
+    - tecnologia limpa
+    - cleantech
+    - energia renovável
+    - energia solar
+    - energia eólica
+    - eficiência energética
+    - mobilidade elétrica
+    - gestão de resíduos
+    - reciclagem tecnológica
+    - remediação ambiental
+    - tratamento de efluentes
+  examples:
+    - "Governo amplia financiamento para pesquisa em energia solar fotovoltaica"
+    - "MCTI apoia desenvolvimento de tecnologias de tratamento de resíduos urbanos"
+
+- code: "06.05.01"
+  label: "Políticas de Ciência e Tecnologia"
+  description: |
+    Formulação e implementação de políticas nacionais de CT&I. Inclui estratégias
+    nacionais, planos setoriais, orçamento de CT&I, governança do sistema nacional
+    e cooperação internacional em ciência.
+  keywords:
+    - política de CT&I
+    - estratégia nacional de CT&I
+    - ENCTI
+    - Pacti
+    - SNCT
+    - orçamento de CT&I
+    - FNDCT
+    - funding
+    - MCTI
+    - CNPq
+    - Finep
+    - CAPES
+    - cooperação internacional científica
+    - governança de CT&I
+  examples:
+    - "MCTI apresenta nova Estratégia Nacional de Ciência, Tecnologia e Inovação"
+    - "Governo federal amplia orçamento do FNDCT para 2026"
+
+- code: "06.05.02"
+  label: "Regulação Tecnológica"
+  description: |
+    Marcos regulatórios para tecnologias emergentes e transformação digital.
+    Inclui regulação de IA, proteção de dados pessoais, cibersegurança, regulação
+    de plataformas digitais e governança de internet.
+  keywords:
+    - regulação tecnológica
+    - marco regulatório
+    - regulação de IA
+    - governança de IA
+    - LGPD
+    - proteção de dados
+    - ANPD
+    - cibersegurança
+    - segurança digital
+    - regulação de plataformas
+    - governança digital
+    - Marco Civil da Internet
+  examples:
+    - "Governo federal debate regulação de inteligência artificial no Brasil"
+    - "ANPD publica diretrizes para proteção de dados em sistemas de IA"
+
+- code: "06.05.03"
+  label: "Ética em Tecnologia e Inovação"
+  description: |
+    Princípios éticos, responsabilidade social e impactos das tecnologias. Inclui
+    ética em IA, avaliação de impacto tecnológico, tecnologia responsável, equidade
+    digital e governança ética da inovação.
+  keywords:
+    - ética em tecnologia
+    - ética em IA
+    - tecnologia responsável
+    - IA responsável
+    - viés algorítmico
+    - discriminação algorítmica
+    - impacto social da tecnologia
+    - equidade digital
+    - privacidade
+    - consentimento digital
+    - governança ética
+    - comitê de ética
+  examples:
+    - "MCTI estabelece diretrizes éticas para uso de IA no setor público"
+    - "Governo cria comissão para avaliar impactos sociais de tecnologias emergentes"

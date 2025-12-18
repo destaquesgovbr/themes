@@ -1,0 +1,407 @@
+# Descrições L3 - Tema 05: Meio Ambiente e Sustentabilidade
+# Gerado em: 2025-12-18
+
+- code: "05.01.01"
+  label: "Proteção da Vida Selvagem"
+  description: |
+    Conservação de espécies animais e vegetais terrestres, combate ao tráfico
+    de animais silvestres, proteção de habitats naturais e programas de
+    recuperação de fauna e flora ameaçadas de extinção.
+  keywords:
+    - vida selvagem
+    - animais silvestres
+    - fauna silvestre
+    - tráfico de animais
+    - caça ilegal
+    - biopirataria
+    - espécies ameaçadas
+    - extinção
+    - biodiversidade terrestre
+    - jaguar
+    - onça-pintada
+    - arara-azul
+    - lobo-guará
+    - CETAS
+    - centros de triagem
+    - reintrodução de espécies
+    - fiscalização ambiental
+    - IBAMA fauna
+    - ICMBio espécies
+  examples:
+    - "IBAMA apreende 200 animais silvestres em operação contra tráfico no Nordeste"
+    - "ICMBio lança plano de ação para conservação da onça-pintada na Amazônia"
+    - "Governo federal amplia lista de espécies ameaçadas de extinção"
+
+- code: "05.01.02"
+  label: "Conservação Marinha"
+  description: |
+    Proteção de ecossistemas costeiros e marinhos, conservação de espécies
+    aquáticas, combate à pesca predatória e gestão de áreas marinhas protegidas,
+    incluindo recifes de coral e mangues.
+  keywords:
+    - conservação marinha
+    - ecossistemas marinhos
+    - biodiversidade marinha
+    - tartarugas marinhas
+    - peixe-boi
+    - baleias
+    - golfinhos
+    - Projeto TAMAR
+    - áreas marinhas protegidas
+    - APA marinha
+    - pesca predatória
+    - pesca ilegal
+    - sobrepesca
+    - recifes de coral
+    - manguezais
+    - restingas
+    - zona costeira
+    - litoral
+    - oceano Atlântico
+  examples:
+    - "ICMBio registra recorde de desovas de tartarugas marinhas no litoral brasileiro"
+    - "Governo federal cria nova área de proteção ambiental marinha no Nordeste"
+    - "Operação combate pesca ilegal de espécies ameaçadas na costa brasileira"
+
+- code: "05.01.03"
+  label: "Qualidade da Água"
+  description: |
+    Monitoramento e controle da poluição de rios, lagos e aquíferos, tratamento
+    de efluentes industriais e domésticos, e ações de despoluição de corpos
+    hídricos contaminados.
+  keywords:
+    - qualidade da água
+    - poluição hídrica
+    - contaminação de rios
+    - monitoramento de água
+    - análise de água
+    - parâmetros hídricos
+    - efluentes industriais
+    - esgoto doméstico
+    - despoluição
+    - Rio Tietê
+    - Rio Doce
+    - Rio São Francisco
+    - metais pesados
+    - agrotóxicos na água
+    - mercúrio
+    - bacias hidrográficas
+    - saneamento ambiental
+  examples:
+    - "ANA divulga relatório sobre qualidade da água em bacias hidrográficas do país"
+    - "Governo federal lança programa de despoluição de rios urbanos"
+    - "IBAMA autua empresas por lançamento irregular de efluentes em rio"
+
+- code: "05.01.04"
+  label: "Qualidade do Ar"
+  description: |
+    Monitoramento de poluentes atmosféricos, controle de emissões industriais
+    e veiculares, combate a queimadas e ações para redução da poluição do ar
+    em áreas urbanas e rurais.
+  keywords:
+    - qualidade do ar
+    - poluição atmosférica
+    - emissões atmosféricas
+    - material particulado
+    - PM2.5
+    - PM10
+    - dióxido de nitrogênio
+    - queimadas
+    - fumaça
+    - incêndios florestais
+    - INPE queimadas
+    - monitoramento de focos de calor
+    - poluição urbana
+    - poluição veicular
+    - emissões industriais
+    - PROCONVE
+    - PROMOT
+    - padrões de qualidade do ar
+  examples:
+    - "INPE registra aumento de focos de queimada na Amazônia em setembro"
+    - "IBAMA intensifica fiscalização contra queimadas ilegais no Pantanal"
+    - "Ministério do Meio Ambiente atualiza padrões de qualidade do ar"
+
+- code: "05.01.05"
+  label: "Recursos Hídricos"
+  description: |
+    Gestão e planejamento do uso da água, outorgas de recursos hídricos,
+    segurança de barragens, gestão de bacias hidrográficas e políticas de
+    abastecimento e uso racional da água.
+  keywords:
+    - recursos hídricos
+    - gestão de água
+    - planejamento hídrico
+    - ANA
+    - Agência Nacional de Águas
+    - outorga de água
+    - comitês de bacia
+    - bacias hidrográficas
+    - PNRH
+    - segurança de barragens
+    - barragens hídricas
+    - reservatórios
+    - transposição São Francisco
+    - escassez hídrica
+    - crise hídrica
+    - uso racional da água
+    - reuso de água
+    - cobrança pelo uso
+  examples:
+    - "ANA aprova novas regras para outorga de uso de recursos hídricos"
+    - "Governo federal investe em segurança de barragens em todo o país"
+    - "Comitês de bacias hidrográficas aprovam planos de gestão da água"
+
+- code: "05.01.06"
+  label: "Agricultura Sustentável"
+  description: |
+    Práticas agrícolas de baixo impacto ambiental, agricultura orgânica,
+    agroecologia, recuperação de áreas degradadas no campo e integração
+    lavoura-pecuária-floresta com foco ambiental.
+  keywords:
+    - agricultura sustentável
+    - agropecuária sustentável
+    - agroecologia
+    - agricultura orgânica
+    - produção orgânica
+    - certificação orgânica
+    - Plano ABC
+    - agricultura de baixo carbono
+    - ILPF
+    - recuperação de pastagens
+    - restauração de áreas degradadas
+    - manejo sustentável do solo
+    - práticas conservacionistas
+    - Embrapa sustentabilidade
+    - agrofloresta
+    - sistema agroflorestal
+  examples:
+    - "MAPA lança programa de incentivo à agricultura de baixo carbono"
+    - "Governo amplia crédito para produtores que adotam práticas sustentáveis"
+    - "Embrapa desenvolve sistema de integração lavoura-pecuária-floresta"
+
+- code: "05.02.01"
+  label: "Catástrofes Climáticas"
+  description: |
+    Eventos climáticos extremos como enchentes, secas severas, deslizamentos e
+    tempestades, incluindo prevenção, resposta emergencial e reconstrução de
+    áreas afetadas por desastres naturais relacionados ao clima.
+  keywords:
+    - catástrofes climáticas
+    - desastres naturais
+    - eventos extremos
+    - enchentes
+    - inundações
+    - alagamentos
+    - enxurradas
+    - secas extremas
+    - estiagem severa
+    - seca histórica
+    - deslizamentos de terra
+    - desabamentos
+    - chuvas intensas
+    - Defesa Civil
+    - estado de calamidade
+    - situação de emergência
+    - Cemaden
+    - alertas meteorológicos
+    - desastres ambientais
+  examples:
+    - "Governo federal decreta estado de calamidade após enchentes no Sul"
+    - "Cemaden emite alerta para risco de deslizamentos em áreas de Serra"
+    - "Ministério anuncia medidas emergenciais para municípios atingidos por seca"
+
+- code: "05.02.02"
+  label: "Justiça Climática"
+  description: |
+    Equidade na distribuição de impactos e benefícios das políticas climáticas,
+    proteção de comunidades vulneráveis às mudanças climáticas, povos indígenas
+    e populações tradicionais no contexto ambiental.
+  keywords:
+    - justiça climática
+    - equidade climática
+    - vulnerabilidade climática
+    - comunidades tradicionais
+    - povos indígenas
+    - ribeirinhos
+    - populações vulneráveis
+    - adaptação comunitária
+    - acesso a recursos naturais
+    - direitos ambientais
+    - racismo ambiental
+    - desigualdade ambiental
+    - consulta prévia
+    - participação social ambiental
+  examples:
+    - "Governo lança programa de adaptação climática para comunidades tradicionais"
+    - "MMA promove consulta pública com povos indígenas sobre políticas climáticas"
+    - "Fundo Clima destina recursos para projetos de comunidades vulneráveis"
+
+- code: "05.02.03"
+  label: "Educação Ambiental"
+  description: |
+    Programas educacionais sobre meio ambiente, conscientização ecológica,
+    formação de agentes ambientais e iniciativas de educação para
+    sustentabilidade em escolas e comunidades.
+  keywords:
+    - educação ambiental
+    - conscientização ambiental
+    - sensibilização ecológica
+    - formação ambiental
+    - capacitação ambiental
+    - agentes ambientais
+    - escolas sustentáveis
+    - educação para sustentabilidade
+    - coleta seletiva educação
+    - reciclagem escolar
+    - Programa Nacional de Educação Ambiental
+    - PNEA
+    - semana do meio ambiente
+    - dia da árvore
+    - campanhas ambientais
+  examples:
+    - "MMA lança campanha de educação ambiental em escolas públicas"
+    - "Governo capacita professores para programa de educação para sustentabilidade"
+    - "Semana do Meio Ambiente mobiliza mais de mil municípios em ações educativas"
+
+- code: "05.02.04"
+  label: "Desenvolvimento Sustentável"
+  description: |
+    Integração entre crescimento econômico, inclusão social e proteção ambiental,
+    Objetivos de Desenvolvimento Sustentável (ODS), economia verde e políticas
+    de desenvolvimento de longo prazo com foco na sustentabilidade.
+  keywords:
+    - desenvolvimento sustentável
+    - sustentabilidade
+    - ODS
+    - Objetivos de Desenvolvimento Sustentável
+    - Agenda 2030
+    - economia verde
+    - crescimento sustentável
+    - desenvolvimento verde
+    - bioeconomia
+    - economia circular
+    - negócios sustentáveis
+    - investimentos sustentáveis
+    - finanças verdes
+    - ESG
+    - Plano Nacional de Desenvolvimento Sustentável
+  examples:
+    - "Brasil apresenta relatório de cumprimento dos ODS na ONU"
+    - "Governo lança estratégia nacional de bioeconomia para Amazônia"
+    - "BNDES amplia linha de crédito para projetos de economia verde"
+
+- code: "05.03.01"
+  label: "Energia Renovável"
+  description: |
+    Fontes de energia sustentáveis como solar, eólica, biomassa e pequenas
+    centrais hidrelétricas, focando em aspectos ambientais da geração e no
+    impacto na redução de emissões de carbono.
+  keywords:
+    - energia renovável
+    - fontes renováveis
+    - energia sustentável
+    - energia solar
+    - painéis solares
+    - fotovoltaica
+    - energia eólica
+    - parques eólicos
+    - turbinas eólicas
+    - biomassa energética
+    - biocombustíveis
+    - etanol
+    - PCH
+    - pequenas centrais hidrelétricas
+    - microgeração
+    - redução de emissões
+    - matriz energética limpa
+  examples:
+    - "MMA destaca redução de emissões com expansão de energia eólica no país"
+    - "Governo anuncia programa de energia solar para comunidades isoladas"
+    - "Brasil atinge meta de participação de renováveis na matriz energética"
+
+- code: "05.03.02"
+  label: "Energia Limpa"
+  description: |
+    Tecnologias e políticas para redução do impacto ambiental da produção
+    energética, transição energética, descarbonização, hidrogênio verde e
+    eficiência energética com foco na sustentabilidade.
+  keywords:
+    - energia limpa
+    - transição energética
+    - descarbonização
+    - hidrogênio verde
+    - H2V
+    - combustíveis limpos
+    - eficiência energética
+    - economia de energia
+    - consumo consciente
+    - emissões zero
+    - carbono neutro
+    - neutralidade carbônica
+    - tecnologias limpas
+    - inovação energética sustentável
+    - Procel
+    - etiquetagem energética
+    - construções sustentáveis
+  examples:
+    - "Brasil lança programa nacional de desenvolvimento de hidrogênio verde"
+    - "MMA e MME apresentam plano de transição energética para descarbonização"
+    - "Governo incentiva eficiência energética em prédios públicos federais"
+
+- code: "05.04.01"
+  label: "Gestão de Resíduos"
+  description: |
+    Coleta, tratamento, reciclagem e destinação final de resíduos sólidos,
+    implementação da Política Nacional de Resíduos Sólidos, logística reversa
+    e combate a lixões.
+  keywords:
+    - gestão de resíduos
+    - resíduos sólidos
+    - lixo
+    - coleta seletiva
+    - reciclagem
+    - reutilização
+    - PNRS
+    - Política Nacional de Resíduos Sólidos
+    - logística reversa
+    - destinação final
+    - aterros sanitários
+    - lixões
+    - encerramento de lixões
+    - catadores
+    - resíduos industriais
+    - resíduos perigosos
+    - compostagem
+  examples:
+    - "MMA lança plano para erradicação de lixões em todo o país"
+    - "Governo regulamenta logística reversa para embalagens plásticas"
+    - "Brasil avança no cumprimento de metas da Política Nacional de Resíduos Sólidos"
+
+- code: "05.04.02"
+  label: "Licenciamento Ambiental"
+  description: |
+    Processos de autorização ambiental para empreendimentos, estudos de impacto
+    ambiental (EIA/RIMA), condicionantes ambientais, audiências públicas e
+    fiscalização do cumprimento de licenças.
+  keywords:
+    - licenciamento ambiental
+    - licença ambiental
+    - autorização ambiental
+    - EIA/RIMA
+    - estudo de impacto ambiental
+    - avaliação ambiental
+    - licença prévia
+    - licença de instalação
+    - licença de operação
+    - condicionantes ambientais
+    - compensação ambiental
+    - audiência pública ambiental
+    - consulta pública
+    - IBAMA licenciamento
+    - órgãos licenciadores
+    - LAU
+  examples:
+    - "IBAMA emite licença ambiental para obra de infraestrutura no Norte"
+    - "Governo federal simplifica procedimentos de licenciamento ambiental"
+    - "Audiência pública discute impactos ambientais de projeto de mineração"

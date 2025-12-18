@@ -1,0 +1,292 @@
+# Descrições L3 - Tema 21: Legislação e Regulamentação
+# Gerado em: 2025-12-18
+
+- code: "21.01.01"
+  label: "Publicação de Leis e Decretos"
+  description: |
+    Cobre o anúncio oficial e publicação de leis, decretos, medidas provisórias e portarias
+    no Diário Oficial da União (DOU).
+  keywords:
+    - publicação, DOU, Diário Oficial
+    - sanção, lei sancionada, decreto assinado
+    - medida provisória, MP, portaria
+    - Casa Civil, promulgação
+  examples:
+    - "Presidente sanciona lei que cria novo programa de incentivo à inovação"
+    - "Publicado no DOU decreto que regulamenta benefício fiscal para empresas de tecnologia"
+    - "Casa Civil edita portaria sobre simplificação de procedimentos administrativos"
+
+- code: "21.01.02"
+  label: "Aplicação e Vigência"
+  description: |
+    Trata da entrada em vigor de normas, início de aplicação prática e prazos de vigência de leis e decretos.
+  keywords:
+    - entrada em vigor, vigência
+    - aplicação da lei, vacatio legis
+    - implementação normativa, eficácia
+    - prazo de vigência, produção de efeitos
+  examples:
+    - "Entra em vigor hoje nova lei de proteção de dados para o setor público"
+    - "Decreto sobre home office no serviço público passa a valer a partir de janeiro"
+    - "Norma que altera regras tributárias tem vigência adiada por 90 dias"
+
+- code: "21.01.03"
+  label: "Alterações e Ajustes Normativos"
+  description: |
+    Modificações, emendas, revogações e ajustes em leis e decretos já existentes.
+  keywords:
+    - alteração de lei, modificação normativa
+    - emenda, ajuste legal, revogação
+    - atualização normativa, retificação
+    - Congresso Nacional
+  examples:
+    - "Congresso aprova alterações pontuais na Lei de Licitações"
+    - "Decreto ajusta regras de contratação temporária no serviço público"
+    - "Publicada retificação de portaria sobre prazos de recursos administrativos"
+
+- code: "21.01.04"
+  label: "Regulamentações Complementares"
+  description: |
+    Normas infralegais que detalham e operacionalizam leis já publicadas, como instruções normativas,
+    resoluções e portarias interministeriais.
+  keywords:
+    - regulamentação, norma infralegal
+    - instrução normativa, IN, resolução
+    - portaria interministerial, regulamento
+    - agências reguladoras, ANVISA, ANATEL
+  examples:
+    - "Ministério da Economia publica instrução normativa que regulamenta Lei de Startups"
+    - "ANVISA edita resolução complementar sobre registro de medicamentos biológicos"
+    - "Portaria interministerial detalha procedimentos de fiscalização ambiental"
+
+- code: "21.02.01"
+  label: "Propostas de Reforma"
+  description: |
+    Apresentação e tramitação inicial de projetos de reformas estruturais (tributária, administrativa,
+    previdenciária, política).
+  keywords:
+    - proposta de reforma, PEC, PL
+    - reforma tributária, reforma administrativa
+    - reforma previdenciária, reforma política
+    - tramitação legislativa
+  examples:
+    - "Governo envia ao Congresso proposta de reforma tributária sobre consumo"
+    - "Relator apresenta parecer sobre PEC da reforma administrativa"
+    - "Câmara dos Deputados inicia debates sobre reforma do Código de Processo Civil"
+
+- code: "21.02.02"
+  label: "Análise de Impacto das Reformas"
+  description: |
+    Estudos técnicos, análises de impacto econômico, social e jurídico de reformas propostas.
+  keywords:
+    - análise de impacto, estudo técnico
+    - impacto econômico, impacto fiscal
+    - consultoria legislativa, IFI, TCU
+    - projeções, cenários
+  examples:
+    - "IFI divulga análise sobre impacto fiscal da reforma tributária nos próximos 10 anos"
+    - "TCU apresenta estudo sobre efeitos da reforma administrativa na eficiência pública"
+    - "Consultoria do Senado estima economia de R$ 100 bi com reforma previdenciária"
+
+- code: "21.02.03"
+  label: "Aprovação de Reformas"
+  description: |
+    Votações, aprovações em comissões e plenário, promulgação de reformas estruturais.
+  keywords:
+    - aprovação, votação, promulgação
+    - plenário, comissão, quorum
+    - maioria qualificada, dois turnos
+    - Senado Federal, Câmara dos Deputados
+  examples:
+    - "Senado aprova em segundo turno PEC da reforma tributária por 68 votos a favor"
+    - "Câmara conclui votação da reforma administrativa com apoio de 320 deputados"
+    - "Congresso promulga emenda constitucional que implementa reforma do sistema eleitoral"
+
+- code: "21.02.04"
+  label: "Implementação das Reformas"
+  description: |
+    Medidas práticas, cronogramas, regulamentações e ações governamentais para colocar reformas aprovadas em prática.
+  keywords:
+    - implementação, execução, cronograma
+    - plano de transição, regulamentação da reforma
+    - comitê de implementação, grupo de trabalho
+    - prazos de implementação
+  examples:
+    - "Governo federal define cronograma de implementação da reforma tributária em três fases"
+    - "Casa Civil cria comitê para coordenar transição para novo modelo administrativo"
+    - "Ministério da Economia publica primeiras normas de execução da reforma previdenciária"
+
+- code: "21.03.01"
+  label: "Abertura de Consultas"
+  description: |
+    Lançamento e convocação de consultas públicas para coleta de contribuições da sociedade
+    sobre propostas normativas.
+  keywords:
+    - consulta pública, participação social
+    - abertura de consulta, minuta
+    - prazo para contribuições
+    - agências reguladoras
+  examples:
+    - "ANATEL abre consulta pública sobre novas regras de neutralidade de rede"
+    - "Ministério da Saúde lança consulta sobre protocolo de atendimento em telemedicina"
+    - "ANVISA convoca sociedade para contribuir com revisão de norma sanitária"
+
+- code: "21.03.02"
+  label: "Recebimento de Contribuições"
+  description: |
+    Processo de recebimento, registro e organização de sugestões e comentários enviados durante consultas públicas.
+  keywords:
+    - contribuições recebidas, manifestações
+    - sugestões da sociedade, participação pública
+    - número de contribuições, engajamento
+    - prazo de consulta
+  examples:
+    - "Consulta pública sobre lei de proteção de dados recebe mais de 5 mil contribuições"
+    - "ANEEL registra participação de 200 entidades em consulta sobre tarifas de energia"
+    - "Ministério do Meio Ambiente estende prazo de consulta pública devido a alto engajamento"
+
+- code: "21.03.03"
+  label: "Análise de Contribuições"
+  description: |
+    Avaliação técnica e processamento das contribuições recebidas em consultas públicas.
+  keywords:
+    - análise de contribuições, avaliação técnica
+    - acatamento, rejeição
+    - relatório de análise, fundamentação
+    - impacto das sugestões
+  examples:
+    - "ANVISA divulga relatório preliminar de análise de 3 mil contribuições sobre rotulagem"
+    - "Equipe técnica do Ministério avalia viabilidade de sugestões recebidas em consulta"
+    - "ANATEL acata 40% das propostas da sociedade em consulta sobre radiofrequência"
+
+- code: "21.03.04"
+  label: "Resultados de Consultas"
+  description: |
+    Publicação de relatórios finais, síntese de contribuições e decisões tomadas após consultas públicas.
+  keywords:
+    - resultado da consulta, relatório final
+    - síntese de contribuições, versão final
+    - justificativas, transparência
+    - incorporação de sugestões
+  examples:
+    - "ANATEL publica resultado de consulta e versão final de regulamento sobre 5G"
+    - "Ministério divulga relatório consolidado de consulta pública com 1.200 participações"
+    - "ANVISA apresenta justificativas para decisões sobre contribuições em consulta sanitária"
+
+- code: "21.04.01"
+  label: "Revisão de Normas e Regulamentos"
+  description: |
+    Processos de revisão periódica, atualização e simplificação de normas e regulamentos existentes.
+  keywords:
+    - revisão normativa, atualização regulatória
+    - simplificação, desburocratização
+    - qualidade regulatória, análise ex-post
+    - SEAE, PRO-REG
+  examples:
+    - "Governo lança programa de revisão de 500 normas federais para desburocratização"
+    - "ANAC inicia revisão de regulamentos aeronáuticos defasados há mais de 10 anos"
+    - "Casa Civil coordena esforço de consolidação e simplificação de decretos presidenciais"
+
+- code: "21.04.02"
+  label: "Análise de Impacto Regulatório"
+  description: |
+    Realização de Análises de Impacto Regulatório (AIR) antes da edição de novas normas,
+    avaliando custos, benefícios e alternativas.
+  keywords:
+    - AIR, Análise de Impacto Regulatório
+    - análise ex-ante, custo-benefício
+    - alternativas regulatórias, impacto regulatório
+    - Decreto 10.411, Lei da Liberdade Econômica
+  examples:
+    - "ANVISA submete proposta de regulação de alimentos à Análise de Impacto Regulatório"
+    - "SEAE emite parecer sobre AIR de novo regulamento do Banco Central sobre fintechs"
+    - "Ministério da Agricultura realiza AIR antes de editar norma sobre defensivos agrícolas"
+
+- code: "21.04.03"
+  label: "Monitoramento da Implementação"
+  description: |
+    Acompanhamento da aplicação prática de normas e regulamentos, verificação de cumprimento
+    e identificação de problemas na execução.
+  keywords:
+    - monitoramento regulatório, acompanhamento
+    - implementação de normas, cumprimento
+    - fiscalização, verificação
+    - avaliação contínua
+  examples:
+    - "ANEEL monitora implementação de novas regras sobre geração distribuída de energia"
+    - "Governo acompanha aplicação de decreto sobre contratação pública sustentável"
+    - "ANVISA identifica dificuldades na execução de norma sanitária e propõe ajustes"
+
+- code: "21.04.04"
+  label: "Relatórios de Desempenho Regulatórios"
+  description: |
+    Publicação de relatórios de avaliação de resultados, efetividade e desempenho de normas
+    e políticas regulatórias.
+  keywords:
+    - relatório de desempenho, avaliação ex-post
+    - efetividade regulatória, resultados
+    - impacto observado, objetivos alcançados
+    - agências reguladoras
+  examples:
+    - "ANATEL divulga relatório de desempenho sobre metas de qualidade em telefonia móvel"
+    - "ANP apresenta avaliação de impacto de regulação sobre exploração de petróleo"
+    - "Governo publica balanço de três anos de aplicação da Lei de Liberdade Econômica"
+
+- code: "21.05.01"
+  label: "Boas Práticas Regulatórias"
+  description: |
+    Adoção, divulgação e compartilhamento de boas práticas em regulação, incluindo manuais
+    e guias metodológicos.
+  keywords:
+    - boas práticas, diretrizes regulatórias
+    - qualidade regulatória, manual
+    - padrões regulatórios, benchmarks
+    - OCDE, PRO-REG
+  examples:
+    - "Casa Civil publica guia de boas práticas para elaboração de normas federais"
+    - "Brasil adere a princípios da OCDE sobre governança regulatória"
+    - "SEAE lança manual de orientações para realização de AIR em órgãos federais"
+
+- code: "21.05.02"
+  label: "Inovação Jurídica e Regulatória"
+  description: |
+    Desenvolvimento e teste de novos modelos regulatórios, ambientes controlados de experimentação
+    (sandboxes regulatórios) e abordagens inovadoras.
+  keywords:
+    - inovação regulatória, sandbox regulatório
+    - ambiente controlado, tecnologias emergentes
+    - RegTech, regulação adaptativa
+    - Banco Central, CVM
+  examples:
+    - "Banco Central lança sandbox regulatório para testar soluções de pagamento instantâneo"
+    - "CVM cria ambiente de experimentação para startups de investimento coletivo"
+    - "ANATEL desenvolve modelo regulatório adaptativo para Internet das Coisas"
+
+- code: "21.05.03"
+  label: "Política Regulatória"
+  description: |
+    Definição de estratégias, diretrizes e políticas gerais para o sistema regulatório brasileiro.
+  keywords:
+    - política regulatória, estratégia nacional
+    - programa de melhoria, PRO-REG
+    - agenda regulatória, prioridades
+    - sistema regulatório brasileiro
+  examples:
+    - "Governo federal define prioridades da agenda regulatória para 2025"
+    - "Casa Civil apresenta Programa Nacional de Melhoria Regulatória com 50 ações"
+    - "Ministério da Economia coordena política de simplificação do ambiente de negócios"
+
+- code: "21.05.04"
+  label: "Cooperação Internacional em Regulação"
+  description: |
+    Acordos, parcerias e intercâmbio de experiências regulatórias com organismos internacionais
+    e outros países.
+  keywords:
+    - cooperação internacional, acordos regulatórios
+    - OCDE, Banco Mundial, harmonização normativa
+    - intercâmbio de experiências, assistência técnica
+    - boas práticas globais
+  examples:
+    - "Brasil assina acordo com OCDE para cooperação em política regulatória"
+    - "ANVISA firma parceria com agência europeia para harmonização de normas sanitárias"
+    - "Governo participa de fórum internacional sobre regulação de inteligência artificial"

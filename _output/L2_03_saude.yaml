@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 03: Saúde
+# Gerado em: 2025-12-18
+
+- code: "03.01"
+  label: "Sistema Único de Saúde (SUS)"
+  description: |
+    Abrange a estrutura e funcionamento do sistema público de saúde brasileiro, desde a atenção primária em Unidades Básicas de Saúde até serviços de média e alta complexidade. Engloba estratégias de Saúde da Família, protocolos clínicos, linhas de cuidado para condições específicas e diretrizes terapêuticas para diagnóstico e tratamento de doenças, garantindo integralidade e continuidade do cuidado.
+  keywords:
+    - SUS
+    - Sistema Único de Saúde
+    - atenção primária
+    - atenção básica
+    - UBS
+    - Estratégia Saúde da Família
+    - assistência em saúde
+    - atendimento hospitalar
+    - atenção integral
+    - linha de cuidado
+    - protocolo clínico
+    - manejo clínico
+    - diretrizes terapêuticas
+    - rede de atenção à saúde
+    - humanização
+
+- code: "03.02"
+  label: "Campanhas de Saúde Pública"
+  description: |
+    Compreende iniciativas governamentais de mobilização e conscientização da população para prevenção de doenças e promoção da saúde. Inclui campanhas contra arboviroses como dengue, programas de cuidado integral para grupos específicos (crianças, saúde mental), e ações educativas para adoção de hábitos saudáveis como alimentação adequada e prevenção de obesidade.
+  keywords:
+    - campanha de saúde
+    - combate à dengue
+    - Aedes aegypti
+    - arbovirose
+    - saúde da criança
+    - puericultura
+    - mortalidade infantil
+    - saúde mental
+    - CAPS
+    - prevenção ao suicídio
+    - alimentação saudável
+    - nutrição
+    - obesidade
+    - educação nutricional
+    - mobilização social
+
+- code: "03.03"
+  label: "Vigilância Sanitária"
+  description: |
+    Engloba ações de monitoramento epidemiológico, controle de doenças transmissíveis, fiscalização de produtos e serviços de saúde, e incorporação de tecnologias no SUS. Abrange desde a vigilância em saúde e investigação de surtos até a inspeção de medicamentos, alimentos e estabelecimentos de saúde pela ANVISA e órgãos reguladores, garantindo qualidade e segurança sanitária.
+  keywords:
+    - vigilância sanitária
+    - vigilância epidemiológica
+    - ANVISA
+    - fiscalização sanitária
+    - monitoramento de doenças
+    - surto
+    - epidemia
+    - inovação em saúde
+    - tecnologia em saúde
+    - CONITEC
+    - controle de doenças
+    - inspeção de produtos
+    - medicamentos
+    - estabelecimento de saúde
+    - licença sanitária
+
+- code: "03.04"
+  label: "Saúde Pública"
+  description: |
+    Abrange a formulação e implementação de políticas nacionais de saúde, estudos epidemiológicos sobre distribuição de doenças na população, ações educativas para promoção da saúde, e controle de fatores ambientais que afetam o bem-estar. Inclui planejamento e gestão do SUS, produção de evidências científicas, campanhas educativas e vigilância ambiental de água, ar e saneamento.
+  keywords:
+    - política de saúde pública
+    - Ministério da Saúde
+    - gestão do SUS
+    - epidemiologia
+    - estudo epidemiológico
+    - incidência
+    - prevalência
+    - educação em saúde
+    - promoção da saúde
+    - campanha educativa
+    - saúde ambiental
+    - vigilância ambiental
+    - qualidade da água
+    - saneamento básico
+    - determinantes sociais
+
+- code: "03.05"
+  label: "Programas e Projetos em Saúde"
+  description: |
+    Compreende iniciativas específicas voltadas para grupos populacionais e áreas temáticas, incluindo programas de saúde bucal, atenção ao idoso, saúde do trabalhador e fomento à pesquisa científica. Abrange desde odontologia preventiva e atendimento geriátrico até vigilância em saúde ocupacional, prevenção de acidentes de trabalho e desenvolvimento de ensaios clínicos e inovações tecnológicas em saúde.
+  keywords:
+    - programa de saúde
+    - saúde bucal
+    - Brasil Sorridente
+    - odontologia
+    - saúde do idoso
+    - envelhecimento ativo
+    - geriatria
+    - saúde do trabalhador
+    - saúde ocupacional
+    - CEREST
+    - acidente de trabalho
+    - pesquisa em saúde
+    - ensaio clínico
+    - inovação científica
+    - Fiocruz

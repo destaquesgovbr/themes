@@ -1,0 +1,226 @@
+# Descrições L3 - Tema 18: Comunicações e Mídia
+# Gerado em: 2025-12-18
+
+- code: "18.01.01"
+  label: "Serviços Digitais"
+  description: |
+    Infraestrutura e serviços de telecomunicações digitais, incluindo internet banda larga, 5G, fibra óptica
+    e conectividade de redes. Foca na infraestrutura técnica de telecomunicações.
+  keywords:
+    - serviços digitais, telecomunicações, internet
+    - banda larga, 5G, fibra óptica, conectividade
+    - ANATEL, operadora de telefonia
+    - rede móvel, telefonia celular, cobertura
+  examples:
+    - "ANATEL realiza leilão de frequências 5G para operadoras de telefonia"
+    - "Governo anuncia expansão de banda larga para 5 mil municípios brasileiros"
+    - "Brasil amplia cobertura de fibra óptica para áreas rurais"
+
+- code: "18.01.02"
+  label: "Ligações Indesejadas"
+  description: |
+    Regulação e combate a ligações de telemarketing abusivo, spam telefônico e cadastros de bloqueio
+    como o "Não Me Perturbe".
+  keywords:
+    - ligações indesejadas, telemarketing abusivo
+    - Não Me Perturbe, bloqueio de chamadas
+    - spam telefônico, ANATEL
+    - cadastro de bloqueio, assédio telefônico
+  examples:
+    - "ANATEL amplia punições para empresas que realizam ligações de telemarketing abusivo"
+    - "Cadastro 'Não Me Perturbe' atinge 10 milhões de inscrições em todo o país"
+    - "Governo lança campanha para orientar consumidores sobre bloqueio de ligações"
+
+- code: "18.01.03"
+  label: "Inclusão Digital"
+  description: |
+    Democratização do acesso à internet e tecnologias digitais, redução da exclusão digital e programas
+    de conectividade para populações vulneráveis. Foca no aspecto social da conectividade.
+  keywords:
+    - inclusão digital, democratização do acesso
+    - exclusão digital, conectividade social
+    - Wi-Fi Brasil, internet para todos
+    - telecentro, lan house pública
+  examples:
+    - "Programa Wi-Fi Brasil leva internet gratuita a 10 mil escolas públicas"
+    - "Governo investe R$ 500 milhões em inclusão digital para comunidades rurais"
+    - "Ministério das Comunicações inaugura 200 novos telecentros em periferias"
+
+- code: "18.01.04"
+  label: "Segurança da Informação"
+  description: |
+    Cibersegurança, proteção de sistemas de informação, combate a crimes cibernéticos e defesa de
+    infraestruturas críticas de TI. Diferencia-se de Proteção de Dados por focar em sistemas, não em dados pessoais.
+  keywords:
+    - segurança da informação, cibersegurança
+    - crime cibernético, ataque hacker
+    - GSI, defesa cibernética, infraestrutura crítica
+    - firewall, proteção de sistemas
+  examples:
+    - "GSI lança estratégia nacional de segurança da informação para órgãos federais"
+    - "Governo reforça proteção de infraestruturas críticas contra ataques cibernéticos"
+    - "Brasil participa de exercício internacional de defesa cibernética"
+
+- code: "18.01.05"
+  label: "Proteção de Dados"
+  description: |
+    Privacidade de dados pessoais, LGPD, atuação da ANPD e direitos dos titulares de dados em telecomunicações.
+    Diferencia-se de Segurança da Informação por focar em privacidade e dados pessoais.
+  keywords:
+    - proteção de dados, LGPD, privacidade
+    - ANPD, Autoridade Nacional de Proteção de Dados
+    - dados pessoais, titular de dados
+    - consentimento, vazamento de dados
+  examples:
+    - "ANPD aplica multa milionária a operadora por vazamento de dados de clientes"
+    - "Governo lança campanha de conscientização sobre direitos da LGPD"
+    - "Brasil completa dois anos de vigência da Lei Geral de Proteção de Dados"
+
+- code: "18.02.01"
+  label: "Liberdade de Imprensa"
+  description: |
+    Defesa do direito à livre expressão jornalística, proteção de jornalistas e combate à censura e
+    perseguição de profissionais de comunicação.
+  keywords:
+    - liberdade de imprensa, liberdade de expressão
+    - jornalismo, censura, perseguição a jornalistas
+    - direito à informação, democracia
+    - mídia independente, veículos de comunicação
+  examples:
+    - "Governo reforça compromisso com liberdade de imprensa em pronunciamento oficial"
+    - "Brasil sobe posições em ranking internacional de liberdade de imprensa"
+    - "Ministério das Comunicações lança programa de proteção a jornalistas ameaçados"
+
+- code: "18.02.02"
+  label: "Linha Editorial"
+  description: |
+    Gestão editorial da EBC e veículos públicos de comunicação, políticas de conteúdo e diretrizes
+    de programação de emissoras estatais.
+  keywords:
+    - linha editorial, EBC, Empresa Brasil de Comunicação
+    - TV Brasil, Rádio Nacional, Agência Brasil
+    - programação, conteúdo público
+    - comunicação pública, veículo estatal
+  examples:
+    - "EBC anuncia nova grade de programação da TV Brasil com foco em jornalismo investigativo"
+    - "Conselho Curador da EBC define diretrizes editoriais para veículos públicos"
+    - "Rádio Nacional amplia programação cultural e educativa em todo o país"
+
+- code: "18.02.03"
+  label: "Integridade da Informação"
+  description: |
+    Qualidade, veracidade e verificação de informações veiculadas em meios de comunicação.
+    Diferencia-se de Combate à Desinformação por ter caráter proativo e educacional.
+  keywords:
+    - integridade da informação, veracidade
+    - fact-checking, verificação de fatos
+    - qualidade da informação, jornalismo de qualidade
+    - educação midiática, literacia digital
+  examples:
+    - "Governo lança programa de educação midiática para ensino fundamental e médio"
+    - "Ministério promove capacitação de servidores em integridade da informação"
+    - "Brasil participa de iniciativa global para promoção da qualidade informacional"
+
+- code: "18.02.04"
+  label: "Combate à Desinformação"
+  description: |
+    Enfrentamento de fake news, desinformação e notícias falsas em meios digitais e tradicionais.
+    Diferencia-se de Integridade da Informação por ter caráter reativo e de enforcement.
+  keywords:
+    - desinformação, fake news, notícias falsas
+    - combate à desinformação, checagem de fatos
+    - redes sociais, plataformas digitais
+    - TSE, eleições, propaganda enganosa
+  examples:
+    - "TSE e plataformas digitais firmam acordo de combate à desinformação eleitoral"
+    - "Governo lança campanha contra fake news sobre vacinação e saúde pública"
+    - "Brasil integra coalizão internacional de combate à desinformação online"
+
+- code: "18.02.05"
+  label: "Linguagem Simples"
+  description: |
+    Simplificação de comunicações oficiais, uso de linguagem clara e acessível em documentos e
+    comunicados governamentais para facilitar a compreensão pelo cidadão.
+  keywords:
+    - linguagem simples, linguagem clara
+    - comunicação acessível, simplificação
+    - documentos públicos, comunicação oficial
+    - cidadão, compreensão, transparência
+  examples:
+    - "Governo federal adota política de linguagem simples em comunicações oficiais"
+    - "Ministério da Gestão capacita servidores em redação de linguagem acessível"
+    - "Portal gov.br simplifica textos para facilitar acesso a serviços públicos"
+
+- code: "18.03.01"
+  label: "Interação Digital"
+  description: |
+    Canais digitais de diálogo entre governo e cidadão, ouvidorias digitais, chatbots e plataformas
+    de atendimento online. Foca nos canais técnicos de interação.
+  keywords:
+    - interação digital, canais digitais
+    - chatbot, atendimento virtual
+    - ouvidoria digital, Fala.BR
+    - plataforma de atendimento, gov.br
+  examples:
+    - "Governo lança chatbot para atendimento de dúvidas sobre programas sociais"
+    - "Plataforma Fala.BR registra 1 milhão de interações com cidadãos em 2024"
+    - "Portal gov.br amplia canais de interação digital com a população"
+
+- code: "18.03.02"
+  label: "Cidadania Digital"
+  description: |
+    Identidade digital, documentos eletrônicos, assinatura digital e direitos do cidadão no ambiente online.
+  keywords:
+    - cidadania digital, identidade digital
+    - gov.br, assinatura digital
+    - documento eletrônico, CPF digital
+    - direitos digitais, acesso digital
+  examples:
+    - "Plataforma gov.br atinge 150 milhões de usuários cadastrados com identidade digital"
+    - "Governo lança carteira de identidade nacional digital com validação biométrica"
+    - "Cidadãos já podem assinar documentos oficiais digitalmente pelo gov.br"
+
+- code: "18.03.03"
+  label: "Comunicação Antirracista"
+  description: |
+    Promoção de equidade racial na comunicação pública, combate ao racismo em conteúdos midiáticos
+    e representatividade de pessoas negras na comunicação oficial.
+  keywords:
+    - comunicação antirracista, equidade racial
+    - racismo na mídia, representatividade
+    - comunicação inclusiva, diversidade
+    - população negra, SEPPIR
+  examples:
+    - "SECOM lança diretrizes de comunicação antirracista para órgãos federais"
+    - "Campanha promove representatividade de pessoas negras em publicidade oficial"
+    - "Governo adota protocolo de linguagem inclusiva e antirracista em comunicações"
+
+- code: "18.03.04"
+  label: "Comunicação Pública"
+  description: |
+    Estratégia institucional de comunicação do governo federal, coordenação entre órgãos, campanhas
+    de utilidade pública e imagem institucional. Foco em aspectos estratégicos da comunicação.
+  keywords:
+    - comunicação pública, SECOM
+    - comunicação governamental, comunicação institucional
+    - campanha de utilidade pública, imagem institucional
+    - porta-voz, coletiva de imprensa
+  examples:
+    - "SECOM lança campanha nacional de utilidade pública sobre prevenção de desastres"
+    - "Governo federal unifica identidade visual de comunicação em todos os ministérios"
+    - "Ministro concede entrevista coletiva sobre ações do governo para economia"
+
+- code: "18.03.05"
+  label: "Comunicação Digital"
+  description: |
+    Táticas específicas de comunicação em redes sociais, produção de conteúdo multimídia,
+    engajamento digital e presença online de órgãos públicos.
+  keywords:
+    - comunicação digital, redes sociais
+    - Instagram, Twitter, Facebook, YouTube
+    - conteúdo multimídia, engajamento digital
+    - presença online, influenciadores
+  examples:
+    - "Governo federal atinge 10 milhões de seguidores em redes sociais oficiais"
+    - "SECOM lança canal no YouTube com conteúdos educativos sobre políticas públicas"
+    - "Campanha digital do Ministério da Saúde viraliza com informações sobre vacinação"

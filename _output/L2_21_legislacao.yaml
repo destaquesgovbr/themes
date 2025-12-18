@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 21: Legislação e Regulamentação
+# Gerado em: 2025-12-18
+
+- code: "21.01"
+  label: "Novas Leis e Decretos"
+  description: |
+    Engloba o processo de criação, publicação e entrada em vigor de normas jurídicas no ordenamento brasileiro, incluindo leis ordinárias, decretos presidenciais, medidas provisórias e portarias. Abrange também alterações legislativas, regulamentações complementares que operacionalizam as leis e a aplicação prática das normas publicadas.
+  keywords:
+    - publicação de lei
+    - decreto presidencial
+    - medida provisória
+    - sanção presidencial
+    - Diário Oficial da União
+    - DOU
+    - promulgação
+    - Casa Civil
+    - entrada em vigor
+    - vacatio legis
+    - alteração legislativa
+    - regulamentação infralegal
+    - instrução normativa
+    - portaria interministerial
+    - agências reguladoras
+
+- code: "21.02"
+  label: "Reformas Legislativas"
+  description: |
+    Compreende o processo de elaboração, debate e aprovação de reformas estruturais no sistema jurídico brasileiro, incluindo reformas tributária, administrativa, previdenciária e política. Abarca análises de impacto fiscal e socioeconômico, tramitação no Congresso Nacional, votações em comissões e plenário, além da implementação prática das reformas aprovadas.
+  keywords:
+    - reforma tributária
+    - reforma administrativa
+    - reforma previdenciária
+    - reforma política
+    - PEC
+    - proposta de emenda constitucional
+    - análise de impacto
+    - impacto fiscal
+    - tramitação legislativa
+    - Congresso Nacional
+    - Senado Federal
+    - Câmara dos Deputados
+    - implementação de reforma
+    - cronograma de transição
+    - comitê de implementação
+
+- code: "21.03"
+  label: "Consultas Públicas"
+  description: |
+    Abrange mecanismos de participação social na elaboração de normas e políticas públicas, incluindo abertura de consultas, recebimento e análise de contribuições da sociedade civil, e publicação de relatórios finais. Contempla processos conduzidos por ministérios, agências reguladoras e outros órgãos públicos para ampliar a transparência e legitimidade das decisões regulatórias.
+  keywords:
+    - consulta pública
+    - participação social
+    - contribuições da sociedade
+    - minuta de regulamento
+    - agências reguladoras
+    - ANATEL
+    - ANVISA
+    - ANEEL
+    - relatório de consulta
+    - transparência regulatória
+    - engajamento público
+    - sociedade civil
+    - sugestões acatadas
+    - análise de contribuições
+    - versão final de norma
+
+- code: "21.04"
+  label: "Avaliação Regulatória"
+  description: |
+    Contempla processos de revisão, monitoramento e avaliação da qualidade e efetividade de normas e regulamentos existentes. Inclui Análise de Impacto Regulatório (AIR), revisão periódica de normas defasadas, acompanhamento da implementação de regulamentos e publicação de relatórios de desempenho sobre os resultados observados.
+  keywords:
+    - Análise de Impacto Regulatório
+    - AIR
+    - revisão normativa
+    - qualidade regulatória
+    - análise ex-ante
+    - análise ex-post
+    - custo-benefício
+    - monitoramento regulatório
+    - avaliação de efetividade
+    - simplificação normativa
+    - desburocratização
+    - relatório de desempenho
+    - PRO-REG
+    - SEAE
+    - melhoria regulatória
+
+- code: "21.05"
+  label: "Boas Práticas e Inovação Regulatória"
+  description: |
+    Engloba iniciativas de modernização do sistema regulatório brasileiro, incluindo adoção de padrões internacionais, desenvolvimento de ambientes controlados de experimentação (sandboxes), definição de políticas e estratégias regulatórias e cooperação internacional. Contempla também a disseminação de diretrizes metodológicas e manuais de boas práticas em regulação.
+  keywords:
+    - boas práticas regulatórias
+    - sandbox regulatório
+    - inovação regulatória
+    - ambiente controlado
+    - política regulatória
+    - agenda regulatória
+    - cooperação internacional
+    - OCDE
+    - harmonização normativa
+    - RegTech
+    - regulação adaptativa
+    - Banco Central
+    - CVM
+    - governança regulatória
+    - benchmarks internacionais

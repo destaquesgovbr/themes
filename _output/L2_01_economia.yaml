@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 01: Economia e Finanças
+# Gerado em: 2025-12-18
+
+- code: "01.01"
+  label: "Política Econômica"
+  description: |
+    Abrange a formulação e implementação de políticas macroeconômicas do governo federal, incluindo gestão fiscal, metas de resultado primário e arcabouço fiscal. Contempla também estratégias de autonomia econômica, análises de indicadores macroeconômicos e publicações oficiais sobre o desempenho da economia brasileira.
+  keywords:
+    - política fiscal
+    - meta fiscal
+    - arcabouço fiscal
+    - superávit primário
+    - déficit primário
+    - soberania econômica
+    - reindustrialização
+    - projeção econômica
+    - PIB
+    - inflação
+    - boletim econômico
+    - análise macroeconômica
+    - Tesouro Nacional
+    - autonomia estratégica
+    - conjuntura econômica
+
+- code: "01.02"
+  label: "Fiscalização e Tributação"
+  description: |
+    Engloba o sistema tributário nacional, fiscalização de atividades econômicas e combate a crimes contra a ordem tributária. Inclui a gestão de impostos federais, reforma tributária, operações de fiscalização econômica, combate à sonegação e evasão fiscal, além da regulamentação e supervisão do sistema financeiro nacional.
+  keywords:
+    - reforma tributária
+    - imposto de renda
+    - tributação
+    - fiscalização financeira
+    - auditoria fiscal
+    - sonegação fiscal
+    - evasão fiscal
+    - lavagem de dinheiro
+    - regulação financeira
+    - Banco Central
+    - CVM
+    - sistema financeiro nacional
+    - combate à fraude
+    - paraíso fiscal
+    - regulamentação bancária
+
+- code: "01.03"
+  label: "Investimentos e Comércio Exterior"
+  description: |
+    Compreende políticas de atração de capital estrangeiro, internacionalização de empresas brasileiras e investimentos sustentáveis. Abarca também o desempenho da balança comercial, acordos de comércio internacional, negociações multilaterais e estratégias de inserção do Brasil no mercado global.
+  keywords:
+    - investimento estrangeiro direto
+    - atração de investimentos
+    - investimento sustentável
+    - título verde
+    - green bond
+    - balança comercial
+    - exportação
+    - importação
+    - acordo comercial
+    - Mercosul
+    - OMC
+    - internacionalização
+    - economia de baixo carbono
+    - comércio exterior
+    - livre comércio
+
+- code: "01.04"
+  label: "Financiamento e Apoio Financeiro"
+  description: |
+    Abrange programas e linhas de crédito para diferentes setores da economia, incluindo apoio a micro e pequenas empresas, financiamento de projetos de inovação e pesquisa, recursos para infraestrutura e políticas de inclusão financeira. Contempla também microcrédito e acesso a serviços financeiros para populações de baixa renda.
+  keywords:
+    - Pronampe
+    - crédito para pequenas empresas
+    - FINEP
+    - financiamento à inovação
+    - PAC
+    - financiamento de infraestrutura
+    - PPP
+    - BNDES
+    - microcrédito
+    - inclusão financeira
+    - bancarização
+    - linha de crédito
+    - capital de giro
+    - pesquisa e desenvolvimento
+    - microcrédito produtivo
+
+- code: "01.05"
+  label: "Novas Economias e Inovações Financeiras"
+  description: |
+    Contempla modelos econômicos emergentes e inovações no sistema financeiro, incluindo economia circular com foco em sustentabilidade, transformação digital dos negócios e serviços financeiros, cooperativismo e economia solidária, além da regulação de criptomoedas, blockchain e finanças descentralizadas.
+  keywords:
+    - economia circular
+    - reciclagem
+    - logística reversa
+    - economia digital
+    - transformação digital
+    - fintech
+    - e-commerce
+    - economia solidária
+    - cooperativismo
+    - comércio justo
+    - criptomoeda
+    - blockchain
+    - Real Digital
+    - criptoativo
+    - finança descentralizada

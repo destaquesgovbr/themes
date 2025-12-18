@@ -1,0 +1,347 @@
+# Descrições L3 - Tema 22: Eventos Oficiais e Cerimônias
+# Gerado em: 2025-12-18
+
+- code: "22.01.01"
+  label: "Pronunciamento em Rede Nacional"
+  description: |
+    Discursos transmitidos simultaneamente por rádio e TV em cadeia nacional,
+    geralmente sobre temas urgentes ou de grande relevância nacional.
+  keywords:
+    - pronunciamento, rede nacional, cadeia nacional
+    - discurso presidencial, mensagem ao país
+    - TV Brasil, EBC, SECOM
+    - comunicado oficial
+  examples:
+    - "Presidente faz pronunciamento em cadeia nacional sobre medidas econômicas"
+    - "Governo anuncia transmissão em rede nacional nesta terça-feira"
+    - "Pronunciamento oficial aborda ações de combate à crise hídrica"
+
+- code: "22.01.02"
+  label: "Discursos em Cerimônias Públicas"
+  description: |
+    Falas e alocuções proferidas durante eventos, solenidades, inaugurações e
+    cerimônias oficiais, excluindo pronunciamentos em rede nacional.
+  keywords:
+    - discurso, cerimônia, solenidade
+    - fala presidencial, evento oficial
+    - Palácio do Planalto, cerimônia de assinatura
+    - pronunciamento cerimonial
+  examples:
+    - "Presidente discursa em cerimônia de assinatura de medidas provisórias"
+    - "Ministro profere discurso durante solenidade de posse"
+    - "Autoridades destacam avanços em discurso durante inauguração"
+
+- code: "22.01.03"
+  label: "Entrevistas e Coletivas de Imprensa"
+  description: |
+    Encontros com jornalistas para divulgação de informações, esclarecimentos e
+    respostas a perguntas da imprensa.
+  keywords:
+    - coletiva de imprensa, entrevista coletiva
+    - porta-voz, declaração à imprensa
+    - SECOM, assessoria de imprensa
+    - briefing, sala de imprensa
+  examples:
+    - "Ministro concede entrevista coletiva sobre novo programa social"
+    - "Governo realiza coletiva de imprensa para esclarecer medidas econômicas"
+    - "Porta-voz responde perguntas sobre ações de combate à pandemia"
+
+- code: "22.01.04"
+  label: "Discursos em Eventos Internacionais"
+  description: |
+    Pronunciamentos, falas e declarações oficiais feitas em fóruns, cúpulas,
+    assembleias e encontros internacionais.
+  keywords:
+    - discurso internacional, ONU, G20
+    - assembleia geral, cúpula internacional
+    - Itamaraty, política externa
+    - multilateralismo
+  examples:
+    - "Presidente discursa na Assembleia Geral da ONU sobre clima"
+    - "Brasil apresenta posicionamento em cúpula do G20"
+    - "Ministro das Relações Exteriores fala em conferência internacional"
+
+- code: "22.01.05"
+  label: "Mensagens de Fim de Ano e Comemorações"
+  description: |
+    Mensagens tradicionais de final de ano, votos de boas-festas e pronunciamentos
+    em datas comemorativas nacionais.
+  keywords:
+    - mensagem de fim de ano, ano novo, natal
+    - balanço anual, felicitações oficiais
+    - votos presidenciais, mensagem natalina
+    - retrospectiva
+  examples:
+    - "Presidente divulga mensagem de Ano Novo aos brasileiros"
+    - "Governo publica votos de boas festas e balanço do ano"
+    - "Mensagem oficial celebra conquistas e deseja feliz 2024"
+
+- code: "22.02.01"
+  label: "Inauguração de Obras Públicas"
+  description: |
+    Cerimônias de entrega e abertura oficial de obras de infraestrutura como
+    rodovias, pontes, portos, aeroportos.
+  keywords:
+    - inauguração, obra pública, infraestrutura
+    - rodovia, ponte, viaduto, porto
+    - DNIT, entrega de obra
+    - cerimônia de abertura, corte de fita
+  examples:
+    - "Presidente inaugura trecho de rodovia no interior de São Paulo"
+    - "Governo entrega nova ponte que liga dois estados da região Norte"
+    - "Obra de duplicação é inaugurada com presença de autoridades"
+
+- code: "22.02.02"
+  label: "Lançamento de Programas e Projetos"
+  description: |
+    Eventos de apresentação e início oficial de programas governamentais,
+    projetos sociais e iniciativas públicas.
+  keywords:
+    - lançamento de programa, novo projeto
+    - programa social, política pública
+    - cerimônia de lançamento, ação governamental
+    - Casa Civil, ministérios
+  examples:
+    - "Governo lança programa de qualificação profissional para jovens"
+    - "Novo projeto de habitação popular é apresentado em cerimônia"
+    - "Ministério anuncia lançamento de iniciativa de inovação tecnológica"
+
+- code: "22.02.03"
+  label: "Inauguração de Equipamentos Públicos"
+  description: |
+    Abertura e entrega de prédios, instalações e equipamentos públicos como
+    escolas, hospitais, postos de saúde, delegacias.
+  keywords:
+    - inauguração, equipamento público
+    - hospital, UBS, UPA, escola
+    - prédio público, centro de atendimento
+    - entrega de equipamento
+  examples:
+    - "Presidente inaugura novo hospital federal no Rio de Janeiro"
+    - "Governo entrega escola técnica em município do Nordeste"
+    - "Nova UPA é inaugurada com atendimento 24 horas"
+
+- code: "22.02.04"
+  label: "Eventos de Entrega de Infraestrutura"
+  description: |
+    Cerimônias formais de transferência e ativação de sistemas e redes de
+    infraestrutura como energia, saneamento, telecomunicações.
+  keywords:
+    - entrega, infraestrutura, sistema de energia
+    - rede elétrica, água e esgoto, fibra óptica
+    - ativação de sistema, início de operação
+    - MME, MDR
+  examples:
+    - "Governo entrega sistema de abastecimento de água para região metropolitana"
+    - "Nova linha de metrô é ativada em cerimônia com autoridades"
+    - "Sistema de energia solar é entregue a comunidades rurais"
+
+- code: "22.02.05"
+  label: "Cerimônias de Descerramento de Placas"
+  description: |
+    Solenidades protocolares de revelação de placas comemorativas, inaugurais
+    ou de homenagem em obras e monumentos.
+  keywords:
+    - descerramento de placa, placa comemorativa
+    - cerimônia protocolar, placa inaugural
+    - homenagem oficial, marco inaugural
+    - registro histórico
+  examples:
+    - "Autoridades participam de descerramento de placa em nova escola"
+    - "Cerimônia marca inauguração com revelação de placa comemorativa"
+    - "Placa inaugural é descerrada em obra de restauração histórica"
+
+- code: "22.03.01"
+  label: "Visitas Internacionais de Chefes de Estado"
+  description: |
+    Viagens oficiais de presidente, vice-presidente e autoridades brasileiras ao
+    exterior para encontros diplomáticos.
+  keywords:
+    - visita oficial, viagem internacional
+    - chefe de Estado, comitiva presidencial
+    - Itamaraty, relações bilaterais
+    - visita de Estado
+  examples:
+    - "Presidente viaja aos Estados Unidos para reunião bilateral"
+    - "Comitiva brasileira realiza visita oficial à China"
+    - "Vice-presidente representa Brasil em missão oficial na Europa"
+
+- code: "22.03.02"
+  label: "Visitas a Estados e Municípios"
+  description: |
+    Deslocamentos de autoridades federais para estados e cidades brasileiras
+    para acompanhamento de programas e encontros regionais.
+  keywords:
+    - visita oficial, deslocamento interno
+    - viagem presidencial, agenda regional
+    - vistoria técnica, encontro com prefeitos
+    - reunião com governadores
+  examples:
+    - "Presidente visita Amazonas para acompanhar programas sociais"
+    - "Ministro se desloca ao Sul para vistoriar obras federais"
+    - "Comitiva federal visita municípios afetados por enchentes"
+
+- code: "22.03.03"
+  label: "Recepção de Dignitários Estrangeiros"
+  description: |
+    Acolhimento protocolar de chefes de Estado, primeiros-ministros e autoridades
+    estrangeiras em visita oficial ao Brasil.
+  keywords:
+    - recepção oficial, visita de Estado
+    - dignitário estrangeiro, protocolo diplomático
+    - Palácio do Planalto, honras militares
+    - guarda de honra
+  examples:
+    - "Brasil recebe presidente argentino em visita de Estado"
+    - "Palácio do Planalto acolhe primeiro-ministro em cerimônia oficial"
+    - "Autoridades brasileiras recepcionam chefe de Estado africano"
+
+- code: "22.03.04"
+  label: "Encontros Bilaterais e Multilaterais"
+  description: |
+    Reuniões e negociações entre representantes de dois ou mais países para
+    discussão de acordos, tratados e cooperação.
+  keywords:
+    - encontro bilateral, reunião multilateral
+    - cúpula, acordo internacional
+    - G20, BRICS, Mercosul
+    - parceria estratégica
+  examples:
+    - "Brasil e Argentina assinam acordos durante encontro bilateral"
+    - "Cúpula do Mercosul reúne presidentes da América do Sul"
+    - "Governo participa de reunião multilateral sobre mudanças climáticas"
+
+- code: "22.03.05"
+  label: "Inspeções e Visitas Técnicas"
+  description: |
+    Vistorias e acompanhamentos técnicos realizados por autoridades em obras,
+    projetos ou áreas afetadas por desastres.
+  keywords:
+    - vistoria, inspeção técnica
+    - fiscalização de obra, avaliação técnica
+    - área de desastre, monitoramento
+    - comitiva técnica
+  examples:
+    - "Ministro vistoria obras de transbordo em região metropolitana"
+    - "Equipe técnica inspeciona áreas atingidas por deslizamentos"
+    - "Autoridades visitam projeto piloto de agricultura sustentável"
+
+- code: "22.04.01"
+  label: "Declarações de Luto Nacional"
+  description: |
+    Decretos e comunicados oficiais estabelecendo período de luto nacional por
+    falecimento de autoridades ou tragédias.
+  keywords:
+    - luto nacional, decreto de luto
+    - bandeira a meio mastro, três dias de luto
+    - pesar oficial, falecimento
+    - tragédia nacional
+  examples:
+    - "Governo decreta três dias de luto oficial por tragédia em Minas Gerais"
+    - "Presidente declara luto nacional pelo falecimento de ex-governador"
+    - "Bandeiras em prédios públicos ficam a meio mastro em sinal de luto"
+
+- code: "22.04.02"
+  label: "Homenagens Oficiais"
+  description: |
+    Cerimônias, condecorações póstumas e reconhecimentos oficiais prestados a
+    personalidades falecidas ou vítimas de tragédias.
+  keywords:
+    - homenagem oficial, homenagem póstuma
+    - condecoração póstuma, tributo
+    - honras fúnebres, memória oficial
+    - reconhecimento nacional
+  examples:
+    - "Governo presta homenagem oficial a vítimas de desastre natural"
+    - "Cerimônia homenageia ex-presidente com honras de Estado"
+    - "Condecoração póstuma é concedida a servidor público falecido"
+
+- code: "22.04.03"
+  label: "Cerimônias de Condolências"
+  description: |
+    Eventos e manifestações oficiais de pesar, velórios de Estado e cerimônias
+    fúnebres com participação de autoridades.
+  keywords:
+    - condolências, velório oficial
+    - cerimônia fúnebre, funeral de Estado
+    - pesar oficial, cortejo
+    - câmara ardente
+  examples:
+    - "Autoridades apresentam condolências a familiares de vítimas"
+    - "Velório oficial reúne políticos e sociedade civil"
+    - "Presidente participa de cerimônia fúnebre de ex-ministro"
+
+- code: "22.05.01"
+  label: "Comemoração de Datas Cívicas"
+  description: |
+    Celebrações oficiais de feriados nacionais e datas patrióticas como
+    Independência, Proclamação da República, Tiradentes.
+  keywords:
+    - data cívica, feriado nacional
+    - 7 de setembro, independência
+    - 15 de novembro, proclamação da república
+    - desfile cívico, hasteamento de bandeira
+  examples:
+    - "Governo promove cerimônia oficial no Dia da Independência"
+    - "Desfile cívico-militar marca Proclamação da República em Brasília"
+    - "Autoridades participam de hasteamento da bandeira em data patriótica"
+
+- code: "22.05.02"
+  label: "Celebrações de Efemérides"
+  description: |
+    Comemorações de aniversários históricos, centenários e marcos temporais
+    relevantes para a história nacional ou institucional.
+  keywords:
+    - efeméride, aniversário histórico
+    - centenário, bicentenário
+    - marco histórico, data histórica
+    - memória histórica
+  examples:
+    - "Brasil celebra bicentenário da Independência com eventos oficiais"
+    - "Governo marca centenário de instituição federal com solenidade"
+    - "Efeméride histórica é celebrada com exposição e cerimônia"
+
+- code: "22.05.03"
+  label: "Eventos Comemorativos de Instituições Públicas"
+  description: |
+    Celebrações de aniversários de criação e marcos institucionais de órgãos,
+    autarquias, empresas públicas e entidades governamentais.
+  keywords:
+    - aniversário institucional, comemoração
+    - data de criação, jubileu
+    - Receita Federal, IBGE, Banco Central
+    - anos de existência
+  examples:
+    - "Receita Federal completa 50 anos com eventos comemorativos"
+    - "IBGE celebra aniversário de fundação com cerimônia oficial"
+    - "Banco Central marca 60 anos de criação com solenidade"
+
+- code: "22.05.04"
+  label: "Cerimônias de Posse e Aniversários de Instituições"
+  description: |
+    Solenidades de investidura de novos dirigentes, presidentes de órgãos
+    e comemorações de fundação institucional.
+  keywords:
+    - cerimônia de posse, investidura
+    - tomada de posse, novo presidente
+    - posse solene, transmissão de cargo
+    - juramento, nomeação
+  examples:
+    - "Presidente participa de posse de novo ministro da Educação"
+    - "Cerimônia marca investidura de presidente de autarquia federal"
+    - "Nova diretoria do Banco do Brasil toma posse em solenidade"
+
+- code: "22.05.05"
+  label: "Homenagens e Reconhecimentos Públicos"
+  description: |
+    Eventos de condecoração, entrega de medalhas, títulos honoríficos e
+    reconhecimento público a cidadãos e personalidades.
+  keywords:
+    - homenagem, condecoração, medalha
+    - reconhecimento público, título honorífico
+    - Ordem do Mérito, honraria
+    - distinção oficial, mérito
+  examples:
+    - "Presidente condecora cientistas com Ordem Nacional do Mérito Científico"
+    - "Governo homenageia servidores públicos com medalha de honra"
+    - "Cerimônia de entrega de título de cidadão honorário reúne autoridades"

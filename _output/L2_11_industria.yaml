@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 11: Indústria e Comércio
+# Gerado em: 2025-12-18
+
+- code: "11.01"
+  label: "Desenvolvimento Industrial"
+  description: |
+    Abrange políticas de fortalecimento do setor industrial brasileiro através de inovação tecnológica, incentivos fiscais e financeiros, capacitação de mão de obra especializada e práticas sustentáveis. Contempla a modernização do parque industrial com foco em Indústria 4.0, automação e transformação digital dos processos produtivos, visando aumentar a competitividade e produtividade do setor manufatureiro nacional.
+  keywords:
+    - política industrial
+    - desenvolvimento industrial
+    - inovação tecnológica
+    - P&D industrial
+    - incentivo fiscal
+    - EMBRAPII
+    - SENAI
+    - capacitação industrial
+    - sustentabilidade industrial
+    - eficiência energética
+    - indústria 4.0
+    - automação
+    - transformação digital
+    - IoT industrial
+    - manufatura inteligente
+
+- code: "11.02"
+  label: "Comércio Interno e Exterior"
+  description: |
+    Compreende as operações de comércio nacional e internacional, incluindo exportações, importações, processos aduaneiros e acordos comerciais bilaterais e multilaterais. Abarca estratégias de competitividade empresarial, redução de barreiras comerciais, medidas de defesa comercial e promoção de produtos brasileiros através de feiras, eventos e missões comerciais internacionais.
+  keywords:
+    - exportação
+    - importação
+    - balança comercial
+    - aduana
+    - SISCOMEX
+    - acordo comercial
+    - Mercosul
+    - OMC
+    - competitividade empresarial
+    - custo Brasil
+    - barreira comercial
+    - antidumping
+    - tarifa de importação
+    - feira comercial
+    - ApexBrasil
+
+- code: "11.03"
+  label: "Pequenas e Médias Empresas"
+  description: |
+    Engloba programas de apoio e fortalecimento de micro, pequenas e médias empresas através de linhas de crédito facilitadas, processos de formalização e regularização, fomento ao empreendedorismo e startups, capacitação gerencial e formação de redes colaborativas. Inclui políticas para MEI, Simples Nacional, acesso a mercados e desenvolvimento do ecossistema empreendedor brasileiro.
+  keywords:
+    - PME
+    - pequena empresa
+    - MEI
+    - microempreendedor
+    - Pronampe
+    - crédito empresarial
+    - formalização
+    - Simples Nacional
+    - Sebrae
+    - empreendedorismo
+    - startup
+    - incubadora
+    - aceleradora
+    - capacitação empresarial
+    - rede de negócios
+
+- code: "11.04"
+  label: "Cadeia Produtiva"
+  description: |
+    Abrange a gestão integrada da cadeia de valor industrial, desde fornecedores até distribuição final, incluindo logística, armazenagem, transporte e relacionamento com parceiros produtivos. Contempla sistemas de gestão de qualidade, certificações, rastreabilidade, sustentabilidade ambiental na produção e otimização de processos manufatureiros através de metodologias lean e melhoria contínua.
+  keywords:
+    - cadeia produtiva
+    - supply chain
+    - logística industrial
+    - distribuição
+    - fornecedor
+    - terceirização
+    - gestão de qualidade
+    - ISO 9001
+    - INMETRO
+    - rastreabilidade
+    - sustentabilidade produtiva
+    - economia circular
+    - logística reversa
+    - processo produtivo
+    - lean manufacturing
+
+- code: "11.05"
+  label: "Integridade Empresarial"
+  description: |
+    Compreende políticas e práticas de ética corporativa, conformidade legal e governança empresarial, incluindo programas de compliance, transparência na divulgação de informações, combate à corrupção e gestão de riscos corporativos. Abarca também iniciativas de responsabilidade social empresarial e investimento social privado que promovem impacto positivo nas comunidades.
+  keywords:
+    - compliance empresarial
+    - integridade corporativa
+    - ética empresarial
+    - código de conduta
+    - Lei Anticorrupção
+    - anticorrupção
+    - transparência corporativa
+    - governança corporativa
+    - relatório de sustentabilidade
+    - gestão de riscos
+    - controle interno
+    - responsabilidade social
+    - ESG
+    - investimento social
+    - due diligence

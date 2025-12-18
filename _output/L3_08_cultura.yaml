@@ -1,0 +1,353 @@
+# Descrições L3 - Tema 08: Cultura, Artes e Patrimônio
+# Gerado em: 2025-12-18
+
+- code: "08.01.01"
+  label: "Festivais e Feiras"
+  description: |
+    Festivais culturais, feiras de arte, gastronomia e artesanato,
+    eventos de grande porte com programação diversificada.
+  keywords:
+    - festival, feira cultural, mostra, bienal, feira de artesanato
+    - feira literária, FLIP, festival de música, festival de cinema
+    - feira gastronômica, festival folclórico, circuito cultural
+  examples:
+    - "Festival de Parintins recebe apoio do MinC para edição 2025"
+    - "Feira Nacional de Artesanato reúne 500 expositores em Brasília"
+
+- code: "08.01.02"
+  label: "Mostras e Exposições"
+  description: |
+    Exposições artísticas, mostras temáticas em museus e galerias,
+    exibições de acervos e coleções culturais.
+  keywords:
+    - exposição, mostra artística, curadoria, galeria, acervo
+    - exposição fotográfica, mostra de arte, vernissage, itinerante
+    - museu, pinacoteca, bienal de artes, retrospectiva
+  examples:
+    - "Museu Nacional abre exposição sobre arte indígena brasileira"
+    - "Mostra itinerante de fotografia percorre capitais do Nordeste"
+
+- code: "08.01.03"
+  label: "Apresentações Artísticas"
+  description: |
+    Espetáculos teatrais, shows musicais, performances, apresentações
+    de dança e outras manifestações artísticas ao vivo.
+  keywords:
+    - espetáculo, show, apresentação, performance, concerto
+    - teatro, dança, música ao vivo, recital, ópera
+    - coral, orquestra, companhia teatral, grupo artístico
+  examples:
+    - "Orquestra Sinfônica Brasileira apresenta concerto gratuito no Theatro Municipal"
+    - "Companhia Nacional de Teatro estreia peça sobre Machado de Assis"
+
+- code: "08.01.04"
+  label: "Eventos Tradicionais"
+  description: |
+    Celebrações folclóricas, festas populares tradicionais, eventos
+    religiosos e manifestações culturais de matriz histórica.
+  keywords:
+    - festa junina, bumba-meu-boi, carnaval, folia de reis
+    - congada, maracatu, festa do divino, procissão, cavalhada
+    - festa popular, tradição regional, celebração folclórica
+  examples:
+    - "Governo federal apoia realização do Círio de Nazaré em Belém"
+    - "Festival Folclórico de Parintins recebe investimento de R$ 5 milhões"
+
+- code: "08.01.05"
+  label: "Encontros Comunitários"
+  description: |
+    Eventos culturais em comunidades, saraus, rodas de conversa,
+    atividades culturais de base local e mobilização comunitária.
+  keywords:
+    - sarau, roda de conversa, evento comunitário, ação cultural
+    - encontro de comunidades, atividade local, cultura de base
+    - mobilização cultural, praça, centro cultural comunitário
+  examples:
+    - "Pontos de Cultura organizam saraus literários em periferias de São Paulo"
+    - "Programa Cultura Viva promove encontros em 200 comunidades"
+
+- code: "08.02.01"
+  label: "Patrimônio Histórico"
+  description: |
+    Bens materiais tombados, edificações históricas, monumentos,
+    sítios arqueológicos e centros históricos protegidos.
+  keywords:
+    - tombamento, IPHAN, bem tombado, patrimônio material
+    - centro histórico, monumento, edificação histórica, sítio histórico
+    - conjunto arquitetônico, casarão, igreja histórica, forte
+  examples:
+    - "IPHAN tomba conjunto arquitetônico do século XVIII em Ouro Preto"
+    - "Governo federal investe R$ 10 milhões em recuperação do Pelourinho"
+
+- code: "08.02.02"
+  label: "Patrimônio Imaterial"
+  description: |
+    Saberes, celebrações, formas de expressão e ofícios tradicionais
+    registrados como patrimônio cultural brasileiro.
+  keywords:
+    - patrimônio imaterial, registro cultural, bem imaterial, IPHAN
+    - saber fazer, ofício tradicional, modo de fazer, expressão cultural
+    - livro de registro, salvaguarda, cultura tradicional, mestre artesão
+  examples:
+    - "Roda de capoeira é reconhecida como patrimônio cultural imaterial"
+    - "IPHAN registra modo de fazer queijo artesanal de Minas Gerais"
+
+- code: "08.02.03"
+  label: "Patrimônio Natural"
+  description: |
+    Paisagens culturais, jardins históricos e sítios naturais com
+    valor cultural reconhecido e protegido.
+  keywords:
+    - paisagem cultural, jardim histórico, sítio natural, UNESCO
+    - patrimônio mundial, parque histórico, área protegida
+    - paisagem tombada, valor cultural, burle marx
+  examples:
+    - "Paisagem cultural do Rio de Janeiro é reconhecida pela UNESCO"
+    - "IPHAN protege jardins históricos de Burle Marx no Rio"
+
+- code: "08.02.04"
+  label: "Educação Patrimonial"
+  description: |
+    Ações educativas sobre patrimônio cultural, capacitação,
+    conscientização e programas de formação patrimonial.
+  keywords:
+    - educação patrimonial, conscientização cultural, formação
+    - oficina de patrimônio, capacitação, sensibilização
+    - programa educativo, valorização cultural, conhecimento patrimonial
+  examples:
+    - "IPHAN lança programa de educação patrimonial em escolas públicas"
+    - "Museu Imperial oferece curso de formação em preservação cultural"
+
+- code: "08.02.05"
+  label: "Restauração e Conservação"
+  description: |
+    Obras de restauro, conservação preventiva, manutenção e recuperação
+    de bens culturais materiais.
+  keywords:
+    - restauração, conservação, restauro, recuperação, manutenção
+    - obra de restauro, preservação, revitalização, reforma
+    - conservação preventiva, técnica de restauro, requalificação
+  examples:
+    - "Museu Nacional inicia obras de restauração após incêndio"
+    - "IPHAN conclui restauro de igreja barroca em Salvador"
+
+- code: "08.03.01"
+  label: "Apoio a Artistas"
+  description: |
+    Programas de fomento, bolsas, prêmios e ações de suporte direto
+    a artistas e produtores culturais.
+  keywords:
+    - prêmio cultural, bolsa para artista, fomento, apoio artístico
+    - edital para artista, auxílio cultural, reconhecimento
+    - artista beneficiado, produtor cultural, cachê, remuneração
+  examples:
+    - "MinC anuncia bolsas de R$ 3 mil mensais para 1.000 artistas"
+    - "Prêmio Nacional de Cultura contempla 200 projetos artísticos"
+
+- code: "08.03.02"
+  label: "Financiamento e Editais"
+  description: |
+    Editais públicos, Lei Rouanet, mecanismos de incentivo fiscal,
+    chamadas públicas e captação de recursos para projetos culturais.
+  keywords:
+    - edital cultural, Lei Rouanet, incentivo fiscal, PRONAC
+    - chamada pública, financiamento cultural, patrocínio, mecenato
+    - captação de recursos, projeto aprovado, recursos incentivados
+  examples:
+    - "Lei Rouanet aprova R$ 500 milhões em projetos culturais"
+    - "MinC lança edital de R$ 20 milhões para economia criativa"
+
+- code: "08.03.03"
+  label: "Formação e Capacitação Artística"
+  description: |
+    Cursos, oficinas, escolas de arte, programas de qualificação
+    profissional e formação técnica na área cultural.
+  keywords:
+    - formação artística, curso de arte, oficina cultural, capacitação
+    - escola de arte, qualificação profissional, workshop, treinamento
+    - formação técnica, ensino de arte, especialização cultural
+  examples:
+    - "FUNARTE oferece 5 mil vagas em cursos gratuitos de teatro e dança"
+    - "Programa de formação capacita produtores culturais em 50 cidades"
+
+- code: "08.03.04"
+  label: "Produção Audiovisual"
+  description: |
+    Cinema, vídeo, séries, documentários, ANCINE, produção audiovisual
+    brasileira e políticas para o setor.
+  keywords:
+    - cinema brasileiro, audiovisual, ANCINE, filme nacional
+    - produção cinematográfica, documentário, série, curta-metragem
+    - fundo setorial, cota de tela, Festival de Brasília, produtora
+  examples:
+    - "ANCINE libera R$ 100 milhões para produção de filmes nacionais"
+    - "Cinema brasileiro bate recorde de público em 2025"
+
+- code: "08.03.05"
+  label: "Artes Plásticas"
+  description: |
+    Pintura, escultura, gravura, instalações artísticas e demais
+    expressões das artes visuais e plásticas.
+  keywords:
+    - artes plásticas, pintura, escultura, gravura, arte visual
+    - artista plástico, instalação artística, arte contemporânea
+    - ateliê, galeria de arte, salão de artes, bienal
+  examples:
+    - "Governo federal adquire obras de artistas plásticos brasileiros"
+    - "Salão Nacional de Artes Plásticas premia 30 artistas"
+
+- code: "08.04.01"
+  label: "Artesanato Brasileiro"
+  description: |
+    Produção artesanal, artesãos, técnicas tradicionais, comercialização
+    e valorização do artesanato nacional.
+  keywords:
+    - artesanato, artesão, arte popular, artesanato brasileiro
+    - cerâmica, tecelagem, bordado, renda, trabalho manual
+    - feira de artesanato, artesanato regional, técnica tradicional
+  examples:
+    - "Programa do Artesanato Brasileiro beneficia 10 mil artesãos"
+    - "MinC lança selo de qualidade para artesanato brasileiro"
+
+- code: "08.04.02"
+  label: "Língua e Cultura"
+  description: |
+    Língua portuguesa, línguas indígenas, políticas linguísticas,
+    literatura e manifestações culturais relacionadas à linguagem.
+  keywords:
+    - língua portuguesa, língua indígena, política linguística
+    - literatura brasileira, livro, Academia Brasileira de Letras
+    - idioma, linguagem, escritor, poeta, literatura
+  examples:
+    - "Governo lança programa de valorização das línguas indígenas"
+    - "Biblioteca Nacional digitaliza acervo de literatura brasileira"
+
+- code: "08.04.03"
+  label: "Tradições e Costumes"
+  description: |
+    Práticas culturais tradicionais, costumes regionais, rituais,
+    celebrações e modos de vida tradicionais brasileiros.
+  keywords:
+    - tradição, costume, prática cultural, ritual, tradição regional
+    - cultura tradicional, modo de vida, sabedoria popular
+    - transmissão cultural, memória coletiva, costume brasileiro
+  examples:
+    - "MinC apoia preservação de tradições quilombolas em 100 comunidades"
+    - "Programa documenta costumes tradicionais do interior brasileiro"
+
+- code: "08.04.04"
+  label: "Cultura Popular"
+  description: |
+    Manifestações culturais populares, cultura de raiz, grupos folclóricos,
+    expressões artísticas comunitárias e cultura de massa.
+  keywords:
+    - cultura popular, folclore, manifestação popular, cultura de raiz
+    - grupo folclórico, expressão popular, tradição oral, cordel
+    - repente, viola caipira, cultura sertaneja, cultura nordestina
+  examples:
+    - "Encontro Nacional de Cultura Popular reúne 500 grupos em Brasília"
+    - "MinC reconhece mestres da cultura popular em todas as regiões"
+
+- code: "08.04.05"
+  label: "Diversidade Cultural"
+  description: |
+    Políticas de valorização da diversidade, culturas afro-brasileiras,
+    indígenas, imigrantes e pluralidade cultural do Brasil.
+  keywords:
+    - diversidade cultural, cultura afro-brasileira, cultura indígena
+    - pluralidade cultural, multiculturalismo, cultura de imigrantes
+    - identidades culturais, cultura negra, cultura afrodescendente
+  examples:
+    - "MinC lança programa de valorização da cultura afro-brasileira"
+    - "Políticas culturais promovem diversidade em 500 municípios"
+
+- code: "08.04.06"
+  label: "Mestres e Mestras da Cultura"
+  description: |
+    Reconhecimento de mestres e mestras, detentores de saberes tradicionais,
+    transmissão de conhecimentos e valorização de lideranças culturais.
+  keywords:
+    - mestre da cultura, mestra, saber tradicional, reconhecimento
+    - detentor de saber, transmissão cultural, liderança cultural
+    - mestre artesão, mestre de ofício, griô, cultura viva
+  examples:
+    - "MinC reconhece 100 mestres e mestras da cultura popular"
+    - "Programa Cultura Viva certifica mestres em 200 comunidades"
+
+- code: "08.05.01"
+  label: "Cultura Digital"
+  description: |
+    Tecnologias digitais para cultura, plataformas online, digitalização
+    de acervos, produção cultural digital e inclusão digital cultural.
+  keywords:
+    - cultura digital, plataforma digital, digitalização, acervo digital
+    - produção digital, streaming cultural, internet, tecnologia cultural
+    - inclusão digital, mídia digital, conteúdo online
+  examples:
+    - "MinC lança plataforma digital com acervos de 100 museus brasileiros"
+    - "Programa de cultura digital beneficia 1.000 produtores culturais"
+
+- code: "08.05.02"
+  label: "Economia Criativa"
+  description: |
+    Desenvolvimento econômico através da cultura, indústrias criativas,
+    empreendedorismo cultural e geração de renda via atividades culturais.
+  keywords:
+    - economia criativa, indústria criativa, empreendedorismo cultural
+    - negócio criativo, setor criativo, cultura e economia
+    - geração de renda, mercado cultural, desenvolvimento econômico
+  examples:
+    - "Economia criativa gera 1 milhão de empregos no Brasil, diz MinC"
+    - "Programa apoia empreendedores culturais em 100 cidades"
+
+- code: "08.05.03"
+  label: "Integração Cultural"
+  description: |
+    Programas de integração entre diferentes culturas, ações de
+    aproximação cultural e políticas de coesão social via cultura.
+  keywords:
+    - integração cultural, intercultural, diálogo cultural, coesão social
+    - integração social, aproximação cultural, convivência cultural
+    - programa de integração, inclusão cultural, diversidade
+  examples:
+    - "Programa integra manifestações culturais de 27 estados brasileiros"
+    - "MinC promove integração entre cultura urbana e rural"
+
+- code: "08.05.04"
+  label: "Intercâmbio Cultural"
+  description: |
+    Cooperação cultural internacional, acordos bilaterais, missões
+    culturais, residências artísticas e promoção da cultura brasileira no exterior.
+  keywords:
+    - intercâmbio cultural, cooperação cultural, missão cultural
+    - acordo cultural, residência artística, cultura no exterior
+    - diplomacia cultural, Itamaraty, artista em residência
+  examples:
+    - "Brasil assina acordo de cooperação cultural com França"
+    - "Artistas brasileiros participam de residências na Europa"
+
+- code: "08.05.05"
+  label: "Pontos de Cultura"
+  description: |
+    Programa Cultura Viva, pontos de cultura, pontões, redes colaborativas
+    e iniciativas culturais comunitárias certificadas.
+  keywords:
+    - ponto de cultura, Cultura Viva, pontão, rede de pontos
+    - iniciativa cultural comunitária, certificação cultural
+    - cultura de base, gestão compartilhada, rede colaborativa
+  examples:
+    - "Programa Cultura Viva certifica 3 mil novos pontos de cultura"
+    - "Pontos de Cultura recebem R$ 50 milhões em investimentos"
+
+- code: "08.05.06"
+  label: "Agentes Culturais Comunitários"
+  description: |
+    Formação e atuação de agentes culturais locais, lideranças comunitárias,
+    mediadores culturais e articuladores em territórios.
+  keywords:
+    - agente cultural, mediador cultural, liderança comunitária
+    - articulador cultural, gestor comunitário, mobilizador
+    - formação de agentes, agente local, cultura de território
+  examples:
+    - "MinC capacita 5 mil agentes culturais em periferias brasileiras"
+    - "Programa forma mediadores culturais em 200 comunidades"

@@ -1,0 +1,356 @@
+# Descrições L3 - Tema 04: Segurança Pública
+# Gerado em: 2025-12-18
+
+- code: "04.01.01"
+  label: "Policiamento Ostensivo"
+  description: "Atuação visível e uniformizada das forças policiais em vias públicas e espaços urbanos para inibição imediata de crimes. Inclui rondas policiais, blitz, abordagens e presença ostensiva em eventos."
+  keywords:
+    - policiamento ostensivo
+    - ronda policial
+    - blitz
+    - abordagem policial
+    - viatura
+    - patrulha
+    - policiamento armado
+    - efetivo policial
+    - segurança ostensiva
+  examples:
+    - "Polícia Federal reforça policiamento ostensivo em rodovias federais durante feriado"
+    - "PRF intensifica blitz em fronteiras para coibir crimes transnacionais"
+    - "Operação integrada amplia presença de viaturas em áreas críticas da capital"
+
+- code: "04.01.02"
+  label: "Policiamento Comunitário"
+  description: "Modelo de policiamento baseado na parceria entre polícia e comunidade local para solução conjunta de problemas de segurança. Inclui bases comunitárias, mediação de conflitos e participação cidadã."
+  keywords:
+    - policiamento comunitário
+    - polícia de proximidade
+    - base comunitária
+    - conselho comunitário de segurança
+    - policiamento participativo
+    - mediação policial
+    - segurança cidadã
+    - polícia cidadã
+  examples:
+    - "Ministério da Justiça lança programa de policiamento comunitário em capitais"
+    - "PRF inaugura base comunitária para aproximação com moradores de região fronteiriça"
+    - "Projeto piloto integra polícia e lideranças locais em ações preventivas"
+
+- code: "04.01.03"
+  label: "Policiamento Preventivo"
+  description: "Estratégias policiais focadas em evitar a ocorrência de crimes através de análise de dados, monitoramento e ações antecipadas. Inclui inteligência preditiva e programas de prevenção situacional."
+  keywords:
+    - policiamento preventivo
+    - prevenção criminal
+    - inteligência policial
+    - análise criminal
+    - mapeamento de crimes
+    - policiamento orientado a dados
+    - georreferenciamento criminal
+    - hotspots de criminalidade
+  examples:
+    - "PF implementa sistema de inteligência para policiamento preventivo em aeroportos"
+    - "Dados orientam alocação estratégica de efetivo em áreas de maior incidência criminal"
+    - "Programa federal utiliza análise preditiva para prevenir roubos de carga"
+
+- code: "04.01.04"
+  label: "Patrulhamento Urbano"
+  description: "Atividades de patrulhamento motorizado, a pé ou ciclístico em áreas urbanas, centros comerciais e bairros residenciais. Inclui rondas programadas e policiamento em transporte público."
+  keywords:
+    - patrulhamento urbano
+    - ronda urbana
+    - patrulha motorizada
+    - patrulhamento a pé
+    - policiamento em centros urbanos
+    - segurança urbana
+    - ronda em bairros
+    - policiamento em transporte público
+  examples:
+    - "Força Nacional reforça patrulhamento urbano em municípios com elevados índices de violência"
+    - "PRF amplia patrulhamento em trechos urbanos de rodovias federais"
+    - "Operação integrada intensifica rondas em centros comerciais da capital federal"
+
+- code: "04.01.05"
+  label: "Policiamento em Áreas Rurais"
+  description: "Atuação policial em zonas rurais, estradas vicinais, propriedades agrícolas e regiões de difícil acesso. Inclui combate a crimes ambientais, roubo de gado e conflitos agrários."
+  keywords:
+    - policiamento rural
+    - segurança no campo
+    - patrulhamento rural
+    - crimes rurais
+    - roubo de gado
+    - abigeato
+    - conflito agrário
+    - estradas vicinais
+    - propriedade rural
+  examples:
+    - "PF intensifica policiamento em áreas rurais da Amazônia Legal para coibir desmatamento"
+    - "PRF cria unidades especializadas em policiamento de rodovias em zonas rurais"
+    - "Operação integrada combate roubo de gado em regiões de fronteira agrícola"
+
+- code: "04.02.01"
+  label: "Investigação de Organizações Criminosas"
+  description: "Apuração de crimes praticados por grupos estruturados, incluindo infiltração, quebra de sigilo e análise de vínculos. Foco em desarticulação de lideranças e esquemas criminosos complexos."
+  keywords:
+    - organização criminosa
+    - investigação criminal
+    - desarticulação de quadrilha
+    - grupo criminoso organizado
+    - infiltração policial
+    - quebra de sigilo
+    - operação policial
+    - inquérito policial
+    - crime organizado
+  examples:
+    - "Polícia Federal deflagra operação para desarticular organização criminosa em cinco estados"
+    - "Investigação aponta vínculos entre facção e esquema de lavagem de dinheiro"
+    - "PF cumpre mandados contra lideranças de organização criminosa internacional"
+
+- code: "04.02.02"
+  label: "Operações Contra o Tráfico de Drogas"
+  description: "Ações de combate ao cultivo, produção, transporte e distribuição de entorpecentes. Inclui apreensões em rodovias, portos, aeroportos e desmantelamento de redes de narcotráfico."
+  keywords:
+    - tráfico de drogas
+    - narcotráfico
+    - apreensão de drogas
+    - entorpecentes
+    - cocaína
+    - maconha
+    - rota do tráfico
+    - laboratório de drogas
+    - operação antidrogas
+  examples:
+    - "PRF apreende 500 kg de cocaína em operação nas rodovias federais do Sul"
+    - "Polícia Federal desmantela rota internacional de tráfico de drogas pela fronteira"
+    - "Operação resulta em apreensão recorde de entorpecentes em portos brasileiros"
+
+- code: "04.02.03"
+  label: "Combate ao Tráfico de Armas"
+  description: "Repressão ao comércio ilegal de armamentos, munições e explosivos. Inclui controle de fronteiras, rastreamento de arsenais e desmantelamento de redes de fornecimento para grupos criminosos."
+  keywords:
+    - tráfico de armas
+    - comércio ilegal de armas
+    - apreensão de armamento
+    - munição ilegal
+    - arsenal
+    - contrabando de armas
+    - armamento ilegal
+    - rota de armas
+    - fuzis
+  examples:
+    - "PF apreende arsenal com fuzis e munição contrabandeados do Paraguai"
+    - "Operação desmantela esquema de tráfico internacional de armas pela fronteira"
+    - "Polícia Federal intercepta carregamento de armamento destinado a facção criminosa"
+
+- code: "04.02.04"
+  label: "Combate ao Crime Cibernético"
+  description: "Investigação de crimes digitais incluindo fraudes eletrônicas, invasão de sistemas, pedofilia online e ataques cibernéticos. Inclui perícia digital e cooperação internacional."
+  keywords:
+    - crime cibernético
+    - cibercrime
+    - fraude eletrônica
+    - invasão de sistema
+    - hacker
+    - pedofilia online
+    - pornografia infantil
+    - estelionato digital
+    - golpe virtual
+    - perícia digital
+  examples:
+    - "Polícia Federal deflagra operação contra rede de pedofilia na internet"
+    - "PF investiga grupo responsável por fraudes bancárias de R$ 50 milhões"
+    - "Operação combate hackers que invadiram sistemas governamentais"
+
+- code: "04.02.05"
+  label: "Repressão a Facções Criminosas"
+  description: "Ações específicas contra facções como PCC, Comando Vermelho e grupos regionais. Inclui bloqueio de comunicações, transferências de líderes e combate à estrutura organizacional."
+  keywords:
+    - facção criminosa
+    - PCC
+    - Comando Vermelho
+    - facção
+    - líder de facção
+    - tribunal do crime
+    - guerra entre facções
+    - bloqueio de celular em presídios
+    - comunicação entre facções
+  examples:
+    - "Operação federal prende lideranças de facção criminosa em presídios de segurança máxima"
+    - "PF bloqueia comunicação entre membros de facção em oito estados"
+    - "Transferência de líderes enfraquece estrutura de facção no sistema prisional"
+
+- code: "04.03.01"
+  label: "Prevenção à Violência"
+  description: "Programas e políticas públicas voltados à prevenção primária da violência, incluindo ações sociais, educativas e de proteção a grupos vulneráveis. Foco em evitar a entrada no crime."
+  keywords:
+    - prevenção da violência
+    - política preventiva
+    - vulnerabilidade social
+    - jovens em risco
+    - programa social preventivo
+    - violência juvenil
+    - redução da criminalidade
+    - fator de proteção
+  examples:
+    - "Ministério da Justiça lança programa de prevenção à violência para jovens em situação de risco"
+    - "Governo federal amplia ações preventivas em municípios com altas taxas de homicídio"
+    - "Projeto oferece alternativas a adolescentes vulneráveis à criminalidade"
+
+- code: "04.03.02"
+  label: "Campanhas de Conscientização"
+  description: "Iniciativas de comunicação e educação para sensibilização sobre temas de segurança pública, cultura de paz, denúncias e direitos. Inclui campanhas nacionais e materiais educativos."
+  keywords:
+    - campanha de conscientização
+    - cultura de paz
+    - campanha educativa
+    - campanha nacional
+    - conscientização sobre violência
+    - canal de denúncia
+    - Disque 190
+    - Disque 181
+    - campanha publicitária
+  examples:
+    - "Ministério lança campanha nacional de conscientização sobre violência contra mulheres"
+    - "Governo divulga canais de denúncia em campanha nas redes sociais"
+    - "Ação educativa promove cultura de paz em escolas públicas federais"
+
+- code: "04.03.03"
+  label: "Enfrentamento à Violência Doméstica"
+  description: "Políticas e ações de combate à violência familiar, incluindo aplicação da Lei Maria da Penha, medidas protetivas e atendimento a vítimas. Foco em crimes contra mulheres, crianças e idosos."
+  keywords:
+    - violência doméstica
+    - Lei Maria da Penha
+    - medida protetiva
+    - violência contra a mulher
+    - feminicídio
+    - violência intrafamiliar
+    - agressão doméstica
+    - proteção à vítima
+    - violência de gênero
+  examples:
+    - "Polícia Federal apoia estados no cumprimento de medidas protetivas de urgência"
+    - "Operação integrada prende agressores com mandados por violência doméstica"
+    - "Ministério amplia rede de proteção a mulheres vítimas de violência"
+
+- code: "04.03.04"
+  label: "Enfrentamento ao Bullying e Cyberbullying"
+  description: "Ações de prevenção e repressão ao assédio escolar presencial e virtual. Inclui programas educacionais, monitoramento de casos graves e responsabilização de agressores."
+  keywords:
+    - bullying
+    - cyberbullying
+    - assédio escolar
+    - violência escolar
+    - intimidação sistemática
+    - ambiente escolar
+    - violência virtual
+    - prevenção ao bullying
+  examples:
+    - "Ministério lança programa nacional de combate ao bullying em escolas federais"
+    - "PF investiga casos graves de cyberbullying contra adolescentes"
+    - "Governo implementa protocolo de prevenção ao assédio escolar"
+
+- code: "04.03.05"
+  label: "Resolução de Conflitos"
+  description: "Mecanismos alternativos de mediação e conciliação para conflitos comunitários, familiares e sociais antes da judicialização. Inclui justiça restaurativa e círculos de paz."
+  keywords:
+    - resolução de conflitos
+    - mediação de conflitos
+    - justiça restaurativa
+    - conciliação
+    - círculo de paz
+    - resolução pacífica
+    - mediação comunitária
+    - conflito social
+  examples:
+    - "Programa federal capacita agentes para mediação de conflitos comunitários"
+    - "Ministério implementa justiça restaurativa em comunidades com altos índices de violência"
+    - "Projeto piloto aplica círculos de paz para resolução de conflitos locais"
+
+- code: "04.04.01"
+  label: "Cooperação entre Polícia e Sistema Judiciário"
+  description: "Integração operacional entre órgãos policiais, Ministério Público e Poder Judiciário para investigação, persecução penal e cumprimento de decisões judiciais. Inclui forças-tarefas e acordos de cooperação."
+  keywords:
+    - cooperação policial
+    - integração policial-judiciária
+    - força-tarefa
+    - Ministério Público
+    - mandado judicial
+    - persecução penal
+    - cumprimento de mandado
+    - operação integrada
+  examples:
+    - "PF e MPF criam força-tarefa para investigar crimes contra administração pública"
+    - "Operação integrada cumpre mandados de prisão expedidos pela Justiça Federal"
+    - "Acordo de cooperação agiliza troca de informações entre polícia e Judiciário"
+
+- code: "04.04.02"
+  label: "Execução Penal e Reintegração Social"
+  description: "Políticas para sistema penitenciário federal, incluindo administração de presídios, progressão de regime, programas de trabalho e educação para presos. Foco na ressocialização."
+  keywords:
+    - execução penal
+    - sistema penitenciário
+    - penitenciária federal
+    - reintegração social
+    - ressocialização
+    - progressão de regime
+    - trabalho prisional
+    - educação em presídios
+    - egresso
+  examples:
+    - "DEPEN amplia vagas em penitenciárias federais de segurança máxima"
+    - "Programa oferece capacitação profissional a detentos do sistema federal"
+    - "Ministério implementa política de reintegração social para egressos do sistema prisional"
+
+- code: "04.04.03"
+  label: "Garantia de Direitos Humanos no Sistema Penal"
+  description: "Fiscalização e proteção dos direitos fundamentais de presos, investigados e familiares. Inclui combate a tortura, condições dignas de detenção e acesso à defesa."
+  keywords:
+    - direitos humanos
+    - tortura
+    - maus-tratos
+    - condições carcerárias
+    - superlotação prisional
+    - dignidade do preso
+    - visita familiar
+    - assistência jurídica
+    - inspeção prisional
+  examples:
+    - "Ministério realiza inspeção em presídios federais para garantir direitos humanos"
+    - "Ouvidoria apura denúncias de maus-tratos em unidades prisionais"
+    - "Governo federal implementa protocolo contra tortura no sistema penitenciário"
+
+- code: "04.04.04"
+  label: "Atuação da Defensoria Pública"
+  description: "Prestação de assistência jurídica gratuita pela Defensoria Pública da União em casos criminais, incluindo defesa de réus hipossuficientes e orientação jurídica."
+  keywords:
+    - Defensoria Pública da União
+    - DPU
+    - assistência jurídica gratuita
+    - defesa criminal
+    - réu hipossuficiente
+    - defensor público
+    - defesa técnica
+    - acesso à justiça
+  examples:
+    - "Defensoria Pública da União amplia atendimento em processos criminais federais"
+    - "DPU atua em defesa de réus sem recursos em operações da Polícia Federal"
+    - "Defensores públicos garantem assistência jurídica a investigados em casos complexos"
+
+- code: "04.04.05"
+  label: "Investigação de Crimes de Colarinho Branco"
+  description: "Apuração de crimes financeiros, corrupção, lavagem de dinheiro, fraudes empresariais e crimes contra o sistema financeiro. Inclui análise fiscal, perícia contábil e cooperação internacional."
+  keywords:
+    - crime de colarinho branco
+    - lavagem de dinheiro
+    - corrupção
+    - fraude financeira
+    - crime contra sistema financeiro
+    - sonegação fiscal
+    - desvio de recursos
+    - crimes financeiros
+    - perícia contábil
+    - COAF
+  examples:
+    - "Polícia Federal deflagra operação contra esquema de lavagem de dinheiro de R$ 1 bilhão"
+    - "Investigação apura desvio de recursos públicos por organização criminosa"
+    - "PF em cooperação internacional rastreia ativos financeiros de grupo criminoso"

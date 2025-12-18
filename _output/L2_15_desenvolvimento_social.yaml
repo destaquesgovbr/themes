@@ -1,0 +1,65 @@
+# Descrições L2 - Tema 15: Desenvolvimento Social
+# Gerado em: 2025-12-18
+
+- code: "15.01"
+  label: "Programas Sociais"
+  description: |
+    Contempla programas federais de transferência de renda, assistência social e desenvolvimento humano voltados para famílias em situação de vulnerabilidade. Abrange iniciativas de inclusão social, políticas específicas para juventude urbana e rural, além de programas de atenção integral ao idoso. Inclui o Bolsa Família, projetos sociais comunitários e ações de capacitação e geração de renda para diferentes segmentos etários.
+  keywords:
+    - Bolsa Família
+    - transferência de renda
+    - CadÚnico
+    - benefício social
+    - programa social
+    - juventude
+    - jovem rural
+    - jovem urbano
+    - atenção ao idoso
+    - pessoa idosa
+    - iniciativa social
+    - inclusão social
+    - MDS
+    - CRAS
+    - SUAS
+
+- code: "15.02"
+  label: "Combate à Pobreza"
+  description: |
+    Engloba estratégias estruturais e emergenciais de enfrentamento à pobreza, desigualdade e insegurança alimentar. Inclui políticas de redistribuição de renda, programas de combate à fome através de bancos de alimentos e cozinhas comunitárias, auxílios temporários para situações de calamidade e emergência, além de ações de promoção da igualdade social e equidade de oportunidades entre diferentes grupos.
+  keywords:
+    - combate à pobreza
+    - redução de desigualdades
+    - desigualdade social
+    - combate à fome
+    - segurança alimentar
+    - insegurança alimentar
+    - banco de alimentos
+    - cozinha comunitária
+    - auxílio emergencial
+    - apoio emergencial
+    - calamidade pública
+    - igualdade social
+    - equidade de gênero
+    - justiça social
+    - políticas redistributivas
+
+- code: "15.03"
+  label: "Previdência Social"
+  description: |
+    Abrange o sistema de previdência social do Brasil, incluindo a concessão, manutenção e pagamento de benefícios do Regime Geral de Previdência Social (RGPS). Contempla aposentadorias, pensões, auxílios-doença, salário-maternidade, além de serviços de orientação, atendimento e assistência para planejamento e acesso a benefícios previdenciários através do INSS.
+  keywords:
+    - previdência social
+    - INSS
+    - RGPS
+    - benefícios previdenciários
+    - aposentadoria
+    - aposentadoria por idade
+    - aposentadoria por tempo de contribuição
+    - pensão por morte
+    - auxílio-doença
+    - salário-maternidade
+    - Meu INSS
+    - perícia médica
+    - assistência à aposentadoria
+    - planejamento de aposentadoria
+    - educação previdenciária

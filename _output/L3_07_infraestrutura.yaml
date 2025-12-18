@@ -1,0 +1,368 @@
+# Descrições L3 - Tema 07: Infraestrutura e Transportes
+# Gerado em: 2025-12-18
+
+- code: "07.01.01"
+  label: "Construção de Estradas"
+  description: |
+    Obras de construção, pavimentação e duplicação de rodovias federais e
+    estaduais. Inclui abertura de novas vias, recapeamento e recuperação de
+    trechos danificados.
+  keywords:
+    - rodovia, estrada, pavimentação, asfaltamento, duplicação
+    - BR, recapeamento, tapa-buraco, restauração, construção rodoviária
+    - acesso, via, recuperação de rodovias
+  examples:
+    - "DNIT inicia obras de duplicação da BR-101 em Santa Catarina"
+    - "Governo Federal anuncia pavimentação de 500 km de rodovias no Norte"
+    - "Concluída restauração de trecho da BR-116 no Rio Grande do Sul"
+
+- code: "07.01.02"
+  label: "Construção de Pontes e Viadutos"
+  description: |
+    Construção, reforma e manutenção de pontes, viadutos e passarelas em
+    rodovias e áreas urbanas. Abrange estruturas de ligação e obras de arte
+    especiais.
+  keywords:
+    - ponte, viaduto, passarela, obra de arte especial
+    - travessia, estrutura, túnel, elevado
+    - ponte sobre rio, viaduto rodoviário, interseção
+  examples:
+    - "Nova ponte sobre o Rio São Francisco será inaugurada em junho"
+    - "DNIT conclui reforma de viaduto na BR-040 em Minas Gerais"
+    - "Governo autoriza construção de passarela em rodovia federal"
+
+- code: "07.01.03"
+  label: "Infraestrutura de Qualidade"
+  description: |
+    Padrões de qualidade, normas técnicas e certificação de obras de
+    infraestrutura. Inclui fiscalização, controle de qualidade e adequação
+    às especificações técnicas.
+  keywords:
+    - qualidade, norma técnica, ABNT, fiscalização
+    - certificação, especificação, controle de qualidade
+    - vistoria, inspeção, padrão técnico
+  examples:
+    - "DNIT implementa novo sistema de controle de qualidade em obras"
+    - "Ministério define novas normas técnicas para pavimentação"
+    - "Fiscalização identifica irregularidades em obras da BR-163"
+
+- code: "07.01.04"
+  label: "Saneamento e Drenagem"
+  description: |
+    Sistemas de drenagem pluvial, contenção de encostas e obras de
+    saneamento em rodovias e áreas urbanas. Inclui prevenção de alagamentos
+    e erosão.
+  keywords:
+    - drenagem, saneamento, contenção, erosão
+    - alagamento, enchente, sistema pluvial, bueiro
+    - talude, escoamento, galeria pluvial
+  examples:
+    - "DNIT executa obras de drenagem em rodovia no Amazonas"
+    - "Governo investe em contenção de encostas na Serra do Mar"
+    - "Concluídas obras de drenagem pluvial na BR-101"
+
+- code: "07.01.05"
+  label: "Urbanização de Áreas"
+  description: |
+    Projetos de urbanização, requalificação de espaços públicos e
+    infraestrutura urbana. Inclui calçamento, iluminação e equipamentos
+    comunitários.
+  keywords:
+    - urbanização, requalificação urbana, espaço público
+    - calçamento, iluminação pública, praça
+    - revitalização, infraestrutura urbana, melhorias urbanas
+  examples:
+    - "Ministério das Cidades aprova recursos para urbanização de favelas"
+    - "PAC 3 prevê urbanização de 200 comunidades em áreas metropolitanas"
+    - "Concluída revitalização de espaços públicos em municípios do Nordeste"
+
+- code: "07.02.01"
+  label: "Transporte Público"
+  description: |
+    Sistemas de transporte coletivo urbano, incluindo ônibus, metrô, VLT e
+    BRT. Abrange operação, tarifas, subsídios e qualidade do serviço
+    prestado.
+  keywords:
+    - transporte público, ônibus, metrô, VLT, BRT
+    - tarifa, bilhete único, passe livre, gratuidade
+    - transporte coletivo, subsídio, frota, linha de ônibus
+  examples:
+    - "Governo Federal lança programa de subsídio ao transporte público"
+    - "Ministério autoriza reajuste tarifário em sistemas metropolitanos"
+    - "Nova linha de metrô será inaugurada em Brasília"
+
+- code: "07.02.02"
+  label: "Inovação e Mobilidade Verde"
+  description: |
+    Iniciativas de mobilidade sustentável, veículos elétricos e energias
+    limpas no transporte. Inclui incentivos à eletrificação de frotas e
+    redução de emissões.
+  keywords:
+    - mobilidade verde, veículo elétrico, ônibus elétrico
+    - sustentabilidade, emissões, energia limpa
+    - eletrificação, hidrogênio, biocombustível, mobilidade sustentável
+  examples:
+    - "Governo incentiva aquisição de ônibus elétricos para transporte público"
+    - "Ministério lança programa de eletrificação de frotas urbanas"
+    - "Brasil assina acordo para desenvolver mobilidade verde"
+
+- code: "07.02.03"
+  label: "Ciclovias e Pedestres"
+  description: |
+    Infraestrutura para ciclistas e pedestres, incluindo ciclovias,
+    ciclofaixas e calçadas. Abrange projetos de mobilidade ativa e segurança
+    viária.
+  keywords:
+    - ciclovia, ciclofaixa, calçada, pedestre
+    - bicicleta, mobilidade ativa, caminhabilidade
+    - faixa de pedestres, travessia, pista exclusiva
+  examples:
+    - "Ministério financia construção de 100 km de ciclovias em capitais"
+    - "Governo Federal lança programa de mobilidade ativa"
+    - "DNIT inclui ciclovias em projeto de duplicação de rodovia"
+
+- code: "07.02.04"
+  label: "Infraestrutura para Bicicletas"
+  description: |
+    Equipamentos de apoio ao uso de bicicletas, como bicicletários,
+    paraciclos e sistemas de compartilhamento. Inclui integração com
+    transporte público.
+  keywords:
+    - bicicletário, paraciclo, bike compartilhada
+    - bike sharing, estacionamento de bicicletas
+    - integração modal, bike+ônibus, suporte para bicicletas
+  examples:
+    - "Governo instala bicicletários em estações de metrô"
+    - "Ministério lança edital para sistemas de bicicletas compartilhadas"
+    - "Programa prevê integração de bikes com transporte público"
+
+- code: "07.02.05"
+  label: "Acessibilidade Urbana"
+  description: |
+    Adaptações e infraestrutura para garantir mobilidade de pessoas com
+    deficiência e mobilidade reduzida. Inclui rampas, elevadores e sinalização
+    tátil.
+  keywords:
+    - acessibilidade, rampa, elevador, piso tátil
+    - pessoa com deficiência, PcD, mobilidade reduzida
+    - adaptação, NBR 9050, inclusão, sinalização acessível
+  examples:
+    - "Ministério determina adaptação de calçadas para acessibilidade"
+    - "DNIT instala elevadores em passarelas de rodovias federais"
+    - "Governo Federal lança programa de acessibilidade em transportes"
+
+- code: "07.03.01"
+  label: "Transporte Rodoviário"
+  description: |
+    Transporte de passageiros e cargas por rodovias, incluindo regulação,
+    concessões e autorizações de linhas interestaduais e internacionais.
+  keywords:
+    - transporte rodoviário, ônibus interestadual, viação
+    - rodoviária, linha de ônibus, passageiro
+    - concessão rodoviária, ANTT, autorização de linha
+  examples:
+    - "ANTT autoriza novas linhas de ônibus interestaduais"
+    - "Governo renova concessões de transporte rodoviário de passageiros"
+    - "Ministério atualiza normas para transporte interestadual"
+
+- code: "07.03.02"
+  label: "Transporte Ferroviário"
+  description: |
+    Operação e regulação do transporte ferroviário de cargas e passageiros.
+    Abrange autorizações, concessões e fiscalização de operadores ferroviários.
+  keywords:
+    - ferrovia, trem, transporte ferroviário, linha férrea
+    - operador ferroviário, concessão ferroviária, ANTT
+    - transporte sobre trilhos, malha ferroviária
+  examples:
+    - "ANTT aprova renovação de concessão ferroviária"
+    - "Governo autoriza nova operadora para transporte de cargas por trem"
+    - "Ministério fiscaliza operações da malha ferroviária"
+
+- code: "07.03.03"
+  label: "Transporte Aquaviário"
+  description: |
+    Navegação fluvial, lacustre e marítima de passageiros e cargas. Inclui
+    autorizações, fiscalização portuária e travessias aquáticas.
+  keywords:
+    - transporte aquaviário, navegação fluvial, balsa, ferry
+    - hidroviário, navio, embarcação, travessia
+    - porto, Antaq, navegação de cabotagem
+  examples:
+    - "Antaq autoriza nova empresa de navegação no Rio Amazonas"
+    - "Governo investe em transporte fluvial na região Norte"
+    - "Ministério regulamenta travessias lacustres"
+
+- code: "07.03.04"
+  label: "Transporte de Cargas"
+  description: |
+    Movimentação de mercadorias por todos os modais. Inclui regulação de
+    frete, armazenagem, distribuição e logística de cargas.
+  keywords:
+    - carga, frete, caminhão, transporte de mercadorias
+    - logística de cargas, TRC, transportadora
+    - armazenagem, distribuição, tabela de frete
+  examples:
+    - "ANTT divulga nova tabela de frete para transporte rodoviário"
+    - "Governo cria medidas para reduzir custos de transporte de cargas"
+    - "Ministério regulamenta transporte de cargas perigosas"
+
+- code: "07.03.05"
+  label: "Logística Integrada"
+  description: |
+    Integração de diferentes modais de transporte e otimização de cadeias
+    logísticas. Abrange intermodalidade, terminais de carga e corredores
+    logísticos.
+  keywords:
+    - logística, intermodalidade, multimodal, integração de modais
+    - corredor logístico, terminal de cargas, hub logístico
+    - cadeia logística, armazém, distribuição integrada
+  examples:
+    - "Governo lança plano de corredores logísticos integrados"
+    - "Ministério investe em terminais intermodais de cargas"
+    - "PAC prevê integração de rodovias, ferrovias e portos"
+
+- code: "07.04.01"
+  label: "Infraestrutura Aeroportuária"
+  description: |
+    Construção, ampliação e reforma de aeroportos. Inclui terminais de
+    passageiros, pistas, pátios de aeronaves e equipamentos aeroportuários.
+  keywords:
+    - aeroporto, terminal, pista de pouso, pátio de aeronaves
+    - torre de controle, construção aeroportuária, reforma
+    - ampliação, infraestrutura aeroportuária, terminal de passageiros
+  examples:
+    - "Governo Federal anuncia ampliação do Aeroporto de Congonhas"
+    - "Concluída reforma do terminal de passageiros em Recife"
+    - "Ministério autoriza construção de novo aeroporto no Pará"
+
+- code: "07.04.02"
+  label: "Conectividade e Infraestrutura"
+  description: |
+    Expansão de rotas aéreas, aumento de voos e integração regional. Abrange
+    criação de novas conexões e programas de conectividade aérea.
+  keywords:
+    - conectividade aérea, rota aérea, voo regional
+    - integração aérea, nova rota, voo direto
+    - malha aérea, ligação aérea, frequência de voos
+  examples:
+    - "ANAC autoriza novas rotas para regiões isoladas da Amazônia"
+    - "Governo lança programa de conectividade aérea regional"
+    - "Ministério anuncia aumento de voos para o Nordeste"
+
+- code: "07.04.03"
+  label: "Segurança e Regulamentação"
+  description: |
+    Normas de segurança operacional, certificação de aeroportos e aeronaves,
+    e fiscalização do setor aéreo. Inclui investigação de acidentes.
+  keywords:
+    - segurança aérea, ANAC, CENIPA, regulamentação
+    - certificação, fiscalização, acidente aéreo
+    - norma de segurança, inspeção, investigação
+  examples:
+    - "ANAC atualiza normas de segurança para aeroportos regionais"
+    - "CENIPA investiga acidente aéreo no interior de São Paulo"
+    - "Ministério reforça fiscalização de operações aéreas"
+
+- code: "07.04.04"
+  label: "Serviços Aeroportuários"
+  description: |
+    Prestação de serviços em aeroportos, incluindo check-in, embarque,
+    desembarque, bagagens e atendimento ao passageiro. Abrange concessões de
+    serviços.
+  keywords:
+    - serviço aeroportuário, check-in, embarque, bagagem
+    - atendimento ao passageiro, concessão aeroportuária
+    - loja de aeroporto, handling, ground handling
+  examples:
+    - "ANAC aprova concessão de serviços no Aeroporto de Guarulhos"
+    - "Governo regulamenta cobrança de serviços em aeroportos"
+    - "Ministério fiscaliza qualidade de atendimento em terminais"
+
+- code: "07.04.05"
+  label: "Expansão da Malha Aérea"
+  description: |
+    Crescimento do setor de aviação civil, entrada de novas companhias aéreas
+    e aumento da oferta de voos. Inclui concessões de aeroportos e incentivos
+    ao setor.
+  keywords:
+    - companhia aérea, nova empresa aérea, concessão de aeroporto
+    - leilão aeroportuário, privatização, expansão aérea
+    - aviação regional, novo operador, entrada no mercado
+  examples:
+    - "Governo realiza leilão de concessão de 15 aeroportos"
+    - "Nova companhia aérea recebe autorização da ANAC para operar"
+    - "Ministério anuncia expansão da malha aérea no Norte e Centro-Oeste"
+
+- code: "07.05.01"
+  label: "Expansão da Malha Ferroviária"
+  description: |
+    Construção de novas linhas férreas e extensão da malha ferroviária
+    nacional. Inclui trens de alta velocidade e ferrovias de integração
+    regional.
+  keywords:
+    - nova ferrovia, construção ferroviária, linha férrea
+    - trem de alta velocidade, TAV, expansão ferroviária
+    - Ferrogrão, Fiol, projeto ferroviário
+  examples:
+    - "Governo Federal lança edital para construção da Ferrogrão"
+    - "Ministério anuncia projeto de trem de alta velocidade Rio-São Paulo"
+    - "Concluído estudo de viabilidade da Ferrovia de Integração Oeste-Leste"
+
+- code: "07.05.02"
+  label: "Modernização de Infraestrutura Ferroviária"
+  description: |
+    Reforma, recuperação e modernização de ferrovias existentes. Inclui
+    substituição de trilhos, dormentes, sinalização e sistemas de controle.
+  keywords:
+    - modernização ferroviária, recuperação de trilhos, reforma
+    - sinalização ferroviária, trilho, dormente
+    - via permanente, manutenção ferroviária, revitalização
+  examples:
+    - "DNIT inicia modernização de 500 km da malha ferroviária"
+    - "Concessionária investe em substituição de trilhos no Paraná"
+    - "Governo Federal anuncia recuperação de ferrovias no Nordeste"
+
+- code: "07.05.03"
+  label: "Segurança no Transporte Ferroviário"
+  description: |
+    Normas de segurança, fiscalização e prevenção de acidentes em ferrovias.
+    Inclui passagens em nível, sinalização e operação segura de trens.
+  keywords:
+    - segurança ferroviária, passagem em nível, acidente ferroviário
+    - fiscalização ferroviária, ANTT, descarrilamento
+    - sinalização, prevenção, norma de segurança
+  examples:
+    - "ANTT reforça fiscalização de passagens em nível em áreas urbanas"
+    - "Governo lança programa de eliminação de passagens em nível perigosas"
+    - "Ministério investiga descarrilamento de trem de carga"
+
+- code: "07.05.04"
+  label: "Concessões Ferroviárias"
+  description: |
+    Leilões, contratos e renovações de concessões para operação de ferrovias.
+    Abrange outorgas, obrigações de investimento e fiscalização de
+    concessionárias.
+  keywords:
+    - concessão ferroviária, leilão, operadora ferroviária
+    - contrato de concessão, outorga, renovação
+    - privatização ferroviária, concessionária, ANTT
+  examples:
+    - "Governo realiza leilão de concessão da Malha Oeste"
+    - "ANTT renova contrato de concessão ferroviária por 30 anos"
+    - "Ministério fiscaliza cumprimento de metas de concessionárias"
+
+- code: "07.05.05"
+  label: "Transporte de Passageiros e Cargas"
+  description: |
+    Operação de trens de passageiros e cargas, incluindo regulação de
+    tarifas, horários e qualidade do serviço. Abrange trens urbanos,
+    regionais e de longa distância.
+  keywords:
+    - trem de passageiros, trem de carga, transporte ferroviário
+    - tarifa ferroviária, horário de trem, bitola
+    - carga ferroviária, minério, vagão, locomotiva
+  examples:
+    - "ANTT autoriza reajuste tarifário em trens urbanos"
+    - "Operadora aumenta capacidade de transporte de minério por ferrovia"
+    - "Governo planeja reativação de trens de passageiros regionais"

@@ -1,0 +1,353 @@
+# Descrições L3 - Tema 25: Habitação e Urbanismo
+# Gerado em: 2025-12-18
+
+- code: "25.01.01"
+  label: "Minha Casa Minha Vida"
+  description: |
+    Trata especificamente do programa MCMV/Casa Verde e Amarela, suas faixas,
+    entregas, contratações e beneficiários.
+  keywords:
+    - Minha Casa Minha Vida, MCMV
+    - Casa Verde e Amarela, faixa 1, faixa 2
+    - Caixa Econômica Federal, sorteio de casas
+    - habitação popular, subsídio habitacional
+  examples:
+    - "Governo federal entrega 5 mil unidades do Minha Casa Minha Vida em sete estados"
+    - "Caixa libera R$ 2 bilhões para contratação de novas moradias do MCMV faixa 1"
+    - "Sorteio beneficia 800 famílias com casas do programa Casa Verde e Amarela"
+
+- code: "25.01.02"
+  label: "Parcerias Público-Privadas em Habitação"
+  description: |
+    Cobre PPPs, concessões e parcerias com setor privado para produção habitacional.
+  keywords:
+    - PPP habitacional, parceria público-privada
+    - concessão habitacional, construtoras
+    - BNDES, FGHab, investimento habitacional
+    - leilão de projetos
+  examples:
+    - "Governo lança edital de PPP para construção de 10 mil moradias em área metropolitana"
+    - "BNDES financia parceria público-privada para habitação de interesse social"
+    - "Leilão de concessão habitacional atrai investimento de R$ 500 milhões"
+
+- code: "25.01.03"
+  label: "Financiamento Habitacional"
+  description: |
+    Abrange linhas de crédito, FGTS, poupança, taxas de juros e condições de financiamento
+    para compra de imóveis.
+  keywords:
+    - financiamento habitacional, crédito imobiliário
+    - FGTS, poupança SBPE, Caixa
+    - taxa de juros, SFH
+    - Conselho Curador do FGTS
+  examples:
+    - "Caixa reduz juros de financiamento habitacional com recursos do FGTS"
+    - "Conselho Curador libera R$ 10 bilhões do FGTS para crédito imobiliário"
+    - "Governo amplia subsídio em financiamento habitacional para famílias de baixa renda"
+
+- code: "25.01.04"
+  label: "Regularização Fundiária"
+  description: |
+    Trata de titulação, escrituração, regularização de posse e propriedade de imóveis.
+  keywords:
+    - regularização fundiária, titulação, escritura
+    - Reurb, Programa Papel Passado
+    - loteamento irregular, assentamento precário
+    - SPU, cartório
+  examples:
+    - "Programa de regularização fundiária entrega 10 mil títulos de propriedade"
+    - "SPU regulariza posse de imóveis da União ocupados por famílias de baixa renda"
+    - "Mutirão de escrituração beneficia moradores de assentamentos irregulares"
+
+- code: "25.01.05"
+  label: "Moradia de Interesse Social"
+  description: |
+    Cobre políticas habitacionais voltadas para baixa renda, vulnerabilidade e
+    aluguel social.
+  keywords:
+    - moradia de interesse social, HIS
+    - aluguel social, locação social
+    - FNHIS, reassentamento
+    - direito à moradia
+  examples:
+    - "Prefeitura lança programa de aluguel social para famílias em situação de rua"
+    - "FNHIS destina recursos para construção de habitação de interesse social"
+    - "Governo reassenta 500 famílias removidas de área de risco com auxílio moradia"
+
+- code: "25.02.01"
+  label: "Zoneamento Urbano"
+  description: |
+    Trata de definição de zonas urbanas, uso do solo por região e índices urbanísticos.
+  keywords:
+    - zoneamento urbano, macrozoneamento
+    - zona residencial, zona comercial
+    - plano diretor, lei de zoneamento
+    - coeficiente de aproveitamento
+  examples:
+    - "Câmara Municipal aprova nova lei de zoneamento urbano para cidade"
+    - "Revisão do Plano Diretor altera macrozoneamento e índices construtivos"
+    - "Audiência pública discute proposta de expansão do perímetro urbano"
+
+- code: "25.02.02"
+  label: "Uso e Ocupação do Solo"
+  description: |
+    Cobre regulamentação de atividades permitidas, parcelamento do solo e loteamentos.
+  keywords:
+    - uso e ocupação do solo, parcelamento
+    - loteamento, desmembramento
+    - estatuto da cidade, código de obras
+    - alvará de funcionamento
+  examples:
+    - "Prefeitura aprova projeto de loteamento com 500 lotes em zona de expansão"
+    - "Nova lei de uso do solo restringe atividades comerciais em bairros residenciais"
+    - "Programa regulariza loteamentos clandestinos e exige infraestrutura adequada"
+
+- code: "25.02.03"
+  label: "Áreas de Preservação e Espaços Verdes"
+  description: |
+    Trata de criação e gestão de parques, praças, áreas verdes urbanas e
+    APP urbana.
+  keywords:
+    - área de preservação, APP urbana
+    - parque urbano, área verde
+    - arborização urbana, praça
+    - corredor ecológico
+  examples:
+    - "Prefeitura cria parque urbano de 50 hectares em área de preservação permanente"
+    - "Programa de arborização planta 10 mil árvores em praças e avenidas da cidade"
+    - "Lei municipal exige compensação ambiental com criação de áreas verdes"
+
+- code: "25.02.04"
+  label: "Licenciamento Urbano"
+  description: |
+    Cobre processos de aprovação de projetos, alvarás de construção, habite-se
+    e fiscalização de obras.
+  keywords:
+    - licenciamento urbano, alvará de construção
+    - habite-se, aprovação de projeto
+    - fiscalização de obras, código de obras
+    - embargo, vistoria
+  examples:
+    - "Prefeitura digitaliza processo de licenciamento urbano e reduz prazos em 50%"
+    - "Fiscalização embarga 20 obras irregulares sem alvará de construção"
+    - "Sistema online permite acompanhamento de aprovação de projetos em tempo real"
+
+- code: "25.03.01"
+  label: "Abastecimento de Água"
+  description: |
+    Trata de captação, tratamento, distribuição de água potável e rede de abastecimento.
+  keywords:
+    - abastecimento de água, água potável
+    - ETA, estação de tratamento
+    - adutora, reservatório
+    - companhia de saneamento
+  examples:
+    - "Governo inaugura estação de tratamento com capacidade para abastecer 200 mil pessoas"
+    - "Obras de adutora levam água tratada para cinco municípios do semiárido"
+    - "Companhia de saneamento investe R$ 100 milhões em ampliação da rede de água"
+
+- code: "25.03.02"
+  label: "Coleta e Tratamento de Esgoto"
+  description: |
+    Cobre rede coletora de esgoto, estações de tratamento e esgotamento sanitário.
+  keywords:
+    - coleta de esgoto, tratamento de esgoto
+    - ETE, rede coletora
+    - esgotamento sanitário, despoluição
+    - PAC saneamento
+  examples:
+    - "PAC Saneamento entrega estação de tratamento de esgoto em município do interior"
+    - "Obras ampliam rede coletora de esgoto e beneficiam 50 mil moradores"
+    - "Investimento em tratamento de esgoto despoluirá 30 km de rio urbano"
+
+- code: "25.03.03"
+  label: "Gestão de Resíduos Sólidos"
+  description: |
+    Trata de coleta, destinação, reciclagem e tratamento de lixo urbano.
+  keywords:
+    - resíduos sólidos, lixo, coleta de lixo
+    - reciclagem, coleta seletiva
+    - aterro sanitário, PNRS
+    - cooperativa de catadores
+  examples:
+    - "Município fecha lixão e inaugura aterro sanitário conforme PNRS"
+    - "Programa de coleta seletiva amplia reciclagem e beneficia cooperativas de catadores"
+    - "Usina de compostagem transforma resíduos orgânicos em adubo para agricultura"
+
+- code: "25.03.04"
+  label: "Drenagem Urbana"
+  description: |
+    Cobre sistemas de drenagem pluvial, galerias, prevenção de enchentes e
+    manejo de águas pluviais.
+  keywords:
+    - drenagem urbana, drenagem pluvial
+    - galeria, enchente, alagamento
+    - piscinão, desassoreamento
+    - PAC drenagem
+  examples:
+    - "Obras de macrodrenagem reduzem risco de enchentes em bairros da zona leste"
+    - "Prefeitura investe em piscinões e galerias para conter alagamentos na temporada de chuvas"
+    - "Programa de limpeza desassoreia córregos e previne transbordamentos"
+
+- code: "25.03.05"
+  label: "Saneamento Rural"
+  description: |
+    Trata de saneamento em áreas rurais, comunidades isoladas, fossas sépticas
+    e cisternas.
+  keywords:
+    - saneamento rural, área rural
+    - cisterna, fossa séptica biodigestora
+    - FUNASA, programa cisternas
+    - ASA, semiárido
+  examples:
+    - "FUNASA instala sistemas de tratamento de esgoto em 100 comunidades rurais"
+    - "Programa Cisternas entrega 5 mil cisternas para captação de água de chuva no semiárido"
+    - "Tecnologia social leva saneamento básico para assentamentos rurais"
+
+- code: "25.04.01"
+  label: "Revitalização de Áreas Urbanas"
+  description: |
+    Cobre projetos de requalificação de centros históricos, áreas degradadas
+    e espaços públicos.
+  keywords:
+    - revitalização urbana, requalificação
+    - centro histórico, área degradada
+    - PAC Cidades Históricas, retrofit
+    - renovação urbana
+  examples:
+    - "Projeto revitaliza centro histórico e atrai investimentos para comércio local"
+    - "PAC Cidades Históricas restaura casarões e melhora infraestrutura de área tombada"
+    - "Revitalização da orla transforma antigo porto em espaço de lazer e cultura"
+
+- code: "25.04.02"
+  label: "Sustentabilidade Urbana"
+  description: |
+    Trata de cidades sustentáveis, mobilidade verde, eficiência energética
+    e construções sustentáveis.
+  keywords:
+    - sustentabilidade urbana, cidade sustentável
+    - mobilidade verde, energia renovável
+    - edifício verde, certificação LEED
+    - economia circular, ODS
+  examples:
+    - "Município adota plano de sustentabilidade urbana e reduz emissões em 20%"
+    - "Edifícios públicos recebem certificação LEED com energia solar e reuso de água"
+    - "Programa de economia circular transforma resíduos urbanos em insumos produtivos"
+
+- code: "25.04.03"
+  label: "Projetos de Reurbanização"
+  description: |
+    Cobre grandes projetos de transformação urbana, operações urbanas e
+    eixos de desenvolvimento.
+  keywords:
+    - reurbanização, operação urbana
+    - masterplan, projeto estruturante
+    - TOD, corredor de transporte
+    - concessão urbanística
+  examples:
+    - "Operação urbana transforma área industrial em bairro de uso misto e alta densidade"
+    - "Projeto de reurbanização cria corredor de desenvolvimento ao longo de linha de metrô"
+    - "Prefeitura lança masterplan para transformação de zona portuária em polo tecnológico"
+
+- code: "25.04.04"
+  label: "Parcerias para Desenvolvimento Local"
+  description: |
+    Trata de cooperação entre governos, iniciativa privada e sociedade civil
+    para desenvolvimento urbano.
+  keywords:
+    - parceria para desenvolvimento, desenvolvimento local
+    - consórcio intermunicipal, sociedade civil
+    - orçamento participativo, universidade
+    - governança urbana
+  examples:
+    - "Consórcio intermunicipal desenvolve plano regional de desenvolvimento urbano"
+    - "Parceria entre prefeitura e universidade mapeia necessidades de bairros periféricos"
+    - "Orçamento participativo define prioridades de investimento em infraestrutura local"
+
+- code: "25.04.05"
+  label: "Governança Metropolitana"
+  description: |
+    Cobre gestão de regiões metropolitanas, funções públicas de interesse comum
+    e cooperação intermunicipal.
+  keywords:
+    - governança metropolitana, região metropolitana
+    - RIDE, agência metropolitana
+    - estatuto da metrópole, transporte metropolitano
+    - consórcio público
+  examples:
+    - "Região metropolitana cria agência para gestão integrada de transporte e saneamento"
+    - "Plano de Desenvolvimento Integrado define estratégias para 15 municípios metropolitanos"
+    - "Consórcio metropolitano viabiliza obras de mobilidade com recursos federais"
+
+- code: "25.05.01"
+  label: "Obras Públicas e Infraestrutura Viária"
+  description: |
+    Trata de construção e reforma de ruas, avenidas, pontes, viadutos e pavimentação.
+  keywords:
+    - obras públicas, infraestrutura viária
+    - pavimentação, asfalto, recapeamento
+    - ponte, viaduto, túnel
+    - PAC
+  examples:
+    - "PAC investe R$ 200 milhões em pavimentação de vias urbanas em cinco cidades"
+    - "Obra de viaduto vai desafogar trânsito em cruzamento crítico da região central"
+    - "Programa municipal recapeia 100 km de ruas e avenidas da cidade"
+
+- code: "25.05.02"
+  label: "Iluminação Pública"
+  description: |
+    Cobre instalação, modernização, eficiência energética e gestão de iluminação pública.
+  keywords:
+    - iluminação pública, IP, luminária LED
+    - telegestão, smart lighting
+    - CIP, PPP iluminação
+    - eficiência energética
+  examples:
+    - "Município substitui 20 mil lâmpadas por LED e reduz gasto com iluminação pública"
+    - "PPP de iluminação instala sistema de telegestão e manutenção preventiva"
+    - "Programa federal apoia modernização de iluminação pública com energia solar"
+
+- code: "25.05.03"
+  label: "Equipamentos Urbanos (praças, parques)"
+  description: |
+    Trata de construção e reforma de praças, parques, academias ao ar livre
+    e mobiliário urbano.
+  keywords:
+    - equipamentos urbanos, praça, parque
+    - academia ao ar livre, playground
+    - mobiliário urbano, quadra poliesportiva
+    - Academia da Saúde
+  examples:
+    - "Prefeitura entrega reforma de 30 praças com academias ao ar livre e playgrounds"
+    - "Programa Academia da Saúde instala equipamentos de ginástica em parques municipais"
+    - "Novo parque urbano terá quadras, pistas de skate e área de convivência"
+
+- code: "25.05.04"
+  label: "Acessibilidade Urbana"
+  description: |
+    Cobre adequação de calçadas, rampas, sinalização tátil e acessibilidade
+    em espaços públicos para PcD.
+  keywords:
+    - acessibilidade urbana, calçada acessível
+    - rampa, piso tátil, rebaixamento de guia
+    - NBR 9050, desenho universal
+    - semáforo sonoro
+  examples:
+    - "Programa municipal adequa 200 km de calçadas com rampas e piso tátil"
+    - "Instalação de semáforos sonoros melhora acessibilidade em cruzamentos centrais"
+    - "Fiscalização exige adequação de calçadas às normas de acessibilidade"
+
+- code: "25.05.05"
+  label: "Conservação e Manutenção Urbana"
+  description: |
+    Trata de serviços de manutenção preventiva e corretiva de vias, equipamentos,
+    limpeza urbana e zeladoria.
+  keywords:
+    - conservação urbana, manutenção urbana
+    - zeladoria, tapa-buraco
+    - limpeza urbana, capina, varrição
+    - poda de árvores
+  examples:
+    - "Operação tapa-buraco corrige 500 pontos críticos em vias da cidade"
+    - "Programa de zeladoria intensifica limpeza urbana e poda de árvores"
+    - "Prefeitura cria canal para reclamações sobre conservação de ruas e praças"

@@ -1,0 +1,378 @@
+# Descrições L3 - Tema 09: Esportes e Lazer
+# Gerado em: 2025-12-18
+
+- code: "09.01.01"
+  label: "Jogos Olímpicos"
+  description: |
+    Participação do Brasil nos Jogos Olímpicos de verão, preparação de delegações,
+    resultados de atletas brasileiros e organização de Olimpíadas no país.
+  keywords:
+    - Jogos Olímpicos, Olimpíadas, COB, Comitê Olímpico Brasileiro
+    - delegação brasileira, medalhas olímpicas, Time Brasil
+    - Rio 2016, Paris 2024, Los Angeles 2028
+    - atletas olímpicos, modalidades olímpicas
+  examples:
+    - "Brasil conquista medalha de ouro no judô nas Olimpíadas de Paris"
+    - "COB anuncia convocação da delegação brasileira para Jogos Olímpicos"
+    - "Ministério do Esporte divulga investimentos na preparação olímpica"
+
+- code: "09.01.02"
+  label: "Jogos Paralímpicos"
+  description: |
+    Participação brasileira nos Jogos Paralímpicos, preparação de atletas
+    com deficiência e resultados de competições paralímpicas internacionais.
+  keywords:
+    - Jogos Paralímpicos, Paralimpíadas, CPB, Comitê Paralímpico Brasileiro
+    - atletas paralímpicos, esporte paralímpico, modalidades paralímpicas
+    - delegação paralímpica, medalhas paralímpicas
+    - esporte adaptado, Daniel Dias, Petrúcio Ferreira
+  examples:
+    - "Brasil termina Paralimpíadas em terceiro lugar no quadro de medalhas"
+    - "CPB anuncia preparação de atletas para Jogos Paralímpicos de Paris"
+    - "Governo federal amplia investimento em esporte paralímpico"
+
+- code: "09.01.03"
+  label: "Jogos de Inverno"
+  description: |
+    Participação do Brasil nos Jogos Olímpicos e Paralímpicos de Inverno,
+    desenvolvimento de modalidades de esportes de gelo e neve no país.
+  keywords:
+    - Jogos de Inverno, Olimpíadas de Inverno, esportes de inverno
+    - esqui, patinação no gelo, bobsled, curling
+    - delegação brasileira de inverno, Pequim 2022
+    - atletas de inverno, modalidades de gelo e neve
+  examples:
+    - "Brasil confirma participação nos Jogos Olímpicos de Inverno"
+    - "Atleta brasileira conquista vaga inédita no esqui alpino"
+    - "COB divulga preparação de equipe para Jogos de Inverno"
+
+- code: "09.01.04"
+  label: "Competições Nacionais"
+  description: |
+    Campeonatos e competições esportivas realizados em território brasileiro,
+    incluindo eventos organizados por confederações nacionais e governo federal.
+  keywords:
+    - campeonatos brasileiros, competições nacionais, torneios nacionais
+    - Jogos Escolares, Jogos Universitários, Jogos Abertos
+    - CBF, CBV, CBB, confederações esportivas
+    - campeonato nacional, seleções estaduais
+  examples:
+    - "Ministério do Esporte anuncia edição dos Jogos Escolares da Juventude"
+    - "Governo federal apoia realização de Campeonato Brasileiro de Atletismo"
+    - "Jogos Universitários Brasileiros reúnem 3 mil atletas em 20 modalidades"
+
+- code: "09.01.05"
+  label: "Competições Internacionais"
+  description: |
+    Participação brasileira em campeonatos mundiais, pan-americanos e outros
+    eventos esportivos internacionais fora do ciclo olímpico.
+  keywords:
+    - Jogos Pan-Americanos, Mundial, Copa do Mundo
+    - campeonatos internacionais, seleção brasileira
+    - Santiago 2023, competições sul-americanas
+    - torneios internacionais, representação brasileira
+    - Jogos Mundiais, Universíade
+  examples:
+    - "Brasil conquista 67 medalhas nos Jogos Pan-Americanos de Santiago"
+    - "Seleção brasileira de vôlei garante vaga no Mundial"
+    - "Governo anuncia apoio à delegação brasileira em Campeonato Mundial"
+
+- code: "09.02.01"
+  label: "Lazer Comunitário"
+  description: |
+    Programas e iniciativas de lazer voltados para comunidades locais,
+    atividades recreativas em bairros e ações de integração social através do lazer.
+  keywords:
+    - lazer comunitário, recreação comunitária, atividades recreativas
+    - lazer de fim de semana, programas de lazer
+    - esporte e lazer da cidade, praças de esporte
+    - atividades de lazer, integração comunitária
+  examples:
+    - "Ministério do Esporte lança programa de lazer em comunidades carentes"
+    - "Governo federal amplia ações de recreação comunitária em 500 municípios"
+    - "Programa Esporte e Lazer da Cidade beneficia 100 mil pessoas"
+
+- code: "09.02.02"
+  label: "Infraestrutura de Lazer"
+  description: |
+    Construção, reforma e manutenção de equipamentos públicos destinados ao lazer,
+    como praças, quadras, pistas de skate e centros recreativos.
+  keywords:
+    - infraestrutura de lazer, equipamentos de lazer, praças esportivas
+    - quadras poliesportivas, pistas de skate, ciclovias
+    - centros de lazer, ginásios, obras de lazer
+    - revitalização de espaços públicos
+  examples:
+    - "Governo federal investe R$ 50 milhões em infraestrutura de lazer"
+    - "Ministério do Esporte entrega 200 praças esportivas em todo país"
+    - "União repassa recursos para construção de centros de lazer municipais"
+
+- code: "09.02.03"
+  label: "Festivais e Eventos Recreativos"
+  description: |
+    Organização e apoio a festivais, eventos recreativos e ações pontuais
+    de lazer promovidos pelo governo federal ou com seu patrocínio.
+  keywords:
+    - festivais recreativos, eventos de lazer, festivais esportivos
+    - dia do desafio, eventos recreativos, ações de lazer
+    - programação recreativa, festas populares esportivas
+    - eventos comunitários de lazer
+  examples:
+    - "Ministério do Esporte apoia realização de Festival Nacional de Lazer"
+    - "Brasil participa do Dia do Desafio com atividades em 1.500 cidades"
+    - "Governo federal promove evento recreativo durante semana da pátria"
+
+- code: "09.02.04"
+  label: "Parques e Espaços Públicos"
+  description: |
+    Gestão, criação e manutenção de parques nacionais urbanos e espaços públicos
+    federais destinados à prática de atividades de lazer e recreação.
+  keywords:
+    - parques urbanos, espaços públicos de lazer, parques nacionais
+    - áreas de recreação, espaços verdes, parques esportivos
+    - gestão de parques, áreas de convivência
+    - lazer em espaços públicos
+  examples:
+    - "Governo federal cria parque urbano para práticas esportivas em Brasília"
+    - "Ministério anuncia revitalização de espaços públicos de lazer"
+    - "União investe em parques com infraestrutura para atividades recreativas"
+
+- code: "09.02.05"
+  label: "Campanhas de Lazer Saudável"
+  description: |
+    Campanhas educativas e de conscientização sobre importância do lazer
+    para saúde e bem-estar, promovendo atividades recreativas saudáveis.
+  keywords:
+    - lazer saudável, lazer ativo, vida ativa
+    - campanhas de lazer, promoção do lazer
+    - lazer e saúde, recreação saudável
+    - conscientização sobre lazer, qualidade de vida
+  examples:
+    - "Ministério lança campanha nacional de incentivo ao lazer ativo"
+    - "Governo promove ações de conscientização sobre importância do lazer"
+    - "Campanha federal estimula práticas recreativas saudáveis nos finais de semana"
+
+- code: "09.03.01"
+  label: "Financiamento Esportivo"
+  description: |
+    Programas de financiamento público ao esporte, Lei de Incentivo ao Esporte,
+    repasses de recursos e orçamento destinado ao desenvolvimento esportivo.
+  keywords:
+    - financiamento esportivo, Lei de Incentivo ao Esporte, LIE
+    - recursos para o esporte, orçamento esportivo
+    - investimento em esporte, patrocínio público
+    - fomento esportivo, captação de recursos
+  examples:
+    - "Governo federal destina R$ 200 milhões para Lei de Incentivo ao Esporte"
+    - "Ministério do Esporte anuncia edital de financiamento para projetos esportivos"
+    - "União amplia orçamento para desenvolvimento do esporte em 2024"
+
+- code: "09.03.02"
+  label: "Desenvolvimento Esportivo"
+  description: |
+    Programas de desenvolvimento de modalidades esportivas, formação de base,
+    detecção de talentos e estruturação de centros de treinamento.
+  keywords:
+    - desenvolvimento esportivo, formação esportiva, base do esporte
+    - detecção de talentos, centros de treinamento
+    - categorias de base, iniciação esportiva
+    - nucleação esportiva, escolinhas de esporte
+  examples:
+    - "Ministério lança programa de detecção de talentos esportivos"
+    - "Governo federal investe em centros de treinamento de alto rendimento"
+    - "Programa de nucleação esportiva beneficia 50 mil jovens"
+
+- code: "09.03.03"
+  label: "Apoio a Atletas"
+  description: |
+    Programas de apoio direto a atletas, como Bolsa Atleta, auxílios financeiros,
+    planos de carreira e assistência social para esportistas.
+  keywords:
+    - Bolsa Atleta, apoio a atletas, auxílio atleta
+    - bolsa pódio, bolsa estudantil, plano de carreira
+    - assistência a atletas, benefícios para atletas
+    - suporte financeiro, atletas de alto rendimento
+  examples:
+    - "Governo federal amplia número de beneficiários do Bolsa Atleta"
+    - "Ministério do Esporte reajusta valores da Bolsa Pódio para atletas olímpicos"
+    - "União anuncia programa de apoio para atletas em transição de carreira"
+
+- code: "09.03.04"
+  label: "Educação e Formação no Esporte"
+  description: |
+    Programas de formação de profissionais do esporte, capacitação de treinadores,
+    educação esportiva em escolas e qualificação técnica na área.
+  keywords:
+    - formação esportiva, capacitação de treinadores, educação física
+    - esporte educacional, Segundo Tempo, Mais Educação
+    - profissionais do esporte, qualificação técnica
+    - cursos esportivos, pedagogia do esporte
+  examples:
+    - "Ministério lança programa de capacitação para treinadores esportivos"
+    - "Governo federal retoma Programa Segundo Tempo em escolas públicas"
+    - "União investe em formação de profissionais de educação física"
+
+- code: "09.03.05"
+  label: "Parcerias e Patrocínios"
+  description: |
+    Parcerias público-privadas no esporte, acordos de patrocínio envolvendo
+    governo federal, contratos com empresas e cooperação internacional.
+  keywords:
+    - parcerias esportivas, patrocínio esportivo, PPP no esporte
+    - acordos de cooperação, parcerias público-privadas
+    - contratos de patrocínio, incentivo privado
+    - empresas patrocinadoras, cooperação internacional
+  examples:
+    - "Governo federal firma parceria com setor privado para desenvolvimento esportivo"
+    - "Ministério assina acordo de cooperação internacional em esporte"
+    - "União anuncia parcerias para infraestrutura esportiva em Jogos Pan-Americanos"
+
+- code: "09.04.01"
+  label: "Inclusão Social no Esporte"
+  description: |
+    Programas esportivos voltados para populações vulneráveis, esporte como
+    ferramenta de inclusão social e combate à desigualdade através do esporte.
+  keywords:
+    - inclusão social, esporte inclusivo, esporte e cidadania
+    - vulnerabilidade social, esporte transformador
+    - esporte comunitário, esporte social
+    - projetos sociais esportivos, democratização do esporte
+  examples:
+    - "Ministério lança programa de inclusão social através do esporte"
+    - "Governo federal apoia projetos esportivos em comunidades carentes"
+    - "União investe em esporte como ferramenta de inclusão e cidadania"
+
+- code: "09.04.02"
+  label: "Esporte para Pessoas com Deficiência"
+  description: |
+    Políticas de desenvolvimento do esporte para pessoas com deficiência,
+    esporte paralímpico de base e programas de inclusão de PcD no esporte.
+  keywords:
+    - esporte paralímpico, esporte adaptado, pessoas com deficiência
+    - PcD no esporte, inclusão de deficientes, esporte especial
+    - modalidades paralímpicas, atletas com deficiência
+    - acessibilidade esportiva, esporte inclusivo
+  examples:
+    - "Governo federal amplia programas de esporte para pessoas com deficiência"
+    - "Ministério investe em desenvolvimento do esporte paralímpico de base"
+    - "União lança edital para projetos esportivos voltados a PcD"
+
+- code: "09.04.03"
+  label: "Esporte para Idosos"
+  description: |
+    Programas esportivos e de atividade física voltados para população idosa,
+    envelhecimento ativo e competições para terceira idade.
+  keywords:
+    - esporte para idosos, terceira idade, envelhecimento ativo
+    - atividade física para idosos, Jogos da Melhor Idade
+    - idosos no esporte, saúde do idoso
+    - longevidade ativa, esporte na terceira idade
+  examples:
+    - "Ministério do Esporte promove Jogos Nacionais da Melhor Idade"
+    - "Governo federal lança programa de atividade física para idosos"
+    - "União incentiva prática esportiva na terceira idade com novos projetos"
+
+- code: "09.04.04"
+  label: "Diversidade no Esporte"
+  description: |
+    Políticas de promoção da diversidade no esporte, combate ao racismo e
+    discriminação, equidade de gênero e inclusão LGBTQIA+ no ambiente esportivo.
+  keywords:
+    - diversidade no esporte, equidade de gênero, mulheres no esporte
+    - combate ao racismo, LGBTQIA+ no esporte
+    - discriminação esportiva, igualdade no esporte
+    - representatividade esportiva, direitos no esporte
+  examples:
+    - "Ministério lança campanha de combate ao racismo no esporte"
+    - "Governo federal promove políticas de equidade de gênero no esporte"
+    - "União anuncia ações de inclusão LGBTQIA+ em competições esportivas"
+
+- code: "09.04.05"
+  label: "Acessibilidade em Infraestruturas Esportivas"
+  description: |
+    Adequação de instalações esportivas para acessibilidade universal, normas
+    técnicas para construção de espaços inclusivos e eliminação de barreiras.
+  keywords:
+    - acessibilidade esportiva, instalações acessíveis, infraestrutura inclusiva
+    - barreiras arquitetônicas, NBR acessibilidade
+    - estádios acessíveis, ginásios adaptados
+    - desenho universal, mobilidade reduzida
+  examples:
+    - "Governo federal exige acessibilidade em todas novas instalações esportivas"
+    - "Ministério investe em adequação de estádios para pessoas com deficiência"
+    - "União fiscaliza cumprimento de normas de acessibilidade em arenas"
+
+- code: "09.05.01"
+  label: "Combate à Manipulação de Resultados"
+  description: |
+    Ações de prevenção e combate à manipulação de competições esportivas,
+    apostas ilegais, corrupção no esporte e investigações de fraudes.
+  keywords:
+    - manipulação de resultados, apostas esportivas, fraude esportiva
+    - match-fixing, corrupção no esporte, integridade competitiva
+    - investigação de fraudes, combate à manipulação
+    - apostas ilegais, fair play
+  examples:
+    - "Ministério investiga denúncias de manipulação em campeonato nacional"
+    - "Governo federal endurece legislação contra fraudes em competições esportivas"
+    - "União cria força-tarefa para combater apostas ilegais no futebol"
+
+- code: "09.05.02"
+  label: "Antidoping e Controle de Substâncias"
+  description: |
+    Políticas antidoping, controle de substâncias proibidas no esporte,
+    testes em atletas e atuação da Autoridade Brasileira de Controle de Dopagem.
+  keywords:
+    - antidoping, doping, controle de dopagem, ABCD
+    - Autoridade Brasileira de Controle de Dopagem
+    - substâncias proibidas, testes antidoping
+    - WADA, controle de substâncias, fair play
+  examples:
+    - "ABCD realiza 5 mil testes antidoping em atletas brasileiros"
+    - "Governo federal reforça combate ao doping no esporte de alto rendimento"
+    - "Ministério anuncia campanha educativa sobre riscos do doping"
+
+- code: "09.05.03"
+  label: "Ética e Conduta Esportiva"
+  description: |
+    Códigos de ética no esporte, combate à violência em competições,
+    conduta de dirigentes esportivos e fair play nas práticas esportivas.
+  keywords:
+    - ética esportiva, conduta esportiva, fair play
+    - violência no esporte, códigos de ética
+    - comportamento esportivo, disciplina esportiva
+    - justiça desportiva, tribunal desportivo
+  examples:
+    - "Ministério do Esporte divulga código de ética para dirigentes esportivos"
+    - "Governo federal lança campanha de combate à violência nos estádios"
+    - "União implementa tribunal desportivo para julgar infrações éticas"
+
+- code: "09.05.04"
+  label: "Transparência em Organizações Esportivas"
+  description: |
+    Exigências de transparência em confederações e federações esportivas,
+    prestação de contas de recursos públicos e governança no esporte.
+  keywords:
+    - transparência esportiva, prestação de contas, governança esportiva
+    - confederações esportivas, federações, accountability
+    - recursos públicos no esporte, Lei Pelé
+    - fiscalização esportiva, compliance esportivo
+  examples:
+    - "Governo federal exige transparência em confederações que recebem verba pública"
+    - "Ministério fiscaliza prestação de contas de federações esportivas"
+    - "União implementa novas regras de governança para entidades esportivas"
+
+- code: "09.05.05"
+  label: "Proteção de Jovens Atletas"
+  description: |
+    Políticas de proteção a atletas menores de idade, combate ao assédio
+    e abuso no esporte, direitos de jovens atletas e ambiente seguro.
+  keywords:
+    - proteção de menores, jovens atletas, abuso no esporte
+    - assédio esportivo, safeguarding, direitos da criança
+    - atletas menores de idade, ambiente seguro
+    - violência contra jovens atletas, proteção infantil
+  examples:
+    - "Ministério cria protocolo de proteção para jovens atletas"
+    - "Governo federal endurece punições contra abuso de menores no esporte"
+    - "União implementa canal de denúncias para proteção de atletas juvenis"

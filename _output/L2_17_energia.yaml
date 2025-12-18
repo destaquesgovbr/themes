@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 17: Energia e Recursos Minerais
+# Gerado em: 2025-12-18
+
+- code: "17.01"
+  label: "Petróleo e Gás"
+  description: |
+    Abrange todas as atividades relacionadas ao setor de petróleo e gás natural, desde a exploração e prospecção de jazidas até a produção, refino e distribuição. Inclui leilões de blocos exploratórios, operações no pré-sal, gestão de campos produtores, infraestrutura de transporte (gasodutos e oleodutos) e investimentos estratégicos no setor de óleo e gás.
+  keywords:
+    - petróleo
+    - gás natural
+    - pré-sal
+    - exploração de petróleo
+    - produção de petróleo
+    - Petrobras
+    - ANP
+    - refinaria
+    - gasoduto
+    - oleoduto
+    - blocos exploratórios
+    - GNL
+    - derivados de petróleo
+    - campo produtor
+    - investimento em petróleo e gás
+
+- code: "17.02"
+  label: "Mineração"
+  description: |
+    Contempla o setor mineral brasileiro, incluindo extração e lavra de minérios (ferro, ouro, cobre, bauxita), processamento e beneficiamento mineral, pesquisa de minerais estratégicos e críticos, levantamentos geológicos e geofísicos. Abarca também aspectos de sustentabilidade, licenciamento ambiental, segurança de barragens e recuperação de áreas degradadas pela mineração.
+  keywords:
+    - mineração
+    - minério de ferro
+    - extração mineral
+    - Vale
+    - ANM
+    - lavra
+    - beneficiamento mineral
+    - minerais estratégicos
+    - terras raras
+    - lítio
+    - CPRM
+    - levantamento geológico
+    - barragem de rejeitos
+    - sustentabilidade mineral
+    - licenciamento ambiental
+
+- code: "17.03"
+  label: "Políticas Energéticas"
+  description: |
+    Engloba a formulação e implementação de políticas, normas e regulamentos para o setor energético nacional. Inclui atuação de agências reguladoras (ANEEL, ANP), marco regulatório, subsídios e incentivos fiscais, planejamento energético de longo prazo, programas de universalização do acesso à energia e acordos de cooperação internacional na área energética.
+  keywords:
+    - política energética
+    - regulação energética
+    - MME
+    - ANEEL
+    - ANP
+    - marco regulatório
+    - subsídio energético
+    - PROINFA
+    - RenovaBio
+    - PNE
+    - EPE
+    - Luz para Todos
+    - tarifa de energia
+    - planejamento energético
+    - integração energética
+
+- code: "17.04"
+  label: "Energias Renováveis"
+  description: |
+    Abrange a geração de energia elétrica a partir de fontes limpas e renováveis, incluindo energia solar fotovoltaica, energia eólica (onshore e offshore), energia hidrelétrica (UHEs, PCHs, CGHs) e biomassa. Contempla também biocombustíveis (etanol, biodiesel, biogás), pesquisa e desenvolvimento de novas tecnologias renováveis, como hidrogênio verde e sistemas de armazenamento de energia.
+  keywords:
+    - energia renovável
+    - energia solar
+    - energia eólica
+    - energia hidrelétrica
+    - biomassa
+    - biocombustível
+    - etanol
+    - biodiesel
+    - biogás
+    - parque eólico
+    - usina solar
+    - hidrelétrica
+    - hidrogênio verde
+    - geração distribuída
+    - matriz energética limpa
+
+- code: "17.05"
+  label: "Infraestrutura e Investimentos"
+  description: |
+    Compreende investimentos em infraestrutura de transmissão e distribuição de energia elétrica, construção e expansão de linhas de transmissão e subestações, modernização tecnológica do setor energético (smart grids, medidores inteligentes), manutenção e expansão da rede elétrica nacional, além de parcerias público-privadas e concessões para projetos de infraestrutura energética.
+  keywords:
+    - infraestrutura energética
+    - linha de transmissão
+    - transmissão de energia
+    - distribuição de energia
+    - leilão de transmissão
+    - subestação
+    - smart grid
+    - medidor inteligente
+    - SIN
+    - ONS
+    - modernização energética
+    - PPP energética
+    - concessão energética
+    - investimento em energia
+    - rede elétrica

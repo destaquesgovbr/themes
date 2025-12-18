@@ -1,0 +1,348 @@
+# Descrições L3 - Tema 12: Relações Internacionais e Diplomacia
+# Gerado em: 2025-12-18
+
+- code: "12.01.01"
+  label: "Acordos Comerciais"
+  description: |
+    Tratados, convenções e acordos bilaterais ou multilaterais de comércio exterior,
+    incluindo tarifas, barreiras comerciais, proteção de investimentos e facilitação de negócios.
+  keywords:
+    - acordo comercial, tratado de livre comércio, tarifa alfandegária
+    - exportação, importação, balança comercial
+    - proteção de investimentos, facilitação comercial
+    - acordo tarifário, preferência comercial, zona de livre comércio
+    - acordo de investimento, dupla tributação
+  examples:
+    - "Brasil e União Europeia assinam acordo de livre comércio bilateral"
+    - "Governo ratifica tratado de proteção de investimentos com países asiáticos"
+    - "Itamaraty negocia redução de tarifas em acordo comercial com Mercosul"
+
+- code: "12.01.02"
+  label: "Acordos de Cooperação Técnica"
+  description: |
+    Convênios e acordos para transferência de conhecimento, assistência técnica,
+    capacitação profissional e compartilhamento de expertise entre países.
+  keywords:
+    - cooperação técnica, transferência de tecnologia
+    - assistência técnica, capacitação profissional
+    - intercâmbio de conhecimento, expertise técnica
+    - convênio técnico, projeto de cooperação
+    - ABC (Agência Brasileira de Cooperação)
+  examples:
+    - "ABC firma acordo de cooperação técnica com países africanos em agricultura"
+    - "Brasil e Alemanha assinam convênio para transferência de tecnologia industrial"
+    - "Itamaraty celebra acordo de assistência técnica em gestão pública com Portugal"
+
+- code: "12.01.03"
+  label: "Acordos Ambientais"
+  description: |
+    Tratados e convenções internacionais sobre preservação ambiental, mudanças climáticas,
+    biodiversidade, gestão de recursos naturais e desenvolvimento sustentável.
+  keywords:
+    - acordo climático, Acordo de Paris, COP
+    - preservação ambiental, biodiversidade
+    - desenvolvimento sustentável, emissões de carbono
+    - Convenção de Diversidade Biológica, desmatamento
+    - recursos hídricos, protocolo ambiental
+  examples:
+    - "Brasil ratifica acordo internacional de preservação da Amazônia"
+    - "Governo assina protocolo de redução de emissões em conferência climática"
+    - "Itamaraty negocia tratado sobre gestão de recursos hídricos transfronteiriços"
+
+- code: "12.01.04"
+  label: "Acordos Culturais"
+  description: |
+    Convênios para intercâmbio cultural, proteção de patrimônio histórico,
+    promoção da língua e cultura brasileira no exterior e cooperação em artes.
+  keywords:
+    - intercâmbio cultural, patrimônio histórico
+    - promoção cultural, língua portuguesa
+    - cooperação cultural, artes e cultura
+    - Instituto Guimarães Rosa, diplomacia cultural
+    - acordo bilateral cultural, festivais culturais
+  examples:
+    - "Brasil e França assinam acordo de intercâmbio cultural e artístico"
+    - "Itamaraty firma convênio para promoção da língua portuguesa na África"
+    - "Governo celebra acordo de preservação de patrimônio histórico com Unesco"
+
+- code: "12.01.05"
+  label: "Acordos de Defesa e Segurança"
+  description: |
+    Tratados militares, acordos de cooperação em defesa nacional, combate ao crime
+    transnacional, compartilhamento de inteligência e segurança internacional.
+  keywords:
+    - cooperação militar, defesa nacional
+    - segurança internacional, combate ao terrorismo
+    - crime transnacional, narcotráfico
+    - inteligência compartilhada, acordo de defesa
+    - treinamento militar, exercícios conjuntos
+  examples:
+    - "Ministério da Defesa assina acordo de cooperação militar com países sul-americanos"
+    - "Brasil e EUA firmam tratado de compartilhamento de inteligência contra narcotráfico"
+    - "Governo ratifica acordo internacional de combate ao crime organizado transnacional"
+
+- code: "12.02.01"
+  label: "Assistência Humanitária"
+  description: |
+    Ajuda emergencial, doações, apoio a refugiados e assistência em desastres naturais
+    ou crises humanitárias em outros países.
+  keywords:
+    - ajuda humanitária, assistência emergencial
+    - refugiados, deslocados, crise humanitária
+    - doação internacional, ajuda emergencial
+    - desastre natural, catástrofe, apoio humanitário
+    - ACNUR, Cruz Vermelha
+  examples:
+    - "Brasil envia ajuda humanitária para países afetados por terremoto"
+    - "Governo disponibiliza apoio emergencial a refugiados venezuelanos"
+    - "Itamaraty coordena assistência brasileira a país em crise humanitária"
+
+- code: "12.02.02"
+  label: "Cooperação Técnica para o Desenvolvimento"
+  description: |
+    Programas de cooperação sul-sul, transferência de experiências brasileiras em
+    políticas públicas e apoio ao desenvolvimento socioeconômico de outros países.
+  keywords:
+    - cooperação sul-sul, desenvolvimento internacional
+    - transferência de políticas públicas, Bolsa Família
+    - agricultura tropical, Embrapa internacional
+    - desenvolvimento socioeconômico, capacitação institucional
+    - países em desenvolvimento, CPLP
+  examples:
+    - "ABC promove cooperação sul-sul com países africanos em agricultura familiar"
+    - "Brasil exporta modelo de políticas sociais para nações em desenvolvimento"
+    - "Embrapa desenvolve projeto de cooperação técnica agrícola com Moçambique"
+
+- code: "12.02.03"
+  label: "Parcerias de Pesquisa e Educação"
+  description: |
+    Colaborações acadêmicas internacionais, intercâmbio de pesquisadores, programas
+    de bolsas e desenvolvimento conjunto de projetos científicos.
+  keywords:
+    - cooperação acadêmica, intercâmbio científico
+    - pesquisa conjunta, bolsas internacionais
+    - convênio universitário, mobilidade acadêmica
+    - ciência e tecnologia, inovação
+    - Capes internacional, CNPq, pesquisadores
+  examples:
+    - "Capes firma parceria internacional para intercâmbio de pesquisadores"
+    - "Brasil e Canadá desenvolvem projeto conjunto de pesquisa em biotecnologia"
+    - "Governo anuncia bolsas para cooperação científica com universidades europeias"
+
+- code: "12.02.04"
+  label: "Capacitação e Treinamento"
+  description: |
+    Programas de formação profissional, cursos técnicos, treinamentos especializados
+    e desenvolvimento de competências para servidores e profissionais estrangeiros.
+  keywords:
+    - capacitação internacional, treinamento técnico
+    - formação profissional, curso de especialização
+    - desenvolvimento de competências, qualificação
+    - Enap internacional, capacitação institucional
+    - servidor estrangeiro, workshop internacional
+  examples:
+    - "Enap oferece capacitação em gestão pública para servidores de países lusófonos"
+    - "Brasil promove treinamento técnico para profissionais africanos em saúde"
+    - "Governo realiza curso internacional de formação em políticas sociais"
+
+- code: "12.02.05"
+  label: "Cooperação em Saúde Pública"
+  description: |
+    Parcerias internacionais em vigilância sanitária, combate a epidemias,
+    transferência de tecnologias médicas e fortalecimento de sistemas de saúde.
+  keywords:
+    - cooperação em saúde, vigilância sanitária
+    - combate a epidemias, controle de doenças
+    - tecnologia médica, vacinas
+    - Fiocruz internacional, OMS, Opas
+    - sistema de saúde, saúde pública internacional
+  examples:
+    - "Fiocruz firma parceria para produção de vacinas com países africanos"
+    - "Brasil compartilha expertise em combate a epidemias com nações caribenhas"
+    - "Ministério da Saúde desenvolve cooperação técnica em vigilância sanitária"
+
+- code: "12.03.01"
+  label: "Estratégia Geopolítica"
+  description: |
+    Diretrizes e posicionamento estratégico do Brasil no cenário internacional,
+    alianças geopolíticas e prioridades da política externa brasileira.
+  keywords:
+    - estratégia geopolítica, posicionamento internacional
+    - aliança estratégica, prioridades diplomáticas
+    - política externa brasileira, diretrizes diplomáticas
+    - soberania nacional, multipolaridade
+    - interesse nacional, relações Sul-Sul
+  examples:
+    - "Itamaraty define novas prioridades geopolíticas para América do Sul"
+    - "Chanceler apresenta estratégia brasileira para fortalecimento de alianças regionais"
+    - "Governo redefine posicionamento internacional em questões globais"
+
+- code: "12.03.02"
+  label: "Relações Bilaterais"
+  description: |
+    Relações diplomáticas entre Brasil e países específicos, visitas presidenciais,
+    reuniões ministeriais e acordos de cooperação entre duas nações.
+  keywords:
+    - relação bilateral, visita oficial, visita de Estado
+    - encontro presidencial, reunião ministerial
+    - embaixada, embaixador, relações diplomáticas
+    - parceria bilateral, cooperação bilateral
+    - chanceler, Itamaraty bilateral
+  examples:
+    - "Presidente recebe chefe de Estado chinês para fortalecer relações bilaterais"
+    - "Chanceler visita Argentina para tratar de cooperação bilateral"
+    - "Brasil e Índia aprofundam parceria bilateral em reunião ministerial"
+
+- code: "12.03.03"
+  label: "Relações Multilaterais"
+  description: |
+    Participação brasileira em organismos internacionais, blocos econômicos,
+    fóruns multilaterais e negociações em grupo de países.
+  keywords:
+    - multilateralismo, organismo internacional
+    - ONU, Conselho de Segurança, Assembleia Geral
+    - BRICS, G20, bloco econômico
+    - fórum multilateral, cúpula internacional
+    - votação ONU, posicionamento multilateral
+  examples:
+    - "Brasil defende reforma do Conselho de Segurança da ONU em assembleia"
+    - "Governo participa de cúpula do BRICS para discutir cooperação econômica"
+    - "Chanceler representa país em reunião do G20 sobre desenvolvimento sustentável"
+
+- code: "12.03.04"
+  label: "Representações Diplomáticas"
+  description: |
+    Gestão de embaixadas, consulados, missões diplomáticas, nomeação de embaixadores
+    e estrutura do serviço diplomático brasileiro no exterior.
+  keywords:
+    - embaixada, consulado, missão diplomática
+    - embaixador, cônsul, nomeação diplomática
+    - serviço consular, representação diplomática
+    - carreira diplomática, Itamaraty exterior
+    - posto no exterior, repartição consular
+  examples:
+    - "Governo nomeia novo embaixador do Brasil nos Estados Unidos"
+    - "Itamaraty inaugura consulado brasileiro em cidade africana"
+    - "Presidente anuncia expansão de representações diplomáticas na Ásia"
+
+- code: "12.03.05"
+  label: "Política Externa Econômica"
+  description: |
+    Diplomacia comercial, promoção de exportações, atração de investimentos estrangeiros
+    e integração econômica internacional do Brasil.
+  keywords:
+    - diplomacia comercial, promoção de exportações
+    - investimento estrangeiro direto, atração de investimentos
+    - integração econômica, comércio exterior
+    - missão comercial, rodada de negócios
+    - Apex-Brasil, promoção comercial internacional
+  examples:
+    - "Itamaraty coordena missão comercial para abertura de mercados asiáticos"
+    - "Governo promove diplomacia econômica para atrair investimentos europeus"
+    - "Chanceler lidera rodada de negócios com empresários estrangeiros no Brasil"
+
+- code: "12.04.01"
+  label: "Mercosul"
+  description: |
+    Políticas, negociações e ações relacionadas ao Mercado Comum do Sul,
+    incluindo acordos tarifários, livre circulação e integração econômica regional.
+  keywords:
+    - Mercosul, Mercado Comum do Sul
+    - integração sul-americana, união aduaneira
+    - Argentina, Paraguai, Uruguai, países-membros
+    - tarifa externa comum, livre comércio regional
+    - cúpula do Mercosul, presidência rotativa
+  examples:
+    - "Brasil assume presidência rotativa do Mercosul com agenda de integração"
+    - "Cúpula do Mercosul discute acordo comercial com União Europeia"
+    - "Governo defende eliminação de barreiras tarifárias entre países-membros"
+
+- code: "12.04.02"
+  label: "Aliança para o Pacífico"
+  description: |
+    Relações e negociações com países da Aliança do Pacífico (Chile, Colômbia, México, Peru)
+    e possível aproximação ou integração comercial.
+  keywords:
+    - Aliança para o Pacífico, integração Pacífico
+    - Chile, Colômbia, México, Peru
+    - aproximação comercial, país observador
+    - integração latino-americana, complementação econômica
+    - convergência Mercosul-Aliança
+  examples:
+    - "Brasil participa como observador em reunião da Aliança para o Pacífico"
+    - "Governo avalia aproximação comercial com países da Aliança para o Pacífico"
+    - "Chanceler discute convergência entre Mercosul e Aliança para o Pacífico"
+
+- code: "12.04.03"
+  label: "Integração Energética"
+  description: |
+    Acordos e projetos de interconexão energética regional, compartilhamento de recursos
+    energéticos e desenvolvimento de infraestrutura binacional de energia.
+  keywords:
+    - integração energética, interconexão elétrica
+    - hidrelétrica binacional, Itaipu
+    - gasoduto internacional, energia compartilhada
+    - recursos energéticos regionais, eletricidade
+    - acordo energético regional, matriz energética
+  examples:
+    - "Brasil e Paraguai negociam acordo sobre gestão de Itaipu Binacional"
+    - "Governo assina protocolo de interconexão elétrica com países vizinhos"
+    - "Chanceler discute projeto de gasoduto regional para integração energética"
+
+- code: "12.04.04"
+  label: "Infraestrutura e Logística Regional"
+  description: |
+    Projetos de integração física sul-americana, corredores de transporte, pontes internacionais
+    e desenvolvimento de infraestrutura transfronteiriça.
+  keywords:
+    - infraestrutura regional, integração física
+    - IIRSA, corredor de transporte, logística regional
+    - ponte internacional, fronteira, conexão rodoviária
+    - corredor bioceânico, transporte transfronteiriço
+    - porto regional, infraestrutura binacional
+  examples:
+    - "Governo anuncia construção de ponte internacional ligando Brasil e Paraguai"
+    - "Países sul-americanos avançam em projeto de corredor bioceânico"
+    - "Brasil investe em infraestrutura logística para integração regional"
+
+- code: "12.04.05"
+  label: "Integração Cultural e Educacional"
+  description: |
+    Programas regionais de intercâmbio estudantil, mobilidade acadêmica,
+    reconhecimento de diplomas e cooperação cultural na América do Sul.
+  keywords:
+    - integração educacional, intercâmbio regional
+    - mobilidade acadêmica sul-americana, reconhecimento de diplomas
+    - cooperação universitária regional, Mercosul Educacional
+    - integração cultural regional, língua espanhola
+    - programa de mobilidade, fronteira educacional
+  examples:
+    - "Brasil amplia programa de mobilidade acadêmica com universidades sul-americanas"
+    - "Países do Mercosul assinam acordo de reconhecimento mútuo de diplomas"
+    - "Governo lança iniciativa de integração cultural com nações vizinhas"
+
+- code: "12.05.01"
+  label: "Reuniões de Alto Nível"
+  description: |
+    Cúpulas presidenciais, encontros de chefes de Estado, reuniões ministeriais
+    e conferências internacionais de alto nível com participação brasileira.
+  keywords:
+    - cúpula internacional, reunião de cúpula
+    - encontro presidencial, chefes de Estado
+    - reunião ministerial, alto nível
+    - conferência internacional, fórum global
+    - assembleia internacional, líder mundial
+  examples:
+    - "Presidente participa de cúpula de líderes mundiais sobre mudanças climáticas"
+    - "Brasil sedia reunião de alto nível do G20 com chefes de Estado"
+    - "Chanceler representa país em assembleia internacional da ONU"
+
+- code: "12.05.02"
+  label: "Eventos de Promoção Comercial"
+  description: |
+    Feiras internacionais, missões empresariais, rodadas de negócios e eventos
+    para promoção de produtos e serviços brasileiros no exterior.
+  keywords:
+    - feira internacional, exposição comercial
+    - missão empresarial, rodada de negócios
+    - promoção comercial, exportação

@@ -1,0 +1,59 @@
+# Descrições L2 - Tema 13: Justiça e Direitos Humanos
+# Gerado em: 2025-12-18
+
+- code: "13.01"
+  label: "Sistema Judiciário"
+  description: |
+    Engloba o funcionamento e organização do sistema de justiça brasileiro, incluindo a atuação da advocacia pública federal (AGU, Procuradorias), proteção dos direitos do consumidor, administração do Judiciário e suas instâncias (CNJ, STF, STJ, tribunais), além de políticas de prevenção e combate à corrupção conduzidas por órgãos de controle como CGU, TCU e Ministério Público. Abrange desde a defesa dos interesses da União até a fiscalização e transparência pública.
+  keywords:
+    - advocacia pública
+    - AGU
+    - Advocacia-Geral da União
+    - Procuradoria Federal
+    - direitos do consumidor
+    - SENACON
+    - PROCON
+    - CDC
+    - CNJ
+    - Conselho Nacional de Justiça
+    - STF
+    - STJ
+    - Justiça Federal
+    - tribunais
+    - processo eletrônico
+    - CGU
+    - Controladoria-Geral da União
+    - TCU
+    - Tribunal de Contas da União
+    - Ministério Público Federal
+    - anticorrupção
+    - transparência pública
+    - improbidade administrativa
+
+- code: "13.02"
+  label: "Direitos Humanos"
+  description: |
+    Abrange a proteção e promoção de direitos humanos fundamentais e políticas de inclusão social. Contempla direitos de crianças e adolescentes (ECA, CONANDA), políticas de justiça social e redução de desigualdades, garantia da liberdade religiosa e combate à intolerância, ações antidiscriminatórias (racial, de gênero, LGBTQIA+, etária, pessoa com deficiência), além de justiça climática com foco na proteção de comunidades vulneráveis aos impactos ambientais.
+  keywords:
+    - direitos humanos
+    - ECA
+    - Estatuto da Criança e do Adolescente
+    - CONANDA
+    - proteção infantil
+    - justiça social
+    - redução de desigualdades
+    - inclusão social
+    - liberdade religiosa
+    - liberdade de culto
+    - intolerância religiosa
+    - antidiscriminação
+    - igualdade racial
+    - racismo
+    - igualdade de gênero
+    - LGBTQIA+
+    - políticas afirmativas
+    - ações afirmativas
+    - justiça climática
+    - justiça ambiental
+    - comunidades tradicionais
+    - vulnerabilidade social
