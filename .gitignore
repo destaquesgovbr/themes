@@ -1,0 +1,12 @@
+# Claude Code
+.claude/
+.claudeignore
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
