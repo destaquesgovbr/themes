@@ -1,0 +1,996 @@
+# Árvore Temática Enriquecida - DestaquesGovBr
+# Versão: 2.0
+# Data: 2025-12-18
+# Decisões aplicadas: DEC-001 a DEC-005
+
+themes:
+  - code: "01"
+    label: "Economia e Finanças"
+    description: |
+      Políticas econômicas, fiscais e monetárias do governo federal brasileiro.
+      Inclui gestão orçamentária, arrecadação de tributos, investimentos públicos,
+      comércio exterior e regulação do sistema financeiro nacional.
+    keywords:
+      - economia
+      - finanças
+      - fiscal
+      - tributário
+      - impostos
+      - orçamento
+      - PIB
+      - inflação
+      - taxa de juros
+      - Selic
+      - dívida pública
+      - superávit
+      - déficit
+      - arcabouço fiscal
+      - Tesouro Nacional
+      - Banco Central
+      - BNDES
+      - investimento
+      - crédito
+      - financiamento
+      - exportação
+      - importação
+      - balança comercial
+      - câmbio
+      - dólar
+    includes:
+      - Políticas de incentivo econômico e fiscal
+      - Regulação bancária e financeira
+      - Acordos comerciais internacionais
+      - Programas de crédito e financiamento
+      - Leilões e concessões econômicas
+    excludes:
+      - Programas sociais de transferência de renda (ver Desenvolvimento Social)
+      - Turismo econômico (ver Turismo)
+      - Economia criativa (ver Cultura)
+
+  - code: "02"
+    label: "Educação"
+    description: |
+      Políticas educacionais em todos os níveis de ensino, desde a educação
+      infantil até o ensino superior e pós-graduação. Inclui formação de
+      professores, infraestrutura escolar, programas de bolsas e financiamento
+      estudantil.
+    keywords:
+      - educação
+      - ensino
+      - escola
+      - universidade
+      - faculdade
+      - professor
+      - aluno
+      - estudante
+      - MEC
+      - Ministério da Educação
+      - ENEM
+      - vestibular
+      - FIES
+      - ProUni
+      - Capes
+      - CNPq
+      - bolsa de estudos
+      - graduação
+      - pós-graduação
+      - mestrado
+      - doutorado
+      - educação infantil
+      - ensino fundamental
+      - ensino médio
+      - EJA
+      - educação profissional
+      - Pronatec
+      - alfabetização
+    includes:
+      - Programas federais de educação
+      - Financiamento estudantil
+      - Formação e valorização de professores
+      - Infraestrutura escolar
+      - Políticas de inclusão educacional
+    excludes:
+      - Pesquisa científica e acadêmica (ver Ciência e Tecnologia)
+      - Educação ambiental (ver Meio Ambiente)
+      - Capacitação profissional para emprego (ver Trabalho)
+
+  - code: "03"
+    label: "Saúde"
+    description: |
+      Sistema de saúde pública brasileiro, incluindo o SUS, vigilância sanitária,
+      campanhas de vacinação, assistência médica, e regulação de medicamentos
+      e serviços de saúde.
+    keywords:
+      - saúde
+      - saúde pública
+      - SUS
+      - Sistema Único de Saúde
+      - hospital
+      - UBS
+      - UPA
+      - médico
+      - enfermeiro
+      - vacina
+      - vacinação
+      - imunização
+      - medicamento
+      - remédio
+      - farmácia popular
+      - ANVISA
+      - Ministério da Saúde
+      - epidemia
+      - pandemia
+      - doença
+      - tratamento
+      - atendimento
+      - emergência
+      - cirurgia
+      - transplante
+      - saúde mental
+      - dengue
+      - COVID
+      - Mais Médicos
+    includes:
+      - Campanhas de vacinação e imunização
+      - Regulação de medicamentos e produtos
+      - Atendimento no SUS
+      - Vigilância epidemiológica e sanitária
+      - Políticas de saúde mental
+      - Combate a epidemias
+    excludes:
+      - Pesquisa científica em saúde (ver Ciência e Tecnologia)
+      - Saúde ocupacional (ver Trabalho e Emprego)
+      - Esportes e atividade física (ver Esportes e Lazer)
+
+  - code: "04"
+    label: "Segurança Pública"
+    description: |
+      Políticas de segurança, combate ao crime organizado, policiamento,
+      sistema prisional e prevenção à violência. Inclui atuação das forças
+      policiais federais e estaduais.
+    keywords:
+      - segurança
+      - segurança pública
+      - polícia
+      - Polícia Federal
+      - PF
+      - PRF
+      - Polícia Rodoviária Federal
+      - crime
+      - criminoso
+      - tráfico
+      - drogas
+      - armas
+      - violência
+      - homicídio
+      - roubo
+      - furto
+      - prisão
+      - presídio
+      - penitenciária
+      - facção
+      - organização criminosa
+      - operação policial
+      - apreensão
+      - investigação
+      - delegacia
+      - fronteira
+      - contrabando
+    includes:
+      - Operações policiais federais
+      - Combate ao tráfico de drogas e armas
+      - Segurança nas fronteiras
+      - Sistema prisional
+      - Prevenção à violência
+    excludes:
+      - Defesa nacional e forças armadas (ver Defesa)
+      - Sistema judiciário (ver Justiça)
+      - Violência contra grupos específicos (ver Minorias)
+
+  - code: "05"
+    label: "Meio Ambiente e Sustentabilidade"
+    description: |
+      Políticas ambientais, conservação da natureza, mudanças climáticas,
+      desenvolvimento sustentável e gestão de recursos naturais. Inclui
+      fiscalização ambiental, licenciamento e combate ao desmatamento.
+    keywords:
+      - meio ambiente
+      - ambiental
+      - sustentabilidade
+      - sustentável
+      - clima
+      - mudanças climáticas
+      - aquecimento global
+      - desmatamento
+      - floresta
+      - Amazônia
+      - biodiversidade
+      - fauna
+      - flora
+      - conservação
+      - preservação
+      - IBAMA
+      - ICMBio
+      - Ministério do Meio Ambiente
+      - unidade de conservação
+      - parque nacional
+      - licenciamento ambiental
+      - poluição
+      - emissões
+      - carbono
+      - água
+      - recursos hídricos
+      - resíduos
+      - reciclagem
+      - energia limpa
+    includes:
+      - Combate ao desmatamento
+      - Proteção da Amazônia e biomas
+      - Políticas climáticas
+      - Gestão de unidades de conservação
+      - Licenciamento ambiental
+      - Educação ambiental
+    excludes:
+      - Energia renovável como política energética (ver Energia)
+      - Saneamento básico urbano (ver Habitação)
+      - Agricultura sustentável (ver Agricultura)
+
+  - code: "06"
+    label: "Ciência, Tecnologia e Inovação"
+    description: |
+      Pesquisa científica, desenvolvimento tecnológico, inovação e
+      transferência de tecnologia. Inclui fomento à pesquisa, startups,
+      inteligência artificial e políticas de CT&I.
+    keywords:
+      - ciência
+      - tecnologia
+      - inovação
+      - pesquisa
+      - pesquisador
+      - cientista
+      - laboratório
+      - CNPq
+      - Finep
+      - MCTI
+      - universidade
+      - instituto de pesquisa
+      - Embrapa
+      - Fiocruz
+      - inteligência artificial
+      - IA
+      - startup
+      - patente
+      - propriedade intelectual
+      - transferência de tecnologia
+      - P&D
+      - desenvolvimento tecnológico
+      - inovação aberta
+      - marco legal
+      - satélite
+      - espacial
+    includes:
+      - Fomento à pesquisa científica
+      - Desenvolvimento de novas tecnologias
+      - Políticas de inovação
+      - Startups e empreendedorismo tecnológico
+      - Inteligência artificial e tecnologias emergentes
+    excludes:
+      - Educação superior e pós-graduação (ver Educação)
+      - Telecomunicações e conectividade (ver Comunicações)
+      - Tecnologia industrial (ver Indústria)
+
+  - code: "07"
+    label: "Infraestrutura e Transportes"
+    description: |
+      Obras de infraestrutura, sistemas de transporte, logística e
+      mobilidade. Inclui rodovias, ferrovias, portos, aeroportos e
+      transporte público.
+    keywords:
+      - infraestrutura
+      - transporte
+      - rodovia
+      - ferrovia
+      - porto
+      - aeroporto
+      - estrada
+      - BR
+      - ponte
+      - viaduto
+      - túnel
+      - obra
+      - construção
+      - concessão
+      - pedágio
+      - logística
+      - carga
+      - frete
+      - mobilidade
+      - transporte público
+      - metrô
+      - trem
+      - ônibus
+      - aviação
+      - ANAC
+      - ANTT
+      - DNIT
+      - PAC
+    includes:
+      - Construção e manutenção de rodovias
+      - Concessões de infraestrutura
+      - Portos e navegação
+      - Aeroportos e aviação civil
+      - Ferrovias e transporte ferroviário
+      - PAC e programas de infraestrutura
+    excludes:
+      - Saneamento básico (ver Habitação)
+      - Infraestrutura energética (ver Energia)
+      - Telecomunicações (ver Comunicações)
+
+  - code: "08"
+    label: "Cultura, Artes e Patrimônio"
+    description: |
+      Políticas culturais, fomento às artes, preservação do patrimônio
+      histórico e promoção da diversidade cultural brasileira.
+    keywords:
+      - cultura
+      - arte
+      - artista
+      - patrimônio
+      - patrimônio histórico
+      - IPHAN
+      - museu
+      - biblioteca
+      - teatro
+      - cinema
+      - audiovisual
+      - música
+      - dança
+      - literatura
+      - livro
+      - festival
+      - exposição
+      - MinC
+      - Ministério da Cultura
+      - Lei Rouanet
+      - incentivo cultural
+      - economia criativa
+      - ponto de cultura
+      - tradição
+      - folclore
+      - artesanato
+    includes:
+      - Fomento a projetos culturais
+      - Preservação do patrimônio histórico
+      - Festivais e eventos culturais
+      - Políticas de diversidade cultural
+      - Economia criativa
+    excludes:
+      - Turismo cultural (ver Turismo)
+      - Educação artística formal (ver Educação)
+      - Esportes (ver Esportes e Lazer)
+
+  - code: "09"
+    label: "Esportes e Lazer"
+    description: |
+      Políticas esportivas, competições, incentivo ao esporte e programas
+      de lazer. Inclui esporte de alto rendimento, esporte educacional
+      e esporte comunitário.
+    keywords:
+      - esporte
+      - atleta
+      - competição
+      - olimpíada
+      - paralimpíada
+      - campeonato
+      - futebol
+      - CBF
+      - COB
+      - CPB
+      - medalha
+      - seleção brasileira
+      - esporte olímpico
+      - esporte paralímpico
+      - lazer
+      - recreação
+      - atividade física
+      - Bolsa Atleta
+      - Lei de Incentivo ao Esporte
+      - infraestrutura esportiva
+      - ginásio
+      - estádio
+      - arena
+    includes:
+      - Competições esportivas nacionais e internacionais
+      - Programas de incentivo ao esporte
+      - Esporte paralímpico e inclusivo
+      - Infraestrutura esportiva
+      - Combate ao doping
+    excludes:
+      - Atividade física como política de saúde (ver Saúde)
+      - Turismo esportivo (ver Turismo)
+      - Educação física escolar (ver Educação)
+
+  - code: "10"
+    label: "Agricultura, Pecuária e Abastecimento"
+    description: |
+      Políticas agrícolas, pecuária, produção de alimentos, reforma agrária
+      e abastecimento. Inclui agricultura familiar, agronegócio e segurança
+      alimentar.
+    keywords:
+      - agricultura
+      - pecuária
+      - agropecuária
+      - agronegócio
+      - produtor rural
+      - fazenda
+      - sítio
+      - plantação
+      - colheita
+      - safra
+      - grãos
+      - soja
+      - milho
+      - café
+      - gado
+      - boi
+      - carne
+      - leite
+      - Embrapa
+      - MAPA
+      - Ministério da Agricultura
+      - reforma agrária
+      - assentamento
+      - agricultura familiar
+      - Pronaf
+      - crédito rural
+      - seguro agrícola
+      - Conab
+      - abastecimento
+    includes:
+      - Políticas de crédito rural
+      - Reforma agrária e assentamentos
+      - Agricultura familiar
+      - Agronegócio e exportação
+      - Sanidade animal e vegetal
+      - Segurança alimentar
+    excludes:
+      - Combate à fome como política social (ver Desenvolvimento Social)
+      - Sustentabilidade agrícola (ver Meio Ambiente)
+      - Comércio exterior agrícola (ver Economia)
+
+  - code: "11"
+    label: "Indústria e Comércio"
+    description: |
+      Políticas industriais, desenvolvimento do setor produtivo, comércio
+      interno e competitividade empresarial. Inclui apoio a pequenas e
+      médias empresas.
+    keywords:
+      - indústria
+      - industrial
+      - fábrica
+      - manufatura
+      - produção
+      - comércio
+      - empresa
+      - empresário
+      - empreendedor
+      - PME
+      - pequena empresa
+      - média empresa
+      - microempresa
+      - MEI
+      - Sebrae
+      - MDIC
+      - competitividade
+      - produtividade
+      - cadeia produtiva
+      - setor automotivo
+      - siderurgia
+      - indústria 4.0
+      - automação
+    includes:
+      - Políticas de desenvolvimento industrial
+      - Apoio a pequenas e médias empresas
+      - Competitividade e produtividade
+      - Formalização de empresas
+      - Indústria 4.0 e automação
+    excludes:
+      - Comércio exterior (ver Economia)
+      - Inovação tecnológica (ver Ciência e Tecnologia)
+      - Trabalho na indústria (ver Trabalho)
+
+  - code: "12"
+    label: "Relações Internacionais e Diplomacia"
+    description: |
+      Política externa brasileira, relações bilaterais e multilaterais,
+      acordos internacionais e cooperação internacional.
+    keywords:
+      - relações internacionais
+      - diplomacia
+      - diplomático
+      - embaixada
+      - consulado
+      - Itamaraty
+      - MRE
+      - Ministério das Relações Exteriores
+      - chanceler
+      - embaixador
+      - acordo internacional
+      - tratado
+      - ONU
+      - Mercosul
+      - BRICS
+      - G20
+      - cooperação internacional
+      - visita oficial
+      - cúpula
+      - bilateral
+      - multilateral
+      - política externa
+    includes:
+      - Acordos e tratados internacionais
+      - Visitas de Estado e diplomáticas
+      - Participação em organizações internacionais
+      - Cooperação técnica internacional
+      - Integração regional
+    excludes:
+      - Comércio exterior (ver Economia)
+      - Defesa e cooperação militar (ver Defesa)
+      - Turismo internacional (ver Turismo)
+
+  - code: "13"
+    label: "Justiça e Direitos Humanos"
+    description: |
+      Sistema de justiça, acesso à justiça, direitos humanos e combate
+      à corrupção. Inclui atuação do Judiciário, Ministério Público e
+      Defensoria Pública.
+    keywords:
+      - justiça
+      - judiciário
+      - juiz
+      - desembargador
+      - ministro
+      - STF
+      - STJ
+      - tribunal
+      - processo
+      - sentença
+      - julgamento
+      - Ministério Público
+      - procurador
+      - promotor
+      - Defensoria Pública
+      - defensor
+      - direitos humanos
+      - direitos fundamentais
+      - acesso à justiça
+      - corrupção
+      - anticorrupção
+      - Lava Jato
+      - improbidade
+      - consumidor
+      - Procon
+    includes:
+      - Decisões judiciais de impacto nacional
+      - Combate à corrupção
+      - Acesso à justiça e Defensoria Pública
+      - Direitos do consumidor
+      - Proteção aos direitos humanos
+    excludes:
+      - Sistema prisional (ver Segurança Pública)
+      - Direitos de minorias específicas (ver Minorias)
+      - Legislação e regulamentação (ver Legislação)
+
+  - code: "14"
+    label: "Trabalho e Emprego"
+    description: |
+      Políticas de emprego, mercado de trabalho, direitos trabalhistas,
+      qualificação profissional e relações de trabalho.
+    keywords:
+      - trabalho
+      - emprego
+      - trabalhador
+      - empregado
+      - CLT
+      - carteira de trabalho
+      - CTPS
+      - salário
+      - salário mínimo
+      - desemprego
+      - seguro desemprego
+      - FGTS
+      - INSS
+      - aposentadoria
+      - sindicato
+      - greve
+      - negociação coletiva
+      - qualificação profissional
+      - Pronatec
+      - jovem aprendiz
+      - primeiro emprego
+      - trabalho escravo
+      - trabalho infantil
+      - fiscalização trabalhista
+      - MTE
+    includes:
+      - Políticas de geração de emprego
+      - Qualificação profissional
+      - Fiscalização trabalhista
+      - Combate ao trabalho escravo e infantil
+      - Seguro desemprego e FGTS
+    excludes:
+      - Previdência social (ver Desenvolvimento Social)
+      - Educação profissional formal (ver Educação)
+      - Saúde ocupacional (se foco médico, ver Saúde)
+
+  - code: "15"
+    label: "Desenvolvimento Social"
+    description: |
+      Políticas sociais, programas de transferência de renda, combate à
+      pobreza e assistência social. Inclui Bolsa Família, BPC e políticas
+      para idosos e pessoas em vulnerabilidade.
+    keywords:
+      - social
+      - assistência social
+      - política social
+      - Bolsa Família
+      - BPC
+      - benefício
+      - transferência de renda
+      - pobreza
+      - extrema pobreza
+      - vulnerabilidade
+      - CRAS
+      - CREAS
+      - SUAS
+      - MDS
+      - Ministério do Desenvolvimento Social
+      - fome
+      - combate à fome
+      - segurança alimentar
+      - idoso
+      - pessoa idosa
+      - acolhimento
+      - cadastro único
+      - CadÚnico
+    includes:
+      - Programas de transferência de renda
+      - Combate à fome e insegurança alimentar
+      - Assistência a idosos
+      - Políticas para pessoas em vulnerabilidade
+      - Previdência social
+    excludes:
+      - Políticas para minorias específicas (ver Minorias)
+      - Habitação popular (ver Habitação)
+      - Saúde pública (ver Saúde)
+
+  - code: "16"
+    label: "Turismo"
+    description: |
+      Promoção do turismo nacional e internacional, infraestrutura turística
+      e desenvolvimento de destinos turísticos.
+    keywords:
+      - turismo
+      - turista
+      - viagem
+      - destino turístico
+      - hotel
+      - hospedagem
+      - pousada
+      - resort
+      - Embratur
+      - MTur
+      - Ministério do Turismo
+      - ecoturismo
+      - turismo de aventura
+      - turismo cultural
+      - turismo religioso
+      - cruzeiro
+      - guia turístico
+      - atração turística
+      - patrimônio turístico
+      - alta temporada
+      - férias
+    includes:
+      - Promoção de destinos turísticos
+      - Infraestrutura de turismo
+      - Qualificação profissional em turismo
+      - Turismo sustentável e ecoturismo
+      - Eventos turísticos
+    excludes:
+      - Patrimônio histórico (ver Cultura)
+      - Parques nacionais (ver Meio Ambiente)
+      - Aviação comercial (ver Infraestrutura)
+
+  - code: "17"
+    label: "Energia e Recursos Minerais"
+    description: |
+      Políticas energéticas, produção de energia, petróleo e gás, mineração
+      e matriz energética brasileira.
+    keywords:
+      - energia
+      - elétrica
+      - eletricidade
+      - petróleo
+      - Petrobras
+      - pré-sal
+      - gás natural
+      - refinaria
+      - combustível
+      - gasolina
+      - diesel
+      - etanol
+      - biocombustível
+      - hidrelétrica
+      - usina
+      - solar
+      - eólica
+      - nuclear
+      - mineração
+      - minério
+      - Vale
+      - ANP
+      - ANEEL
+      - MME
+      - Luz para Todos
+      - tarifa de energia
+    includes:
+      - Exploração de petróleo e gás
+      - Energia elétrica e tarifas
+      - Energias renováveis
+      - Mineração e recursos minerais
+      - Biocombustíveis
+    excludes:
+      - Sustentabilidade ambiental da energia (ver Meio Ambiente)
+      - Infraestrutura de transmissão (ver Infraestrutura)
+      - Economia do setor (ver Economia)
+
+  - code: "18"
+    label: "Comunicações e Mídia"
+    description: |
+      Telecomunicações, radiodifusão, internet, inclusão digital e
+      regulação das comunicações.
+    keywords:
+      - comunicação
+      - telecomunicação
+      - telefonia
+      - internet
+      - banda larga
+      - 5G
+      - fibra óptica
+      - conectividade
+      - inclusão digital
+      - rádio
+      - televisão
+      - TV
+      - radiodifusão
+      - Anatel
+      - EBC
+      - mídia
+      - imprensa
+      - jornalismo
+      - fake news
+      - desinformação
+      - liberdade de imprensa
+      - comunicação pública
+      - Correios
+    includes:
+      - Expansão da conectividade
+      - Regulação de telecomunicações
+      - Inclusão digital
+      - Combate à desinformação
+      - Comunicação pública e estatal
+    excludes:
+      - Tecnologia e inovação em comunicações (ver Ciência e Tecnologia)
+      - Liberdade de expressão (ver Justiça)
+      - Cultura digital (ver Cultura)
+
+  - code: "19"
+    label: "Defesa e Forças Armadas"
+    description: |
+      Defesa nacional, Forças Armadas, segurança das fronteiras e cooperação
+      militar internacional. Inclui Exército, Marinha e Aeronáutica.
+    keywords:
+      - defesa
+      - Forças Armadas
+      - militar
+      - Exército
+      - Marinha
+      - Aeronáutica
+      - FAB
+      - soldado
+      - oficial
+      - general
+      - almirante
+      - brigadeiro
+      - Ministério da Defesa
+      - quartel
+      - base militar
+      - operação militar
+      - fronteira
+      - segurança nacional
+      - soberania
+      - território
+      - missão de paz
+      - ONU
+      - equipamento militar
+      - indústria de defesa
+    includes:
+      - Operações das Forças Armadas
+      - Defesa das fronteiras
+      - Missões de paz internacionais
+      - Indústria de defesa
+      - Modernização militar
+    excludes:
+      - Segurança pública e polícia (ver Segurança Pública)
+      - Defesa civil e desastres (se foco civil, ver tema relacionado)
+      - Cooperação internacional não-militar (ver Relações Internacionais)
+
+  - code: "20"
+    label: "Políticas Públicas e Governança"
+    description: |
+      Gestão pública, transparência, participação social e modernização
+      do Estado. Inclui dados abertos, controle interno e reforma administrativa.
+    keywords:
+      - governança
+      - gestão pública
+      - administração pública
+      - servidor público
+      - funcionalismo
+      - concurso público
+      - transparência
+      - Portal da Transparência
+      - LAI
+      - Lei de Acesso à Informação
+      - controle interno
+      - CGU
+      - TCU
+      - auditoria
+      - licitação
+      - contrato público
+      - reforma administrativa
+      - desburocratização
+      - governo digital
+      - participação social
+      - conselho
+      - conferência nacional
+      - dados abertos
+      - censo
+      - IBGE
+      - estatística
+    includes:
+      - Transparência e acesso à informação
+      - Gestão e modernização do Estado
+      - Concursos públicos
+      - Participação e controle social
+      - Dados abertos e estatísticas públicas
+    excludes:
+      - Legislação e leis (ver Legislação)
+      - Sistema judiciário (ver Justiça)
+      - Políticas setoriais específicas (ver tema correspondente)
+
+  - code: "21"
+    label: "Legislação e Regulamentação"
+    description: |
+      Processo legislativo, novas leis e decretos, regulamentação e
+      consultas públicas. Inclui atuação do Congresso Nacional.
+    keywords:
+      - lei
+      - legislação
+      - decreto
+      - medida provisória
+      - MP
+      - projeto de lei
+      - PL
+      - PEC
+      - Congresso Nacional
+      - Senado
+      - Câmara dos Deputados
+      - deputado
+      - senador
+      - votação
+      - aprovação
+      - sanção
+      - veto
+      - regulamentação
+      - norma
+      - portaria
+      - resolução
+      - consulta pública
+      - Diário Oficial
+      - DOU
+    includes:
+      - Tramitação de projetos de lei
+      - Aprovação e sanção de leis
+      - Decretos e regulamentações
+      - Consultas públicas
+      - Reforma legislativa
+    excludes:
+      - Decisões judiciais (ver Justiça)
+      - Políticas públicas em geral (ver Políticas Públicas)
+      - Legislação trabalhista específica (ver Trabalho)
+
+  - code: "22"
+    label: "Minorias e Grupos Especiais"
+    description: |
+      Políticas para grupos específicos como mulheres, população negra,
+      indígenas, LGBTQIA+, pessoas com deficiência e comunidades tradicionais.
+    keywords:
+      - mulher
+      - feminino
+      - igualdade de gênero
+      - violência contra mulher
+      - Maria da Penha
+      - negro
+      - negra
+      - racial
+      - racismo
+      - igualdade racial
+      - quilombola
+      - indígena
+      - índio
+      - terra indígena
+      - Funai
+      - LGBTQIA+
+      - LGBT
+      - homofobia
+      - pessoa com deficiência
+      - PCD
+      - acessibilidade
+      - inclusão
+      - comunidade tradicional
+      - ribeirinho
+      - cigano
+    includes:
+      - Políticas de igualdade de gênero
+      - Combate ao racismo
+      - Direitos indígenas e demarcação de terras
+      - Direitos LGBTQIA+
+      - Acessibilidade e inclusão de PCD
+      - Comunidades quilombolas e tradicionais
+    excludes:
+      - Direitos humanos gerais (ver Justiça)
+      - Assistência social (ver Desenvolvimento Social)
+      - Educação inclusiva (ver Educação)
+
+  - code: "23"
+    label: "Habitação e Urbanismo"
+    description: |
+      Políticas habitacionais, programas de moradia, planejamento urbano
+      e saneamento básico. Inclui Minha Casa Minha Vida e regularização fundiária.
+    keywords:
+      - habitação
+      - moradia
+      - casa
+      - apartamento
+      - Minha Casa Minha Vida
+      - MCMV
+      - Caixa
+      - financiamento habitacional
+      - regularização fundiária
+      - favela
+      - comunidade
+      - urbanização
+      - planejamento urbano
+      - plano diretor
+      - saneamento
+      - água
+      - esgoto
+      - tratamento de esgoto
+      - abastecimento de água
+      - drenagem
+      - enchente
+      - alagamento
+      - cidade
+      - município
+      - periferia
+    includes:
+      - Programas habitacionais federais
+      - Financiamento de moradia
+      - Saneamento básico
+      - Urbanização de áreas precárias
+      - Regularização fundiária
+    excludes:
+      - Infraestrutura de transporte urbano (ver Infraestrutura)
+      - Meio ambiente urbano (ver Meio Ambiente)
+      - Assistência a pessoas em situação de rua (ver Desenvolvimento Social)
