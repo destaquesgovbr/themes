@@ -12,6 +12,7 @@ from pathlib import Path
 
 from utils.data_loader import DataLoader
 from utils.theme_hierarchy import get_theme_hierarchy, get_level
+from utils.agencies import AgencyLoader
 
 
 # Configuração da página
@@ -20,6 +21,13 @@ st.set_page_config(
     page_icon="📋",
     layout="wide"
 )
+
+# Emojis para complexidade
+COMPLEXITY_EMOJI = {
+    "clara": "🟢",
+    "moderada": "🟡",
+    "dificil": "🔴"
+}
 
 
 class AnnotationApp:
@@ -36,6 +44,12 @@ class AnnotationApp:
         # Nomes dos arquivos
         self.dataset_filename = os.getenv('DATASET_FILE', 'test_dataset.csv')
         self.themes_filename = os.getenv('THEMES_FILE', 'themes_tree_enriched_full.yaml')
+        self.agencies_filename = 'agencies.yaml'
+
+        # Inicializar agency loader
+        data_dir = Path(__file__).parent.parent / 'data'
+        agencies_file = data_dir / self.agencies_filename
+        self.agency_loader = AgencyLoader(agencies_file) if agencies_file.exists() else None
 
     @st.cache_data
     def load_data(_self):
@@ -54,9 +68,128 @@ class AnnotationApp:
         """Salva dataset anotado"""
         self.data_loader.save_csv(df, self.dataset_filename)
 
+    def get_agency_name(self, sigla: str) -> str:
+        """Obtém nome completo da agência"""
+        if self.agency_loader:
+            return self.agency_loader.get_agency_name(sigla)
+        return sigla
+
+    def get_theme_label(self, code: str, themes: dict) -> str:
+        """
+        Obtém o label de um tema a partir do código.
+
+        Args:
+            code: Código do tema (ex: "01", "01.01", "01.01.01")
+            themes: Dicionário com hierarquia de temas
+
+        Returns:
+            Label do tema ou código se não encontrado
+        """
+        if not code or not themes:
+            return code
+
+        # Determinar nível
+        parts = str(code).split('.')
+        level = len(parts)
+
+        if level == 1:
+            # L1
+            return themes['L1'].get(code, code)
+        elif level == 2:
+            # L2
+            parent = parts[0]
+            return themes['L2'].get(parent, {}).get(code, code)
+        elif level == 3:
+            # L3
+            parent = '.'.join(parts[:2])
+            return themes['L3'].get(parent, {}).get(code, code)
+
+        return code
+
+    def render_home_page(self):
+        """Renderiza página inicial com instruções"""
+        st.title("📋 Anotação Manual de Notícias GovBR")
+        st.markdown("### Fase 4.3 - Validação da Taxonomia Temática")
+
+        st.markdown("---")
+
+        # Instruções
+        st.markdown("""
+        ## 🎯 Objetivo
+
+        Esta ferramenta permite a **anotação manual de notícias governamentais brasileiras**
+        com classificação temática hierárquica em 3 níveis:
+
+        - **L1 (Tema)**: Área temática principal (ex: "Economia e Finanças")
+        - **L2 (Subtema)**: Subcategoria do tema (ex: "Política Econômica")
+        - **L3 (Categoria)**: Classificação específica (ex: "Política Fiscal")
+
+        ## 📝 Como Anotar
+
+        1. **Leia** o título, resumo e conteúdo da notícia
+        2. **Identifique** o tema principal (L1)
+        3. **Selecione** o subtema (L2) e categoria (L3) mais específicos
+        4. **Avalie** seu nível de confiança na classificação
+        5. **Documente** observações para casos ambíguos ou dúvidas
+        6. **Salve** a anotação e passe para a próxima notícia
+
+        ## ✅ Dicas de Qualidade
+
+        - Sempre escolha a **categoria mais específica** possível
+        - Para notícias **multi-temáticas**, priorize o tema **dominante**
+        - Use **"Confiança Baixa"** quando houver **ambiguidade**
+        - Documente **dúvidas** no campo de observações
+        - Consulte a **classificação original** (ground truth) se disponível
+
+        ## 🚀 Filtros Disponíveis
+
+        - **Status**: Todas / Pendentes / Anotadas
+        - **Complexidade**:
+          - 🟢 Clara: Tema óbvio
+          - 🟡 Moderada: Requer análise
+          - 🔴 Difícil: Ambígua ou multi-temática
+
+        ---
+        """)
+
+        # Nome do anotador
+        st.markdown("## 👤 Identificação")
+
+        # Carregar nome do cookie (session_state)
+        if 'annotator_name' not in st.session_state:
+            st.session_state.annotator_name = ""
+
+        annotator_name = st.text_input(
+            "**Seu Nome**",
+            value=st.session_state.annotator_name,
+            placeholder="Digite seu nome completo",
+            help="Seu nome será salvo junto com cada anotação que você fizer"
+        )
+
+        # Atualizar session state
+        if annotator_name:
+            st.session_state.annotator_name = annotator_name
+
+        # Botão para iniciar
+        if st.button("🚀 Iniciar Anotação", type="primary", use_container_width=True):
+            if not annotator_name:
+                st.error("⚠️ Por favor, informe seu nome antes de iniciar")
+            else:
+                st.session_state.show_home = False
+                st.rerun()
+
     def render_sidebar(self, df):
         """Renderiza sidebar com estatísticas e filtros"""
         with st.sidebar:
+            # Nome do anotador (topo)
+            st.markdown(f"### 👤 {st.session_state.annotator_name}")
+
+            if st.button("🏠 Voltar para Home"):
+                st.session_state.show_home = True
+                st.rerun()
+
+            st.markdown("---")
+
             st.header("📊 Progresso")
 
             total = len(df)
@@ -77,12 +210,15 @@ class AnnotationApp:
 
             filtro_status = st.selectbox(
                 "Status",
-                ["Todas", "Pendentes", "Anotadas"]
+                ["Todas", "Pendentes", "Anotadas"],
+                help="Filtrar notícias por status de anotação"
             )
 
             filtro_complexidade = st.selectbox(
                 "Complexidade",
-                ["Todas", "clara", "moderada", "dificil"]
+                ["Todas", "clara", "moderada", "dificil"],
+                format_func=lambda x: f"{COMPLEXITY_EMOJI.get(x, '')} {x}".strip() if x != "Todas" else x,
+                help="Filtrar por complexidade estimada da classificação"
             )
 
             return filtro_status, filtro_complexidade
@@ -107,12 +243,15 @@ class AnnotationApp:
         col_info1, col_info2 = st.columns(2)
 
         with col_info1:
-            st.markdown(f"**Órgão:** {row['orgao']}")
+            agency_name = self.get_agency_name(row['orgao'])
+            st.markdown(f"**Órgão:** {agency_name}")
             st.markdown(f"**Data:** {row['data_publicacao']}")
-            st.markdown(f"**Complexidade:** `{row['complexidade_estimada']}`")
+
+            complexity = row['complexidade_estimada']
+            emoji = COMPLEXITY_EMOJI.get(complexity, "")
+            st.markdown(f"**Complexidade:** {emoji} {complexity}")
 
         with col_info2:
-            st.markdown(f"**ID:** `{row['unique_id']}`")
             if row['url']:
                 st.markdown(f"[🔗 Link original]({row['url']})")
 
@@ -132,62 +271,122 @@ class AnnotationApp:
 
         st.markdown("---")
 
-    def render_annotation_form(self, row, themes):
-        """Renderiza formulário de anotação"""
+    def render_hierarchical_selection(self, row, themes):
+        """
+        Renderiza seleção hierárquica L1 → L2 → L3 FORA do form.
+
+        IMPORTANTE: Não pode estar dentro de st.form() para permitir reatividade.
+        """
         st.subheader("🏷️ Classificação Temática")
 
-        with st.form(key="annotation_form"):
-            # L1 - Tema
-            l1_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L1'].items())]
-            l1_current = ""
-            if pd.notna(row['L1_anotado']) and str(row['L1_anotado']):
-                matches = [x for x in l1_options if x.startswith(str(row['L1_anotado']))]
-                if matches:
-                    l1_current = matches[0]
+        # Inicializar session state para as seleções
+        if 'selected_l1' not in st.session_state:
+            st.session_state.selected_l1 = ""
+        if 'selected_l2' not in st.session_state:
+            st.session_state.selected_l2 = ""
+        if 'selected_l3' not in st.session_state:
+            st.session_state.selected_l3 = ""
 
-            l1_selected = st.selectbox(
-                "**Tema (L1)**",
-                l1_options,
-                index=l1_options.index(l1_current) if l1_current in l1_options else 0
+        # Verificar se temos valores anotados para esta notícia
+        if pd.notna(row['L1_anotado']) and str(row['L1_anotado']):
+            current_l1 = str(row['L1_anotado'])
+        else:
+            current_l1 = st.session_state.selected_l1
+
+        if pd.notna(row['L2_anotado']) and str(row['L2_anotado']):
+            current_l2 = str(row['L2_anotado'])
+        else:
+            current_l2 = st.session_state.selected_l2
+
+        if pd.notna(row['L3_anotado']) and str(row['L3_anotado']):
+            current_l3 = str(row['L3_anotado'])
+        else:
+            current_l3 = st.session_state.selected_l3
+
+        # L1 - Tema
+        l1_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L1'].items())]
+
+        l1_current_formatted = ""
+        if current_l1:
+            matches = [x for x in l1_options if x.startswith(current_l1)]
+            if matches:
+                l1_current_formatted = matches[0]
+
+        l1_index = l1_options.index(l1_current_formatted) if l1_current_formatted in l1_options else 0
+
+        l1_selected = st.selectbox(
+            "**Tema (L1)**",
+            l1_options,
+            index=l1_index,
+            key="l1_selector",
+            help="Selecione o tema principal da notícia"
+        )
+
+        # Atualizar session state
+        st.session_state.selected_l1 = l1_selected.split(' - ')[0] if l1_selected else ""
+
+        # L2 - Subtema (só aparece se L1 selecionado)
+        l2_selected = None
+        if l1_selected:
+            l1_code = l1_selected.split(' - ')[0]
+            l2_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L2'].get(l1_code, {}).items())]
+
+            l2_current_formatted = ""
+            if current_l2 and current_l2.startswith(l1_code):
+                matches = [x for x in l2_options if x.startswith(current_l2)]
+                if matches:
+                    l2_current_formatted = matches[0]
+
+            l2_index = l2_options.index(l2_current_formatted) if l2_current_formatted in l2_options else 0
+
+            l2_selected = st.selectbox(
+                "**Subtema (L2)**",
+                l2_options,
+                index=l2_index,
+                key="l2_selector",
+                help="Selecione o subtema mais específico"
             )
 
-            l2_selected = None
+            # Atualizar session state
+            st.session_state.selected_l2 = l2_selected.split(' - ')[0] if l2_selected else ""
+
+            # L3 - Categoria (só aparece se L2 selecionado)
             l3_selected = None
+            if l2_selected:
+                l2_code = l2_selected.split(' - ')[0]
+                l3_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L3'].get(l2_code, {}).items())]
 
-            # L2 - Subtema
-            if l1_selected:
-                l1_code = l1_selected.split(' - ')[0]
-                l2_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L2'].get(l1_code, {}).items())]
-
-                l2_current = ""
-                if pd.notna(row['L2_anotado']) and str(row['L2_anotado']):
-                    matches = [x for x in l2_options if x.startswith(str(row['L2_anotado']))]
+                l3_current_formatted = ""
+                if current_l3 and current_l3.startswith(l2_code):
+                    matches = [x for x in l3_options if x.startswith(current_l3)]
                     if matches:
-                        l2_current = matches[0]
+                        l3_current_formatted = matches[0]
 
-                l2_selected = st.selectbox(
-                    "**Subtema (L2)**",
-                    l2_options,
-                    index=l2_options.index(l2_current) if l2_current in l2_options else 0
+                l3_index = l3_options.index(l3_current_formatted) if l3_current_formatted in l3_options else 0
+
+                l3_selected = st.selectbox(
+                    "**Categoria (L3)**",
+                    l3_options,
+                    index=l3_index,
+                    key="l3_selector",
+                    help="Selecione a categoria mais específica"
                 )
 
-                # L3 - Categoria
-                if l2_selected:
-                    l2_code = l2_selected.split(' - ')[0]
-                    l3_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L3'].get(l2_code, {}).items())]
+                # Atualizar session state
+                st.session_state.selected_l3 = l3_selected.split(' - ')[0] if l3_selected else ""
 
-                    l3_current = ""
-                    if pd.notna(row['L3_anotado']) and str(row['L3_anotado']):
-                        matches = [x for x in l3_options if x.startswith(str(row['L3_anotado']))]
-                        if matches:
-                            l3_current = matches[0]
+        return l1_selected, l2_selected, l3_selected
 
-                    l3_selected = st.selectbox(
-                        "**Categoria (L3)**",
-                        l3_options,
-                        index=l3_options.index(l3_current) if l3_current in l3_options else 0
-                    )
+    def render_annotation_form(self, row):
+        """
+        Renderiza apenas os campos finais do formulário (confiança, observações, botões).
 
+        IMPORTANTE: A seleção L1/L2/L3 deve estar FORA do form.
+        """
+        st.markdown("---")
+        st.subheader("📊 Avaliação da Classificação")
+
+        with st.form(key="annotation_form"):
             # Confiança
             conf_value = "media"
             if pd.notna(row['confianca']) and row['confianca'] in ["baixa", "media", "alta"]:
@@ -196,7 +395,8 @@ class AnnotationApp:
             confianca = st.select_slider(
                 "**Confiança na Classificação**",
                 options=["baixa", "media", "alta"],
-                value=conf_value
+                value=conf_value,
+                help="Quão confiante você está nesta classificação?"
             )
 
             # Observações
@@ -207,18 +407,8 @@ class AnnotationApp:
             observacoes = st.text_area(
                 "**Observações** (opcional)",
                 value=obs_value,
-                placeholder="Casos ambíguos, dúvidas, comentários..."
-            )
-
-            # Anotador
-            anotador_value = ""
-            if pd.notna(row['anotador']):
-                anotador_value = str(row['anotador'])
-
-            anotador = st.text_input(
-                "**Nome do Anotador**",
-                value=anotador_value,
-                placeholder="Seu nome"
+                placeholder="Casos ambíguos, dúvidas, comentários...",
+                help="Documente qualquer observação relevante sobre a classificação"
             )
 
             # Botões
@@ -230,20 +420,38 @@ class AnnotationApp:
             with col_btn2:
                 skip = st.form_submit_button("⏭️ Pular", use_container_width=True)
 
-            return submit, skip, l1_selected, l2_selected, l3_selected, confianca, observacoes, anotador
+            return submit, skip, confianca, observacoes
 
-    def render_ground_truth(self, row):
-        """Renderiza classificação original (ground truth)"""
+    def render_ground_truth(self, row, themes):
+        """Renderiza classificação original (ground truth) com código E label"""
         if pd.notna(row['L1_original']) and row['L1_original']:
             with st.expander("🔍 Ver Classificação Original (Ground Truth)"):
-                st.markdown(f"**L1:** `{row['L1_original']}`")
+                l1_code = str(row['L1_original'])
+                l1_label = self.get_theme_label(l1_code, themes)
+                st.markdown(f"**L1:** `{l1_code}` - {l1_label}")
+
                 if pd.notna(row['L2_original']):
-                    st.markdown(f"**L2:** `{row['L2_original']}`")
+                    l2_code = str(row['L2_original'])
+                    l2_label = self.get_theme_label(l2_code, themes)
+                    st.markdown(f"**L2:** `{l2_code}` - {l2_label}")
+
                 if pd.notna(row['L3_original']):
-                    st.markdown(f"**L3:** `{row['L3_original']}`")
+                    l3_code = str(row['L3_original'])
+                    l3_label = self.get_theme_label(l3_code, themes)
+                    st.markdown(f"**L3:** `{l3_code}` - {l3_label}")
 
     def run(self):
         """Executa aplicação principal"""
+        # Inicializar session state
+        if 'show_home' not in st.session_state:
+            st.session_state.show_home = True
+
+        # Mostrar home se necessário
+        if st.session_state.show_home:
+            self.render_home_page()
+            return
+
+        # Aplicação principal
         st.title("📋 Anotação Manual de Notícias - Fase 4.3")
         st.markdown("---")
 
@@ -267,6 +475,10 @@ class AnnotationApp:
         if 'current_index' not in st.session_state:
             st.session_state.current_index = indices[0]
 
+        # Garantir que o índice atual está na lista filtrada
+        if st.session_state.current_index not in indices:
+            st.session_state.current_index = indices[0]
+
         # Navegação
         col1, col2, col3 = st.columns([1, 3, 1])
 
@@ -275,6 +487,10 @@ class AnnotationApp:
                 current_pos = indices.index(st.session_state.current_index)
                 if current_pos > 0:
                     st.session_state.current_index = indices[current_pos - 1]
+                    # Limpar seleções ao mudar de notícia
+                    st.session_state.selected_l1 = ""
+                    st.session_state.selected_l2 = ""
+                    st.session_state.selected_l3 = ""
                     st.rerun()
 
         with col2:
@@ -286,6 +502,10 @@ class AnnotationApp:
                 current_pos = indices.index(st.session_state.current_index)
                 if current_pos < len(indices) - 1:
                     st.session_state.current_index = indices[current_pos + 1]
+                    # Limpar seleções ao mudar de notícia
+                    st.session_state.selected_l1 = ""
+                    st.session_state.selected_l2 = ""
+                    st.session_state.selected_l3 = ""
                     st.rerun()
 
         st.markdown("---")
@@ -296,25 +516,31 @@ class AnnotationApp:
         # Renderizar conteúdo da notícia
         self.render_news_content(row)
 
-        # Renderizar formulário de anotação
-        submit, skip, l1_selected, l2_selected, l3_selected, confianca, observacoes, anotador = self.render_annotation_form(row, themes)
+        # Renderizar seleção hierárquica FORA do form
+        l1_selected, l2_selected, l3_selected = self.render_hierarchical_selection(row, themes)
+
+        # Renderizar formulário (apenas campos finais)
+        submit, skip, confianca, observacoes = self.render_annotation_form(row)
 
         if submit:
             if not l1_selected:
                 st.error("⚠️ Selecione pelo menos o Tema (L1)")
-            elif not anotador:
-                st.error("⚠️ Informe o nome do anotador")
             else:
                 # Salvar anotação
                 df.at[st.session_state.current_index, 'L1_anotado'] = l1_selected.split(' - ')[0]
                 if l2_selected:
                     df.at[st.session_state.current_index, 'L2_anotado'] = l2_selected.split(' - ')[0]
+                else:
+                    df.at[st.session_state.current_index, 'L2_anotado'] = None
+
                 if l3_selected:
                     df.at[st.session_state.current_index, 'L3_anotado'] = l3_selected.split(' - ')[0]
+                else:
+                    df.at[st.session_state.current_index, 'L3_anotado'] = None
 
                 df.at[st.session_state.current_index, 'confianca'] = confianca
                 df.at[st.session_state.current_index, 'observacoes'] = observacoes
-                df.at[st.session_state.current_index, 'anotador'] = anotador
+                df.at[st.session_state.current_index, 'anotador'] = st.session_state.annotator_name
                 df.at[st.session_state.current_index, 'data_anotacao'] = datetime.now().isoformat()
 
                 self.save_data(df)
@@ -324,6 +550,12 @@ class AnnotationApp:
                 current_pos = indices.index(st.session_state.current_index)
                 if current_pos < len(indices) - 1:
                     st.session_state.current_index = indices[current_pos + 1]
+
+                # Limpar seleções
+                st.session_state.selected_l1 = ""
+                st.session_state.selected_l2 = ""
+                st.session_state.selected_l3 = ""
+
                 st.rerun()
 
         if skip:
@@ -331,10 +563,16 @@ class AnnotationApp:
             current_pos = indices.index(st.session_state.current_index)
             if current_pos < len(indices) - 1:
                 st.session_state.current_index = indices[current_pos + 1]
+
+                # Limpar seleções
+                st.session_state.selected_l1 = ""
+                st.session_state.selected_l2 = ""
+                st.session_state.selected_l3 = ""
+
                 st.rerun()
 
         # Mostrar ground truth
-        self.render_ground_truth(row)
+        self.render_ground_truth(row, themes)
 
 
 def main():
