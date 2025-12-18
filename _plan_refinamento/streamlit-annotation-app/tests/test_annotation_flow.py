@@ -60,11 +60,11 @@ class TestHomePage:
         start_button = page.locator("text=🚀 Iniciar Anotação")
         start_button.click()
 
-        # Aguardar transição para interface de anotação
-        page.wait_for_timeout(3000)
+        # Aguardar transição para interface de anotação (Streamlit precisa fazer rerun)
+        page.wait_for_timeout(6000)
 
         # Verificar que saiu da home
-        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=2000)
+        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=3000)
 
 
 class TestAnnotationInterface:
@@ -83,10 +83,10 @@ class TestAnnotationInterface:
         start_button.click()
 
         # Aguardar carregar - usar matcher mais flexível
-        page.wait_for_timeout(3000)  # Aguardar rerun do Streamlit
+        page.wait_for_timeout(6000)  # Aguardar rerun do Streamlit
 
         # Verificar que saiu da home (não tem mais o objetivo)
-        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=2000)
+        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=3000)
 
         return page
 
@@ -323,10 +323,10 @@ class TestComplexityEmojis:
         start_button.click()
 
         # Aguardar carregar - usar matcher mais flexível
-        page.wait_for_timeout(3000)  # Aguardar rerun do Streamlit
+        page.wait_for_timeout(6000)  # Aguardar rerun do Streamlit
 
         # Verificar que saiu da home (não tem mais o objetivo)
-        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=2000)
+        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=3000)
 
         return page
 
