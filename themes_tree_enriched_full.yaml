@@ -1,3 +1,10 @@
+# Árvore Temática Enriquecida Completa - DestaquesGovBr
+# Versão: 3.1
+# Data: 2025-12-18
+# Inclui: Descrições L1 + L2 + L3 completas
+# Total: 23 temas L1 (temas 22 e 23 originais removidos)
+# Estrutura final após decisões DEC-001 e DEC-002
+
 themes:
 - code: '01'
   label: Economia e Finanças
@@ -6371,6 +6378,27 @@ themes:
       - Ministério lança campanha contra intolerância religiosa
       - Governo reforça proteção a manifestações religiosas
       - Brasil promove diálogo inter-religioso
+    description: 'Trata da garantia e promoção dos direitos fundamentais constitucionais, com ênfase na proteção dos direitos
+      de crianças e adolescentes e na liberdade religiosa. Abrange a implementação do Estatuto da Criança e do Adolescente
+      (ECA), ações contra trabalho infantil, proteção em situações de vulnerabilidade, garantia da liberdade de culto, combate
+      à intolerância religiosa e promoção da diversidade religiosa no contexto dos direitos fundamentais assegurados pela
+      Constituição Federal.
+
+      '
+    keywords:
+    - direitos fundamentais
+    - Constituição Federal
+    - ECA
+    - Estatuto da Criança e do Adolescente
+    - CONANDA
+    - direitos das crianças
+    - trabalho infantil
+    - proteção infantil
+    - liberdade religiosa
+    - liberdade de culto
+    - intolerância religiosa
+    - laicidade do Estado
+    - diversidade religiosa
 - code: '14'
   label: Trabalho e Emprego
   description: 'Políticas de emprego, mercado de trabalho, direitos trabalhistas,
@@ -9676,884 +9704,6 @@ themes:
     - CVM
     - governança regulatória
     - benchmarks internacionais
-- code: '22'
-  label: Eventos Oficiais e Cerimônias
-  description: 'Eventos oficiais do governo, cerimônias públicas, visitas de Estado,
-
-    inaugurações e atos protocolares. Inclui discursos oficiais, comemorações
-
-    de datas cívicas e luto nacional.'
-  keywords:
-  - evento oficial
-  - cerimônia
-  - solenidade
-  - inauguração
-  - discurso
-  - pronunciamento
-  - visita oficial
-  - visita de Estado
-  - comemoração
-  - data cívica
-  - luto nacional
-  - homenagem
-  - protocolo
-  - coletiva de imprensa
-  - descerramento de placa
-  - posse
-  - condolência
-  - aniversário institucional
-  includes:
-  - Discursos e pronunciamentos oficiais
-  - Inaugurações de obras e equipamentos públicos
-  - Visitas oficiais nacionais e internacionais
-  - Cerimônias de posse e homenagens
-  - Comemorações de datas cívicas e efemérides
-  excludes:
-  - Eventos culturais e festivais (ver Cultura)
-  - Eventos esportivos (ver Esportes)
-  - Eventos turísticos (ver Turismo)
-  children:
-  - code: '22.01'
-    label: Discursos Oficiais
-    children:
-    - code: 22.01.01
-      label: Pronunciamento em Rede Nacional
-      description: 'Discursos transmitidos simultaneamente por rádio e TV em cadeia nacional,
-
-        geralmente sobre temas urgentes ou de grande relevância nacional.'
-      keywords:
-      - pronunciamento, rede nacional, cadeia nacional
-      - discurso presidencial, mensagem ao país
-      - TV Brasil, EBC, SECOM
-      - comunicado oficial
-      examples:
-      - Presidente faz pronunciamento em cadeia nacional sobre medidas econômicas
-      - Governo anuncia transmissão em rede nacional nesta terça-feira
-      - Pronunciamento oficial aborda ações de combate à crise hídrica
-    - code: 22.01.02
-      label: Discursos em Cerimônias Públicas
-      description: 'Falas e alocuções proferidas durante eventos, solenidades, inaugurações e
-
-        cerimônias oficiais, excluindo pronunciamentos em rede nacional.'
-      keywords:
-      - discurso, cerimônia, solenidade
-      - fala presidencial, evento oficial
-      - Palácio do Planalto, cerimônia de assinatura
-      - pronunciamento cerimonial
-      examples:
-      - Presidente discursa em cerimônia de assinatura de medidas provisórias
-      - Ministro profere discurso durante solenidade de posse
-      - Autoridades destacam avanços em discurso durante inauguração
-    - code: 22.01.03
-      label: Entrevistas e Coletivas de Imprensa
-      description: 'Encontros com jornalistas para divulgação de informações, esclarecimentos e
-
-        respostas a perguntas da imprensa.'
-      keywords:
-      - coletiva de imprensa, entrevista coletiva
-      - porta-voz, declaração à imprensa
-      - SECOM, assessoria de imprensa
-      - briefing, sala de imprensa
-      examples:
-      - Ministro concede entrevista coletiva sobre novo programa social
-      - Governo realiza coletiva de imprensa para esclarecer medidas econômicas
-      - Porta-voz responde perguntas sobre ações de combate à pandemia
-    - code: 22.01.04
-      label: Discursos em Eventos Internacionais
-      description: 'Pronunciamentos, falas e declarações oficiais feitas em fóruns, cúpulas,
-
-        assembleias e encontros internacionais.'
-      keywords:
-      - discurso internacional, ONU, G20
-      - assembleia geral, cúpula internacional
-      - Itamaraty, política externa
-      - multilateralismo
-      examples:
-      - Presidente discursa na Assembleia Geral da ONU sobre clima
-      - Brasil apresenta posicionamento em cúpula do G20
-      - Ministro das Relações Exteriores fala em conferência internacional
-    - code: 22.01.05
-      label: Mensagens de Fim de Ano e Comemorações
-      description: 'Mensagens tradicionais de final de ano, votos de boas-festas e pronunciamentos
-
-        em datas comemorativas nacionais.'
-      keywords:
-      - mensagem de fim de ano, ano novo, natal
-      - balanço anual, felicitações oficiais
-      - votos presidenciais, mensagem natalina
-      - retrospectiva
-      examples:
-      - Presidente divulga mensagem de Ano Novo aos brasileiros
-      - Governo publica votos de boas festas e balanço do ano
-      - Mensagem oficial celebra conquistas e deseja feliz 2024
-    description: 'Engloba políticas públicas voltadas para a promoção dos direitos das mulheres, combate à violência de gênero
-      e fortalecimento da participação feminina na sociedade. Abrange ações de promoção da igualdade de gênero no mercado
-      de trabalho e na política, programas de saúde da mulher, proteção contra violência doméstica e feminicídio, além de
-      iniciativas de educação, empoderamento econômico e incentivo à liderança feminina em cargos de decisão.
-
-      '
-    keywords:
-    - políticas para mulheres
-    - direitos das mulheres
-    - igualdade de gênero
-    - empoderamento feminino
-    - violência contra a mulher
-    - Lei Maria da Penha
-    - feminicídio
-    - saúde da mulher
-    - liderança feminina
-    - SPM
-    - representatividade feminina
-    - disparidade salarial
-    - Casa da Mulher Brasileira
-    - Ligue 180
-    - participação política feminina
-  - code: '22.02'
-    label: Inaugurações
-    children:
-    - code: 22.02.01
-      label: Inauguração de Obras Públicas
-      description: 'Cerimônias de entrega e abertura oficial de obras de infraestrutura como
-
-        rodovias, pontes, portos, aeroportos.'
-      keywords:
-      - inauguração, obra pública, infraestrutura
-      - rodovia, ponte, viaduto, porto
-      - DNIT, entrega de obra
-      - cerimônia de abertura, corte de fita
-      examples:
-      - Presidente inaugura trecho de rodovia no interior de São Paulo
-      - Governo entrega nova ponte que liga dois estados da região Norte
-      - Obra de duplicação é inaugurada com presença de autoridades
-    - code: 22.02.02
-      label: Lançamento de Programas e Projetos
-      description: 'Eventos de apresentação e início oficial de programas governamentais,
-
-        projetos sociais e iniciativas públicas.'
-      keywords:
-      - lançamento de programa, novo projeto
-      - programa social, política pública
-      - cerimônia de lançamento, ação governamental
-      - Casa Civil, ministérios
-      examples:
-      - Governo lança programa de qualificação profissional para jovens
-      - Novo projeto de habitação popular é apresentado em cerimônia
-      - Ministério anuncia lançamento de iniciativa de inovação tecnológica
-    - code: 22.02.03
-      label: Inauguração de Equipamentos Públicos
-      description: 'Abertura e entrega de prédios, instalações e equipamentos públicos como
-
-        escolas, hospitais, postos de saúde, delegacias.'
-      keywords:
-      - inauguração, equipamento público
-      - hospital, UBS, UPA, escola
-      - prédio público, centro de atendimento
-      - entrega de equipamento
-      examples:
-      - Presidente inaugura novo hospital federal no Rio de Janeiro
-      - Governo entrega escola técnica em município do Nordeste
-      - Nova UPA é inaugurada com atendimento 24 horas
-    - code: 22.02.04
-      label: Eventos de Entrega de Infraestrutura
-      description: 'Cerimônias formais de transferência e ativação de sistemas e redes de
-
-        infraestrutura como energia, saneamento, telecomunicações.'
-      keywords:
-      - entrega, infraestrutura, sistema de energia
-      - rede elétrica, água e esgoto, fibra óptica
-      - ativação de sistema, início de operação
-      - MME, MDR
-      examples:
-      - Governo entrega sistema de abastecimento de água para região metropolitana
-      - Nova linha de metrô é ativada em cerimônia com autoridades
-      - Sistema de energia solar é entregue a comunidades rurais
-    - code: 22.02.05
-      label: Cerimônias de Descerramento de Placas
-      description: 'Solenidades protocolares de revelação de placas comemorativas, inaugurais
-
-        ou de homenagem em obras e monumentos.'
-      keywords:
-      - descerramento de placa, placa comemorativa
-      - cerimônia protocolar, placa inaugural
-      - homenagem oficial, marco inaugural
-      - registro histórico
-      examples:
-      - Autoridades participam de descerramento de placa em nova escola
-      - Cerimônia marca inauguração com revelação de placa comemorativa
-      - Placa inaugural é descerrada em obra de restauração histórica
-    description: 'Abrange políticas públicas voltadas para povos indígenas, incluindo demarcação e proteção de terras tradicionais,
-      atenção diferenciada à saúde indígena e educação escolar bilíngue e intercultural. Contempla também ações de combate
-      a invasões territoriais, atendimento por meio de DSEIs e CASAIs, formação de professores indígenas e desenvolvimento
-      de material didático diferenciado que respeite as especificidades culturais e linguísticas de cada povo.
-
-      '
-    keywords:
-    - povos indígenas
-    - direitos indígenas
-    - demarcação de terras
-    - FUNAI
-    - terras indígenas
-    - saúde indígena
-    - SESAI
-    - DSEI
-    - educação indígena
-    - educação bilíngue
-    - cultura indígena
-    - proteção territorial
-    - homologação de TI
-    - invasão de terras
-    - garimpo ilegal
-  - code: '22.03'
-    label: Visitas Oficiais
-    children:
-    - code: 22.03.01
-      label: Visitas Internacionais de Chefes de Estado
-      description: 'Viagens oficiais de presidente, vice-presidente e autoridades brasileiras ao
-
-        exterior para encontros diplomáticos.'
-      keywords:
-      - visita oficial, viagem internacional
-      - chefe de Estado, comitiva presidencial
-      - Itamaraty, relações bilaterais
-      - visita de Estado
-      examples:
-      - Presidente viaja aos Estados Unidos para reunião bilateral
-      - Comitiva brasileira realiza visita oficial à China
-      - Vice-presidente representa Brasil em missão oficial na Europa
-    - code: 22.03.02
-      label: Visitas a Estados e Municípios
-      description: 'Deslocamentos de autoridades federais para estados e cidades brasileiras
-
-        para acompanhamento de programas e encontros regionais.'
-      keywords:
-      - visita oficial, deslocamento interno
-      - viagem presidencial, agenda regional
-      - vistoria técnica, encontro com prefeitos
-      - reunião com governadores
-      examples:
-      - Presidente visita Amazonas para acompanhar programas sociais
-      - Ministro se desloca ao Sul para vistoriar obras federais
-      - Comitiva federal visita municípios afetados por enchentes
-    - code: 22.03.03
-      label: Recepção de Dignitários Estrangeiros
-      description: 'Acolhimento protocolar de chefes de Estado, primeiros-ministros e autoridades
-
-        estrangeiras em visita oficial ao Brasil.'
-      keywords:
-      - recepção oficial, visita de Estado
-      - dignitário estrangeiro, protocolo diplomático
-      - Palácio do Planalto, honras militares
-      - guarda de honra
-      examples:
-      - Brasil recebe presidente argentino em visita de Estado
-      - Palácio do Planalto acolhe primeiro-ministro em cerimônia oficial
-      - Autoridades brasileiras recepcionam chefe de Estado africano
-    - code: 22.03.04
-      label: Encontros Bilaterais e Multilaterais
-      description: 'Reuniões e negociações entre representantes de dois ou mais países para
-
-        discussão de acordos, tratados e cooperação.'
-      keywords:
-      - encontro bilateral, reunião multilateral
-      - cúpula, acordo internacional
-      - G20, BRICS, Mercosul
-      - parceria estratégica
-      examples:
-      - Brasil e Argentina assinam acordos durante encontro bilateral
-      - Cúpula do Mercosul reúne presidentes da América do Sul
-      - Governo participa de reunião multilateral sobre mudanças climáticas
-    - code: 22.03.05
-      label: Inspeções e Visitas Técnicas
-      description: 'Vistorias e acompanhamentos técnicos realizados por autoridades em obras,
-
-        projetos ou áreas afetadas por desastres.'
-      keywords:
-      - vistoria, inspeção técnica
-      - fiscalização de obra, avaliação técnica
-      - área de desastre, monitoramento
-      - comitiva técnica
-      examples:
-      - Ministro vistoria obras de transbordo em região metropolitana
-      - Equipe técnica inspeciona áreas atingidas por deslizamentos
-      - Autoridades visitam projeto piloto de agricultura sustentável
-    description: 'Compreende políticas públicas para garantia de direitos e proteção da população LGBTQIA+, incluindo acesso
-      a serviços de saúde específicos, combate à discriminação e promoção da inclusão social. Engloba o processo transexualizador
-      no SUS, políticas de prevenção ao HIV/AIDS, ações contra crimes de LGBTfobia, uso de nome social em serviços públicos,
-      campanhas de visibilidade e inclusão no mercado de trabalho.
-
-      '
-    keywords:
-    - LGBTQIA+
-    - direitos LGBT
-    - população LGBT
-    - LGBTfobia
-    - homofobia
-    - transfobia
-    - saúde LGBT
-    - processo transexualizador
-    - nome social
-    - união homoafetiva
-    - PrEP
-    - discriminação LGBT
-    - visibilidade LGBT
-    - inclusão LGBT
-    - Disque 100
-  - code: '22.04'
-    label: Luto Oficial
-    children:
-    - code: 22.04.01
-      label: Declarações de Luto Nacional
-      description: 'Decretos e comunicados oficiais estabelecendo período de luto nacional por
-
-        falecimento de autoridades ou tragédias.'
-      keywords:
-      - luto nacional, decreto de luto
-      - bandeira a meio mastro, três dias de luto
-      - pesar oficial, falecimento
-      - tragédia nacional
-      examples:
-      - Governo decreta três dias de luto oficial por tragédia em Minas Gerais
-      - Presidente declara luto nacional pelo falecimento de ex-governador
-      - Bandeiras em prédios públicos ficam a meio mastro em sinal de luto
-    - code: 22.04.02
-      label: Homenagens Oficiais
-      description: 'Cerimônias, condecorações póstumas e reconhecimentos oficiais prestados a
-
-        personalidades falecidas ou vítimas de tragédias.'
-      keywords:
-      - homenagem oficial, homenagem póstuma
-      - condecoração póstuma, tributo
-      - honras fúnebres, memória oficial
-      - reconhecimento nacional
-      examples:
-      - Governo presta homenagem oficial a vítimas de desastre natural
-      - Cerimônia homenageia ex-presidente com honras de Estado
-      - Condecoração póstuma é concedida a servidor público falecido
-    - code: 22.04.03
-      label: Cerimônias de Condolências
-      description: 'Eventos e manifestações oficiais de pesar, velórios de Estado e cerimônias
-
-        fúnebres com participação de autoridades.'
-      keywords:
-      - condolências, velório oficial
-      - cerimônia fúnebre, funeral de Estado
-      - pesar oficial, cortejo
-      - câmara ardente
-      examples:
-      - Autoridades apresentam condolências a familiares de vítimas
-      - Velório oficial reúne políticos e sociedade civil
-      - Presidente participa de cerimônia fúnebre de ex-ministro
-    description: 'Abrange políticas para povos e comunidades tradicionais como quilombolas, ribeirinhos, povos de terreiro
-      e outros grupos com modos de vida específicos. Inclui titulação de territórios quilombolas, reconhecimento de direitos
-      territoriais, proteção de práticas culturais e religiosas de matriz africana, salvaguarda de patrimônio imaterial, acesso
-      a recursos naturais e manejo sustentável, além de políticas de desenvolvimento que respeitem as especificidades desses
-      povos.
-
-      '
-    keywords:
-    - comunidades tradicionais
-    - quilombolas
-    - povos ribeirinhos
-    - povos de terreiro
-    - titulação quilombola
-    - INCRA
-    - Fundação Palmares
-    - religiões de matriz africana
-    - intolerância religiosa
-    - patrimônio imaterial
-    - extrativismo
-    - conhecimentos tradicionais
-    - RESEX
-    - ICMBio
-    - cultura afro-brasileira
-  - code: '22.05'
-    label: Comemorações e Datas Festivas
-    children:
-    - code: 22.05.01
-      label: Comemoração de Datas Cívicas
-      description: 'Celebrações oficiais de feriados nacionais e datas patrióticas como
-
-        Independência, Proclamação da República, Tiradentes.'
-      keywords:
-      - data cívica, feriado nacional
-      - 7 de setembro, independência
-      - 15 de novembro, proclamação da república
-      - desfile cívico, hasteamento de bandeira
-      examples:
-      - Governo promove cerimônia oficial no Dia da Independência
-      - Desfile cívico-militar marca Proclamação da República em Brasília
-      - Autoridades participam de hasteamento da bandeira em data patriótica
-    - code: 22.05.02
-      label: Celebrações de Efemérides
-      description: 'Comemorações de aniversários históricos, centenários e marcos temporais
-
-        relevantes para a história nacional ou institucional.'
-      keywords:
-      - efeméride, aniversário histórico
-      - centenário, bicentenário
-      - marco histórico, data histórica
-      - memória histórica
-      examples:
-      - Brasil celebra bicentenário da Independência com eventos oficiais
-      - Governo marca centenário de instituição federal com solenidade
-      - Efeméride histórica é celebrada com exposição e cerimônia
-    - code: 22.05.03
-      label: Eventos Comemorativos de Instituições Públicas
-      description: 'Celebrações de aniversários de criação e marcos institucionais de órgãos,
-
-        autarquias, empresas públicas e entidades governamentais.'
-      keywords:
-      - aniversário institucional, comemoração
-      - data de criação, jubileu
-      - Receita Federal, IBGE, Banco Central
-      - anos de existência
-      examples:
-      - Receita Federal completa 50 anos com eventos comemorativos
-      - IBGE celebra aniversário de fundação com cerimônia oficial
-      - Banco Central marca 60 anos de criação com solenidade
-    - code: 22.05.04
-      label: Cerimônias de Posse e Aniversários de Instituições
-      description: 'Solenidades de investidura de novos dirigentes, presidentes de órgãos
-
-        e comemorações de fundação institucional.'
-      keywords:
-      - cerimônia de posse, investidura
-      - tomada de posse, novo presidente
-      - posse solene, transmissão de cargo
-      - juramento, nomeação
-      examples:
-      - Presidente participa de posse de novo ministro da Educação
-      - Cerimônia marca investidura de presidente de autarquia federal
-      - Nova diretoria do Banco do Brasil toma posse em solenidade
-    - code: 22.05.05
-      label: Homenagens e Reconhecimentos Públicos
-      description: 'Eventos de condecoração, entrega de medalhas, títulos honoríficos e
-
-        reconhecimento público a cidadãos e personalidades.'
-      keywords:
-      - homenagem, condecoração, medalha
-      - reconhecimento público, título honorífico
-      - Ordem do Mérito, honraria
-      - distinção oficial, mérito
-      examples:
-      - Presidente condecora cientistas com Ordem Nacional do Mérito Científico
-      - Governo homenageia servidores públicos com medalha de honra
-      - Cerimônia de entrega de título de cidadão honorário reúne autoridades
-    description: 'Contempla políticas públicas para garantia de direitos, acessibilidade e inclusão de pessoas com deficiência.
-      Abrange adequações de acessibilidade física, digital e comunicacional, atenção à saúde e reabilitação por meio de centros
-      especializados, distribuição de órteses e próteses, inclusão no mercado de trabalho com cumprimento da lei de cotas,
-      além de benefícios sociais como BPC e implementação da Lei Brasileira de Inclusão (LBI).
-
-      '
-    keywords:
-    - pessoa com deficiência
-    - PcD
-    - acessibilidade
-    - inclusão
-    - LBI
-    - Lei Brasileira de Inclusão
-    - LIBRAS
-    - audiodescrição
-    - tecnologia assistiva
-    - reabilitação
-    - órtese
-    - prótese
-    - lei de cotas
-    - BPC
-    - CONADE
-- code: '23'
-  label: Estatísticas e Dados Públicos
-  description: 'Produção e divulgação de estatísticas oficiais, censos, pesquisas,
-
-    indicadores econômicos e sociais. Inclui transparência, dados abertos
-
-    e infraestrutura de dados públicos.'
-  keywords:
-  - estatística
-  - IBGE
-  - censo
-  - pesquisa
-  - indicador
-  - dados públicos
-  - dados abertos
-  - transparência
-  - Portal da Transparência
-  - LAI
-  - IPCA
-  - PIB
-  - IDH
-  - taxa de desemprego
-  - PNAD
-  - prestação de contas
-  - auditoria
-  - licitação
-  - contrato público
-  includes:
-  - Censos demográfico e agropecuário
-  - Pesquisas socioeconômicas do IBGE
-  - Indicadores econômicos e sociais
-  - Transparência e acesso à informação
-  - Dados abertos e interoperabilidade
-  excludes:
-  - Governança e gestão pública (ver Políticas Públicas)
-  - Fiscalização e auditorias de programas (ver tema específico)
-  children:
-  - code: '23.01'
-    label: Censos e Pesquisas
-    children:
-    - code: 23.01.01
-      label: Censo Demográfico
-      description: 'Levantamento decenal da população brasileira realizado pelo IBGE, incluindo
-
-        dados sobre habitantes, domicílios e características socioeconômicas.'
-      keywords:
-      - censo demográfico, IBGE, censo 2022
-      - recenseamento, contagem populacional
-      - dados censitários, população brasileira
-      - agente censitário
-      examples:
-      - IBGE divulga primeiros resultados do Censo Demográfico 2022
-      - Censo populacional revela crescimento de 6,5% da população brasileira
-      - Governo lança campanha de conscientização para participação no Censo
-    - code: 23.01.02
-      label: Censo Agropecuário
-      description: 'Pesquisa do IBGE sobre estabelecimentos rurais, produção agrícola, pecuária,
-
-        uso da terra e características da agropecuária nacional.'
-      keywords:
-      - censo agropecuário, IBGE, agricultura
-      - estabelecimentos rurais, produção agrícola
-      - pecuária, uso da terra
-      - agricultura familiar
-      examples:
-      - Censo Agropecuário mostra aumento da agricultura familiar no Brasil
-      - IBGE divulga dados sobre produção agrícola em estabelecimentos rurais
-      - Levantamento aponta crescimento da pecuária no Centro-Oeste
-    - code: 23.01.03
-      label: Pesquisa de Emprego e Renda
-      description: 'Pesquisas periódicas sobre mercado de trabalho, desemprego, ocupação e
-
-        rendimentos, como PNAD Contínua e Caged.'
-      keywords:
-      - PNAD Contínua, taxa de desemprego
-      - mercado de trabalho, IBGE, Caged
-      - desocupação, renda do trabalho
-      - população ocupada
-      examples:
-      - PNAD Contínua aponta taxa de desemprego de 8,5% no trimestre
-      - Pesquisa do IBGE mostra crescimento do emprego formal no país
-      - Rendimento médio do trabalhador brasileiro sobe 2,3%, indica PNAD
-    - code: 23.01.04
-      label: Pesquisa de Saúde
-      description: 'Levantamentos sobre condições de saúde da população, acesso a serviços,
-
-        doenças, hábitos e indicadores sanitários.'
-      keywords:
-      - pesquisa de saúde, PNS, IBGE
-      - indicadores de saúde, condições de saúde
-      - acesso ao SUS, doenças crônicas
-      - Vigitel, Ministério da Saúde
-      examples:
-      - Pesquisa Nacional de Saúde revela aumento de doenças crônicas no Brasil
-      - IBGE divulga dados sobre acesso da população ao SUS
-      - Levantamento mostra cobertura vacinal em diferentes regiões do país
-    - code: 23.01.05
-      label: Pesquisa de Educação
-      description: 'Estudos sobre sistema educacional brasileiro, matrículas, desempenho escolar,
-
-        alfabetização e acesso à educação.'
-      keywords:
-      - pesquisa de educação, Censo Escolar
-      - PNAD Educação, INEP, MEC
-      - matrículas escolares, alfabetização
-      - desempenho escolar
-      examples:
-      - Censo Escolar registra aumento de matrículas na educação infantil
-      - Pesquisa do IBGE aponta redução do analfabetismo no Brasil
-      - INEP divulga dados sobre desempenho de estudantes em avaliações nacionais
-    description: 'Abrange programas federais e estaduais de produção e acesso à moradia, incluindo Minha Casa Minha Vida,
-      financiamento habitacional com recursos do FGTS, parcerias público-privadas para construção de unidades habitacionais,
-      regularização fundiária e titulação de imóveis. Contempla também políticas de moradia de interesse social voltadas para
-      populações de baixa renda e vulneráveis.
-
-      '
-    keywords:
-    - Minha Casa Minha Vida
-    - Casa Verde e Amarela
-    - financiamento habitacional
-    - FGTS
-    - crédito imobiliário
-    - PPP habitacional
-    - regularização fundiária
-    - titulação
-    - Reurb
-    - moradia de interesse social
-    - aluguel social
-    - subsídio habitacional
-    - Caixa Econômica Federal
-    - déficit habitacional
-    - direito à moradia
-  - code: '23.02'
-    label: Indicadores Econômicos e Sociais
-    children:
-    - code: 23.02.01
-      label: Índice de Preços
-      description: 'Indicadores de inflação e variação de preços como IPCA, INPC, IGP-M,
-
-        medidos por IBGE, FGV e outras instituições.'
-      keywords:
-      - IPCA, INPC, inflação, IBGE
-      - IGP-M, FGV, índice de preços
-      - variação de preços, cesta básica
-      - Banco Central, meta de inflação
-      examples:
-      - IBGE divulga IPCA de novembro com inflação de 0,28%
-      - Inflação acumulada no ano atinge 4,5%, segundo índice oficial
-      - Índice de preços ao consumidor registra alta em alimentos e bebidas
-    - code: 23.02.02
-      label: Indicadores de Pobreza
-      description: 'Dados e estatísticas sobre pobreza, extrema pobreza, desigualdade social
-
-        e linha de pobreza.'
-      keywords:
-      - pobreza, extrema pobreza, linha de pobreza
-      - IBGE, IPEA, desigualdade social
-      - vulnerabilidade, CadÚnico
-      - índice de pobreza
-      examples:
-      - IBGE aponta redução da extrema pobreza no Brasil em 2023
-      - Pesquisa mostra que 10% da população vive abaixo da linha de pobreza
-      - Indicadores revelam queda da desigualdade social no país
-    - code: 23.02.03
-      label: Índice de Desenvolvimento Humano (IDH)
-      description: 'Indicador composto que mede desenvolvimento humano considerando renda,
-
-        educação e longevidade.'
-      keywords:
-      - IDH, Índice de Desenvolvimento Humano
-      - PNUD, ONU, desenvolvimento humano
-      - IDHM, qualidade de vida
-      - Atlas do Desenvolvimento Humano
-      examples:
-      - Brasil sobe no ranking do IDH global, aponta relatório da ONU
-      - Estudo mostra evolução do Índice de Desenvolvimento Humano em municípios
-      - IDH brasileiro atinge 0,765, segundo dados mais recentes
-    - code: 23.02.04
-      label: Taxa de Desemprego
-      description: 'Indicadores específicos sobre desocupação e desemprego, incluindo taxa de
-
-        desemprego, desalentados e subutilização.'
-      keywords:
-      - taxa de desemprego, desocupação
-      - PNAD Contínua, IBGE, desempregados
-      - desalento, subutilização
-      - população economicamente ativa
-      examples:
-      - Taxa de desemprego cai para 7,8% no trimestre, informa IBGE
-      - Número de desocupados atinge 8,4 milhões de brasileiros
-      - Indicador de subutilização da força de trabalho recua para 18,2%
-    - code: 23.02.05
-      label: Taxa de Escolaridade
-      description: Indicadores sobre níveis de escolarização, frequência escolar e anos de estudo.
-      keywords:
-      - taxa de escolaridade, anos de estudo
-      - IBGE, escolarização, MEC
-      - frequência escolar, conclusão escolar
-      - indicadores educacionais
-      examples:
-      - Pesquisa mostra aumento da taxa de escolaridade entre jovens brasileiros
-      - IBGE divulga dados sobre anos médios de estudo da população
-      - Indicador aponta crescimento na conclusão do ensino médio
-    description: 'Compreende a ordenação do território urbano através de instrumentos como plano diretor, zoneamento, definição
-      de uso e ocupação do solo e regulamentação de parcelamento. Inclui também a criação e gestão de áreas de preservação
-      permanente urbanas, espaços verdes, parques e praças, além dos processos de licenciamento urbano, aprovação de projetos
-      e fiscalização de obras.
-
-      '
-    keywords:
-    - plano diretor
-    - zoneamento urbano
-    - macrozoneamento
-    - uso e ocupação do solo
-    - parcelamento do solo
-    - loteamento
-    - estatuto da cidade
-    - área de preservação
-    - APP urbana
-    - parque urbano
-    - licenciamento urbano
-    - alvará de construção
-    - habite-se
-    - código de obras
-    - perímetro urbano
-  - code: '23.03'
-    label: Interoperabilidade
-    children:
-    - code: 23.03.01
-      label: Dados Abertos
-      description: 'Iniciativas de abertura e disponibilização de bases de dados públicos em
-
-        formatos acessíveis e reutilizáveis.'
-      keywords:
-      - dados abertos, open data, dados.gov.br
-      - Portal de Dados Abertos, transparência
-      - formato aberto, API pública
-      - reutilização de dados
-      examples:
-      - Governo amplia catálogo de dados abertos com novas bases públicas
-      - Portal dados.gov.br disponibiliza datasets de educação e saúde
-      - Iniciativa de dados abertos facilita acesso a informações governamentais
-    - code: 23.03.02
-      label: Infraestrutura de Dados Públicos (IDP)
-      description: 'Sistemas, plataformas e infraestruturas tecnológicas que organizam e
-
-        disponibilizam dados públicos de forma padronizada.'
-      keywords:
-      - Infraestrutura de Dados Públicos, IDP
-      - integração de dados, padrão de dados
-      - governança de dados, catálogo de dados
-      - SERPRO, DATAPREV
-      examples:
-      - Governo lança Infraestrutura de Dados Públicos para integrar bases federais
-      - Nova plataforma centraliza acesso a dados de diferentes órgãos
-      - IDP promove padronização e qualidade de dados governamentais
-    - code: 23.03.03
-      label: Integração de Bases de Dados
-      description: 'Projetos e ações de conexão e compartilhamento entre diferentes bases de dados
-
-        de órgãos públicos.'
-      keywords:
-      - integração de bases, compartilhamento de dados
-      - interoperabilidade, cruzamento de dados
-      - CPF como chave, unificação de cadastros
-      - e-Social, CNIS, governo digital
-      examples:
-      - Receita Federal integra bases de dados com INSS para combater fraudes
-      - Projeto unifica cadastros de beneficiários de programas sociais
-      - Órgãos federais compartilham dados para melhorar gestão pública
-    description: 'Engloba os quatro pilares do saneamento básico: abastecimento de água potável com estações de tratamento
-      e redes de distribuição, coleta e tratamento de esgoto sanitário, gestão de resíduos sólidos urbanos incluindo coleta
-      seletiva e reciclagem, e sistemas de drenagem urbana para prevenção de enchentes. Contempla também saneamento em áreas
-      rurais e comunidades isoladas.
-
-      '
-    keywords:
-    - abastecimento de água
-    - água potável
-    - ETA
-    - estação de tratamento
-    - coleta de esgoto
-    - tratamento de esgoto
-    - ETE
-    - esgotamento sanitário
-    - resíduos sólidos
-    - coleta de lixo
-    - reciclagem
-    - coleta seletiva
-    - aterro sanitário
-    - drenagem urbana
-    - enchente
-    - saneamento rural
-    - PNRS
-    - PAC saneamento
-  - code: '23.04'
-    label: Transparência e Acesso à Informação
-    children:
-    - code: 23.04.01
-      label: Portal da Transparência
-      description: 'Plataforma online que disponibiliza informações sobre receitas, despesas,
-
-        transferências e execução orçamentária do governo federal.'
-      keywords:
-      - Portal da Transparência, CGU
-      - gastos públicos, orçamento federal
-      - despesas públicas, receitas federais
-      - portaldatransparencia.gov.br
-      examples:
-      - Portal da Transparência registra aumento de acessos em 2024
-      - CGU atualiza Portal com dados de execução orçamentária do ano
-      - Cidadãos podem consultar gastos públicos por órgão e programa
-    - code: 23.04.02
-      label: Lei de Acesso à Informação (LAI)
-      description: 'Aplicação e cumprimento da Lei 12.527/2011 que garante direito de acesso
-
-        a informações públicas.'
-      keywords:
-      - Lei de Acesso à Informação, LAI, Lei 12.527
-      - pedido de informação, e-SIC
-      - transparência ativa, transparência passiva
-      - direito à informação
-      examples:
-      - CGU divulga balanço de pedidos atendidos pela Lei de Acesso à Informação
-      - Governo responde 95% das solicitações via LAI dentro do prazo
-      - Cidadão pode solicitar informações públicas pelo sistema e-SIC
-    - code: 23.04.03
-      label: Relatórios de Prestação de Contas
-      description: 'Documentos oficiais de demonstração de resultados, execução orçamentária
-
-        e financeira apresentados por órgãos públicos.'
-      keywords:
-      - prestação de contas, relatório de gestão
-      - TCU, contas públicas
-      - execução orçamentária, balanço público
-      - LRF, Lei de Responsabilidade Fiscal
-      examples:
-      - Governo apresenta relatório de prestação de contas ao TCU
-      - Ministério divulga balanço anual com execução orçamentária de 2024
-      - Relatório quadrimestral mostra cumprimento de metas fiscais
-    - code: 23.04.04
-      label: Auditorias e Fiscalizações Públicas
-      description: 'Resultados de auditorias, inspeções e fiscalizações realizadas por órgãos
-
-        de controle em políticas e programas governamentais.'
-      keywords:
-      - auditoria, fiscalização, CGU, TCU
-      - inspeção, relatório de auditoria
-      - irregularidades, achados de auditoria
-      - controle externo, recomendações
-      examples:
-      - CGU aponta irregularidades em fiscalização de programa federal
-      - Auditoria do TCU recomenda ajustes em execução de convênios
-      - Relatório de fiscalização identifica economicidade em contratações
-    - code: 23.04.05
-      label: Dados sobre Licitações e Contratos Públicos
-      description: 'Informações sobre processos licitatórios, contratos administrativos
-
-        e compras governamentais.'
-      keywords:
-      - licitações, contratos públicos, ComprasNet
-      - pregão eletrônico, edital
-      - compras governamentais, fornecedores
-      - Portal de Compras
-      examples:
-      - Portal de Compras divulga editais de licitações abertas no governo federal
-      - Dados sobre contratos públicos ficam disponíveis para consulta online
-      - Governo publica informações sobre processos de pregão eletrônico
-    description: 'Abarca projetos de transformação e qualificação das cidades, incluindo revitalização de centros históricos
-      e áreas degradadas, implementação de conceitos de sustentabilidade urbana e cidades inteligentes, grandes operações
-      urbanas e projetos estruturantes de reurbanização. Contempla também a governança metropolitana, cooperação intermunicipal
-      e parcerias entre setor público, privado e sociedade civil para o desenvolvimento local.
-
-      '
-    keywords:
-    - revitalização urbana
-    - requalificação
-    - centro histórico
-    - PAC Cidades Históricas
-    - sustentabilidade urbana
-    - cidade sustentável
-    - mobilidade verde
-    - edifício verde
-    - operação urbana
-    - reurbanização
-    - masterplan
-    - projeto estruturante
-    - governança metropolitana
-    - região metropolitana
-    - estatuto da metrópole
-    - consórcio intermunicipal
-    - desenvolvimento local
-    - orçamento participativo
 - code: '24'
   label: Minorias e Grupos Especiais
   description: 'Políticas para grupos específicos como mulheres, população negra,
@@ -10670,6 +9820,28 @@ themes:
       - Programa incentiva participação de meninas em cursos de tecnologia e engenharia
       - MEC e SPM lançam bolsas para mulheres em situação de vulnerabilidade
       - Iniciativa de alfabetização digital atende 50 mil mulheres em áreas rurais
+    description: 'Engloba políticas públicas voltadas para a promoção dos direitos das mulheres, combate à violência de gênero
+      e fortalecimento da participação feminina na sociedade. Abrange ações de promoção da igualdade de gênero no mercado
+      de trabalho e na política, programas de saúde da mulher, proteção contra violência doméstica e feminicídio, além de
+      iniciativas de educação, empoderamento econômico e incentivo à liderança feminina em cargos de decisão.
+
+      '
+    keywords:
+    - políticas para mulheres
+    - direitos das mulheres
+    - igualdade de gênero
+    - empoderamento feminino
+    - violência contra a mulher
+    - Lei Maria da Penha
+    - feminicídio
+    - saúde da mulher
+    - liderança feminina
+    - SPM
+    - representatividade feminina
+    - disparidade salarial
+    - Casa da Mulher Brasileira
+    - Ligue 180
+    - participação política feminina
   - code: '24.02'
     label: Populações Indígenas
     children:
@@ -10715,6 +9887,28 @@ themes:
       - MEC distribui material didático bilíngue para escolas indígenas em seis estados
       - Programa forma 300 professores indígenas para atuação em aldeias do Xingu
       - Governo amplia oferta de ensino médio em escolas de comunidades indígenas
+    description: 'Abrange políticas públicas voltadas para povos indígenas, incluindo demarcação e proteção de terras tradicionais,
+      atenção diferenciada à saúde indígena e educação escolar bilíngue e intercultural. Contempla também ações de combate
+      a invasões territoriais, atendimento por meio de DSEIs e CASAIs, formação de professores indígenas e desenvolvimento
+      de material didático diferenciado que respeite as especificidades culturais e linguísticas de cada povo.
+
+      '
+    keywords:
+    - povos indígenas
+    - direitos indígenas
+    - demarcação de terras
+    - FUNAI
+    - terras indígenas
+    - saúde indígena
+    - SESAI
+    - DSEI
+    - educação indígena
+    - educação bilíngue
+    - cultura indígena
+    - proteção territorial
+    - homologação de TI
+    - invasão de terras
+    - garimpo ilegal
   - code: '24.03'
     label: Comunidade LGBTQIA+
     children:
@@ -10772,6 +9966,28 @@ themes:
       - Campanha nacional promove respeito à diversidade sexual em escolas públicas
       - Empresas públicas adotam políticas de inclusão para pessoas trans no mercado de trabalho
       - Governo apoia Parada do Orgulho LGBT com ações de cidadania e direitos humanos
+    description: 'Compreende políticas públicas para garantia de direitos e proteção da população LGBTQIA+, incluindo acesso
+      a serviços de saúde específicos, combate à discriminação e promoção da inclusão social. Engloba o processo transexualizador
+      no SUS, políticas de prevenção ao HIV/AIDS, ações contra crimes de LGBTfobia, uso de nome social em serviços públicos,
+      campanhas de visibilidade e inclusão no mercado de trabalho.
+
+      '
+    keywords:
+    - LGBTQIA+
+    - direitos LGBT
+    - população LGBT
+    - LGBTfobia
+    - homofobia
+    - transfobia
+    - saúde LGBT
+    - processo transexualizador
+    - nome social
+    - união homoafetiva
+    - PrEP
+    - discriminação LGBT
+    - visibilidade LGBT
+    - inclusão LGBT
+    - Disque 100
   - code: '24.04'
     label: Comunidades Tradicionais
     children:
@@ -10845,6 +10061,29 @@ themes:
       - ICMBio cria reserva extrativista para garantir acesso de comunidades ao babaçu
       - Governo regulamenta repartição de benefícios de biodiversidade com povos tradicionais
       - Programa apoia manejo sustentável de açaí por comunidades ribeirinhas do Pará
+    description: 'Abrange políticas para povos e comunidades tradicionais como quilombolas, ribeirinhos, povos de terreiro
+      e outros grupos com modos de vida específicos. Inclui titulação de territórios quilombolas, reconhecimento de direitos
+      territoriais, proteção de práticas culturais e religiosas de matriz africana, salvaguarda de patrimônio imaterial, acesso
+      a recursos naturais e manejo sustentável, além de políticas de desenvolvimento que respeitem as especificidades desses
+      povos.
+
+      '
+    keywords:
+    - comunidades tradicionais
+    - quilombolas
+    - povos ribeirinhos
+    - povos de terreiro
+    - titulação quilombola
+    - INCRA
+    - Fundação Palmares
+    - religiões de matriz africana
+    - intolerância religiosa
+    - patrimônio imaterial
+    - extrativismo
+    - conhecimentos tradicionais
+    - RESEX
+    - ICMBio
+    - cultura afro-brasileira
   - code: '24.05'
     label: Direitos das Pessoas com Deficiência
     children:
@@ -10904,6 +10143,28 @@ themes:
       - Governo federal regulamenta tomada de decisão apoiada prevista na LBI
       - INSS amplia acesso ao BPC para pessoas com deficiência em situação de pobreza
       - CONADE lança plano nacional de políticas para pessoas com deficiência
+    description: 'Contempla políticas públicas para garantia de direitos, acessibilidade e inclusão de pessoas com deficiência.
+      Abrange adequações de acessibilidade física, digital e comunicacional, atenção à saúde e reabilitação por meio de centros
+      especializados, distribuição de órteses e próteses, inclusão no mercado de trabalho com cumprimento da lei de cotas,
+      além de benefícios sociais como BPC e implementação da Lei Brasileira de Inclusão (LBI).
+
+      '
+    keywords:
+    - pessoa com deficiência
+    - PcD
+    - acessibilidade
+    - inclusão
+    - LBI
+    - Lei Brasileira de Inclusão
+    - LIBRAS
+    - audiodescrição
+    - tecnologia assistiva
+    - reabilitação
+    - órtese
+    - prótese
+    - lei de cotas
+    - BPC
+    - CONADE
 - code: '25'
   label: Habitação e Urbanismo
   description: 'Políticas habitacionais, programas de moradia, planejamento urbano
@@ -11017,6 +10278,28 @@ themes:
       - Prefeitura lança programa de aluguel social para famílias em situação de rua
       - FNHIS destina recursos para construção de habitação de interesse social
       - Governo reassenta 500 famílias removidas de área de risco com auxílio moradia
+    description: 'Abrange programas federais e estaduais de produção e acesso à moradia, incluindo Minha Casa Minha Vida,
+      financiamento habitacional com recursos do FGTS, parcerias público-privadas para construção de unidades habitacionais,
+      regularização fundiária e titulação de imóveis. Contempla também políticas de moradia de interesse social voltadas para
+      populações de baixa renda e vulneráveis.
+
+      '
+    keywords:
+    - Minha Casa Minha Vida
+    - Casa Verde e Amarela
+    - financiamento habitacional
+    - FGTS
+    - crédito imobiliário
+    - PPP habitacional
+    - regularização fundiária
+    - titulação
+    - Reurb
+    - moradia de interesse social
+    - aluguel social
+    - subsídio habitacional
+    - Caixa Econômica Federal
+    - déficit habitacional
+    - direito à moradia
   - code: '25.02'
     label: Planejamento Urbano
     children:
@@ -11072,6 +10355,28 @@ themes:
       - Prefeitura digitaliza processo de licenciamento urbano e reduz prazos em 50%
       - Fiscalização embarga 20 obras irregulares sem alvará de construção
       - Sistema online permite acompanhamento de aprovação de projetos em tempo real
+    description: 'Compreende a ordenação do território urbano através de instrumentos como plano diretor, zoneamento, definição
+      de uso e ocupação do solo e regulamentação de parcelamento. Inclui também a criação e gestão de áreas de preservação
+      permanente urbanas, espaços verdes, parques e praças, além dos processos de licenciamento urbano, aprovação de projetos
+      e fiscalização de obras.
+
+      '
+    keywords:
+    - plano diretor
+    - zoneamento urbano
+    - macrozoneamento
+    - uso e ocupação do solo
+    - parcelamento do solo
+    - loteamento
+    - estatuto da cidade
+    - área de preservação
+    - APP urbana
+    - parque urbano
+    - licenciamento urbano
+    - alvará de construção
+    - habite-se
+    - código de obras
+    - perímetro urbano
   - code: '25.03'
     label: Saneamento Básico
     children:
@@ -11139,6 +10444,31 @@ themes:
       - FUNASA instala sistemas de tratamento de esgoto em 100 comunidades rurais
       - Programa Cisternas entrega 5 mil cisternas para captação de água de chuva no semiárido
       - Tecnologia social leva saneamento básico para assentamentos rurais
+    description: 'Engloba os quatro pilares do saneamento básico: abastecimento de água potável com estações de tratamento
+      e redes de distribuição, coleta e tratamento de esgoto sanitário, gestão de resíduos sólidos urbanos incluindo coleta
+      seletiva e reciclagem, e sistemas de drenagem urbana para prevenção de enchentes. Contempla também saneamento em áreas
+      rurais e comunidades isoladas.
+
+      '
+    keywords:
+    - abastecimento de água
+    - água potável
+    - ETA
+    - estação de tratamento
+    - coleta de esgoto
+    - tratamento de esgoto
+    - ETE
+    - esgotamento sanitário
+    - resíduos sólidos
+    - coleta de lixo
+    - reciclagem
+    - coleta seletiva
+    - aterro sanitário
+    - drenagem urbana
+    - enchente
+    - saneamento rural
+    - PNRS
+    - PAC saneamento
   - code: '25.04'
     label: Desenvolvimento Urbano
     children:
@@ -11212,6 +10542,31 @@ themes:
       - Região metropolitana cria agência para gestão integrada de transporte e saneamento
       - Plano de Desenvolvimento Integrado define estratégias para 15 municípios metropolitanos
       - Consórcio metropolitano viabiliza obras de mobilidade com recursos federais
+    description: 'Abarca projetos de transformação e qualificação das cidades, incluindo revitalização de centros históricos
+      e áreas degradadas, implementação de conceitos de sustentabilidade urbana e cidades inteligentes, grandes operações
+      urbanas e projetos estruturantes de reurbanização. Contempla também a governança metropolitana, cooperação intermunicipal
+      e parcerias entre setor público, privado e sociedade civil para o desenvolvimento local.
+
+      '
+    keywords:
+    - revitalização urbana
+    - requalificação
+    - centro histórico
+    - PAC Cidades Históricas
+    - sustentabilidade urbana
+    - cidade sustentável
+    - mobilidade verde
+    - edifício verde
+    - operação urbana
+    - reurbanização
+    - masterplan
+    - projeto estruturante
+    - governança metropolitana
+    - região metropolitana
+    - estatuto da metrópole
+    - consórcio intermunicipal
+    - desenvolvimento local
+    - orçamento participativo
   - code: '25.05'
     label: Infraestrutura Urbana
     children:
@@ -11281,3 +10636,34 @@ themes:
       - Operação tapa-buraco corrige 500 pontos críticos em vias da cidade
       - Programa de zeladoria intensifica limpeza urbana e poda de árvores
       - Prefeitura cria canal para reclamações sobre conservação de ruas e praças
+    description: 'Compreende a execução, modernização e manutenção de obras e equipamentos urbanos essenciais, incluindo pavimentação
+      e obras viárias, iluminação pública com tecnologia LED, construção e reforma de praças, parques e mobiliário urbano.
+      Engloba também adequações de acessibilidade para pessoas com deficiência e serviços de conservação e zeladoria urbana
+      como manutenção de vias, limpeza pública e poda de árvores.
+
+      '
+    keywords:
+    - obras públicas
+    - infraestrutura viária
+    - pavimentação
+    - asfalto
+    - recapeamento
+    - ponte
+    - viaduto
+    - iluminação pública
+    - LED
+    - telegestão
+    - PPP iluminação
+    - equipamentos urbanos
+    - praça
+    - parque
+    - academia ao ar livre
+    - acessibilidade urbana
+    - calçada acessível
+    - rampa
+    - piso tátil
+    - conservação urbana
+    - manutenção urbana
+    - zeladoria
+    - limpeza urbana
+    - PAC

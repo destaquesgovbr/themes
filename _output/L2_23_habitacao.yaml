@@ -1,7 +1,7 @@
-# Descrições L2 - Tema 23: Habitação e Urbanismo
+# Descrições L2 - Tema 25: Habitação e Urbanismo (renumerado de 23)
 # Gerado em: 2025-12-18
 
-- code: "23.01"
+- code: "25.01"
   label: "Programas Habitacionais"
   description: |
     Abrange programas federais e estaduais de produção e acesso à moradia, incluindo Minha Casa Minha Vida, financiamento habitacional com recursos do FGTS, parcerias público-privadas para construção de unidades habitacionais, regularização fundiária e titulação de imóveis. Contempla também políticas de moradia de interesse social voltadas para populações de baixa renda e vulneráveis.
@@ -22,7 +22,7 @@
     - déficit habitacional
     - direito à moradia
 
-- code: "23.02"
+- code: "25.02"
   label: "Planejamento Urbano"
   description: |
     Compreende a ordenação do território urbano através de instrumentos como plano diretor, zoneamento, definição de uso e ocupação do solo e regulamentação de parcelamento. Inclui também a criação e gestão de áreas de preservação permanente urbanas, espaços verdes, parques e praças, além dos processos de licenciamento urbano, aprovação de projetos e fiscalização de obras.
@@ -43,7 +43,7 @@
     - código de obras
     - perímetro urbano
 
-- code: "23.03"
+- code: "25.03"
   label: "Saneamento Básico"
   description: |
     Engloba os quatro pilares do saneamento básico: abastecimento de água potável com estações de tratamento e redes de distribuição, coleta e tratamento de esgoto sanitário, gestão de resíduos sólidos urbanos incluindo coleta seletiva e reciclagem, e sistemas de drenagem urbana para prevenção de enchentes. Contempla também saneamento em áreas rurais e comunidades isoladas.
@@ -67,7 +67,7 @@
     - PNRS
     - PAC saneamento
 
-- code: "23.04"
+- code: "25.04"
   label: "Desenvolvimento Urbano"
   description: |
     Abarca projetos de transformação e qualificação das cidades, incluindo revitalização de centros históricos e áreas degradadas, implementação de conceitos de sustentabilidade urbana e cidades inteligentes, grandes operações urbanas e projetos estruturantes de reurbanização. Contempla também a governança metropolitana, cooperação intermunicipal e parcerias entre setor público, privado e sociedade civil para o desenvolvimento local.
@@ -91,7 +91,7 @@
     - desenvolvimento local
     - orçamento participativo
 
-- code: "23.05"
+- code: "25.05"
   label: "Infraestrutura Urbana"
   description: |
     Compreende a execução, modernização e manutenção de obras e equipamentos urbanos essenciais, incluindo pavimentação e obras viárias, iluminação pública com tecnologia LED, construção e reforma de praças, parques e mobiliário urbano. Engloba também adequações de acessibilidade para pessoas com deficiência e serviços de conservação e zeladoria urbana como manutenção de vias, limpeza pública e poda de árvores.

@@ -49,22 +49,25 @@ Este documento acompanha o progresso da escrita de descrições para cada tema d
 
 ---
 
-## Nível 3 - Temas Folha (~450 temas após decisões)
+## Nível 3 - Temas Folha (459 temas após decisões)
 
 **Status:** ✅ CONCLUÍDA - Fase 2 completa
 **Estratégia:** Execução em lotes de 6 subagentes paralelos
 
-**Todos os temas 01-25 foram concluídos:**
+**Todos os temas 01-23 foram concluídos:**
 - Lote 1 (01-06): ✅ 103 temas L3
 - Lote 2 (07-12): ✅ 139 temas L3
 - Lote 3 (13-18): ✅ 106 temas L3
 - Lote 4 (19-23): ✅ 102 temas L3
+- Temas 22-23 originais removidos: -41 temas L3
 
-**Progresso L3:** ~450/~450 (100%)
+**Total após remoção:** 459 temas L3 nos 23 temas finais
+
+**Progresso L3:** 459/459 (100%)
 
 ---
 
-## Nível 2 - Subtemas (~105 temas após decisões)
+## Nível 2 - Subtemas (106 temas após decisões)
 
 **Status:** ✅ CONCLUÍDA - Fase 3 completa
 **Estratégia:** Execução em lotes com subagentes paralelos
@@ -72,13 +75,15 @@ Este documento acompanha o progresso da escrita de descrições para cada tema d
 **Todos os temas foram concluídos:**
 - Lote 1 (01-05): ✅ 23 subtemas L2
 - Lote 2 (06-10): ✅ 24 subtemas L2
-- Lote 3 (11-15): ✅ 25 subtemas L2
+- Lote 3 (11-15): ✅ 25 subtemas L2 (incluindo 13.03 adicionado)
 - Lote 4 (16-20): ✅ 25 subtemas L2
 - Lote 5 (21-23): ✅ 13 subtemas L2
+- Correção (Minorias/Habitação): ✅ 10 subtemas L2 renumerados (24-25)
+- Temas 22-23 originais removidos: -9 subtemas L2
 
-**Total consolidado:** 105 descrições L2 inseridas no arquivo final
+**Total consolidado:** 106 descrições L2 inseridas no arquivo final
 
-**Progresso L2:** 105/105 (100%)
+**Progresso L2:** 106/106 (100%)
 
 ---
 
@@ -87,9 +92,9 @@ Este documento acompanha o progresso da escrita de descrições para cada tema d
 | Nível | Total | Concluídos | Progresso |
 |-------|-------|------------|-----------|
 | L1 | 23 | 23 | **100%** ✅ |
-| L2 | 105 | 105 | **100%** ✅ |
-| L3 | ~450 | ~450 | **100%** ✅ |
-| **Total** | **~578** | **~578** | **100%** ✅ |
+| L2 | 106 | 106 | **100%** ✅ |
+| L3 | 459 | 459 | **100%** ✅ |
+| **Total** | **588** | **588** | **100%** ✅ |
 
 ---
 
@@ -110,7 +115,7 @@ Este documento acompanha o progresso da escrita de descrições para cada tema d
 |---------|-----------|--------|
 | `themes_tree.yaml` | Árvore original (apenas nomes) | Mantido como referência |
 | `themes_tree_enriched.yaml` | Árvore com descrições L1 | ✅ Criado |
-| `themes_tree_enriched_full.yaml` | Árvore COMPLETA com L1+L2+L3 | ✅ Criado (11.283 linhas, 629 descrições) |
+| `themes_tree_enriched_full.yaml` | Árvore COMPLETA com L1+L2+L3 | ✅ Criado (10.669 linhas, 588 descrições) |
 | `_output/L3_*.yaml` | Descrições L3 individuais (25 arquivos) | ✅ Criados |
 | `_output/L2_*.yaml` | Descrições L2 individuais (23 arquivos) | ✅ Criados |
 | `_output/consolidate_l2_descriptions.py` | Script de consolidação L2 | ✅ Criado |
@@ -123,8 +128,8 @@ Este documento acompanha o progresso da escrita de descrições para cada tema d
 
 - Fase 0 (Diagnóstico): ✅ Completa
 - Fase 1 (L1 + Estrutura): ✅ Completa - 23 temas
-- Fase 2 (L3): ✅ Completa - ~450 temas folha
-- Fase 3 (L2): ✅ Completa - 105 subtemas
+- Fase 2 (L3): ✅ Completa - 459 temas folha
+- Fase 3 (L2): ✅ Completa - 106 subtemas
 
 **Próxima Fase:**
 - **Fase 4:** Validação e testes de classificação
