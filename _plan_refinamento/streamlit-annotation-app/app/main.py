@@ -325,8 +325,11 @@ class AnnotationApp:
         # Atualizar session state
         st.session_state.selected_l1 = l1_selected.split(' - ')[0] if l1_selected else ""
 
-        # L2 - Subtema (só aparece se L1 selecionado)
+        # Inicializar variáveis de retorno
         l2_selected = None
+        l3_selected = None
+
+        # L2 - Subtema (só aparece se L1 selecionado)
         if l1_selected:
             l1_code = l1_selected.split(' - ')[0]
             l2_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L2'].get(l1_code, {}).items())]
@@ -351,7 +354,6 @@ class AnnotationApp:
             st.session_state.selected_l2 = l2_selected.split(' - ')[0] if l2_selected else ""
 
             # L3 - Categoria (só aparece se L2 selecionado)
-            l3_selected = None
             if l2_selected:
                 l2_code = l2_selected.split(' - ')[0]
                 l3_options = [""] + [f"{code} - {label}" for code, label in sorted(themes['L3'].get(l2_code, {}).items())]
