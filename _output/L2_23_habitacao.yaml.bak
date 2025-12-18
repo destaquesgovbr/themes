@@ -1,0 +1,122 @@
+# Descrições L2 - Tema 23: Habitação e Urbanismo
+# Gerado em: 2025-12-18
+
+- code: "23.01"
+  label: "Programas Habitacionais"
+  description: |
+    Abrange programas federais e estaduais de produção e acesso à moradia, incluindo Minha Casa Minha Vida, financiamento habitacional com recursos do FGTS, parcerias público-privadas para construção de unidades habitacionais, regularização fundiária e titulação de imóveis. Contempla também políticas de moradia de interesse social voltadas para populações de baixa renda e vulneráveis.
+  keywords:
+    - Minha Casa Minha Vida
+    - Casa Verde e Amarela
+    - financiamento habitacional
+    - FGTS
+    - crédito imobiliário
+    - PPP habitacional
+    - regularização fundiária
+    - titulação
+    - Reurb
+    - moradia de interesse social
+    - aluguel social
+    - subsídio habitacional
+    - Caixa Econômica Federal
+    - déficit habitacional
+    - direito à moradia
+
+- code: "23.02"
+  label: "Planejamento Urbano"
+  description: |
+    Compreende a ordenação do território urbano através de instrumentos como plano diretor, zoneamento, definição de uso e ocupação do solo e regulamentação de parcelamento. Inclui também a criação e gestão de áreas de preservação permanente urbanas, espaços verdes, parques e praças, além dos processos de licenciamento urbano, aprovação de projetos e fiscalização de obras.
+  keywords:
+    - plano diretor
+    - zoneamento urbano
+    - macrozoneamento
+    - uso e ocupação do solo
+    - parcelamento do solo
+    - loteamento
+    - estatuto da cidade
+    - área de preservação
+    - APP urbana
+    - parque urbano
+    - licenciamento urbano
+    - alvará de construção
+    - habite-se
+    - código de obras
+    - perímetro urbano
+
+- code: "23.03"
+  label: "Saneamento Básico"
+  description: |
+    Engloba os quatro pilares do saneamento básico: abastecimento de água potável com estações de tratamento e redes de distribuição, coleta e tratamento de esgoto sanitário, gestão de resíduos sólidos urbanos incluindo coleta seletiva e reciclagem, e sistemas de drenagem urbana para prevenção de enchentes. Contempla também saneamento em áreas rurais e comunidades isoladas.
+  keywords:
+    - abastecimento de água
+    - água potável
+    - ETA
+    - estação de tratamento
+    - coleta de esgoto
+    - tratamento de esgoto
+    - ETE
+    - esgotamento sanitário
+    - resíduos sólidos
+    - coleta de lixo
+    - reciclagem
+    - coleta seletiva
+    - aterro sanitário
+    - drenagem urbana
+    - enchente
+    - saneamento rural
+    - PNRS
+    - PAC saneamento
+
+- code: "23.04"
+  label: "Desenvolvimento Urbano"
+  description: |
+    Abarca projetos de transformação e qualificação das cidades, incluindo revitalização de centros históricos e áreas degradadas, implementação de conceitos de sustentabilidade urbana e cidades inteligentes, grandes operações urbanas e projetos estruturantes de reurbanização. Contempla também a governança metropolitana, cooperação intermunicipal e parcerias entre setor público, privado e sociedade civil para o desenvolvimento local.
+  keywords:
+    - revitalização urbana
+    - requalificação
+    - centro histórico
+    - PAC Cidades Históricas
+    - sustentabilidade urbana
+    - cidade sustentável
+    - mobilidade verde
+    - edifício verde
+    - operação urbana
+    - reurbanização
+    - masterplan
+    - projeto estruturante
+    - governança metropolitana
+    - região metropolitana
+    - estatuto da metrópole
+    - consórcio intermunicipal
+    - desenvolvimento local
+    - orçamento participativo
+
+- code: "23.05"
+  label: "Infraestrutura Urbana"
+  description: |
+    Compreende a execução, modernização e manutenção de obras e equipamentos urbanos essenciais, incluindo pavimentação e obras viárias, iluminação pública com tecnologia LED, construção e reforma de praças, parques e mobiliário urbano. Engloba também adequações de acessibilidade para pessoas com deficiência e serviços de conservação e zeladoria urbana como manutenção de vias, limpeza pública e poda de árvores.
+  keywords:
+    - obras públicas
+    - infraestrutura viária
+    - pavimentação
+    - asfalto
+    - recapeamento
+    - ponte
+    - viaduto
+    - iluminação pública
+    - LED
+    - telegestão
+    - PPP iluminação
+    - equipamentos urbanos
+    - praça
+    - parque
+    - academia ao ar livre
+    - acessibilidade urbana
+    - calçada acessível
+    - rampa
+    - piso tátil
+    - conservação urbana
+    - manutenção urbana
+    - zeladoria
+    - limpeza urbana
+    - PAC

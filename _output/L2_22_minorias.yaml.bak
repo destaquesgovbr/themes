@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 22: Minorias e Grupos Especiais
+# Gerado em: 2025-12-18
+
+- code: "22.01"
+  label: "Políticas para Mulheres"
+  description: |
+    Engloba políticas públicas voltadas para a promoção dos direitos das mulheres, combate à violência de gênero e fortalecimento da participação feminina na sociedade. Abrange ações de promoção da igualdade de gênero no mercado de trabalho e na política, programas de saúde da mulher, proteção contra violência doméstica e feminicídio, além de iniciativas de educação, empoderamento econômico e incentivo à liderança feminina em cargos de decisão.
+  keywords:
+    - políticas para mulheres
+    - direitos das mulheres
+    - igualdade de gênero
+    - empoderamento feminino
+    - violência contra a mulher
+    - Lei Maria da Penha
+    - feminicídio
+    - saúde da mulher
+    - liderança feminina
+    - SPM
+    - representatividade feminina
+    - disparidade salarial
+    - Casa da Mulher Brasileira
+    - Ligue 180
+    - participação política feminina
+
+- code: "22.02"
+  label: "Populações Indígenas"
+  description: |
+    Abrange políticas públicas voltadas para povos indígenas, incluindo demarcação e proteção de terras tradicionais, atenção diferenciada à saúde indígena e educação escolar bilíngue e intercultural. Contempla também ações de combate a invasões territoriais, atendimento por meio de DSEIs e CASAIs, formação de professores indígenas e desenvolvimento de material didático diferenciado que respeite as especificidades culturais e linguísticas de cada povo.
+  keywords:
+    - povos indígenas
+    - direitos indígenas
+    - demarcação de terras
+    - FUNAI
+    - terras indígenas
+    - saúde indígena
+    - SESAI
+    - DSEI
+    - educação indígena
+    - educação bilíngue
+    - cultura indígena
+    - proteção territorial
+    - homologação de TI
+    - invasão de terras
+    - garimpo ilegal
+
+- code: "22.03"
+  label: "Comunidade LGBTQIA+"
+  description: |
+    Compreende políticas públicas para garantia de direitos e proteção da população LGBTQIA+, incluindo acesso a serviços de saúde específicos, combate à discriminação e promoção da inclusão social. Engloba o processo transexualizador no SUS, políticas de prevenção ao HIV/AIDS, ações contra crimes de LGBTfobia, uso de nome social em serviços públicos, campanhas de visibilidade e inclusão no mercado de trabalho.
+  keywords:
+    - LGBTQIA+
+    - direitos LGBT
+    - população LGBT
+    - LGBTfobia
+    - homofobia
+    - transfobia
+    - saúde LGBT
+    - processo transexualizador
+    - nome social
+    - união homoafetiva
+    - PrEP
+    - discriminação LGBT
+    - visibilidade LGBT
+    - inclusão LGBT
+    - Disque 100
+
+- code: "22.04"
+  label: "Comunidades Tradicionais"
+  description: |
+    Abrange políticas para povos e comunidades tradicionais como quilombolas, ribeirinhos, povos de terreiro e outros grupos com modos de vida específicos. Inclui titulação de territórios quilombolas, reconhecimento de direitos territoriais, proteção de práticas culturais e religiosas de matriz africana, salvaguarda de patrimônio imaterial, acesso a recursos naturais e manejo sustentável, além de políticas de desenvolvimento que respeitem as especificidades desses povos.
+  keywords:
+    - comunidades tradicionais
+    - quilombolas
+    - povos ribeirinhos
+    - povos de terreiro
+    - titulação quilombola
+    - INCRA
+    - Fundação Palmares
+    - religiões de matriz africana
+    - intolerância religiosa
+    - patrimônio imaterial
+    - extrativismo
+    - conhecimentos tradicionais
+    - RESEX
+    - ICMBio
+    - cultura afro-brasileira
+
+- code: "22.05"
+  label: "Direitos das Pessoas com Deficiência"
+  description: |
+    Contempla políticas públicas para garantia de direitos, acessibilidade e inclusão de pessoas com deficiência. Abrange adequações de acessibilidade física, digital e comunicacional, atenção à saúde e reabilitação por meio de centros especializados, distribuição de órteses e próteses, inclusão no mercado de trabalho com cumprimento da lei de cotas, além de benefícios sociais como BPC e implementação da Lei Brasileira de Inclusão (LBI).
+  keywords:
+    - pessoa com deficiência
+    - PcD
+    - acessibilidade
+    - inclusão
+    - LBI
+    - Lei Brasileira de Inclusão
+    - LIBRAS
+    - audiodescrição
+    - tecnologia assistiva
+    - reabilitação
+    - órtese
+    - prótese
+    - lei de cotas
+    - BPC
+    - CONADE
