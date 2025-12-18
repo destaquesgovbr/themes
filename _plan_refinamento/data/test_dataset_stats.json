@@ -1,0 +1,22 @@
+{
+  "total_documentos": 500,
+  "temas_L1_unicos": 25,
+  "orgaos_unicos": 98,
+  "distribuicao_complexidade": {
+    "moderada": 310,
+    "dificil": 144,
+    "clara": 46
+  },
+  "top_10_temas": {
+    "20": 5,
+    "04": 4,
+    "05": 4,
+    "06": 3,
+    "15": 3,
+    "25": 2,
+    "18": 2,
+    "03": 2,
+    "10": 2,
+    "21": 2
+  }
+}
