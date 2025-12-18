@@ -1,0 +1,81 @@
+# Descrições L2 - Tema 04: Segurança Pública
+# Gerado em: 2025-12-18
+
+- code: "04.01"
+  label: "Policiamento"
+  description: |
+    Abrange as atividades e estratégias de policiamento voltadas à manutenção da ordem pública e à prevenção de crimes em diferentes contextos territoriais. Engloba modalidades como policiamento ostensivo, comunitário e preventivo, incluindo patrulhamento urbano e atuação em áreas rurais.
+  keywords:
+    - policiamento ostensivo
+    - policiamento comunitário
+    - policiamento preventivo
+    - patrulhamento urbano
+    - policiamento rural
+    - ronda policial
+    - segurança pública
+    - prevenção criminal
+    - policiamento de proximidade
+    - segurança comunitária
+    - vigilância policial
+    - operações policiais
+    - rondas preventivas
+
+- code: "04.02"
+  label: "Combate ao Crime Organizado"
+  description: |
+    Compreende ações de investigação, repressão e desarticulação de organizações criminosas e suas atividades ilícitas. Inclui operações contra tráfico de drogas e armas, combate ao crime cibernético, investigação de facções criminosas e outras formas de criminalidade organizada.
+  keywords:
+    - crime organizado
+    - organizações criminosas
+    - tráfico de drogas
+    - tráfico de armas
+    - crime cibernético
+    - facções criminosas
+    - investigação criminal
+    - operações policiais
+    - narcotráfico
+    - lavagem de dinheiro
+    - criminalidade organizada
+    - desarticulação criminal
+    - repressão ao crime
+    - inteligência policial
+
+- code: "04.03"
+  label: "Prevenção e Enfrentamento à Violência"
+  description: |
+    Engloba iniciativas de prevenção e combate a diferentes formas de violência, com ênfase em ações educativas, campanhas de conscientização e mecanismos de resolução de conflitos. Aborda especificamente o enfrentamento à violência doméstica, bullying, cyberbullying e outras manifestações de violência interpessoal.
+  keywords:
+    - prevenção da violência
+    - enfrentamento à violência
+    - violência doméstica
+    - bullying
+    - cyberbullying
+    - campanhas de conscientização
+    - resolução de conflitos
+    - mediação de conflitos
+    - violência interpessoal
+    - cultura de paz
+    - educação para paz
+    - proteção às vítimas
+    - combate à violência
+
+- code: "04.04"
+  label: "Justiça e Segurança"
+  description: |
+    Abrange a integração entre os sistemas de segurança pública e justiça, incluindo cooperação entre polícia e judiciário, execução penal e reintegração social de egressos. Contempla a garantia de direitos humanos no sistema penal, atuação da defensoria pública e investigação de crimes de colarinho branco.
+  keywords:
+    - cooperação policial-judiciária
+    - execução penal
+    - reintegração social
+    - direitos humanos
+    - sistema penal
+    - defensoria pública
+    - crimes de colarinho branco
+    - sistema judiciário
+    - justiça criminal
+    - ressocialização
+    - crimes econômicos
+    - garantias penais
+    - investigação criminal
+    - acesso à justiça
+    - sistema prisional

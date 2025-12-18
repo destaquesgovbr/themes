@@ -1,0 +1,103 @@
+# Descrições L2 - Tema 06: Ciência, Tecnologia e Inovação
+# Gerado em: 2025-12-18
+
+- code: "06.01"
+  label: "Pesquisa Científica"
+  description: |
+    Abrange as atividades de investigação científica, produção de conhecimento e metodologias de pesquisa. Inclui iniciativas de ciência aberta, democratização do acesso ao conhecimento científico e uso de inteligência em dados para análise e descobertas científicas.
+  keywords:
+    - pesquisa científica
+    - ciência aberta
+    - ciência e democracia
+    - inteligência em dados
+    - produção de conhecimento
+    - metodologia científica
+    - acesso aberto
+    - dados científicos
+    - colaboração científica
+    - divulgação científica
+    - repositórios científicos
+    - transparência científica
+
+- code: "06.02"
+  label: "Desenvolvimento Tecnológico"
+  description: |
+    Engloba o processo de criação, aprimoramento e aplicação de tecnologias, incluindo inteligência artificial e tecnologias emergentes. Aborda aspectos de propriedade intelectual, transferência de tecnologia entre instituições e setores, e o desenvolvimento de novas soluções tecnológicas para desafios contemporâneos.
+  keywords:
+    - desenvolvimento tecnológico
+    - inteligência artificial
+    - propriedade intelectual
+    - novas tecnologias
+    - transferência de tecnologia
+    - tecnologias emergentes
+    - inovação tecnológica
+    - patentes
+    - licenciamento
+    - pesquisa e desenvolvimento
+    - P&D
+    - machine learning
+    - automação
+    - digitalização
+
+- code: "06.03"
+  label: "Inovação"
+  description: |
+    Refere-se aos processos, estratégias e ecossistemas de inovação, incluindo o papel de startups e empreendedorismo tecnológico. Abrange modelos de inovação aberta, colaboração em rede entre diferentes atores e a formulação de políticas públicas para fomento à inovação.
+  keywords:
+    - inovação
+    - startups
+    - empreendedorismo
+    - inovação aberta
+    - inovação em rede
+    - política de inovação
+    - ecossistema de inovação
+    - aceleradoras
+    - incubadoras
+    - venture capital
+    - investimento em inovação
+    - parcerias estratégicas
+    - co-criação
+    - disrupção
+    - modelo de negócios
+
+- code: "06.04"
+  label: "Sustentabilidade e Descarbonização"
+  description: |
+    Trata do desenvolvimento e aplicação de tecnologias e inovações voltadas à sustentabilidade ambiental e redução de emissões de carbono. Inclui tecnologias verdes, economia circular, energias renováveis e soluções inovadoras para mitigação e adaptação às mudanças climáticas.
+  keywords:
+    - sustentabilidade
+    - descarbonização
+    - tecnologias verdes
+    - inovação sustentável
+    - economia circular
+    - energias renováveis
+    - baixo carbono
+    - mudanças climáticas
+    - transição energética
+    - tecnologias limpas
+    - eficiência energética
+    - neutralidade carbônica
+    - ESG
+    - bioeconomia
+    - soluções climáticas
+
+- code: "06.05"
+  label: "Política e Regulação"
+  description: |
+    Abrange a formulação, implementação e avaliação de políticas públicas de ciência, tecnologia e inovação, bem como marcos regulatórios para novas tecnologias. Inclui aspectos éticos relacionados ao desenvolvimento e uso de tecnologias, governança digital e frameworks regulatórios para inovação responsável.
+  keywords:
+    - políticas de CT&I
+    - regulação tecnológica
+    - ética em tecnologia
+    - governança tecnológica
+    - marcos regulatórios
+    - política científica
+    - fomento à pesquisa
+    - Lei de Inovação
+    - privacidade e proteção de dados
+    - responsabilidade algorítmica
+    - regulação de IA
+    - ética em inovação
+    - compliance tecnológico
+    - segurança digital
+    - direitos digitais

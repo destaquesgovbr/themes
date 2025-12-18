@@ -1,0 +1,356 @@
+# Descrições L3 - Tema 17: Energia e Recursos Minerais
+# Gerado em: 2025-12-18
+
+- code: "17.01.01"
+  label: "Exploração de Petróleo"
+  description: |
+    Atividades de pesquisa, prospecção e exploração de jazidas de petróleo, incluindo leilões de blocos
+    exploratórios, estudos sísmicos e perfuração de poços.
+  keywords:
+    - exploração de petróleo, prospecção, pesquisa sísmica
+    - blocos exploratórios, leilão de blocos, rodada de licitação
+    - ANP, bacia sedimentar, pré-sal, pós-sal
+    - perfuração exploratória, reservas petrolíferas
+  examples:
+    - "ANP realiza 18ª Rodada de Licitação de blocos exploratórios de petróleo"
+    - "Petrobras anuncia descoberta de petróleo no pré-sal da Bacia de Santos"
+    - "Governo autoriza pesquisa sísmica em novas áreas da margem equatorial"
+
+- code: "17.01.02"
+  label: "Produção e Refino de Petróleo"
+  description: |
+    Extração, processamento e refino de petróleo bruto, incluindo operação de campos produtores,
+    refinarias e produção de derivados.
+  keywords:
+    - produção de petróleo, extração, campo produtor
+    - plataforma de petróleo, refino, refinaria
+    - Petrobras, derivados de petróleo
+    - gasolina, diesel, barril por dia, FPSO
+  examples:
+    - "Produção de petróleo no pré-sal atinge recorde de 3 milhões de barris por dia"
+    - "Petrobras inaugura nova unidade de refino em Pernambuco"
+    - "Brasil aumenta produção de derivados de petróleo em 12% no último trimestre"
+
+- code: "17.01.03"
+  label: "Exploração de Gás Natural"
+  description: |
+    Atividades de pesquisa, prospecção e exploração de reservas de gás natural, incluindo gás associado
+    e não-associado.
+  keywords:
+    - exploração de gás natural, prospecção de gás
+    - gás não-associado, gás associado
+    - reservas de gás, ANP, leilão de gás
+    - GNL, gás natural liquefeito
+  examples:
+    - "ANP aprova exploração de gás natural em 15 novos blocos terrestres"
+    - "Petrobras descobre reservas de gás natural na Bacia de Campos"
+    - "Governo lança programa para incentivar exploração de gás não-associado"
+
+- code: "17.01.04"
+  label: "Logística e Distribuição"
+  description: |
+    Transporte, armazenamento e distribuição de petróleo, gás e derivados através de dutos, navios e terminais.
+  keywords:
+    - gasoduto, oleoduto, Transpetro
+    - terminal aquaviário, base de distribuição
+    - logística de petróleo, transporte de gás
+    - GNL, regaseificação, cabotagem
+  examples:
+    - "Petrobras inaugura novo gasoduto ligando campos do pré-sal ao continente"
+    - "Governo autoriza ampliação de terminal de importação de GNL no Ceará"
+    - "Transpetro investe R$ 2 bilhões em modernização de oleodutos"
+
+- code: "17.01.05"
+  label: "Investimentos no Setor de Petróleo e Gás"
+  description: |
+    Aportes financeiros, planos de negócios, parcerias e financiamentos destinados ao setor de petróleo e gás.
+  keywords:
+    - investimento em petróleo, plano de negócios
+    - Petrobras, parceria estratégica, joint venture
+    - BNDES, contrato de partilha, royalties
+    - desinvestimento, monetização
+  examples:
+    - "Petrobras anuncia investimentos de R$ 102 bilhões para exploração do pré-sal"
+    - "BNDES aprova financiamento de R$ 5 bilhões para projetos de gás natural"
+    - "Governo assina acordo de partilha para desenvolvimento de campo de petróleo"
+
+- code: "17.02.01"
+  label: "Extração de Minerais"
+  description: |
+    Atividades de lavra e extração de minérios, incluindo mineração de ferro, ouro, cobre, bauxita e outros minerais.
+  keywords:
+    - extração mineral, lavra, mineração, mina
+    - minério de ferro, Vale, ouro, cobre, bauxita
+    - ANM, Agência Nacional de Mineração
+    - concessão de lavra, título minerário
+  examples:
+    - "Vale retoma produção em mina de ferro de Brumadinho após aprovação da ANM"
+    - "ANM autoriza início de extração de cobre em projeto no Pará"
+    - "Produção de minério de ferro cresce 8% no primeiro semestre"
+
+- code: "17.02.02"
+  label: "Processamento Mineral"
+  description: |
+    Beneficiamento, transformação e industrialização de minérios extraídos, incluindo pelotização e metalurgia.
+  keywords:
+    - beneficiamento mineral, processamento de minério
+    - pelotização, sinterização, metalurgia
+    - usina de beneficiamento, rejeitos minerais
+    - barragem de rejeitos, agregados
+  examples:
+    - "Governo aprova licença para nova planta de pelotização de minério de ferro"
+    - "Vale investe R$ 800 milhões em modernização de usina de beneficiamento"
+    - "MME regulamenta novos padrões para processamento de minerais estratégicos"
+
+- code: "17.02.03"
+  label: "Pesquisa e Desenvolvimento Mineral"
+  description: |
+    Estudos, pesquisas tecnológicas e inovações para o setor mineral, incluindo novas técnicas de extração.
+  keywords:
+    - pesquisa mineral, P&D mineral, inovação em mineração
+    - CETEM, minerais estratégicos, minerais críticos
+    - terras raras, lítio, nióbio
+    - mineração sustentável, mineração 4.0
+  examples:
+    - "CETEM desenvolve nova tecnologia para extração de terras raras"
+    - "Governo lança programa de pesquisa para minerais críticos e estratégicos"
+    - "Parceria público-privada investe em inovação para mineração sustentável"
+
+- code: "17.02.04"
+  label: "Levantamento Geológico"
+  description: |
+    Mapeamento geológico, estudos geofísicos, geoquímicos e de potencial mineral do território nacional.
+  keywords:
+    - levantamento geológico, mapeamento geológico
+    - CPRM, Serviço Geológico do Brasil
+    - geofísica, geoquímica, potencial mineral
+    - aerogeofísica, carta geológica
+  examples:
+    - "CPRM conclui mapeamento geológico de nova província mineral na Amazônia"
+    - "Serviço Geológico do Brasil identifica potencial para lítio no Nordeste"
+    - "Governo investe R$ 50 milhões em levantamento aerogeofísico nacional"
+
+- code: "17.02.05"
+  label: "Sustentabilidade e Impacto Ambiental"
+  description: |
+    Aspectos ambientais da mineração, incluindo licenciamento, recuperação de áreas degradadas e segurança de barragens.
+  keywords:
+    - sustentabilidade mineral, impacto ambiental
+    - licenciamento ambiental, EIA-RIMA
+    - recuperação de áreas degradadas, PRAD
+    - segurança de barragens, Brumadinho, Mariana
+    - ANM, IBAMA
+  examples:
+    - "ANM intensifica fiscalização de segurança em 50 barragens de rejeitos minerais"
+    - "Vale apresenta plano de recuperação ambiental de áreas degradadas em Minas Gerais"
+    - "Governo lança programa de sustentabilidade para pequena e média mineração"
+
+- code: "17.03.01"
+  label: "Regulação e Legislação Energética"
+  description: |
+    Normas, regulamentos, leis e resoluções que regem o setor energético brasileiro, incluindo atuação de agências reguladoras.
+  keywords:
+    - regulação energética, legislação energética
+    - MME, ANEEL, ANP
+    - marco regulatório, resolução normativa
+    - tarifa de energia, bandeira tarifária
+  examples:
+    - "ANEEL aprova novas regras para geração distribuída de energia elétrica"
+    - "MME publica portaria atualizando marco regulatório do setor de gás natural"
+    - "Governo sanciona lei que moderniza regulação do setor elétrico brasileiro"
+
+- code: "17.03.02"
+  label: "Subsídios e Incentivos"
+  description: |
+    Programas de apoio financeiro, fiscal e creditício para o setor energético, incluindo descontos tarifários e isenções.
+  keywords:
+    - subsídio energético, incentivo fiscal
+    - desconto tarifário, tarifa social
+    - PROINFA, RenovaBio, BNDES
+    - CDE, Conta de Desenvolvimento Energético
+  examples:
+    - "Governo anuncia R$ 3 bilhões em subsídios para energia renovável via PROINFA"
+    - "MME amplia desconto na tarifa social de energia para famílias de baixa renda"
+    - "BNDES lança linha de crédito subsidiado para projetos de eficiência energética"
+
+- code: "17.03.03"
+  label: "Planejamento Energético Nacional"
+  description: |
+    Elaboração de planos, diretrizes e estratégias de longo prazo para o setor energético brasileiro.
+  keywords:
+    - planejamento energético, matriz energética
+    - PNE, Plano Nacional de Energia
+    - EPE, PDE, Plano Decenal de Expansão
+    - segurança energética, transição energética
+  examples:
+    - "EPE divulga Plano Decenal de Expansão com meta de 50% de renováveis até 2032"
+    - "MME apresenta estratégia de planejamento energético para próxima década"
+    - "Governo atualiza Plano Nacional de Energia com foco em transição energética"
+
+- code: "17.03.04"
+  label: "Parcerias e Acordos Internacionais"
+  description: |
+    Cooperação técnica, acordos bilaterais/multilaterais e integração energética internacional envolvendo o Brasil.
+  keywords:
+    - cooperação internacional, acordo bilateral
+    - integração energética, interconexão elétrica
+    - BRICS, Mercosul, transferência de tecnologia
+    - exportação de energia, comércio de energia
+  examples:
+    - "Brasil assina acordo com Argentina para integração energética na região Sul"
+    - "MME e governo chinês estabelecem parceria para energias renováveis"
+    - "País firma compromisso internacional para redução de emissões no setor energético"
+
+- code: "17.03.05"
+  label: "Luz para Todos"
+  description: |
+    Programa nacional de universalização do acesso à energia elétrica em áreas rurais e comunidades isoladas.
+  keywords:
+    - Luz para Todos, universalização
+    - eletrificação rural, acesso à energia
+    - comunidades isoladas, área rural
+    - energia solar fotovoltaica, sistema isolado
+  examples:
+    - "Programa Luz para Todos leva energia elétrica a 5 mil famílias na Amazônia"
+    - "MME investe R$ 500 milhões para universalizar acesso à energia no Nordeste"
+    - "Governo utiliza energia solar para eletrificação de comunidades isoladas"
+
+- code: "17.04.01"
+  label: "Energia Solar"
+  description: |
+    Geração de energia elétrica através de tecnologia fotovoltaica e heliotérmica.
+  keywords:
+    - energia solar, energia fotovoltaica
+    - painel solar, usina solar, parque solar
+    - geração distribuída, microgeração
+    - leilão solar, prosumidor
+  examples:
+    - "ANEEL autoriza construção de usina solar de 500 MW no sertão da Bahia"
+    - "Brasil atinge 15 GW de capacidade instalada em energia solar fotovoltaica"
+    - "Programa de geração distribuída solar beneficia 2 milhões de consumidores"
+
+- code: "17.04.02"
+  label: "Energia Eólica"
+  description: |
+    Geração de energia elétrica através da força dos ventos utilizando aerogeradores.
+  keywords:
+    - energia eólica, parque eólico, aerogerador
+    - turbina eólica, offshore, onshore
+    - complexo eólico, potencial eólico
+    - ABEEólica, Rio Grande do Norte
+  examples:
+    - "Brasil inaugura primeiro parque eólico offshore na costa do Ceará"
+    - "Complexo eólico no Rio Grande do Norte se torna o maior da América Latina"
+    - "Leilão de energia contrata 2 GW de capacidade eólica para 2028"
+
+- code: "17.04.03"
+  label: "Energia Hidrelétrica"
+  description: |
+    Geração de energia elétrica através do aproveitamento do potencial hidráulico de rios, incluindo UHEs, PCHs e CGHs.
+  keywords:
+    - energia hidrelétrica, usina hidrelétrica, UHE
+    - PCH, CGH, barragem
+    - Itaipu, Belo Monte, Tucuruí
+    - ONS, reservatório
+  examples:
+    - "ONS autoriza operação de nova unidade geradora da Usina de Belo Monte"
+    - "Governo licita construção de PCH com capacidade de 30 MW no Paraná"
+    - "Setor hidrelétrico responde por 60% da matriz energética brasileira"
+
+- code: "17.04.04"
+  label: "Biomassa e Biocombustíveis"
+  description: |
+    Geração de energia e produção de combustíveis a partir de matéria orgânica, incluindo etanol, biodiesel e biogás.
+  keywords:
+    - biomassa, biocombustível, etanol, biodiesel
+    - biogás, biometano, cogeração
+    - bagaço de cana, RenovaBio, CBIO
+    - usina sucroalcooleira, B10, B15
+  examples:
+    - "RenovaBio emite 15 milhões de CBIOs para produtores de etanol e biodiesel"
+    - "Usina de biogás no Paraná gera energia a partir de dejetos suínos"
+    - "ANP autoriza elevação da mistura de biodiesel no diesel para B15"
+
+- code: "17.04.05"
+  label: "Pesquisa e Inovação em Energias Renováveis"
+  description: |
+    Estudos, desenvolvimento tecnológico e inovações no campo das energias renováveis.
+  keywords:
+    - P&D energias renováveis, inovação energética
+    - hidrogênio verde, H2V
+    - armazenamento de energia, bateria
+    - eficiência energética, FINEP, ANEEL P&D
+  examples:
+    - "Governo investe R$ 100 milhões em pesquisa de hidrogênio verde no Nordeste"
+    - "FINEP aprova projeto de armazenamento de energia em baterias de lítio"
+    - "Universidade federal desenvolve nova tecnologia para painéis solares de alta eficiência"
+
+- code: "17.05.01"
+  label: "Investimentos em Transmissão e Distribuição"
+  description: |
+    Aportes financeiros para construção, ampliação e melhorias em linhas de transmissão e redes de distribuição.
+  keywords:
+    - investimento em transmissão, linha de transmissão, LT
+    - leilão de transmissão, subestação
+    - rede de distribuição, SIN
+    - distribuidora, transmissora
+  examples:
+    - "ANEEL realiza leilão de transmissão com investimentos de R$ 8 bilhões"
+    - "Governo autoriza construção de linha de transmissão ligando Norte ao Sudeste"
+    - "Distribuidora investe R$ 500 milhões em expansão de rede no interior"
+
+- code: "17.05.02"
+  label: "Modernização da Infraestrutura Energética"
+  description: |
+    Atualização tecnológica, retrofit e melhorias em infraestrutura energética existente.
+  keywords:
+    - modernização energética, retrofit
+    - smart meter, medidor inteligente
+    - automação de subestação, digitalização
+    - repotenciação, upgrade
+  examples:
+    - "Distribuidora instala 500 mil medidores inteligentes em capitais brasileiras"
+    - "Programa de modernização digital beneficia infraestrutura de transmissão nacional"
+    - "ANEEL aprova investimento de R$ 2 bilhões para retrofit de subestações"
+
+- code: "17.05.03"
+  label: "Redes de Energia Inteligente"
+  description: |
+    Implementação de tecnologias smart grid, sistemas de gestão inteligente e integração digital da rede elétrica.
+  keywords:
+    - smart grid, rede inteligente
+    - microgrids, IoT, big data energético
+    - demand response, medição inteligente
+    - geração distribuída
+  examples:
+    - "Brasil lança projeto piloto de smart grid em 10 cidades brasileiras"
+    - "Distribuidora implementa sistema de gestão inteligente de demanda energética"
+    - "Governo investe em redes inteligentes para integrar geração distribuída"
+
+- code: "17.05.04"
+  label: "Manutenção e Expansão da Infraestrutura"
+  description: |
+    Operações de manutenção preventiva/corretiva e ampliação contínua da infraestrutura energética.
+  keywords:
+    - manutenção energética, manutenção preventiva
+    - expansão da infraestrutura, DEC, FEC
+    - confiabilidade, disponibilidade
+    - restabelecimento, emergência
+  examples:
+    - "Distribuidora reduz DEC em 20% com programa intensivo de manutenção preventiva"
+    - "ONS coordena expansão de infraestrutura para atender crescimento de 5% ao ano"
+    - "Concessionária realiza manutenção emergencial em linha de transmissão crítica"
+
+- code: "17.05.05"
+  label: "Parcerias Público-Privadas no Setor Energético"
+  description: |
+    Contratos de PPP, concessões e cooperação entre setor público e privado para projetos de infraestrutura energética.
+  keywords:
+    - PPP energética, parceria público-privada
+    - concessão, leilão de concessão
+    - BNDES, SPE, project finance
+    - investidor privado, consórcio
+  examples:
+    - "Governo lança PPP de R$ 3 bilhões para modernização de distribuidoras regionais"
+    - "Consórcio privado vence leilão de concessão de linha de transmissão no Pará"
+    - "BNDES estrutura parceria público-privada para projeto de energia renovável"

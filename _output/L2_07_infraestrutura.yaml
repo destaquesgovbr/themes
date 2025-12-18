@@ -1,0 +1,96 @@
+# Descrições L2 - Tema 07: Infraestrutura e Transportes
+# Gerado em: 2025-12-18
+
+- code: "07.01"
+  label: "Obras Públicas"
+  description: |
+    Abrange a construção e manutenção de infraestruturas essenciais como estradas, pontes, viadutos e sistemas de saneamento. Engloba projetos de urbanização, drenagem e melhorias na qualidade da infraestrutura urbana e rural. Inclui obras de grande porte que impactam o desenvolvimento regional e a qualidade de vida da população.
+  keywords:
+    - construção civil
+    - estradas
+    - pontes
+    - viadutos
+    - saneamento básico
+    - drenagem urbana
+    - urbanização
+    - infraestrutura pública
+    - pavimentação
+    - obras de arte
+    - engenharia civil
+    - desenvolvimento urbano
+
+- code: "07.02"
+  label: "Mobilidade Urbana"
+  description: |
+    Contempla sistemas de transporte público e soluções para deslocamento nas cidades, incluindo ônibus, metrô e veículos leves sobre trilhos. Aborda iniciativas de mobilidade verde, infraestrutura para ciclistas e pedestres, e projetos de acessibilidade universal. Foca na integração de diferentes modais e na promoção de transportes sustentáveis e eficientes.
+  keywords:
+    - transporte público
+    - mobilidade sustentável
+    - ciclovias
+    - acessibilidade
+    - pedestres
+    - metrô
+    - BRT
+    - VLT
+    - bicicletas
+    - mobilidade verde
+    - integração modal
+    - transporte coletivo
+    - calçadas
+
+- code: "07.03"
+  label: "Logística e Transporte"
+  description: |
+    Engloba sistemas de transporte de cargas e passageiros por diferentes modais: rodoviário, ferroviário e aquaviário. Aborda questões de logística integrada, corredores de transporte e eficiência na movimentação de mercadorias. Inclui planejamento de rotas, gestão de frotas e desenvolvimento de infraestrutura multimodal.
+  keywords:
+    - logística
+    - transporte de cargas
+    - modal rodoviário
+    - modal ferroviário
+    - modal aquaviário
+    - multimodalidade
+    - corredores logísticos
+    - portos
+    - hidrovias
+    - gestão de frotas
+    - cadeia de suprimentos
+    - transporte intermodal
+    - eficiência logística
+
+- code: "07.04"
+  label: "Aviação Civil"
+  description: |
+    Compreende a infraestrutura aeroportuária e os serviços relacionados ao transporte aéreo de passageiros e cargas. Engloba questões de segurança, regulamentação, conectividade regional e ampliação da malha aérea. Inclui modernização de aeroportos, serviços aeroportuários e facilitação do acesso aéreo a diferentes regiões.
+  keywords:
+    - aeroportos
+    - aviação civil
+    - infraestrutura aeroportuária
+    - conectividade aérea
+    - segurança aérea
+    - ANAC
+    - serviços aeroportuários
+    - malha aérea
+    - terminal de passageiros
+    - concessões aeroportuárias
+    - transporte aéreo
+    - regulamentação
+
+- code: "07.05"
+  label: "Malha Ferroviária"
+  description: |
+    Aborda a expansão, modernização e operação da rede ferroviária para transporte de cargas e passageiros. Contempla segurança ferroviária, concessões, investimentos em infraestrutura de trilhos e sistemas de sinalização. Inclui projetos de trens de alta velocidade, trens regionais e ferrovias de carga.
+  keywords:
+    - ferrovia
+    - malha ferroviária
+    - transporte ferroviário
+    - trilhos
+    - trens
+    - concessões ferroviárias
+    - segurança ferroviária
+    - locomotivas
+    - vagões
+    - sinalização ferroviária
+    - modernização ferroviária
+    - transporte de passageiros
+    - transporte de carga
+    - trem de alta velocidade

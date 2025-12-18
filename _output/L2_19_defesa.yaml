@@ -1,0 +1,107 @@
+# Descrições L2 - Tema 19: Defesa e Forças Armadas
+# Gerado em: 2025-12-18
+
+- code: "19.01"
+  label: "Segurança Nacional"
+  description: |
+    Engloba atividades de proteção da soberania territorial e defesa do Estado brasileiro contra ameaças internas e externas. Compreende inteligência e contrainteligência, proteção de infraestruturas estratégicas, combate ao terrorismo, vigilância e controle de fronteiras terrestres, aéreas e marítimas, além da defesa do espaço aéreo e das águas jurisdicionais brasileiras.
+  keywords:
+    - segurança nacional
+    - soberania territorial
+    - inteligência militar
+    - ABIN
+    - GSI
+    - contrainteligência
+    - infraestrutura crítica
+    - antiterrorismo
+    - fronteira
+    - SISFRON
+    - espaço aéreo
+    - Amazônia Azul
+    - defesa aérea
+    - patrulha naval
+    - controle de fronteira
+
+- code: "19.02"
+  label: "Missões Militares"
+  description: |
+    Abrange operações conduzidas pelas Forças Armadas tanto no território nacional quanto no exterior. Inclui participação em missões de paz da ONU, operações militares fora do Brasil, acordos de cooperação internacional em defesa, exercícios militares conjuntos com forças estrangeiras e operações de combate ao narcotráfico em áreas de fronteira e rotas de tráfico.
+  keywords:
+    - missão de paz
+    - capacetes azuis
+    - MINUSTAH
+    - UNIFIL
+    - operação no exterior
+    - cooperação militar
+    - acordo de defesa
+    - exercício militar
+    - CRUZEX
+    - UNITAS
+    - treinamento militar
+    - operação antidrogas
+    - combate ao narcotráfico
+    - pista clandestina
+    - Operação Ágata
+
+- code: "19.03"
+  label: "Defesa Civil"
+  description: |
+    Compreende ações preventivas e de preparação para enfrentamento de desastres naturais ou tecnológicos. Inclui capacitação de agentes, elaboração de planos de evacuação, sistemas de monitoramento e alerta precoce de riscos naturais, simulados de emergência e gestão de abrigos temporários para populações afetadas por calamidades.
+  keywords:
+    - Defesa Civil
+    - preparação para desastres
+    - prevenção de desastres
+    - plano de evacuação
+    - evacuação preventiva
+    - CEMADEN
+    - monitoramento de riscos
+    - alerta de desastres
+    - gestão de abrigos
+    - abrigo temporário
+    - desabrigados
+    - simulado de emergência
+    - SEDEC
+    - CENAD
+    - área de risco
+
+- code: "19.04"
+  label: "Situações de Emergência"
+  description: |
+    Engloba respostas imediatas a desastres, emergências e situações de calamidade pública. Compreende operações de busca, resgate e salvamento de vítimas, logística emergencial para distribuição de suprimentos, ações humanitárias de assistência médica e psicológica, programas de reconstrução pós-desastre e apoio a deslocados internos.
+  keywords:
+    - emergência
+    - resgate e salvamento
+    - busca e salvamento
+    - SAR
+    - estado de calamidade
+    - situação de emergência
+    - logística emergencial
+    - ponte aérea
+    - ação humanitária
+    - hospital de campanha
+    - reconstrução
+    - recuperação pós-desastre
+    - deslocados internos
+    - reassentamento
+    - socorro a vítimas
+
+- code: "19.05"
+  label: "Políticas e Estratégias de Defesa"
+  description: |
+    Abrange o planejamento estratégico de longo prazo para a defesa nacional e o desenvolvimento das capacidades militares. Inclui a formulação da Estratégia Nacional de Defesa, programas de modernização e reequipamento das Forças Armadas, desenvolvimento de capacidades de defesa cibernética, pesquisa e inovação em tecnologias militares, além das relações com a indústria nacional de defesa.
+  keywords:
+    - planejamento de defesa
+    - Estratégia Nacional de Defesa
+    - END
+    - Livro Branco de Defesa
+    - modernização militar
+    - reequipamento
+    - KC-390
+    - Gripen
+    - PROSUB
+    - defesa cibernética
+    - CDCiber
+    - P&D em defesa
+    - indústria de defesa
+    - autonomia estratégica
+    - tecnologia militar

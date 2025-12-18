@@ -1,0 +1,327 @@
+# Descrições L3 - Tema 11: Indústria e Comércio
+# Gerado em: 2025-12-18
+
+- code: "11.01.01"
+  label: "Inovação Tecnológica"
+  description: "Desenvolvimento de novas tecnologias e processos inovadores no setor industrial. Inclui pesquisa aplicada, transferência de tecnologia e desenvolvimento de produtos."
+  keywords:
+    - inovação, P&D, pesquisa e desenvolvimento
+    - tecnologia industrial, patente, propriedade intelectual
+    - EMBRAPII, SENAI, centro de inovação
+    - prototipagem, produto inovador, processo produtivo
+    - transferência de tecnologia, licenciamento
+  examples:
+    - "EMBRAPII investe R$ 50 milhões em projetos de inovação industrial"
+    - "Governo lança programa de incentivo à P&D em pequenas e médias indústrias"
+
+- code: "11.01.02"
+  label: "Políticas de Incentivo"
+  description: "Programas governamentais de estímulo ao desenvolvimento industrial através de benefícios fiscais, subsídios e financiamentos. Inclui regimes especiais e zonas de processamento."
+  keywords:
+    - incentivo fiscal, desoneração, isenção tributária
+    - Lei do Bem, Lei de Informática, Zona Franca de Manaus
+    - subsídio industrial, crédito presumido
+    - BNDES, financiamento industrial, FINAME
+    - regime especial, drawback, ex-tarifário
+  examples:
+    - "MDIC amplia benefícios fiscais para indústrias do setor automotivo"
+    - "Zona Franca de Manaus tem incentivos prorrogados até 2073"
+
+- code: "11.01.03"
+  label: "Capacitação Profissional"
+  description: "Programas de formação e qualificação de mão de obra para o setor industrial. Inclui treinamentos técnicos, cursos profissionalizantes e certificações."
+  keywords:
+    - qualificação profissional, capacitação técnica
+    - SENAI, SENAC, Sistema S
+    - curso técnico, formação industrial, aprendizagem
+    - certificação profissional, competências técnicas
+    - operador de máquinas, mecânico, técnico industrial
+  examples:
+    - "SENAI oferece 10 mil vagas em cursos para indústria 4.0"
+    - "Governo federal investe R$ 100 milhões em capacitação para setor industrial"
+
+- code: "11.01.04"
+  label: "Sustentabilidade Industrial"
+  description: "Práticas de produção sustentável e economia circular no setor industrial. Inclui eficiência energética, gestão de resíduos e redução de emissões."
+  keywords:
+    - sustentabilidade, economia circular, produção limpa
+    - eficiência energética, energia renovável industrial
+    - gestão de resíduos, reciclagem industrial
+    - emissões industriais, pegada de carbono
+    - certificação ambiental, ISO 14001, selo verde
+  examples:
+    - "Indústrias brasileiras reduzem emissões em 15% com programa de eficiência energética"
+    - "MDIC lança programa de economia circular para setor manufatureiro"
+
+- code: "11.01.05"
+  label: "Indústria 4.0"
+  description: "Transformação digital e automação avançada nos processos industriais. Inclui IoT, inteligência artificial, robótica e manufatura inteligente."
+  keywords:
+    - indústria 4.0, transformação digital, digitalização
+    - automação industrial, robótica, manufatura avançada
+    - IoT industrial, internet das coisas, sensores inteligentes
+    - inteligência artificial, machine learning industrial
+    - fábrica inteligente, smart factory, CPS
+  examples:
+    - "Governo lança Plano Nacional de IoT para modernização industrial"
+    - "Indústrias brasileiras investem R$ 2 bilhões em automação e robótica"
+
+- code: "11.02.01"
+  label: "Exportação e Importação"
+  description: "Operações de comércio exterior, processos aduaneiros e fluxos de entrada e saída de mercadorias. Inclui despacho, licenciamento e certificação de produtos."
+  keywords:
+    - exportação, importação, balança comercial
+    - aduana, despacho aduaneiro, Receita Federal
+    - SISCOMEX, licenciamento de importação, NCM
+    - exportador, importador, trading
+    - certificado de origem, desembaraço aduaneiro
+  examples:
+    - "Brasil registra superávit comercial de US$ 5 bilhões em outubro"
+    - "Governo simplifica processos de licenciamento para importação de insumos"
+
+- code: "11.02.02"
+  label: "Acordos Comerciais"
+  description: "Tratados e acordos bilaterais ou multilaterais de comércio entre países. Inclui negociações do Mercosul, OMC e parcerias estratégicas."
+  keywords:
+    - acordo comercial, tratado de livre comércio
+    - Mercosul, OMC, ALADI, BRICS
+    - negociação comercial, parceria bilateral
+    - tarifa preferencial, acordo de complementação econômica
+    - União Europeia, China, Estados Unidos
+  examples:
+    - "Mercosul e União Europeia avançam em negociações de acordo comercial"
+    - "Brasil assina acordo de livre comércio com países do Oriente Médio"
+
+- code: "11.02.03"
+  label: "Competitividade"
+  description: "Medidas para aumentar a capacidade competitiva de empresas brasileiras no mercado nacional e internacional. Inclui produtividade, custos e qualidade."
+  keywords:
+    - competitividade, produtividade empresarial
+    - custo Brasil, desburocratização, simplificação
+    - qualidade, eficiência produtiva, gestão
+    - ranking de competitividade, índice de produtividade
+    - modernização, melhoria de processos
+  examples:
+    - "Brasil sobe 5 posições em ranking mundial de competitividade"
+    - "Governo lança programa para reduzir custo Brasil em 20%"
+
+- code: "11.02.04"
+  label: "Tarifas e Barreiras Comerciais"
+  description: "Impostos de importação, quotas e restrições ao comércio internacional. Inclui medidas de defesa comercial e retaliações tarifárias."
+  keywords:
+    - tarifa de importação, imposto de importação, alíquota
+    - barreira comercial, medida antidumping, salvaguarda
+    - quota de importação, licença não automática
+    - defesa comercial, investigação antidumping
+    - TEC, Tarifa Externa Comum, protecionismo
+  examples:
+    - "Brasil aplica medida antidumping contra aço chinês"
+    - "Mercosul reduz Tarifa Externa Comum para 87% dos produtos"
+
+- code: "11.02.05"
+  label: "Feiras e Eventos Comerciais"
+  description: "Exposições, rodadas de negócios e eventos para promoção comercial de produtos e serviços. Inclui missões comerciais e participação em eventos internacionais."
+  keywords:
+    - feira comercial, exposição, salão industrial
+    - rodada de negócios, missão comercial, ApexBrasil
+    - evento setorial, congresso empresarial
+    - networking empresarial, B2B, matchmaking
+    - FEICON, FIESP, CNI
+  examples:
+    - "ApexBrasil leva 50 empresas brasileiras para feira internacional em Dubai"
+    - "São Paulo sedia maior feira de tecnologia industrial da América Latina"
+
+- code: "11.03.01"
+  label: "Crédito e Financiamento"
+  description: "Linhas de crédito, financiamentos e programas de apoio financeiro para pequenas e médias empresas. Inclui microcrédito e capital de giro."
+  keywords:
+    - crédito PME, financiamento empresarial, empréstimo
+    - microcrédito, BNDES MPE, Banco do Brasil
+    - capital de giro, crédito produtivo, linha de crédito
+    - garantia, aval, Fundo Garantidor
+    - taxa de juros, Pronampe, FGI
+  examples:
+    - "Pronampe libera R$ 3 bilhões em crédito para pequenas empresas"
+    - "Governo amplia Fundo Garantidor para facilitar acesso ao crédito"
+
+- code: "11.03.02"
+  label: "Formalização e Regularização"
+  description: "Processos de abertura, registro e regularização de pequenos negócios. Inclui MEI, Simples Nacional e licenciamentos."
+  keywords:
+    - MEI, microempreendedor individual, formalização
+    - Simples Nacional, CNPJ, abertura de empresa
+    - regularização empresarial, licença de funcionamento
+    - Redesim, Portal do Empreendedor, Junta Comercial
+    - alvará, certidão negativa, regularidade fiscal
+  examples:
+    - "Brasil registra 2 milhões de novos MEIs em 2024"
+    - "Governo simplifica abertura de empresas com Redesim digital"
+
+- code: "11.03.03"
+  label: "Empreendedorismo e Startups"
+  description: "Apoio ao ecossistema de startups e empreendimentos inovadores. Inclui incubadoras, aceleradoras e investimento em negócios nascentes."
+  keywords:
+    - startup, empreendedorismo, inovação de negócios
+    - incubadora, aceleradora, hub de inovação
+    - venture capital, investidor-anjo, seed money
+    - pitch, MVP, modelo de negócio
+    - Marco Legal das Startups, CERNE, ANPROTEC
+  examples:
+    - "Marco Legal das Startups facilita investimentos em empresas nascentes"
+    - "Governo federal investe R$ 50 milhões em incubadoras de todo país"
+
+- code: "11.03.04"
+  label: "Capacitação para Pequenos Negócios"
+  description: "Programas de treinamento e desenvolvimento gerencial para micro e pequenos empresários. Inclui cursos de gestão, marketing e vendas."
+  keywords:
+    - capacitação empresarial, Sebrae, treinamento
+    - gestão de pequenos negócios, consultoria empresarial
+    - curso de empreendedorismo, mentoria, coaching
+    - gestão financeira, marketing digital, vendas
+    - educação empreendedora, programa de capacitação
+  examples:
+    - "Sebrae capacita 50 mil microempreendedores em gestão financeira"
+    - "Programa federal oferece consultoria gratuita para pequenos negócios"
+
+- code: "11.03.05"
+  label: "Redes de Apoio e Parcerias"
+  description: "Cooperação entre pequenas empresas, associações e parcerias estratégicas. Inclui redes de negócios, cooperativas e APLs."
+  keywords:
+    - rede de negócios, cooperativa, associação empresarial
+    - APL, arranjo produtivo local, cluster
+    - parceria empresarial, consórcio, cooperação
+    - rede colaborativa, central de negócios
+    - associativismo, economia solidária, coletivo
+  examples:
+    - "Governo fortalece 100 Arranjos Produtivos Locais em todo Brasil"
+    - "Pequenas empresas criam rede colaborativa para compras conjuntas"
+
+- code: "11.04.01"
+  label: "Logística e Distribuição"
+  description: "Gestão de transporte, armazenagem e distribuição de produtos na cadeia produtiva. Inclui infraestrutura logística e centros de distribuição."
+  keywords:
+    - logística industrial, distribuição, transporte de carga
+    - armazenagem, centro de distribuição, CD
+    - cadeia de suprimentos, supply chain, escoamento
+    - modal de transporte, frete, movimentação
+    - hub logístico, rastreamento, roteirização
+  examples:
+    - "Governo investe R$ 500 milhões em centros logísticos industriais"
+    - "Setor produtivo reduz custos com otimização de rotas de distribuição"
+
+- code: "11.04.02"
+  label: "Fornecedores e Subcontratados"
+  description: "Gestão de relacionamento com fornecedores, terceirização e subcontratação na cadeia produtiva. Inclui homologação e qualificação de fornecedores."
+  keywords:
+    - fornecedor, supplier, terceirização industrial
+    - subcontratação, outsourcing, parcerias produtivas
+    - homologação de fornecedor, qualificação
+    - gestão de fornecedores, procurement, compras
+    - contrato de fornecimento, SLA, acordo comercial
+  examples:
+    - "Indústria automotiva amplia rede de fornecedores nacionais"
+    - "Programa de desenvolvimento de fornecedores beneficia 500 empresas"
+
+- code: "11.04.03"
+  label: "Gestão de Qualidade"
+  description: "Sistemas de controle e garantia de qualidade nos processos produtivos. Inclui certificações ISO, normas técnicas e auditorias."
+  keywords:
+    - gestão de qualidade, controle de qualidade, QMS
+    - ISO 9001, certificação de qualidade, acreditação
+    - INMETRO, norma técnica, ABNT, padrão de qualidade
+    - auditoria de qualidade, inspeção, conformidade
+    - melhoria contínua, Six Sigma, lean manufacturing
+  examples:
+    - "INMETRO certifica 200 novas empresas em gestão de qualidade"
+    - "Indústrias brasileiras adotam metodologia Six Sigma para reduzir defeitos"
+
+- code: "11.04.04"
+  label: "Sustentabilidade na Cadeia Produtiva"
+  description: "Práticas sustentáveis e responsabilidade socioambiental em toda cadeia de produção. Inclui rastreabilidade, fornecedores verdes e economia circular."
+  keywords:
+    - cadeia sustentável, fornecedor verde, due diligence
+    - rastreabilidade, origem sustentável, transparência
+    - economia circular, logística reversa, reaproveitamento
+    - pegada ambiental, neutralização de carbono
+    - ESG, governança ambiental, compliance socioambiental
+  examples:
+    - "Indústrias implementam rastreabilidade para garantir origem sustentável"
+    - "Programa de logística reversa atinge 10 mil empresas da cadeia produtiva"
+
+- code: "11.04.05"
+  label: "Processos de Produção"
+  description: "Metodologias, técnicas e otimização de processos manufatureiros. Inclui linha de produção, layout fabril e engenharia de processos."
+  keywords:
+    - processo produtivo, manufatura, linha de produção
+    - otimização de processos, engenharia de produção
+    - layout fabril, fluxo produtivo, célula de trabalho
+    - tempo de ciclo, capacidade produtiva, eficiência
+    - kaizen, lean, TPM, melhoria de processos
+  examples:
+    - "Indústrias reduzem tempo de produção em 30% com lean manufacturing"
+    - "Setor automobilístico investe em modernização de linhas de montagem"
+
+- code: "11.05.01"
+  label: "Compliance e Ética"
+  description: "Programas de conformidade legal, ética empresarial e códigos de conduta corporativos. Inclui políticas de integridade e canais de denúncia."
+  keywords:
+    - compliance empresarial, programa de integridade
+    - ética corporativa, código de conduta, conduta ética
+    - canal de denúncia, ouvidoria, whistleblowing
+    - due diligence, conformidade legal, auditoria
+    - Lei Anticorrupção, CGU, controladorias
+  examples:
+    - "Empresas brasileiras reforçam programas de compliance após Lei Anticorrupção"
+    - "Governo federal capacita 1.000 empresas em programas de integridade"
+
+- code: "11.05.02"
+  label: "Transparência Corporativa"
+  description: "Divulgação de informações empresariais, relatórios de sustentabilidade e governança corporativa. Inclui prestação de contas e accountability."
+  keywords:
+    - transparência empresarial, disclosure, divulgação
+    - relatório de sustentabilidade, relatório integrado
+    - governança corporativa, accountability, prestação de contas
+    - informação pública, relatório anual, balanço social
+    - GRI, SASB, padrão de relato
+  examples:
+    - "Empresas estatais ampliam transparência com relatórios integrados"
+    - "Setor privado adota padrão GRI para divulgação de informações ESG"
+
+- code: "11.05.03"
+  label: "Anticorrupção"
+  description: "Medidas de prevenção e combate à corrupção no ambiente empresarial. Inclui investigações, sanções e acordos de leniência."
+  keywords:
+    - anticorrupção, combate à corrupção, prevenção
+    - Lei Anticorrupção, Lei 12.846, punição empresarial
+    - acordo de leniência, sanção administrativa, multa
+    - investigação empresarial, MPF, TCU, CGU
+    - fraude corporativa, suborno, propina
+  examples:
+    - "CGU sanciona 15 empresas por violação à Lei Anticorrupção"
+    - "Acordo de leniência evita sanções para empresa que colaborou com investigação"
+
+- code: "11.05.04"
+  label: "Gestão de Riscos"
+  description: "Identificação, avaliação e mitigação de riscos corporativos e operacionais. Inclui controles internos e planos de contingência."
+  keywords:
+    - gestão de riscos, risk management, análise de riscos
+    - controle interno, auditoria interna, compliance
+    - risco operacional, risco estratégico, risco regulatório
+    - mitigação de riscos, plano de contingência
+    - matriz de riscos, ISO 31000, COSO
+  examples:
+    - "Empresas brasileiras implementam gestão de riscos conforme ISO 31000"
+    - "Setor industrial investe R$ 1 bilhão em sistemas de controle interno"
+
+- code: "11.05.05"
+  label: "Responsabilidade Social Empresarial"
+  description: "Ações e programas de impacto social desenvolvidos por empresas. Inclui projetos comunitários, investimento social privado e voluntariado corporativo."
+  keywords:
+    - responsabilidade social, RSE, investimento social
+    - projeto social empresarial, ação comunitária
+    - voluntariado corporativo, doação empresarial
+    - impacto social, desenvolvimento local, comunidade
+    - fundação empresarial, instituto, filantropia
+  examples:
+    - "Grandes empresas investem R$ 2 bilhões em projetos sociais"
+    - "Programa de voluntariado corporativo beneficia 50 mil famílias"

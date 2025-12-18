@@ -1,0 +1,65 @@
+# Descrições L2 - Tema 18: Comunicações e Mídia
+# Gerado em: 2025-12-18
+
+- code: "18.01"
+  label: "Telecomunicações"
+  description: |
+    Abrange a infraestrutura e regulação dos serviços de telecomunicações no Brasil, incluindo telefonia, internet, banda larga e tecnologias móveis como 5G. Contempla a democratização do acesso digital através de programas de inclusão, o combate a práticas abusivas como ligações indesejadas, além da proteção de dados pessoais e segurança da informação em sistemas de telecomunicações e ambientes digitais.
+  keywords:
+    - telecomunicações
+    - telefonia
+    - internet
+    - banda larga
+    - 5G
+    - fibra óptica
+    - conectividade
+    - ANATEL
+    - operadora
+    - telefonia celular
+    - inclusão digital
+    - Wi-Fi Brasil
+    - ligações indesejadas
+    - Não Me Perturbe
+    - proteção de dados
+
+- code: "18.02"
+  label: "Regulamentação da Mídia"
+  description: |
+    Engloba políticas e regulamentações relacionadas ao exercício da liberdade de imprensa, qualidade e integridade da informação, e combate à desinformação. Contempla a gestão editorial de veículos públicos de comunicação como a EBC, iniciativas de fact-checking e educação midiática, esforços contra fake news e propaganda enganosa, além da promoção de linguagem simples e acessível nas comunicações oficiais.
+  keywords:
+    - liberdade de imprensa
+    - jornalismo
+    - mídia
+    - imprensa
+    - EBC
+    - TV Brasil
+    - Rádio Nacional
+    - linha editorial
+    - integridade da informação
+    - fact-checking
+    - verificação de fatos
+    - desinformação
+    - fake news
+    - combate à desinformação
+    - linguagem simples
+
+- code: "18.03"
+  label: "Comunicação Digital"
+  description: |
+    Compreende estratégias de comunicação governamental em ambientes digitais, incluindo canais de interação entre governo e cidadão, plataformas de atendimento online e ouvidorias digitais. Abarca também a cidadania digital com identidade e documentos eletrônicos, comunicação antirracista e inclusiva, estratégias institucionais de comunicação pública e táticas específicas para redes sociais e produção de conteúdo multimídia.
+  keywords:
+    - comunicação digital
+    - redes sociais
+    - interação digital
+    - canais digitais
+    - chatbot
+    - atendimento virtual
+    - Fala.BR
+    - gov.br
+    - cidadania digital
+    - identidade digital
+    - assinatura digital
+    - CPF digital
+    - comunicação pública
+    - SECOM
+    - comunicação antirracista

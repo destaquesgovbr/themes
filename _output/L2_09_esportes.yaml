@@ -1,0 +1,92 @@
+# Descrições L2 - Tema 09: Esportes e Lazer
+# Gerado em: 2025-12-18
+
+- code: "09.01"
+  label: "Competições Esportivas"
+  description: |
+    Abrange a organização, realização e participação em eventos esportivos competitivos de diversas modalidades e níveis. Inclui desde competições locais e nacionais até grandes eventos internacionais como Jogos Olímpicos, Paralímpicos e campeonatos mundiais. Contempla aspectos de regulamentação, infraestrutura, logística e impacto social das competições esportivas.
+  keywords:
+    - jogos olímpicos
+    - jogos paralímpicos
+    - campeonatos mundiais
+    - torneios esportivos
+    - competições nacionais
+    - eventos internacionais
+    - jogos de inverno
+    - calendário esportivo
+    - federações esportivas
+    - arbitragem
+    - regulamentos de competição
+    - classificação esportiva
+
+- code: "09.02"
+  label: "Políticas de Lazer"
+  description: |
+    Engloba políticas públicas voltadas à promoção e democratização do acesso a atividades recreativas e de lazer. Aborda o planejamento e gestão de espaços públicos, parques, festivais e eventos comunitários destinados ao entretenimento e bem-estar da população. Inclui iniciativas de fomento ao lazer saudável e à integração social por meio de atividades recreativas.
+  keywords:
+    - lazer comunitário
+    - recreação pública
+    - parques urbanos
+    - espaços públicos de lazer
+    - festivais recreativos
+    - eventos culturais
+    - infraestrutura de lazer
+    - programas de recreação
+    - lazer saudável
+    - turismo de lazer
+    - qualidade de vida
+    - animação sociocultural
+
+- code: "09.03"
+  label: "Incentivo ao Esporte"
+  description: |
+    Compreende políticas, programas e mecanismos de fomento ao desenvolvimento esportivo em todas as suas dimensões. Abarca financiamento público e privado, bolsas para atletas, formação de profissionais, construção de infraestrutura e parcerias estratégicas. Visa promover a prática esportiva, descobrir talentos e fortalecer o ecossistema esportivo nacional.
+  keywords:
+    - financiamento esportivo
+    - bolsa atleta
+    - patrocínio esportivo
+    - desenvolvimento de talentos
+    - centros de treinamento
+    - formação de atletas
+    - educação esportiva
+    - parcerias público-privadas
+    - lei de incentivo ao esporte
+    - investimento em esporte
+    - apoio a confederações
+    - infraestrutura esportiva
+
+- code: "09.04"
+  label: "Esporte e Inclusão"
+  description: |
+    Trata de políticas e iniciativas que promovem o acesso universal ao esporte, eliminando barreiras e garantindo participação de grupos historicamente excluídos. Engloba programas voltados a pessoas com deficiência, idosos, comunidades vulneráveis e minorias, além de ações de acessibilidade em instalações esportivas. Busca utilizar o esporte como ferramenta de inclusão social e combate à discriminação.
+  keywords:
+    - esporte adaptado
+    - paradesporto
+    - inclusão social
+    - esporte para deficientes
+    - acessibilidade esportiva
+    - esporte para idosos
+    - diversidade no esporte
+    - equidade de gênero
+    - esporte comunitário
+    - democratização do esporte
+    - antidiscriminação
+    - esporte inclusivo
+
+- code: "09.05"
+  label: "Integridade Esportiva"
+  description: |
+    Aborda mecanismos e políticas para preservar a ética, transparência e legitimidade das práticas esportivas. Inclui combate à dopagem, manipulação de resultados, corrupção e outras condutas antiéticas que comprometem a credibilidade do esporte. Contempla proteção de atletas jovens, governança responsável em organizações esportivas e promoção de valores fundamentais do fair play.
+  keywords:
+    - antidoping
+    - fair play
+    - ética esportiva
+    - combate à corrupção
+    - manipulação de resultados
+    - apostas esportivas ilegais
+    - governança esportiva
+    - transparência
+    - proteção de menores
+    - tribunal arbitral do esporte
+    - código de conduta
+    - controle de substâncias proibidas

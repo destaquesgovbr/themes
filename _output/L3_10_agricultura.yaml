@@ -1,0 +1,227 @@
+# Descrições L3 - Tema 10: Agricultura, Pecuária e Abastecimento
+# Gerado em: 2025-12-18
+
+- code: "10.01.01"
+  label: "Produção de Alimentos"
+  description: |
+    Produção e processamento de alimentos de origem agrícola e pecuária,
+    incluindo culturas agrícolas, criação animal e industrialização de produtos alimentícios.
+  keywords:
+    - produção de alimentos, processamento, industrialização, cultivo
+    - grãos, soja, milho, trigo, arroz, feijão, hortifrutigranjeiros
+    - carne bovina, suína, frango, leite, ovos, frigorífico
+    - safra, colheita, produtividade, rendimento agrícola
+  examples:
+    - "Safra de grãos deve atingir novo recorde em 2024, prevê Conab"
+    - "Brasil mantém liderança mundial na exportação de carne bovina"
+    - "Produção de leite cresce 3,5% no último trimestre"
+
+- code: "10.01.02"
+  label: "Desenvolvimento Rural"
+  description: |
+    Infraestrutura, logística, tecnologia e inovação para o desenvolvimento
+    econômico e social das áreas rurais e fortalecimento das cadeias produtivas.
+  keywords:
+    - desenvolvimento rural, infraestrutura rural, eletrificação rural
+    - estradas vicinais, armazenagem, silos, armazéns, logística agrícola
+    - mecanização, irrigação, tecnologia agrícola, agricultura digital
+    - Embrapa, pesquisa agropecuária, inovação no campo
+  examples:
+    - "Governo investe R$ 500 milhões em estradas rurais e armazenagem"
+    - "Embrapa lança nova cultivar resistente à seca para o semiárido"
+    - "Programa de irrigação beneficiará 50 mil produtores no Nordeste"
+
+- code: "10.01.03"
+  label: "Agricultura e Pecuária"
+  description: |
+    Práticas, técnicas e sistemas de produção agrícola e pecuária, incluindo
+    manejo, bem-estar animal, rastreabilidade e boas práticas produtivas.
+  keywords:
+    - sistemas de produção, manejo agrícola, manejo pecuário, boas práticas
+    - plantio direto, rotação de culturas, integração lavoura-pecuária
+    - pastagem, confinamento, criação extensiva, melhoramento genético
+    - rastreabilidade, bem-estar animal, certificação, qualidade
+  examples:
+    - "MAPA lança diretrizes para sistema de integração lavoura-pecuária-floresta"
+    - "Programa de melhoramento genético aumenta produtividade do rebanho leiteiro"
+    - "Nova norma estabelece padrões de bem-estar animal em granjas"
+
+- code: "10.02.01"
+  label: "Abastecimento e Distribuição de Alimentos"
+  description: |
+    Políticas e programas de abastecimento público, logística de distribuição
+    de alimentos, COMATEs, centrais de abastecimento e preços de alimentos.
+  keywords:
+    - abastecimento, Conab, estoques públicos, estoques reguladores
+    - preços de alimentos, cesta básica, CEASA, central de abastecimento
+    - distribuição de alimentos, logística de alimentos, cadeia de suprimentos
+    - compras governamentais, PAA, Programa de Aquisição de Alimentos
+  examples:
+    - "Conab disponibiliza estoques para conter alta de preços do arroz"
+    - "Governo amplia compras de alimentos da agricultura familiar para distribuição"
+    - "Novas centrais de abastecimento serão inauguradas em cinco capitais"
+
+- code: "10.02.02"
+  label: "Combate à Fome"
+  description: |
+    Programas e ações de combate à insegurança alimentar e à fome,
+    distribuição emergencial de alimentos e redes de proteção alimentar.
+  keywords:
+    - combate à fome, fome zero, insegurança alimentar, pobreza rural
+    - distribuição de alimentos, cozinhas comunitárias, bancos de alimentos
+    - alimentação escolar, merenda, doação de alimentos, assistência alimentar
+    - vulnerabilidade social, populações em risco, emergência alimentar
+  examples:
+    - "Programa Fome Zero atende 12 milhões de pessoas em situação de vulnerabilidade"
+    - "Governo distribui 50 toneladas de alimentos em áreas afetadas pela seca"
+    - "Rede de restaurantes populares será expandida para 200 municípios"
+
+- code: "10.02.03"
+  label: "Nutrição e Sustentabilidade"
+  description: |
+    Promoção de alimentação saudável, guias alimentares, agricultura sustentável,
+    orgânicos e práticas agroecológicas para segurança nutricional.
+  keywords:
+    - alimentação saudável, nutrição, guia alimentar, educação nutricional
+    - agricultura orgânica, agroecologia, agricultura sustentável, produção limpa
+    - certificação orgânica, agrotóxicos, alimentos in natura, biodiversidade
+    - desperdício de alimentos, circuitos curtos, feira orgânica
+  examples:
+    - "Brasil amplia área de produção orgânica certificada em 25%"
+    - "Campanha nacional promove redução do desperdício de alimentos"
+    - "MAPA lança programa de incentivo à transição agroecológica"
+
+- code: "10.03.01"
+  label: "Incentivos e Subsídios"
+  description: |
+    Políticas de incentivos fiscais, subsídios, garantias de preços mínimos
+    e programas de apoio à comercialização da produção agropecuária.
+  keywords:
+    - subsídios agrícolas, incentivos fiscais, preço mínimo, política de garantia
+    - PEP, PGPM, AGF, subvenção econômica, equalização de preços
+    - comercialização, apoio à comercialização, prêmio de risco
+    - desoneração tributária, isenção fiscal, benefícios tributários
+  examples:
+    - "Governo anuncia novos preços mínimos para produtos da safra 2024/2025"
+    - "Programa de subvenção beneficia 80 mil produtores de milho e soja"
+    - "MAPA lança operações de garantia de preços para café e algodão"
+
+- code: "10.03.02"
+  label: "Crédito Agrícola"
+  description: |
+    Linhas de financiamento rural, crédito para custeio e investimento,
+    Plano Safra e condições de crédito para produtores rurais.
+  keywords:
+    - crédito rural, financiamento agrícola, Plano Safra, recursos do crédito
+    - custeio agrícola, investimento rural, taxa de juros, juros subsidiados
+    - Pronamp, Pronaf, linha de crédito, banco do produtor, financiamento
+    - empréstimo rural, renegociação de dívidas, carência, prazo
+  examples:
+    - "Plano Safra 2024/2025 disponibiliza R$ 400 bilhões em crédito rural"
+    - "Governo amplia prazo e reduz juros para financiamento de tratores"
+    - "Nova linha de crédito para irrigação tem taxa de 6% ao ano"
+
+- code: "10.03.03"
+  label: "Seguros Rurais"
+  description: |
+    Seguro agrícola, pecuário e aquícola, proteção contra riscos climáticos,
+    Proagro, PSR e garantia de renda para produtores rurais.
+  keywords:
+    - seguro rural, seguro agrícola, Proagro, PSR, Programa de Subvenção ao Prêmio
+    - seguro de renda, proteção de safra, riscos climáticos, intempéries
+    - sinistro rural, indenização, cobertura securitária, apólice
+    - seca, geada, granizo, excesso de chuva, quebra de safra
+  examples:
+    - "Programa de seguro rural amplia cobertura para pequenos produtores"
+    - "Governo libera R$ 1 bilhão para subvenção de prêmios do seguro agrícola"
+    - "Produtores atingidos pela seca recebem indenizações do Proagro"
+
+- code: "10.04.01"
+  label: "Assistência Técnica e Extensão Rural"
+  description: |
+    Serviços de ATER, orientação técnica, capacitação de produtores e
+    transferência de tecnologia para agricultura familiar e pequenos produtores.
+  keywords:
+    - ATER, assistência técnica, extensão rural, orientação técnica
+    - capacitação rural, treinamento de produtores, dia de campo, demonstração
+    - agente de desenvolvimento, extensionista, Emater, transferência de tecnologia
+    - boas práticas, produtividade, gestão da propriedade, diversificação
+  examples:
+    - "Programa de ATER atenderá 200 mil famílias de agricultores familiares"
+    - "Emater capacita produtores em manejo sustentável de pastagens"
+    - "Novas tecnologias de cultivo serão apresentadas em dias de campo"
+
+- code: "10.04.02"
+  label: "Cooperativismo e Associativismo"
+  description: |
+    Fomento a cooperativas e associações rurais, organização coletiva de
+    produtores, acesso a mercados e fortalecimento institucional.
+  keywords:
+    - cooperativismo, cooperativa agrícola, associação de produtores
+    - organização coletiva, OCN, economia solidária, rede de cooperativas
+    - comercialização coletiva, agroindústria cooperativa, central de cooperativas
+    - fortalecimento institucional, gestão cooperativa, autogestão
+  examples:
+    - "Programa fortalece 500 cooperativas da agricultura familiar"
+    - "Cooperativas agrícolas aumentam renda de pequenos produtores em 40%"
+    - "Governo apoia criação de agroindústrias cooperativas no Nordeste"
+
+- code: "10.04.03"
+  label: "Apoio a Pequenos Produtores"
+  description: |
+    Programas específicos de apoio técnico, financeiro e comercial para
+    pequenos produtores, agricultura familiar e comunidades tradicionais.
+  keywords:
+    - pequenos produtores, agricultura familiar, agricultor familiar, Pronaf
+    - DAP, Declaração de Aptidão, inclusão produtiva, renda rural
+    - acesso a mercados, compras institucionais, feiras, circuitos curtos
+    - comunidades tradicionais, quilombolas, indígenas, extrativismo
+  examples:
+    - "Pronaf amplia recursos para mulheres e jovens do campo"
+    - "Programa garante compra de 30% da produção de agricultores familiares"
+    - "Comunidades quilombolas recebem apoio para produção agroecológica"
+
+- code: "10.05.01"
+  label: "Sanidade Animal"
+  description: |
+    Controle e vigilância de doenças animais, campanhas de vacinação,
+    certificação sanitária e defesa sanitária animal (febre aftosa, brucelose, raiva).
+  keywords:
+    - sanidade animal, defesa sanitária, vigilância zoosanitária, saúde animal
+    - febre aftosa, brucelose, tuberculose, raiva bovina, peste suína
+    - vacinação animal, campanha de vacinação, GTA, trânsito animal
+    - certificação sanitária, zona livre, status sanitário, OIE
+  examples:
+    - "Brasil mantém status de país livre de febre aftosa sem vacinação"
+    - "Campanha de vacinação contra raiva bovina imuniza 20 milhões de animais"
+    - "MAPA declara Santa Catarina zona livre de peste suína clássica"
+
+- code: "10.05.02"
+  label: "Sanidade Vegetal"
+  description: |
+    Controle fitossanitário, vigilância de pragas e doenças de plantas,
+    quarentena vegetal e defesa sanitária da produção agrícola.
+  keywords:
+    - sanidade vegetal, defesa fitossanitária, fitossanidade, vigilância fitossanitária
+    - pragas quarentenárias, mosca-das-frutas, ferrugem, nematoide, fungo
+    - trânsito vegetal, PTV, inspeção fitossanitária, quarentena vegetal
+    - análise de risco, área livre, status fitossanitário, cancro cítrico
+  examples:
+    - "Vigilância impede entrada de praga quarentenária em área produtora"
+    - "Brasil erradica foco de bicudo-do-algodoeiro em região do Cerrado"
+    - "Nova regulamentação controla trânsito de plantas entre estados"
+
+- code: "10.05.03"
+  label: "Controle de Pragas e Doenças"
+  description: |
+    Manejo integrado de pragas, controle biológico, uso de defensivos agrícolas,
+    monitoramento e programas de prevenção e combate a pragas e doenças.
+  keywords:
+    - controle de pragas, manejo integrado, MIP, controle biológico
+    - defensivos agrícolas, agrotóxicos, pesticidas, fungicidas, herbicidas
+    - registro de produtos, receituário agronômico, aplicação, resíduos
+    - monitoramento de pragas, nível de dano, resistência, manejo de resistência
+  examples:
+    - "Programa de controle biológico reduz uso de agrotóxicos em 30%"
+    - "MAPA aprova registro de novos defensivos agrícolas biológicos"
+    - "Monitoramento alerta para infestação de cigarrinha em lavouras de milho"

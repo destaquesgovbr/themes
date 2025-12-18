@@ -119,12 +119,72 @@
 
 **Objetivo:** Máxima especificidade para classificação precisa
 
-**Priorização:**
-1. Temas com maior volume (impacto maior)
-2. Temas com mais sobreposição semântica
-3. Restantes em ordem numérica
+**Estratégia:** Um subagente por tema L1 para evitar bias e manter qualidade constante.
 
-**Progresso:** Ver arquivo `PROGRESSO_L3.md`
+**Contagem de L3 por tema L1:**
+
+| Tema | L3 | Complexidade |
+|------|-----|--------------|
+| 01 - Economia | 22 | Média |
+| 02 - Educação | 14 | Baixa |
+| 03 - Saúde | 18 | Média |
+| 04 - Segurança | 20 | Média |
+| 05 - Meio Ambiente | 14 | Baixa |
+| 06 - C&T&I | 15 | Baixa |
+| 07 - Infraestrutura | 25 | Alta |
+| 08 - Cultura | 27 | Alta |
+| 09 - Esportes | 25 | Alta |
+| 10 - Agricultura | 15 | Baixa |
+| 11 - Indústria | 25 | Alta |
+| 12 - Rel. Internacionais | 22 | Média |
+| 13 - Justiça | 9 | Baixa |
+| 14 - Trabalho | 25 | Alta |
+| 15 - Desenv. Social | 12 | Baixa |
+| 16 - Turismo | 20 | Média |
+| 17 - Energia | 25 | Alta |
+| 18 - Comunicações | 15 | Baixa |
+| 19 - Defesa | 25 | Alta |
+| 20 - Políticas Públicas | 14 | Baixa |
+| 21 - Legislação | 20 | Média |
+| 22 - Minorias | 19 | Média |
+| 23 - Habitação | 24 | Alta |
+| **Total** | **~450** | |
+
+**Execução em Lotes Paralelos:**
+- Lote 1: Temas 01, 02, 03, 04, 05, 06 (6 paralelos)
+- Lote 2: Temas 07, 08, 09, 10, 11, 12 (6 paralelos)
+- Lote 3: Temas 13, 14, 15, 16, 17, 18 (6 paralelos)
+- Lote 4: Temas 19, 20, 21, 22, 23 (5 paralelos)
+
+**Progresso por Tema:**
+
+| Código | Tema | Status | Notas |
+|--------|------|--------|-------|
+| 01 | Economia e Finanças | ⬜ Pendente | |
+| 02 | Educação | ⬜ Pendente | |
+| 03 | Saúde | ⬜ Pendente | |
+| 04 | Segurança Pública | ⬜ Pendente | |
+| 05 | Meio Ambiente | ⬜ Pendente | |
+| 06 | C&T&I | ⬜ Pendente | |
+| 07 | Infraestrutura | ⬜ Pendente | |
+| 08 | Cultura | ⬜ Pendente | |
+| 09 | Esportes | ⬜ Pendente | |
+| 10 | Agricultura | ⬜ Pendente | |
+| 11 | Indústria | ⬜ Pendente | |
+| 12 | Rel. Internacionais | ⬜ Pendente | |
+| 13 | Justiça | ⬜ Pendente | |
+| 14 | Trabalho | ⬜ Pendente | |
+| 15 | Desenv. Social | ⬜ Pendente | |
+| 16 | Turismo | ⬜ Pendente | |
+| 17 | Energia | ⬜ Pendente | |
+| 18 | Comunicações | ⬜ Pendente | |
+| 19 | Defesa | ⬜ Pendente | |
+| 20 | Políticas Públicas | ⬜ Pendente | |
+| 21 | Legislação | ⬜ Pendente | |
+| 22 | Minorias | ⬜ Pendente | |
+| 23 | Habitação | ⬜ Pendente | |
+
+**Arquivo de Progresso:** `PROGRESSO_DESCRICOES.md`
 
 ---
 

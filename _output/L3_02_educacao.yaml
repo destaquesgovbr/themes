@@ -1,0 +1,277 @@
+# Descrições L3 - Tema 02: Educação
+# Gerado em: 2025-12-18
+
+- code: "02.01.01"
+  label: "Educação Infantil"
+  description: "Políticas e programas voltados para creches e pré-escolas, atendendo crianças de 0 a 5 anos. Inclui formação de professores da primeira infância, infraestrutura de creches e diretrizes curriculares para esta faixa etária."
+  keywords:
+    - creche
+    - pré-escola
+    - educação infantil
+    - primeira infância
+    - BNCC infantil
+    - berçário
+    - maternal
+    - jardim de infância
+    - educadores infantis
+    - cuidadores
+    - desenvolvimento infantil
+    - brinquedoteca
+  examples:
+    - "MEC amplia vagas em creches públicas em parceria com municípios"
+    - "Governo lança programa de formação para professores de educação infantil"
+    - "Novas diretrizes curriculares para pré-escolas são publicadas"
+
+- code: "02.01.02"
+  label: "Ensino Fundamental"
+  description: "Políticas educacionais para os anos iniciais e finais do ensino fundamental (1º ao 9º ano). Abrange alfabetização, currículo, material didático, formação de professores e infraestrutura escolar para esta etapa."
+  keywords:
+    - ensino fundamental
+    - anos iniciais
+    - anos finais
+    - alfabetização
+    - letramento
+    - PNAIC
+    - livro didático
+    - PNLD
+    - material escolar
+    - Prova Brasil
+    - SAEB
+    - IDEB
+    - ensino de 9 anos
+    - ciclos de aprendizagem
+  examples:
+    - "IDEB mostra avanço na qualidade do ensino fundamental público"
+    - "MEC distribui livros didáticos para escolas de todo o país"
+    - "Programa Nacional de Alfabetização capacita professores dos anos iniciais"
+
+- code: "02.01.03"
+  label: "Alimentação Escolar"
+  description: "Programas de merenda e nutrição escolar, incluindo o PNAE (Programa Nacional de Alimentação Escolar). Abrange repasse de recursos, cardápios nutricionais, agricultura familiar e segurança alimentar nas escolas."
+  keywords:
+    - merenda escolar
+    - PNAE
+    - alimentação escolar
+    - nutrição escolar
+    - cardápio escolar
+    - agricultura familiar
+    - compras públicas
+    - segurança alimentar
+    - merendeiras
+    - recursos para alimentação
+    - repasse FNDE
+  examples:
+    - "FNDE libera recursos para merenda escolar em todos os estados"
+    - "Governo aumenta percentual de compras da agricultura familiar para merenda"
+    - "Novos cardápios nutricionais são desenvolvidos para escolas públicas"
+
+- code: "02.01.04"
+  label: "Internet nas Escolas"
+  description: "Programas de conectividade e inclusão digital nas escolas de educação básica. Inclui infraestrutura de banda larga, distribuição de equipamentos e formação para uso pedagógico de tecnologias."
+  keywords:
+    - internet nas escolas
+    - conectividade escolar
+    - banda larga
+    - wifi escolar
+    - inclusão digital
+    - laboratório de informática
+    - tablets educacionais
+    - computadores escolares
+    - Programa Inovação Educação Conectada
+  examples:
+    - "MEC amplia programa de internet de alta velocidade para escolas rurais"
+    - "Governo entrega tablets para alunos da rede pública"
+    - "Programa Educação Conectada beneficia milhares de escolas"
+
+- code: "02.02.01"
+  label: "Pesquisa Acadêmica e Inovação"
+  description: "Fomento à pesquisa científica e inovação tecnológica no ensino superior. Inclui bolsas de pós-graduação, financiamento de projetos de pesquisa, programas de iniciação científica e parcerias universidade-empresa."
+  keywords:
+    - pesquisa científica
+    - CNPq
+    - Capes
+    - bolsa de mestrado
+    - bolsa de doutorado
+    - iniciação científica
+    - PIBIC
+    - inovação tecnológica
+    - pesquisa e desenvolvimento
+    - pós-graduação stricto sensu
+    - programas de pós
+  examples:
+    - "Capes anuncia edital para bolsas de doutorado em áreas prioritárias"
+    - "CNPq libera recursos para projetos de pesquisa e inovação"
+    - "Governo amplia número de bolsas de iniciação científica"
+
+- code: "02.03.01"
+  label: "Aprendizagem Profissional"
+  description: "Programas de aprendizagem regulamentados pela CLT, voltados para jovens entre 14 e 24 anos. Abrange cotas de aprendizes em empresas, fiscalização e articulação entre formação teórica e prática profissional."
+  keywords:
+    - jovem aprendiz
+    - aprendizagem profissional
+    - Lei da Aprendizagem
+    - cota de aprendizes
+    - menor aprendiz
+    - contrato de aprendizagem
+    - formação inicial
+    - primeiro emprego
+    - Sistema S
+    - aprendizes
+  examples:
+    - "Governo fiscaliza cumprimento de cotas de jovem aprendiz nas empresas"
+    - "Novo edital oferece vagas para programa de aprendizagem profissional"
+    - "MTE amplia fiscalização sobre contratos de aprendizagem"
+
+- code: "02.03.02"
+  label: "Capacitação Profissional"
+  description: "Cursos e programas de atualização e aperfeiçoamento para trabalhadores já inseridos no mercado. Inclui requalificação profissional, cursos de curta duração e programas de capacitação setorial."
+  keywords:
+    - capacitação
+    - atualização profissional
+    - requalificação
+    - aperfeiçoamento
+    - cursos de curta duração
+    - qualificação
+    - reciclagem profissional
+    - educação continuada
+    - trabalhadores
+    - capacitação setorial
+  examples:
+    - "Governo lança programa de capacitação para trabalhadores do setor de turismo"
+    - "Ministério oferece cursos de atualização profissional online"
+    - "Programa de requalificação profissional beneficia desempregados"
+
+- code: "02.03.03"
+  label: "Formação Profissional"
+  description: "Cursos técnicos e profissionalizantes de nível médio e básico, incluindo ensino técnico integrado ao ensino médio. Abrange instituições como IFs, escolas técnicas estaduais e programas de formação inicial."
+  keywords:
+    - curso técnico
+    - formação profissional
+    - ensino técnico
+    - IFET
+    - institutos federais
+    - técnico integrado
+    - concomitante
+    - educação tecnológica
+    - escola técnica
+    - formação inicial e continuada
+    - FIC
+  examples:
+    - "MEC inaugura novos campi de Institutos Federais em todo o país"
+    - "Governo amplia oferta de cursos técnicos integrados ao ensino médio"
+    - "Inscrições abertas para cursos técnicos em escolas federais"
+
+- code: "02.03.04"
+  label: "Políticas de Incentivo à Educação Profissional"
+  description: "Programas estruturantes e políticas públicas de fomento à educação profissional, como Pronatec, Novos Caminhos e parcerias público-privadas. Inclui expansão de vagas, certificação profissional e alinhamento com demandas do mercado."
+  keywords:
+    - Pronatec
+    - Novos Caminhos
+    - expansão da educação profissional
+    - certificação profissional
+    - qualificação
+    - bolsa-formação
+    - parcerias empresariais
+    - eixos tecnológicos
+    - catálogo de cursos
+  examples:
+    - "Governo relança Pronatec com novas áreas de formação"
+    - "Programa Novos Caminhos oferece cursos alinhados às demandas do mercado"
+    - "MEC anuncia expansão de vagas em educação profissional"
+
+- code: "02.04.01"
+  label: "Políticas Educacionais"
+  description: "Diretrizes, reformas e estratégias nacionais de educação, incluindo PNE, Base Nacional Comum Curricular, Novo Ensino Médio e marcos regulatórios. Abrange planejamento educacional e políticas transversais."
+  keywords:
+    - PNE
+    - Plano Nacional de Educação
+    - BNCC
+    - Base Nacional Comum Curricular
+    - Novo Ensino Médio
+    - reforma educacional
+    - diretrizes curriculares
+    - políticas públicas educacionais
+    - Sistema Nacional de Educação
+    - regulamentação
+  examples:
+    - "MEC apresenta monitoramento das metas do Plano Nacional de Educação"
+    - "Governo publica novas diretrizes para implementação da BNCC"
+    - "Mudanças no Novo Ensino Médio são anunciadas pelo MEC"
+
+- code: "02.04.02"
+  label: "Campanhas Educativas"
+  description: "Iniciativas de conscientização e mobilização social relacionadas à educação, como combate à evasão escolar, Busca Ativa, incentivo à leitura e campanhas de matrícula. Não confundir com campanhas de saúde ou segurança."
+  keywords:
+    - campanha de matrícula
+    - busca ativa escolar
+    - combate à evasão
+    - frequência escolar
+    - incentivo à leitura
+    - mobilização social
+    - Fora da Escola Não Pode
+    - semana nacional
+    - conscientização educacional
+    - chamadas públicas
+  examples:
+    - "MEC lança campanha nacional de combate à evasão escolar"
+    - "Busca Ativa Escolar mobiliza municípios para matricular crianças fora da escola"
+    - "Governo promove semana nacional de incentivo à leitura"
+
+- code: "02.04.03"
+  label: "Bolsas e Incentivos"
+  description: "Programas de bolsas de estudo e financiamento estudantil para educação básica e superior, incluindo FIES, ProUni, bolsas permanência e auxílios estudantis. Abrange concessão, renovação e regulamentação."
+  keywords:
+    - FIES
+    - ProUni
+    - bolsa de estudos
+    - financiamento estudantil
+    - auxílio permanência
+    - bolsa permanência
+    - PNAES
+    - SiSU
+    - vagas reservadas
+    - crédito educativo
+    - auxílio estudantil
+  examples:
+    - "Governo anuncia novas regras para concessão de FIES"
+    - "ProUni abre inscrições com milhares de bolsas em universidades privadas"
+    - "MEC amplia recursos para bolsas permanência em universidades federais"
+
+- code: "02.04.04"
+  label: "Educação Inclusiva"
+  description: "Políticas e programas voltados para educação especial, acessibilidade e inclusão de pessoas com deficiência no sistema educacional. Inclui salas de recursos, formação de professores em educação especial e tecnologias assistivas."
+  keywords:
+    - educação especial
+    - educação inclusiva
+    - acessibilidade escolar
+    - pessoa com deficiência
+    - AEE
+    - atendimento educacional especializado
+    - sala de recursos
+    - intérprete de Libras
+    - tecnologia assistiva
+    - material adaptado
+  examples:
+    - "MEC amplia recursos para salas de atendimento educacional especializado"
+    - "Governo lança programa de formação de professores em educação inclusiva"
+    - "Novas diretrizes para acessibilidade em escolas são publicadas"
+
+- code: "02.04.05"
+  label: "Apoio e Desenvolvimento Acadêmico"
+  description: "Programas de tutoria, monitoria, reforço escolar, assistência estudantil e suporte pedagógico. Inclui orientação vocacional, apoio psicopedagógico e programas de combate ao analfabetismo funcional."
+  keywords:
+    - reforço escolar
+    - monitoria
+    - tutoria
+    - assistência estudantil
+    - apoio pedagógico
+    - orientação vocacional
+    - psicopedagogia
+    - alfabetização de jovens e adultos
+    - EJA
+    - apoio à aprendizagem
+    - recuperação escolar
+  examples:
+    - "Governo lança programa de reforço escolar para alunos com dificuldade de aprendizagem"
+    - "MEC amplia recursos para programas de monitoria em universidades"
+    - "Nova estratégia nacional de alfabetização de jovens e adultos é apresentada"

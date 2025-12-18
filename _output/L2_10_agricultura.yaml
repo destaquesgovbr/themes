@@ -1,0 +1,95 @@
+# Descrições L2 - Tema 10: Agricultura, Pecuária e Abastecimento
+# Gerado em: 2025-12-18
+
+- code: "10.01"
+  label: "Agronegócio"
+  description: |
+    Abrange as atividades econômicas relacionadas à produção agropecuária em escala comercial, incluindo cultivos agrícolas, criação de animais e desenvolvimento de cadeias produtivas rurais. Engloba políticas de modernização, mecanização, tecnologia agrícola e estratégias de expansão da produção para mercados domésticos e internacionais. Inclui ações voltadas ao aumento da produtividade, competitividade do setor e integração de diferentes elos da cadeia do agronegócio.
+  keywords:
+    - agronegócio
+    - produção agrícola
+    - pecuária
+    - exportação agrícola
+    - commodities
+    - desenvolvimento rural
+    - mecanização agrícola
+    - tecnologia no campo
+    - cadeias produtivas
+    - agricultura comercial
+    - produtividade rural
+    - agroindústria
+
+- code: "10.02"
+  label: "Segurança Alimentar"
+  description: |
+    Compreende políticas e ações para garantir o acesso regular e permanente da população a alimentos de qualidade, em quantidade suficiente, sem comprometer outras necessidades essenciais. Abrange programas de combate à fome, distribuição e abastecimento alimentar, fortificação de alimentos e promoção de hábitos alimentares saudáveis. Inclui iniciativas de sustentabilidade na produção de alimentos e estratégias para redução de desperdícios ao longo da cadeia alimentar.
+  keywords:
+    - segurança alimentar
+    - combate à fome
+    - abastecimento alimentar
+    - distribuição de alimentos
+    - nutrição
+    - alimentação saudável
+    - soberania alimentar
+    - acesso a alimentos
+    - desperdício de alimentos
+    - sustentabilidade alimentar
+    - programas de alimentação
+    - qualidade dos alimentos
+
+- code: "10.03"
+  label: "Política Agrícola"
+  description: |
+    Engloba o conjunto de instrumentos, programas e medidas governamentais destinados a apoiar, regular e estimular o setor agropecuário. Compreende mecanismos de financiamento como crédito rural, seguros agrícolas, garantia de preços mínimos, subsídios e incentivos fiscais para produtores. Inclui políticas de gestão de riscos climáticos e econômicos, programas de modernização da agricultura e estratégias de proteção da renda do produtor rural.
+  keywords:
+    - política agrícola
+    - crédito rural
+    - financiamento agrícola
+    - seguro rural
+    - subsídios agrícolas
+    - incentivos fiscais
+    - preços mínimos
+    - garantia de renda
+    - Plano Safra
+    - apoio ao produtor
+    - investimento rural
+    - renegociação de dívidas rurais
+
+- code: "10.04"
+  label: "Agricultura Familiar"
+  description: |
+    Abrange políticas e programas voltados ao fortalecimento da produção em pequenas propriedades rurais, onde a gestão e o trabalho são predominantemente familiares. Inclui assistência técnica, extensão rural, capacitação de produtores, fomento ao cooperativismo e associativismo, e facilitação do acesso a mercados institucionais. Compreende ações de apoio à comercialização, diversificação produtiva, agregação de valor e sucessão rural para pequenos agricultores.
+  keywords:
+    - agricultura familiar
+    - pequenos produtores
+    - assistência técnica rural
+    - extensão rural
+    - cooperativismo
+    - associativismo rural
+    - PRONAF
+    - sucessão rural
+    - comercialização familiar
+    - agricultura de subsistência
+    - economia solidária rural
+    - mercados institucionais
+    - capacitação rural
+
+- code: "10.05"
+  label: "Sanidade"
+  description: |
+    Compreende as ações de vigilância, prevenção, controle e erradicação de pragas, doenças e agentes que afetam a saúde de animais e vegetais. Engloba sistemas de defesa sanitária animal e vegetal, controle de zoonoses, fiscalização de insumos agropecuários e certificação sanitária para fins de comercialização interna e exportação. Inclui programas de vacinação, monitoramento de doenças emergentes, controle de fronteiras agrícolas e garantia da qualidade sanitária da produção agropecuária.
+  keywords:
+    - sanidade animal
+    - sanidade vegetal
+    - defesa agropecuária
+    - controle de pragas
+    - doenças animais
+    - doenças vegetais
+    - vigilância sanitária
+    - certificação sanitária
+    - vacinação animal
+    - fiscalização agropecuária
+    - quarentena
+    - rastreabilidade
+    - zoonoses
+    - agrotóxicos

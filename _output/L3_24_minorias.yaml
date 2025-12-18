@@ -1,0 +1,315 @@
+# Descrições L3 - Tema 24: Minorias e Grupos Especiais
+# Gerado em: 2025-12-18
+
+- code: "24.01.01"
+  label: "Igualdade de Gênero"
+  description: |
+    Abrange políticas e ações para reduzir disparidades de gênero no mercado de trabalho,
+    política, educação e sociedade.
+  keywords:
+    - igualdade de gênero, equidade de gênero
+    - disparidade salarial, SPM
+    - empoderamento econômico, participação política feminina
+    - transversalidade de gênero
+  examples:
+    - "SPM lança programa para reduzir disparidade salarial entre homens e mulheres"
+    - "Governo amplia licença parental para promover igualdade de gênero no trabalho"
+    - "Brasil adere a compromisso internacional pela equidade de gênero na política"
+
+- code: "24.01.02"
+  label: "Liderança Feminina"
+  description: |
+    Cobre iniciativas de fortalecimento da presença feminina em cargos de decisão,
+    política, empresas e sociedade civil.
+  keywords:
+    - liderança feminina, mulheres em cargos de decisão
+    - representatividade feminina, mentoria para mulheres
+    - empreendedorismo feminino, candidaturas femininas
+    - quota de gênero
+  examples:
+    - "Programa de mentoria prepara mulheres para cargos de liderança no setor público"
+    - "TSE incentiva candidaturas femininas nas próximas eleições municipais"
+    - "Rede nacional conecta empreendedoras para fortalecer liderança feminina nos negócios"
+
+- code: "24.01.03"
+  label: "Violência contra Mulheres"
+  description: |
+    Trata do combate à violência doméstica, sexual, feminicídio e assédio contra mulheres.
+  keywords:
+    - violência contra a mulher, feminicídio
+    - violência doméstica, Lei Maria da Penha
+    - delegacia da mulher, DEAM, medida protetiva
+    - Ligue 180, Casa da Mulher Brasileira
+  examples:
+    - "Governo federal amplia rede de Casas da Mulher Brasileira em 10 estados"
+    - "Campanha nacional alerta sobre sinais de violência doméstica durante isolamento"
+    - "Lei Maria da Penha completa 18 anos com avanços na proteção de vítimas"
+
+- code: "24.01.04"
+  label: "Saúde da Mulher"
+  description: |
+    Engloba políticas específicas de saúde reprodutiva, pré-natal, câncer de mama/colo do útero,
+    planejamento familiar.
+  keywords:
+    - saúde da mulher, saúde reprodutiva
+    - pré-natal, planejamento familiar
+    - câncer de mama, mamografia, Papanicolau
+    - Rede Cegonha, mortalidade materna
+  examples:
+    - "Ministério da Saúde amplia oferta de mamografias pelo SUS em todo o país"
+    - "Rede Cegonha reduz mortalidade materna em 15% nos últimos dois anos"
+    - "Campanha incentiva mulheres a realizarem exame preventivo de câncer de colo do útero"
+
+- code: "24.01.05"
+  label: "Educação e Empoderamento Feminino"
+  description: |
+    Cobre programas educacionais voltados para meninas e mulheres, incluindo STEM,
+    alfabetização e qualificação profissional.
+  keywords:
+    - educação feminina, empoderamento feminino
+    - meninas na ciência, STEM para mulheres
+    - alfabetização de mulheres, qualificação profissional
+    - bolsas para mulheres
+  examples:
+    - "Programa incentiva participação de meninas em cursos de tecnologia e engenharia"
+    - "MEC e SPM lançam bolsas para mulheres em situação de vulnerabilidade"
+    - "Iniciativa de alfabetização digital atende 50 mil mulheres em áreas rurais"
+
+- code: "24.02.01"
+  label: "Direitos Territoriais"
+  description: |
+    Trata de demarcação, homologação, proteção e regularização de terras indígenas,
+    conflitos fundiários e invasões.
+  keywords:
+    - demarcação de terras indígenas, FUNAI
+    - homologação de TI, terras indígenas
+    - invasão de terras, conflitos fundiários
+    - garimpo ilegal, proteção territorial
+  examples:
+    - "FUNAI conclui demarcação de terra indígena no Amazonas após 15 anos de processo"
+    - "Operação da Polícia Federal retira garimpeiros ilegais de território Yanomami"
+    - "Governo federal homologa cinco terras indígenas e avança na regularização fundiária"
+
+- code: "24.02.02"
+  label: "Saúde e Bem-Estar Indígena"
+  description: |
+    Engloba atenção à saúde indígena, SESAI, DSEI, combate a doenças, desnutrição
+    e mortalidade infantil.
+  keywords:
+    - saúde indígena, SESAI, DSEI
+    - atenção básica indígena, CASAI
+    - mortalidade infantil indígena, desnutrição
+    - vacinação indígena
+  examples:
+    - "SESAI intensifica vacinação contra COVID-19 em aldeias de difícil acesso"
+    - "Programa reduz mortalidade infantil indígena em 20% com ações integradas"
+    - "Governo inaugura Casa de Saúde Indígena em município da região Norte"
+
+- code: "24.02.03"
+  label: "Educação Indígena"
+  description: |
+    Cobre educação escolar indígena diferenciada, bilíngue, intercultural e
+    formação de professores indígenas.
+  keywords:
+    - educação escolar indígena, educação diferenciada
+    - ensino bilíngue, educação intercultural
+    - formação de professores indígenas
+    - material didático indígena, Pronera
+  examples:
+    - "MEC distribui material didático bilíngue para escolas indígenas em seis estados"
+    - "Programa forma 300 professores indígenas para atuação em aldeias do Xingu"
+    - "Governo amplia oferta de ensino médio em escolas de comunidades indígenas"
+
+- code: "24.03.01"
+  label: "Direitos e Políticas LGBTQIA+"
+  description: |
+    Abrange políticas públicas, legislação, direitos civis e garantias fundamentais
+    para população LGBTQIA+.
+  keywords:
+    - direitos LGBTQIA+, políticas públicas LGBT
+    - união estável homoafetiva, adoção homoafetiva
+    - nome social, retificação de registro
+    - conselho LGBT
+  examples:
+    - "Ministério dos Direitos Humanos lança plano nacional de políticas para população LGBT"
+    - "Cartórios brasileiros passam a aceitar retificação de nome social sem burocracia"
+    - "Governo federal cria conselho nacional para promover direitos LGBTQIA+"
+
+- code: "24.03.02"
+  label: "Saúde LGBTQIA+"
+  description: |
+    Trata de atenção à saúde específica para população LGBTQIA+, incluindo processo
+    transexualizador, PrEP e acolhimento no SUS.
+  keywords:
+    - saúde LGBT, processo transexualizador
+    - hormonioterapia, PrEP, PEP
+    - HIV/AIDS, IST, ambulatório trans
+    - nome social no SUS
+  examples:
+    - "SUS amplia oferta de terapia hormonal para pessoas trans em 50 municípios"
+    - "Ministério da Saúde distribui 100 mil doses de PrEP para prevenção ao HIV"
+    - "Hospitais federais implementam protocolo de acolhimento humanizado para população LGBT"
+
+- code: "24.03.03"
+  label: "Combate à Discriminação"
+  description: |
+    Cobre ações de combate à LGBTfobia, violência, crimes de ódio e discriminação.
+  keywords:
+    - LGBTfobia, homofobia, transfobia
+    - crime de ódio, discriminação LGBT
+    - Disque 100, delegacia LGBT
+    - violência contra LGBT
+  examples:
+    - "STF equipara LGBTfobia ao crime de racismo em decisão histórica"
+    - "Disque 100 registra aumento de denúncias de violência contra pessoas trans"
+    - "Polícia Civil cria delegacia especializada em crimes contra população LGBTQIA+"
+
+- code: "24.03.04"
+  label: "Visibilidade e Inclusão"
+  description: |
+    Engloba campanhas de visibilidade, inclusão social, mercado de trabalho e
+    representatividade LGBTQIA+.
+  keywords:
+    - visibilidade LGBT, representatividade LGBT
+    - orgulho LGBT, parada LGBT
+    - inclusão LGBT, diversidade no trabalho
+    - combate ao preconceito
+  examples:
+    - "Campanha nacional promove respeito à diversidade sexual em escolas públicas"
+    - "Empresas públicas adotam políticas de inclusão para pessoas trans no mercado de trabalho"
+    - "Governo apoia Parada do Orgulho LGBT com ações de cidadania e direitos humanos"
+
+- code: "24.04.01"
+  label: "Quilombolas"
+  description: |
+    Trata de direitos, titulação de terras, políticas públicas e desenvolvimento
+    para comunidades quilombolas.
+  keywords:
+    - quilombolas, comunidades quilombolas
+    - titulação de terras quilombolas, INCRA
+    - Fundação Cultural Palmares, certificação quilombola
+    - territórios quilombolas
+  examples:
+    - "INCRA titula 12 territórios quilombolas em cinco estados do Nordeste"
+    - "Fundação Palmares certifica 20 novas comunidades quilombolas no país"
+    - "Governo federal lança programa de desenvolvimento sustentável para quilombolas"
+
+- code: "24.04.02"
+  label: "Povos Ribeirinhos"
+  description: |
+    Cobre políticas para comunidades ribeirinhas, acesso a serviços e
+    desenvolvimento sustentável.
+  keywords:
+    - povos ribeirinhos, comunidades ribeirinhas
+    - transporte fluvial, barcos-escola
+    - pesca artesanal, reservas extrativistas
+    - ICMBio
+  examples:
+    - "Programa Luz para Todos leva energia solar a 500 famílias ribeirinhas na Amazônia"
+    - "Barcos-hospital atendem comunidades ribeirinhas isoladas em três estados do Norte"
+    - "Governo reconhece direitos de pesca artesanal para povos ribeirinhos do Rio São Francisco"
+
+- code: "24.04.03"
+  label: "Povos de Terreiro"
+  description: |
+    Abrange políticas para povos e comunidades de matriz africana, terreiros,
+    liberdade religiosa e patrimônio cultural.
+  keywords:
+    - povos de terreiro, religiões de matriz africana
+    - candomblé, umbanda, intolerância religiosa
+    - terreiros tombados, IPHAN
+    - cultura afro-brasileira
+  examples:
+    - "IPHAN tomba terreiro histórico como patrimônio cultural afro-brasileiro"
+    - "Campanha nacional combate intolerância religiosa contra povos de matriz africana"
+    - "Ministério da Cultura apoia preservação de terreiros centenários em Salvador"
+
+- code: "24.04.04"
+  label: "Preservação Cultural e Patrimônio"
+  description: |
+    Trata de salvaguarda de saberes, práticas culturais, línguas e patrimônio imaterial
+    de comunidades tradicionais.
+  keywords:
+    - patrimônio imaterial, salvaguarda cultural
+    - IPHAN, conhecimentos tradicionais
+    - artesanato tradicional, rituais
+    - mestres e mestras da cultura
+  examples:
+    - "IPHAN registra modo de fazer farinha de mandioca como patrimônio cultural imaterial"
+    - "Programa de mestres e mestras reconhece saberes de comunidades tradicionais"
+    - "Governo lança inventário nacional de línguas faladas por povos tradicionais"
+
+- code: "24.04.05"
+  label: "Acesso a Recursos Naturais"
+  description: |
+    Cobre direitos de uso sustentável de recursos naturais, extrativismo e
+    manejo florestal por comunidades tradicionais.
+  keywords:
+    - recursos naturais, extrativismo
+    - manejo florestal comunitário, RESEX
+    - quebradeiras de coco, castanheiros
+    - repartição de benefícios
+  examples:
+    - "ICMBio cria reserva extrativista para garantir acesso de comunidades ao babaçu"
+    - "Governo regulamenta repartição de benefícios de biodiversidade com povos tradicionais"
+    - "Programa apoia manejo sustentável de açaí por comunidades ribeirinhas do Pará"
+
+- code: "24.05.01"
+  label: "Acessibilidade e Inclusão"
+  description: |
+    Abrange adequações de acessibilidade física, digital e comunicacional
+    para pessoas com deficiência.
+  keywords:
+    - acessibilidade, inclusão, PcD
+    - LBI, Lei Brasileira de Inclusão
+    - rampa, piso tátil, LIBRAS, audiodescrição
+    - tecnologia assistiva
+  examples:
+    - "Governo lança programa para adaptar prédios públicos com recursos de acessibilidade"
+    - "Aplicativo de serviços públicos passa a oferecer audiodescrição e LIBRAS"
+    - "Campanha nacional promove desenho universal em espaços urbanos"
+
+- code: "24.05.02"
+  label: "Saúde e Reabilitação"
+  description: |
+    Trata de atenção à saúde, reabilitação física e funcional, órteses, próteses
+    e serviços especializados para PcD.
+  keywords:
+    - saúde da pessoa com deficiência, reabilitação
+    - órtese, prótese, cadeira de rodas
+    - CER, Centro Especializado em Reabilitação
+    - SUS, fisioterapia
+  examples:
+    - "Ministério da Saúde amplia rede de Centros de Reabilitação em 15 estados"
+    - "SUS distribui 10 mil cadeiras de rodas e próteses para pessoas com deficiência"
+    - "Programa de intervenção precoce atende crianças com deficiência em todo o país"
+
+- code: "24.05.03"
+  label: "Inclusão no Mercado de Trabalho"
+  description: |
+    Cobre políticas de empregabilidade, qualificação profissional, lei de cotas
+    e inclusão laboral de PcD.
+  keywords:
+    - inclusão no trabalho, lei de cotas
+    - emprego PcD, qualificação profissional
+    - Ministério do Trabalho, SINE
+    - adaptação razoável
+  examples:
+    - "Fiscalização do Ministério do Trabalho cobra cumprimento de lei de cotas para PcD"
+    - "Programa capacita 5 mil pessoas com deficiência para o mercado de trabalho"
+    - "Empresas públicas ampliam contratação de profissionais com deficiência"
+
+- code: "24.05.04"
+  label: "Direitos e Políticas Públicas para Deficientes"
+  description: |
+    Engloba legislação, direitos fundamentais, benefícios sociais e políticas públicas
+    transversais para PcD.
+  keywords:
+    - direitos da pessoa com deficiência, LBI
+    - BPC, Benefício de Prestação Continuada
+    - CONADE, capacidade legal
+    - passe livre, isenção de impostos
+  examples:
+    - "Governo federal regulamenta tomada de decisão apoiada prevista na LBI"
+    - "INSS amplia acesso ao BPC para pessoas com deficiência em situação de pobreza"
+    - "CONADE lança plano nacional de políticas para pessoas com deficiência"
