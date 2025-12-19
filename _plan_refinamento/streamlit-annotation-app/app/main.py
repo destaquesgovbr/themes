@@ -744,10 +744,15 @@ class AnnotationApp:
                 st.rerun()
 
         if skip:
-            # Ir para próxima sem salvar
-            current_pos = indices.index(st.session_state.current_index)
-            if current_pos < len(indices) - 1:
-                st.session_state.current_index = indices[current_pos + 1]
+            # Pular para uma notícia aleatória (evita conflitos e distribui trabalho)
+            if len(indices) > 1:
+                # Escolher aleatoriamente entre as outras notícias (exceto a atual)
+                other_indices = [idx for idx in indices if idx != st.session_state.current_index]
+                if other_indices:
+                    st.session_state.current_index = random.choice(other_indices)
+                else:
+                    # Se só tem uma notícia, manter a atual
+                    st.session_state.current_index = indices[0]
 
                 # Limpar seleções
                 st.session_state.selected_l1 = ""
