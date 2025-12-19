@@ -51,11 +51,22 @@ class DataLoader:
 
     # Métodos locais
     def _load_csv_local(self, filename: str) -> pd.DataFrame:
-        """Carrega CSV local"""
+        """Carrega CSV local com tipos corretos para códigos temáticos"""
         filepath = self.local_data_dir / filename
         if not filepath.exists():
             raise FileNotFoundError(f"Arquivo não encontrado: {filepath}")
-        return pd.read_csv(filepath)
+
+        # Definir dtypes para colunas de código temático como string para preservar zeros à esquerda
+        dtype_dict = {
+            'L1_original': str,
+            'L2_original': str,
+            'L3_original': str,
+            'L1_anotado': str,
+            'L2_anotado': str,
+            'L3_anotado': str
+        }
+
+        return pd.read_csv(filepath, dtype=dtype_dict, keep_default_na=True)
 
     def _save_csv_local(self, df: pd.DataFrame, filename: str):
         """Salva CSV local"""
@@ -72,8 +83,9 @@ class DataLoader:
 
     # Métodos GCS
     def _load_csv_gcs(self, filename: str) -> pd.DataFrame:
-        """Carrega CSV do GCS"""
+        """Carrega CSV do GCS com tipos corretos para códigos temáticos"""
         from google.cloud import storage
+        from io import StringIO
 
         client = storage.Client()
         bucket = client.bucket(self.bucket_name)
@@ -81,8 +93,18 @@ class DataLoader:
 
         # Download para memória
         content = blob.download_as_text()
-        from io import StringIO
-        return pd.read_csv(StringIO(content))
+
+        # Definir dtypes para colunas de código temático como string para preservar zeros à esquerda
+        dtype_dict = {
+            'L1_original': str,
+            'L2_original': str,
+            'L3_original': str,
+            'L1_anotado': str,
+            'L2_anotado': str,
+            'L3_anotado': str
+        }
+
+        return pd.read_csv(StringIO(content), dtype=dtype_dict, keep_default_na=True)
 
     def _save_csv_gcs(self, df: pd.DataFrame, filename: str):
         """Salva CSV no GCS"""
