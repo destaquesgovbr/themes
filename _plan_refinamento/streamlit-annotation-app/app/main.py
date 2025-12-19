@@ -658,6 +658,13 @@ class AnnotationApp:
         # Exibir notícia atual
         row = df.loc[st.session_state.current_index]
 
+        # Scroll para o topo ao carregar nova notícia
+        st.markdown("""
+        <script>
+        window.parent.document.querySelector('section.main').scrollTo(0, 0);
+        </script>
+        """, unsafe_allow_html=True)
+
         # Renderizar conteúdo da notícia
         self.render_news_content(row)
 
