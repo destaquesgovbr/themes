@@ -178,7 +178,7 @@ class AnnotationApp:
                 st.session_state.show_home = False
                 st.rerun()
 
-    def render_sidebar(self, df):
+    def render_sidebar(self, df, current_pos=None, total_filtered=None):
         """Renderiza sidebar com estatísticas e filtros"""
         with st.sidebar:
             # Nome do anotador (topo)
@@ -189,6 +189,11 @@ class AnnotationApp:
                 st.rerun()
 
             st.markdown("---")
+
+            # Contador de notícia atual
+            if current_pos is not None and total_filtered is not None:
+                st.info(f"📄 **Notícia {current_pos + 1} de {total_filtered}**")
+                st.markdown("---")
 
             st.header("📊 Progresso")
 
@@ -239,36 +244,67 @@ class AnnotationApp:
 
     def render_news_content(self, row):
         """Renderiza conteúdo da notícia"""
-        # Informações da notícia
-        col_info1, col_info2 = st.columns(2)
+        # Título fixo no topo (com custom CSS para sticky)
+        st.markdown("""
+        <style>
+        .sticky-title {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background-color: var(--background-color);
+            padding: 1rem 0;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        </style>
+        """, unsafe_allow_html=True)
 
-        with col_info1:
-            agency_name = self.get_agency_name(row['orgao'])
-            st.markdown(f"**Órgão:** {agency_name}")
-            st.markdown(f"**Data:** {row['data_publicacao']}")
+        # Título da notícia (grande e destacado)
+        st.markdown(f'<div class="sticky-title"><h2>📰 {row["titulo"]}</h2></div>', unsafe_allow_html=True)
 
-            complexity = row['complexidade_estimada']
-            emoji = COMPLEXITY_EMOJI.get(complexity, "")
-            st.markdown(f"**Complexidade:** {emoji} {complexity}")
-
-        with col_info2:
-            if row['url']:
-                st.markdown(f"[🔗 Link original]({row['url']})")
-
-        st.markdown("---")
-
-        # Conteúdo
-        st.subheader("📰 Título")
-        st.markdown(f"### {row['titulo']}")
-
+        # Resumo (se existir)
         if pd.notna(row['resumo']) and row['resumo']:
-            st.subheader("📝 Resumo")
-            st.info(row['resumo'])
+            st.info(f"**Resumo:** {row['resumo']}")
 
+        # Conteúdo início (expansível)
         if pd.notna(row['conteudo_inicio']) and row['conteudo_inicio']:
-            with st.expander("📄 Início do Conteúdo (500 caracteres)"):
+            with st.expander("📄 Ver início do conteúdo (500 caracteres)"):
                 st.text(row['conteudo_inicio'])
 
+        # Metadados em uma linha compacta (depois do conteúdo)
+        st.markdown("---")
+
+        # Formatar data para dd/mm/yyyy
+        from datetime import datetime
+        try:
+            if pd.notna(row['data_publicacao']):
+                # Tentar parsear a data
+                date_str = str(row['data_publicacao'])
+                if 'T' in date_str:  # ISO format
+                    dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+                else:
+                    dt = datetime.strptime(date_str[:10], '%Y-%m-%d')
+                formatted_date = dt.strftime('%d/%m/%Y')
+            else:
+                formatted_date = "N/A"
+        except:
+            formatted_date = str(row['data_publicacao'])
+
+        agency_name = self.get_agency_name(row['orgao'])
+        complexity = row['complexidade_estimada']
+        emoji = COMPLEXITY_EMOJI.get(complexity, "")
+
+        # Metadados compactos em uma linha
+        metadata_parts = [
+            f"**Órgão:** {agency_name}",
+            f"**Data:** {formatted_date}",
+            f"**Complexidade:** {emoji} {complexity}"
+        ]
+
+        if row['url']:
+            metadata_parts.append(f"[🔗 Link]({row['url']})")
+
+        st.markdown(" | ".join(metadata_parts))
         st.markdown("---")
 
     def render_hierarchical_selection(self, row, themes):
@@ -379,7 +415,7 @@ class AnnotationApp:
 
         return l1_selected, l2_selected, l3_selected
 
-    def render_annotation_form(self, row):
+    def render_annotation_form(self, row, l1_selected):
         """
         Renderiza apenas os campos finais do formulário (confiança, observações, botões).
 
@@ -417,7 +453,14 @@ class AnnotationApp:
             col_btn1, col_btn2 = st.columns(2)
 
             with col_btn1:
-                submit = st.form_submit_button("💾 Salvar Anotação", type="primary", use_container_width=True)
+                # Desabilitar botão se L1 não estiver selecionado
+                is_disabled = not l1_selected or l1_selected == ""
+                submit = st.form_submit_button(
+                    "💾 Salvar Anotação",
+                    type="primary",
+                    use_container_width=True,
+                    disabled=is_disabled
+                )
 
             with col_btn2:
                 skip = st.form_submit_button("⏭️ Pular", use_container_width=True)
@@ -453,18 +496,43 @@ class AnnotationApp:
             self.render_home_page()
             return
 
-        # Aplicação principal
-        st.title("📋 Anotação Manual de Notícias - Fase 4.3")
-        st.markdown("---")
+        # Aplicação principal (sem título grande para economizar espaço)
 
         # Carregar dados
         df, themes_tree = self.load_data()
         themes = get_theme_hierarchy(themes_tree)
 
-        # Sidebar com filtros
-        filtro_status, filtro_complexidade = self.render_sidebar(df)
+        # Primeiro passo: aplicar filtros para obter índices e posição
+        # Fazer uma primeira passagem sem renderizar sidebar
+        df_filtrado_temp = df.copy()
+        if 'filter_status' in st.session_state and st.session_state.filter_status != "Todas":
+            if st.session_state.filter_status == "Pendentes":
+                df_filtrado_temp = df_filtrado_temp[df_filtrado_temp['L1_anotado'].isna()]
+            elif st.session_state.filter_status == "Anotadas":
+                df_filtrado_temp = df_filtrado_temp[df_filtrado_temp['L1_anotado'].notna()]
 
-        # Aplicar filtros
+        if 'filter_complexity' in st.session_state and st.session_state.filter_complexity != "Todas":
+            df_filtrado_temp = df_filtrado_temp[df_filtrado_temp['complexidade_estimada'] == st.session_state.filter_complexity]
+
+        # Seletor de notícia
+        indices = df_filtrado_temp.index.tolist()
+        if 'current_index' not in st.session_state:
+            st.session_state.current_index = indices[0] if len(indices) > 0 else df.index[0]
+
+        # Garantir que o índice atual está na lista filtrada
+        if st.session_state.current_index not in indices and len(indices) > 0:
+            st.session_state.current_index = indices[0]
+
+        current_pos = indices.index(st.session_state.current_index) if st.session_state.current_index in indices else 0
+
+        # Agora renderizar sidebar COM o contador correto
+        filtro_status, filtro_complexidade = self.render_sidebar(df, current_pos, len(indices))
+
+        # Atualizar session state se filtros mudaram
+        st.session_state.filter_status = filtro_status
+        st.session_state.filter_complexity = filtro_complexidade
+
+        # Aplicar filtros finais (pode ter mudado)
         df_filtrado = self.apply_filters(df, filtro_status, filtro_complexidade)
 
         # Verificar se há notícias para anotar
@@ -472,21 +540,18 @@ class AnnotationApp:
             st.info("✅ Todas as notícias foram anotadas!")
             return
 
-        # Seletor de notícia
+        # Atualizar índices se mudou
         indices = df_filtrado.index.tolist()
-        if 'current_index' not in st.session_state:
-            st.session_state.current_index = indices[0]
-
-        # Garantir que o índice atual está na lista filtrada
         if st.session_state.current_index not in indices:
             st.session_state.current_index = indices[0]
 
-        # Navegação
-        col1, col2, col3 = st.columns([1, 3, 1])
+        current_pos = indices.index(st.session_state.current_index)
+
+        # Navegação compacta (apenas botões, sem contador no meio)
+        col1, col2 = st.columns([1, 1])
 
         with col1:
-            if st.button("⬅️ Anterior"):
-                current_pos = indices.index(st.session_state.current_index)
+            if st.button("⬅️ Anterior", use_container_width=True):
                 if current_pos > 0:
                     st.session_state.current_index = indices[current_pos - 1]
                     # Limpar seleções ao mudar de notícia
@@ -496,12 +561,7 @@ class AnnotationApp:
                     st.rerun()
 
         with col2:
-            current_pos = indices.index(st.session_state.current_index)
-            st.markdown(f"**Notícia {current_pos + 1} de {len(indices)}**")
-
-        with col3:
-            if st.button("Próxima ➡️"):
-                current_pos = indices.index(st.session_state.current_index)
+            if st.button("Próxima ➡️", use_container_width=True):
                 if current_pos < len(indices) - 1:
                     st.session_state.current_index = indices[current_pos + 1]
                     # Limpar seleções ao mudar de notícia
@@ -521,8 +581,8 @@ class AnnotationApp:
         # Renderizar seleção hierárquica FORA do form
         l1_selected, l2_selected, l3_selected = self.render_hierarchical_selection(row, themes)
 
-        # Renderizar formulário (apenas campos finais)
-        submit, skip, confianca, observacoes = self.render_annotation_form(row)
+        # Renderizar formulário (apenas campos finais) - passar l1_selected para desabilitar botão
+        submit, skip, confianca, observacoes = self.render_annotation_form(row, l1_selected)
 
         if submit:
             if not l1_selected:
@@ -545,8 +605,20 @@ class AnnotationApp:
                 df.at[st.session_state.current_index, 'anotador'] = st.session_state.annotator_name
                 df.at[st.session_state.current_index, 'data_anotacao'] = datetime.now().isoformat()
 
-                self.save_data(df)
-                st.success("✅ Anotação salva!")
+                # Animação de salvamento
+                with st.spinner('💾 Salvando anotação...'):
+                    import time
+                    time.sleep(0.5)  # Breve pausa para mostrar o spinner
+                    self.save_data(df)
+
+                # Progress bar de confirmação
+                progress_bar = st.progress(0)
+                for percent_complete in range(100):
+                    time.sleep(0.005)  # 0.5 segundos total
+                    progress_bar.progress(percent_complete + 1)
+
+                st.success("✅ Anotação salva com sucesso!")
+                time.sleep(0.5)  # Mostrar mensagem de sucesso brevemente
 
                 # Ir para próxima
                 current_pos = indices.index(st.session_state.current_index)
