@@ -359,11 +359,22 @@ class AnnotationApp:
         complexity = row['complexidade_estimada']
         emoji = COMPLEXITY_EMOJI.get(complexity, "")
 
+        # Dicionário de explicações para complexidade
+        complexity_tooltips = {
+            "clara": "Notícia objetiva com tema evidente e fácil de classificar",
+            "moderada": "Notícia com tema identificável mas que pode ter alguma ambiguidade",
+            "difícil": "Notícia ambígua, multitemática ou com tema pouco claro"
+        }
+        tooltip = complexity_tooltips.get(complexity, "Complexidade da classificação temática")
+
         # Metadados compactos em uma linha (pequeno e discreto)
+        # Complexidade com tooltip usando HTML
+        complexity_html = f'<span title="{tooltip}" style="cursor: help; border-bottom: 1px dotted #666;">{emoji} {complexity}</span>'
+
         metadata_parts = [
             f"**Órgão:** {agency_name}",
             f"**Data:** {formatted_date}",
-            f"**Complexidade:** {emoji} {complexity}"
+            f"**Complexidade:** {complexity_html}"
         ]
 
         if row['url']:
