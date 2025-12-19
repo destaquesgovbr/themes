@@ -4,6 +4,11 @@
 
 set -e  # Parar em erros
 
+# Ativar ambiente virtual do Poetry se existir
+if [ -f "$HOME/Library/Caches/pypoetry/virtualenvs/govbr-news-ai-_H0Lmpg7-py3.13/bin/activate" ]; then
+    source "$HOME/Library/Caches/pypoetry/virtualenvs/govbr-news-ai-_H0Lmpg7-py3.13/bin/activate"
+fi
+
 # Cores para output
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
