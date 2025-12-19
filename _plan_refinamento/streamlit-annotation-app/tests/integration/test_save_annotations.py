@@ -7,8 +7,10 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-# Adicionar app ao path
-sys.path.insert(0, str(Path(__file__).parent))
+# Adicionar diretório raiz do projeto ao path
+# Este script pode ser executado de tests/integration/ ou do diretório raiz
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
 
 from app.utils.data_loader import DataLoader
 
