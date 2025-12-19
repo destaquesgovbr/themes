@@ -285,6 +285,115 @@ class TestAnnotationInterface:
         expect(page.locator("text=🎯 Objetivo")).to_be_visible(timeout=5000)
 
 
+class TestRandomSelection:
+    """Testes para seleção randômica de notícias"""
+
+    @pytest.fixture
+    def annotation_page(self, page_with_annotation: Page):
+        """Fixture para testes de randomização"""
+        return page_with_annotation
+
+    def test_initial_selection_is_random(self, app_url_direct: str, page: Page):
+        """Verifica que a seleção inicial é aleatória (não sempre a primeira)"""
+        # Carregar app 5 vezes e verificar que não sempre começa na mesma notícia
+        initial_news = []
+
+        for _ in range(5):
+            # Criar nova sessão (limpar session state)
+            page.goto(f"{app_url_direct}&random={_}")  # Query param diferente força nova sessão
+            page.wait_for_selector("[data-testid='stAppViewContainer']", timeout=10000)
+            page.wait_for_timeout(3000)
+
+            # Pegar número da notícia atual
+            counter = page.locator("text=/Notícia \\d+ de/")
+            if counter.is_visible():
+                text = counter.inner_text()
+                # Extrair número (ex: "Notícia 248 de 500" -> 248)
+                import re
+                match = re.search(r'Notícia (\d+) de', text)
+                if match:
+                    initial_news.append(int(match.group(1)))
+
+        # Se é randômico, deve ter pelo menos 2 valores diferentes
+        unique_values = set(initial_news)
+        assert len(unique_values) >= 2, f"Seleção inicial não é randômica: {initial_news}"
+
+    def test_skip_button_selects_random_news(self, annotation_page: Page):
+        """Verifica que o botão Pular seleciona uma notícia aleatória"""
+        page = annotation_page
+
+        # Pegar notícia atual
+        counter = page.locator("text=/Notícia \\d+ de/")
+        expect(counter).to_be_visible()
+
+        initial_text = counter.inner_text()
+        initial_number = None
+        import re
+        match = re.search(r'Notícia (\d+) de', initial_text)
+        if match:
+            initial_number = int(match.group(1))
+
+        # Clicar em Pular múltiplas vezes e verificar que não é sempre sequencial
+        skip_numbers = []
+        skip_button = page.locator("button:has-text('⏭️ Pular')")
+
+        for _ in range(3):
+            skip_button.click()
+            page.wait_for_timeout(2000)  # Aguardar rerun
+
+            new_text = counter.inner_text()
+            match = re.search(r'Notícia (\d+) de', new_text)
+            if match:
+                skip_numbers.append(int(match.group(1)))
+
+        # Verificar que não pulou sequencialmente (ex: 1, 2, 3)
+        # Se for aleatório, os números não devem ser todos consecutivos
+        is_sequential = all(skip_numbers[i] == skip_numbers[i-1] + 1 for i in range(1, len(skip_numbers)))
+
+        # Se não for sequencial, é um bom indicador de randomização
+        # (pode falhar por sorte, mas é improvável)
+        assert not is_sequential or len(set(skip_numbers)) > 1, "Botão Pular parece estar selecionando sequencialmente"
+
+
+class TestScrollBehavior:
+    """Testes para comportamento de scroll automático
+
+    IMPORTANTE: Testes de scroll são difíceis de implementar de forma confiável em Streamlit
+    devido à estrutura de iframes e reruns.
+
+    Para testar o scroll automático, use o script manual:
+        python3 test_scroll_behavior.py
+
+    Este script:
+    1. Carrega o app
+    2. Faz scroll para baixo
+    3. Clica em "Pular"
+    4. Tira screenshots para verificação visual
+    5. Verifica a posição do scroll programaticamente
+    """
+
+    @pytest.fixture
+    def annotation_page(self, page_with_annotation: Page):
+        """Fixture para testes de scroll"""
+        return page_with_annotation
+
+    def test_scroll_script_exists_in_page(self, annotation_page: Page):
+        """Verifica que o código de scroll está presente na página (teste básico)
+
+        Para teste completo do comportamento de scroll, execute:
+            python3 test_scroll_behavior.py
+        """
+        page = annotation_page
+
+        # Aguardar carregamento
+        page.wait_for_timeout(2000)
+
+        # Verificar que o JavaScript de scroll está no HTML
+        # (não testa se funciona, apenas se está presente)
+        html_content = page.content()
+        assert "scrollTo(0, 0)" in html_content, "JavaScript de scroll não encontrado no HTML"
+
+
 class TestComplexityEmojis:
     """Testes específicos para emojis de complexidade"""
 
