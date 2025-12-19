@@ -314,18 +314,6 @@ class AnnotationApp:
 
         # Resumo (se existir) - com mais destaque usando container
         if pd.notna(row['resumo']) and row['resumo']:
-            # CSS inline para o container do resumo
-            st.markdown("""
-            <style>
-            /* Primeira caixa com borda na content-section é o resumo (azul) */
-            .content-section div[data-testid="stVerticalBlockBorderWrapper"]:first-of-type {
-                background-color: rgba(33, 195, 230, 0.08) !important;
-                border: 2px solid #21c3e6 !important;
-                border-left: 5px solid #21c3e6 !important;
-            }
-            </style>
-            """, unsafe_allow_html=True)
-
             resumo_container = st.container(border=True)
             with resumo_container:
                 st.markdown("**📝 Resumo**")
