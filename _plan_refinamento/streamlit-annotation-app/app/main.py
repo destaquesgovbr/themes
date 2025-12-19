@@ -524,9 +524,18 @@ class AnnotationApp:
 
     def run(self):
         """Executa aplicação principal"""
+        # Verificar query params para modo de teste direto
+        query_params = st.query_params
+        direct_mode = query_params.get("direct", "false").lower() == "true"
+
         # Inicializar session state
         if 'show_home' not in st.session_state:
-            st.session_state.show_home = True
+            st.session_state.show_home = not direct_mode  # Se direct_mode, não mostra home
+
+        # Modo direto para testes: pula home e define nome padrão
+        if direct_mode and 'annotator_name' not in st.session_state:
+            st.session_state.annotator_name = "Test User"
+            st.session_state.show_home = False
 
         # Mostrar home se necessário
         if st.session_state.show_home:
