@@ -52,7 +52,7 @@ class AnnotationApp:
         agencies_file = data_dir / self.agencies_filename
         self.agency_loader = AgencyLoader(agencies_file) if agencies_file.exists() else None
 
-    @st.cache_data
+    @st.cache_data(ttl=60)  # Cache por 60 segundos para recarregar dados atualizados
     def load_data(_self):
         """Carrega dataset e árvore temática"""
         try:
@@ -308,6 +308,9 @@ class AnnotationApp:
 
         # Container para a seção de conteúdo
         st.markdown('<div class="content-section">', unsafe_allow_html=True)
+
+        # Âncora para scroll (antes do título)
+        st.markdown('<div id="inicio-noticia"></div>', unsafe_allow_html=True)
 
         # Título da notícia (grande e destacado)
         st.markdown(f'<div class="sticky-title"><h2>📰 {row["titulo"]}</h2></div>', unsafe_allow_html=True)
@@ -657,14 +660,7 @@ class AnnotationApp:
         # Exibir notícia atual
         row = df.loc[st.session_state.current_index]
 
-        # Scroll para o topo ao carregar nova notícia
-        st.markdown("""
-        <script>
-        window.parent.document.querySelector('section.main').scrollTo(0, 0);
-        </script>
-        """, unsafe_allow_html=True)
-
-        # Renderizar conteúdo da notícia
+        # Renderizar conteúdo da notícia (a âncora está dentro do método)
         self.render_news_content(row)
 
         # === INÍCIO da caixa de Classificação Temática ===
@@ -751,6 +747,35 @@ class AnnotationApp:
 
         # Mostrar ground truth
         self.render_ground_truth(row, themes)
+
+        # Scroll para o topo ao trocar de notícia
+        # Executar após delay para garantir que rerun completou
+        st.markdown("""
+        <script>
+        (function() {
+            function scrollToTop() {
+                try {
+                    const mainSection = window.parent.document.querySelector('section.main');
+                    if (mainSection) {
+                        // Scroll instantâneo para o topo (posição 0)
+                        mainSection.scrollTop = 0;
+                        return true;
+                    }
+                } catch (e) {
+                    console.error('Erro ao fazer scroll:', e);
+                }
+                return false;
+            }
+
+            // Executar após delay maior para garantir que rerun completou
+            setTimeout(function() {
+                scrollToTop();
+                // Garantir com segundo scroll após mais delay
+                setTimeout(scrollToTop, 200);
+            }, 100);
+        })();
+        </script>
+        """, unsafe_allow_html=True)
 
 
 def main():
