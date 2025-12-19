@@ -5,6 +5,7 @@ Aplicação Streamlit para anotação manual de notícias com classificação te
 """
 
 import os
+import random
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -263,11 +264,36 @@ class AnnotationApp:
             margin-bottom: 2rem;
             border-left: 4px solid var(--primary-color);
         }
-        .form-section {
-            background-color: var(--background-color);
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            border: 2px solid var(--primary-color);
+        /* Estilizar containers com borda */
+        div[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlockBorderWrapper"] {
+            padding: 1.5rem !important;
+            border-radius: 0.75rem !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+            margin-bottom: 1rem !important;
+        }
+
+        /* Container do resumo (azul) */
+        .content-section div[data-testid="stVerticalBlockBorderWrapper"] {
+            background-color: rgba(33, 195, 230, 0.05) !important;
+            border: 2px solid #21c3e6 !important;
+            border-left: 4px solid #21c3e6 !important;
+        }
+
+        /* Container do formulário de classificação (vermelho) */
+        div[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlockBorderWrapper"]:last-of-type {
+            background-color: #f0f2f6 !important;
+            padding: 2rem !important;
+            border: 3px solid #ff4b4b !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15) !important;
+            margin-top: 2rem !important;
+        }
+        .form-section-title {
+            font-size: 1.5rem !important;
+            font-weight: bold !important;
+            color: #ff4b4b !important;
+            margin-bottom: 1rem !important;
+            padding-bottom: 0.5rem !important;
+            border-bottom: 2px solid #ff4b4b !important;
         }
         .resumo-destaque {
             font-size: 1.1rem;
@@ -286,9 +312,24 @@ class AnnotationApp:
         # Título da notícia (grande e destacado)
         st.markdown(f'<div class="sticky-title"><h2>📰 {row["titulo"]}</h2></div>', unsafe_allow_html=True)
 
-        # Resumo (se existir) - com mais destaque
+        # Resumo (se existir) - com mais destaque usando container
         if pd.notna(row['resumo']) and row['resumo']:
-            st.markdown(f'<div class="resumo-destaque">{row["resumo"]}</div>', unsafe_allow_html=True)
+            # CSS inline para o container do resumo
+            st.markdown("""
+            <style>
+            /* Primeira caixa com borda na content-section é o resumo (azul) */
+            .content-section div[data-testid="stVerticalBlockBorderWrapper"]:first-of-type {
+                background-color: rgba(33, 195, 230, 0.08) !important;
+                border: 2px solid #21c3e6 !important;
+                border-left: 5px solid #21c3e6 !important;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+
+            resumo_container = st.container(border=True)
+            with resumo_container:
+                st.markdown("**📝 Resumo**")
+                st.markdown(f'<div style="font-size: 1.1rem; line-height: 1.6;">{row["resumo"]}</div>', unsafe_allow_html=True)
             st.markdown("")  # Espaçamento
 
         # Conteúdo início (expansível e compacto)
@@ -333,20 +374,13 @@ class AnnotationApp:
         # Fechar container de conteúdo
         st.markdown('</div>', unsafe_allow_html=True)
 
-        # Separador visual claro entre seções
-        st.markdown("---")
-        st.markdown("### 🏷️ Classificação Temática")
-        st.markdown("Selecione a classificação hierárquica da notícia:")
-        st.markdown("")
-
     def render_hierarchical_selection(self, row, themes):
         """
         Renderiza seleção hierárquica L1 → L2 → L3 FORA do form.
 
         IMPORTANTE: Não pode estar dentro de st.form() para permitir reatividade.
         """
-        # Container para formulário (sem subheader duplicado)
-        st.markdown('<div class="form-section">', unsafe_allow_html=True)
+        # Nota: A abertura da div form-section agora é feita externamente
 
         # Inicializar session state para as seleções
         if 'selected_l1' not in st.session_state:
@@ -446,9 +480,6 @@ class AnnotationApp:
                 # Atualizar session state
                 st.session_state.selected_l3 = l3_selected.split(' - ')[0] if l3_selected else ""
 
-        # Fechar container do formulário
-        st.markdown('</div>', unsafe_allow_html=True)
-
         return l1_selected, l2_selected, l3_selected
 
     def render_annotation_form(self, row, l1_selected):
@@ -502,7 +533,9 @@ class AnnotationApp:
             with col_btn2:
                 skip = st.form_submit_button("⏭️ Pular", use_container_width=True)
 
-            return submit, skip, confianca, observacoes
+        # Nota: O fechamento da div form-section agora é feito externamente
+
+        return submit, skip, confianca, observacoes
 
     def render_ground_truth(self, row, themes):
         """Renderiza classificação original (ground truth) com código E label"""
@@ -560,10 +593,14 @@ class AnnotationApp:
         if 'filter_complexity' in st.session_state and st.session_state.filter_complexity != "Todas":
             df_filtrado_temp = df_filtrado_temp[df_filtrado_temp['complexidade_estimada'] == st.session_state.filter_complexity]
 
-        # Seletor de notícia
+        # Seletor de notícia - escolha aleatória ao iniciar para evitar conflitos entre anotadores
         indices = df_filtrado_temp.index.tolist()
         if 'current_index' not in st.session_state:
-            st.session_state.current_index = indices[0] if len(indices) > 0 else df.index[0]
+            if len(indices) > 0:
+                # Escolher aleatoriamente entre as notícias pendentes
+                st.session_state.current_index = random.choice(indices)
+            else:
+                st.session_state.current_index = df.index[0]
 
         # Garantir que o índice atual está na lista filtrada
         if st.session_state.current_index not in indices and len(indices) > 0:
@@ -624,11 +661,21 @@ class AnnotationApp:
         # Renderizar conteúdo da notícia
         self.render_news_content(row)
 
-        # Renderizar seleção hierárquica FORA do form
-        l1_selected, l2_selected, l3_selected = self.render_hierarchical_selection(row, themes)
+        # === INÍCIO da caixa de Classificação Temática ===
+        # Usar container do Streamlit
+        classification_container = st.container(border=True)
 
-        # Renderizar formulário (apenas campos finais) - passar l1_selected para desabilitar botão
-        submit, skip, confianca, observacoes = self.render_annotation_form(row, l1_selected)
+        with classification_container:
+            # Título da seção dentro da caixa
+            st.markdown('<div class="form-section-title">🏷️ Classificação Temática</div>', unsafe_allow_html=True)
+            st.markdown("Selecione a classificação hierárquica da notícia:")
+            st.markdown("")
+
+            # Renderizar seleção hierárquica FORA do form
+            l1_selected, l2_selected, l3_selected = self.render_hierarchical_selection(row, themes)
+
+            # Renderizar formulário (apenas campos finais) - passar l1_selected para desabilitar botão
+            submit, skip, confianca, observacoes = self.render_annotation_form(row, l1_selected)
 
         if submit:
             if not l1_selected:
