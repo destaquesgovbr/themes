@@ -207,7 +207,7 @@ class TestAnnotationInterface:
                 expect(l3_selector).to_be_visible(timeout=3000)
 
     def test_ground_truth_shows_code_and_label(self, annotation_page: Page):
-        """Verifica que o ground truth mostra código E label"""
+        """Verifica que o ground truth mostra código E label (se existir)"""
         page = annotation_page
 
         # Aguardar carregamento
@@ -216,6 +216,7 @@ class TestAnnotationInterface:
         # Procurar expander de ground truth
         ground_truth_expander = page.locator("text=Ver Classificação Original (Ground Truth)")
 
+        # Apenas testar se o ground truth existir para esta notícia
         if ground_truth_expander.is_visible():
             # Expandir
             ground_truth_expander.click()
@@ -223,8 +224,12 @@ class TestAnnotationInterface:
 
             # Verificar formato: deve ter código (entre backticks) E label (após hífen)
             # Exemplo: L1: `01` - Economia e Finanças
-            l1_pattern = page.locator("text=/L1:.*`.*`.*-/")
-            expect(l1_pattern).to_be_visible()
+            # Usar locator mais flexível que aceita o formato correto
+            l1_text = page.locator("text=/L1:.*`[^`]+`.*-.*[A-Za-zÀ-ÿ]/")
+            expect(l1_text).to_be_visible()
+        else:
+            # Se não tiver ground truth, o teste passa (algumas notícias podem não ter)
+            pass
 
     def test_navigation_buttons_work(self, annotation_page: Page):
         """Verifica que os botões de navegação funcionam"""
@@ -272,18 +277,17 @@ class TestAnnotationInterface:
         expect(obs_field).to_be_visible()
 
     def test_submit_button_validation(self, annotation_page: Page):
-        """Verifica que o botão salvar valida L1 obrigatório"""
+        """Verifica que o botão salvar está desabilitado quando L1 não está selecionado"""
         page = annotation_page
 
         # Aguardar carregamento
         page.wait_for_timeout(2000)
 
-        # Tentar salvar sem selecionar L1
-        save_button = page.locator("text=💾 Salvar Anotação")
-        save_button.click()
+        # Verificar que o botão está desabilitado (não pode clicar)
+        save_button = page.locator("button:has-text('💾 Salvar Anotação')")
 
-        # Deve mostrar erro
-        expect(page.locator("text=Selecione pelo menos o Tema (L1)")).to_be_visible(timeout=3000)
+        # Botão deve estar desabilitado
+        expect(save_button).to_be_disabled()
 
     def test_back_to_home_button_works(self, annotation_page: Page):
         """Verifica que o botão de voltar para home funciona"""
