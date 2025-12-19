@@ -52,21 +52,42 @@ class AnnotationApp:
         agencies_file = data_dir / self.agencies_filename
         self.agency_loader = AgencyLoader(agencies_file) if agencies_file.exists() else None
 
-    @st.cache_data(ttl=60)  # Cache por 60 segundos para recarregar dados atualizados
-    def load_data(_self):
-        """Carrega dataset e árvore temática"""
+    def load_data(self):
+        """Carrega dataset e árvore temática (sem cache para suportar trabalho em paralelo)"""
         try:
-            df = _self.data_loader.load_csv(_self.dataset_filename)
-            themes_tree = _self.data_loader.load_yaml(_self.themes_filename)
+            df = self.data_loader.load_csv(self.dataset_filename)
+            themes_tree = self.data_loader.load_yaml(self.themes_filename)
             return df, themes_tree
         except FileNotFoundError as e:
             st.error(f"❌ Erro ao carregar dados: {e}")
             st.info("💡 Certifique-se de que os arquivos estão no local correto:")
-            st.code(f"- {_self.dataset_filename}\n- {_self.themes_filename}")
+            st.code(f"- {self.dataset_filename}\n- {self.themes_filename}")
             st.stop()
 
-    def save_data(self, df):
-        """Salva dataset anotado"""
+    def save_annotation(self, index, l1_code, l2_code, l3_code, confidence, observations, annotator_name):
+        """
+        Salva anotação recarregando dataset antes (para evitar conflitos em trabalho paralelo)
+
+        Args:
+            index: Índice da notícia no dataset
+            l1_code, l2_code, l3_code: Códigos de classificação
+            confidence: Nível de confiança
+            observations: Observações
+            annotator_name: Nome do anotador
+        """
+        # 1. Recarregar dataset para pegar mudanças de outros usuários
+        df = self.data_loader.load_csv(self.dataset_filename)
+
+        # 2. Atualizar apenas a linha específica
+        df.loc[index, 'L1_anotado'] = l1_code
+        df.loc[index, 'L2_anotado'] = l2_code
+        df.loc[index, 'L3_anotado'] = l3_code
+        df.loc[index, 'confianca'] = confidence
+        df.loc[index, 'observacoes'] = observations
+        df.loc[index, 'anotador'] = annotator_name
+        df.loc[index, 'data_anotacao'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        # 3. Salvar dataset atualizado
         self.data_loader.save_csv(df, self.dataset_filename)
 
     def get_agency_name(self, sigla: str) -> str:
@@ -683,28 +704,25 @@ class AnnotationApp:
             if not l1_selected:
                 st.error("⚠️ Selecione pelo menos o Tema (L1)")
             else:
-                # Salvar anotação
-                df.at[st.session_state.current_index, 'L1_anotado'] = l1_selected.split(' - ')[0]
-                if l2_selected:
-                    df.at[st.session_state.current_index, 'L2_anotado'] = l2_selected.split(' - ')[0]
-                else:
-                    df.at[st.session_state.current_index, 'L2_anotado'] = None
-
-                if l3_selected:
-                    df.at[st.session_state.current_index, 'L3_anotado'] = l3_selected.split(' - ')[0]
-                else:
-                    df.at[st.session_state.current_index, 'L3_anotado'] = None
-
-                df.at[st.session_state.current_index, 'confianca'] = confianca
-                df.at[st.session_state.current_index, 'observacoes'] = observacoes
-                df.at[st.session_state.current_index, 'anotador'] = st.session_state.annotator_name
-                df.at[st.session_state.current_index, 'data_anotacao'] = datetime.now().isoformat()
+                # Extrair códigos (remover labels)
+                l1_code = l1_selected.split(' - ')[0]
+                l2_code = l2_selected.split(' - ')[0] if l2_selected else ''
+                l3_code = l3_selected.split(' - ')[0] if l3_selected else ''
 
                 # Animação de salvamento
                 with st.spinner('💾 Salvando anotação...'):
                     import time
                     time.sleep(0.5)  # Breve pausa para mostrar o spinner
-                    self.save_data(df)
+                    # Salvar usando novo método que recarrega antes de escrever
+                    self.save_annotation(
+                        index=st.session_state.current_index,
+                        l1_code=l1_code,
+                        l2_code=l2_code,
+                        l3_code=l3_code,
+                        confidence=confianca,
+                        observations=observacoes,
+                        annotator_name=st.session_state.annotator_name
+                    )
 
                 # Progress bar de confirmação
                 progress_bar = st.progress(0)
