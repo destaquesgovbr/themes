@@ -2,6 +2,16 @@
 
 Testes end-to-end usando Playwright para validar a interface de anotação de notícias.
 
+## 🎯 Modo Direto para Testes
+
+Os testes usam um **modo direto** (`?direct=true`) que:
+- ✅ Pula a home page automaticamente
+- ✅ Define nome de anotador padrão ("Test User")
+- ✅ Vai direto para interface de classificação
+- ✅ Evita problemas com reruns do Streamlit
+
+**URL de teste:** `http://localhost:8501?direct=true`
+
 ## 📋 Pré-requisitos
 
 1. **App Streamlit rodando**: O app deve estar rodando em `http://localhost:8501`

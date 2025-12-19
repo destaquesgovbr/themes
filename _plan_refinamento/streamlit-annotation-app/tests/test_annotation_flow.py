@@ -71,31 +71,21 @@ class TestAnnotationInterface:
     """Testes da interface de anotação"""
 
     @pytest.fixture
-    def annotation_page(self, page_with_app: Page):
-        """Fixture que navega para a interface de anotação"""
-        page = page_with_app
+    def annotation_page(self, page_with_annotation: Page):
+        """
+        Fixture que usa modo direto (direct=true) para pular home page.
 
-        # Preencher nome e iniciar
-        name_input = page.get_by_placeholder("Digite seu nome completo")
-        name_input.fill("Teste Anotador")
-
-        start_button = page.locator("text=🚀 Iniciar Anotação")
-        start_button.click()
-
-        # Aguardar carregar - usar matcher mais flexível
-        page.wait_for_timeout(6000)  # Aguardar rerun do Streamlit
-
-        # Verificar que saiu da home (não tem mais o objetivo)
-        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=3000)
-
-        return page
+        Isso evita problemas com reruns do Streamlit nos testes.
+        """
+        # Já está na interface de anotação (direct mode)
+        return page_with_annotation
 
     def test_sidebar_shows_annotator_name(self, annotation_page: Page):
         """Verifica que o nome do anotador aparece no topo da sidebar"""
         page = annotation_page
 
-        # Verificar nome na sidebar
-        expect(page.locator("text=👤 Teste Anotador")).to_be_visible()
+        # Verificar nome na sidebar (modo direto usa "Test User")
+        expect(page.locator("text=👤 Test User")).to_be_visible()
 
     def test_sidebar_shows_progress_metrics(self, annotation_page: Page):
         """Verifica que métricas de progresso estão visíveis"""
@@ -311,24 +301,12 @@ class TestComplexityEmojis:
     """Testes específicos para emojis de complexidade"""
 
     @pytest.fixture
-    def annotation_page(self, page_with_app: Page):
-        """Fixture que navega para a interface de anotação"""
-        page = page_with_app
-
-        # Preencher nome e iniciar
-        name_input = page.get_by_placeholder("Digite seu nome completo")
-        name_input.fill("Teste Anotador")
-
-        start_button = page.locator("text=🚀 Iniciar Anotação")
-        start_button.click()
-
-        # Aguardar carregar - usar matcher mais flexível
-        page.wait_for_timeout(6000)  # Aguardar rerun do Streamlit
-
-        # Verificar que saiu da home (não tem mais o objetivo)
-        expect(page.locator("text=🎯 Objetivo")).not_to_be_visible(timeout=3000)
-
-        return page
+    def annotation_page(self, page_with_annotation: Page):
+        """
+        Fixture que usa modo direto (direct=true) para pular home page.
+        """
+        # Já está na interface de anotação (direct mode)
+        return page_with_annotation
 
     def test_complexity_filter_shows_emoji(self, annotation_page: Page):
         """Verifica que o filtro de complexidade mostra emojis"""
