@@ -244,7 +244,7 @@ class AnnotationApp:
 
     def render_news_content(self, row):
         """Renderiza conteúdo da notícia"""
-        # Título fixo no topo (com custom CSS para sticky)
+        # CSS customizado para melhor hierarquia visual
         st.markdown("""
         <style>
         .sticky-title {
@@ -256,23 +256,47 @@ class AnnotationApp:
             border-bottom: 2px solid var(--primary-color);
             margin-bottom: 1rem;
         }
+        .content-section {
+            background-color: var(--secondary-background-color);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--primary-color);
+        }
+        .form-section {
+            background-color: var(--background-color);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid var(--primary-color);
+        }
+        .resumo-destaque {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            padding: 1rem;
+            background-color: rgba(33, 195, 230, 0.1);
+            border-radius: 0.5rem;
+            border-left: 4px solid #21c3e6;
+        }
         </style>
         """, unsafe_allow_html=True)
+
+        # Container para a seção de conteúdo
+        st.markdown('<div class="content-section">', unsafe_allow_html=True)
 
         # Título da notícia (grande e destacado)
         st.markdown(f'<div class="sticky-title"><h2>📰 {row["titulo"]}</h2></div>', unsafe_allow_html=True)
 
-        # Resumo (se existir)
+        # Resumo (se existir) - com mais destaque
         if pd.notna(row['resumo']) and row['resumo']:
-            st.info(f"**Resumo:** {row['resumo']}")
+            st.markdown(f'<div class="resumo-destaque">{row["resumo"]}</div>', unsafe_allow_html=True)
+            st.markdown("")  # Espaçamento
 
-        # Conteúdo início (expansível)
+        # Conteúdo início (expansível e compacto)
         if pd.notna(row['conteudo_inicio']) and row['conteudo_inicio']:
-            with st.expander("📄 Ver início do conteúdo (500 caracteres)"):
+            with st.expander("📄 Conteúdo (500 caracteres)", expanded=False):
                 st.text(row['conteudo_inicio'])
 
-        # Metadados em uma linha compacta (depois do conteúdo)
-        st.markdown("---")
+        st.markdown("")  # Espaçamento
 
         # Formatar data para dd/mm/yyyy
         from datetime import datetime
@@ -294,7 +318,7 @@ class AnnotationApp:
         complexity = row['complexidade_estimada']
         emoji = COMPLEXITY_EMOJI.get(complexity, "")
 
-        # Metadados compactos em uma linha
+        # Metadados compactos em uma linha (pequeno e discreto)
         metadata_parts = [
             f"**Órgão:** {agency_name}",
             f"**Data:** {formatted_date}",
@@ -304,8 +328,16 @@ class AnnotationApp:
         if row['url']:
             metadata_parts.append(f"[🔗 Link]({row['url']})")
 
-        st.markdown(" | ".join(metadata_parts))
+        st.markdown(f'<small>{" | ".join(metadata_parts)}</small>', unsafe_allow_html=True)
+
+        # Fechar container de conteúdo
+        st.markdown('</div>', unsafe_allow_html=True)
+
+        # Separador visual claro entre seções
         st.markdown("---")
+        st.markdown("### 🏷️ Classificação Temática")
+        st.markdown("Selecione a classificação hierárquica da notícia:")
+        st.markdown("")
 
     def render_hierarchical_selection(self, row, themes):
         """
@@ -313,7 +345,8 @@ class AnnotationApp:
 
         IMPORTANTE: Não pode estar dentro de st.form() para permitir reatividade.
         """
-        st.subheader("🏷️ Classificação Temática")
+        # Container para formulário (sem subheader duplicado)
+        st.markdown('<div class="form-section">', unsafe_allow_html=True)
 
         # Inicializar session state para as seleções
         if 'selected_l1' not in st.session_state:
@@ -413,6 +446,9 @@ class AnnotationApp:
                 # Atualizar session state
                 st.session_state.selected_l3 = l3_selected.split(' - ')[0] if l3_selected else ""
 
+        # Fechar container do formulário
+        st.markdown('</div>', unsafe_allow_html=True)
+
         return l1_selected, l2_selected, l3_selected
 
     def render_annotation_form(self, row, l1_selected):
@@ -421,8 +457,8 @@ class AnnotationApp:
 
         IMPORTANTE: A seleção L1/L2/L3 deve estar FORA do form.
         """
-        st.markdown("---")
-        st.subheader("📊 Avaliação da Classificação")
+        st.markdown("")
+        st.markdown("**📊 Avaliação da Classificação**")
 
         with st.form(key="annotation_form"):
             # Confiança
@@ -454,7 +490,8 @@ class AnnotationApp:
 
             with col_btn1:
                 # Desabilitar botão se L1 não estiver selecionado
-                is_disabled = not l1_selected or l1_selected == ""
+                # Verificar se l1_selected é uma string não vazia (não apenas espaços)
+                is_disabled = not l1_selected or str(l1_selected).strip() == ""
                 submit = st.form_submit_button(
                     "💾 Salvar Anotação",
                     type="primary",
