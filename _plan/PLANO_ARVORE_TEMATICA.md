@@ -257,7 +257,7 @@ themes:
   "port": 8108,
   "protocol": "http",
   "collection": "news",
-  "searchOnlyApiKey": "***REDACTED***"
+  "searchOnlyApiKey": "${TYPESENSE_API_KEY}"
 }
 ```
 
