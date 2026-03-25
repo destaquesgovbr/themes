@@ -257,7 +257,7 @@ themes:
   "port": 8108,
   "protocol": "http",
   "collection": "news",
-  "searchOnlyApiKey": "060758cdd81ae52c92067f2083b79783d7eb6ad195d3638130247b77aca21232"
+  "searchOnlyApiKey": "${TYPESENSE_API_KEY}"
 }
 ```
 

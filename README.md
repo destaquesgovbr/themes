@@ -49,8 +49,9 @@ Nível 1 (25 temas)     → Nível 2 (~113 subtemas)    → Nível 3 (~400 tópi
 
 ```bash
 # Typesense - consulta facets por tema L1
+# IMPORTANTE: Use variável de ambiente, NUNCA hardcode a chave API
 curl -s "http://34.39.186.38:8108/collections/news/documents/search?q=*&query_by=title&facet_by=theme_1_level_1_label&per_page=0&max_facet_values=30" \
-  -H "X-TYPESENSE-API-KEY: 060758cdd81ae52c92067f2083b79783d7eb6ad195d3638130247b77aca21232"
+  -H "X-TYPESENSE-API-KEY: ${TYPESENSE_API_KEY}"
 ```
 
 ---
