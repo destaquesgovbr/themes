@@ -1,0 +1,23 @@
+name: Validar árvore temática
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependências
+        run: pip install -r tests/requirements.txt
+      - name: Validar YAMLs (estrutura, contagens, alinhamento e contrato do tema 26)
+        run: pytest -q tests

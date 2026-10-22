@@ -1,7 +1,7 @@
 # Registro de Decisões Estruturais da Árvore Temática
 
 **Criado em:** 2025-12-17
-**Última atualização:** 2025-12-18
+**Última atualização:** 2026-10-21
 
 Este documento registra todas as decisões tomadas sobre a estrutura da árvore temática durante o processo de revisão.
 
@@ -16,6 +16,7 @@ Este documento registra todas as decisões tomadas sobre a estrutura da árvore 
 | DEC-003 | Manter Meio Ambiente unificado | APROVADA |
 | DEC-004 | Remoção de temas L2/L3 sem uso | APROVADA |
 | DEC-005 | Fusão de Direitos Fundamentais com Direitos Humanos | APROVADA |
+| DEC-006 | Novo L1 26 - Defesa Civil e Gestão de Desastres | APROVADA |
 
 ---
 
@@ -164,6 +165,46 @@ Remover 13.03 e manter apenas 13.02 - Direitos Humanos.
 
 ---
 
+### DEC-006: Novo L1 "26 - Defesa Civil e Gestão de Desastres"
+
+**Data:** 2026-10-21 | **Aprovada:** 2026-10-21
+**Status:** APROVADA (versão 3.2 da árvore)
+
+**Contexto:**
+A taxonomia punha Defesa Civil dentro de "19 - Defesa e Forças Armadas" (19.03 e 19.04). Assim, notícias de desastres e da Defesa Civil apareciam como defesa militar no portal e no Gobus. Contagens no banco em 21–22/10/2026:
+- 19.03 + 19.04: 209 notícias, metade delas em outubro de 2026 (112 de 127 do L1 19 nos últimos 30 dias);
+- Defesa Civil também cai em outros temas: 04 Segurança Pública (220 títulos com termo-chave, sobretudo do MDR em 04.03.01), 05.02.01 Catástrofes Climáticas (592) e 15.02.03 Apoio Emergencial (110);
+- 05.02.01 e 15.02.03 tinham keywords de Defesa Civil ("Defesa Civil", "estado de calamidade", "situação de emergência", "Cemaden", "desabrigados/desalojados").
+
+**Decisão:**
+Criar o L1 `26 - Defesa Civil e Gestão de Desastres`, movendo os dois L2 de 19 com os L3 renumerados e os mesmos labels e textos:
+
+| Origem | Destino |
+|--------|---------|
+| 19.03 - Defesa Civil | 26.01 - Defesa Civil |
+| 19.03.01–19.03.05 | 26.01.01–26.01.05 |
+| 19.04 - Situações de Emergência | 26.02 - Situações de Emergência |
+| 19.04.01–19.04.05 | 26.02.01–26.02.05 |
+
+- Os códigos 19.03\* e 19.04\* deixam de existir.
+- O 19 fica só com defesa militar; seus excludes apontam para o 26.
+- 04, 05 e 15 ganham um exclude para o 26.
+- 05.02.01 passa a tratar do fenômeno climático: causas, tendências, adaptação e resiliência.
+- 15.02.03 passa a tratar do benefício de renda.
+- Os termos de Defesa Civil saem das keywords e dos exemplos de ambos.
+
+**Por que 26:**
+Os códigos 22 e 23 foram retirados pela DEC-001 e pela DEC-002. Cópias antigas da árvore (clipping, portal, activitypub) ainda os usam com o significado antigo, então não são reutilizados. Os códigos 24 e 25 estão ocupados (Minorias, Habitação).
+
+**Impacto:**
+- A árvore passa a ter 24 L1, 106 L2 e 459 L3 (589 códigos).
+- `themes_tree.yaml` perde os 22 e 23 legados e fica idêntico ao arquivo completo e ao banco.
+- `themes_tree_enriched.yaml` troca 22/23 por 24/25 para Minorias/Habitação, como já estavam no arquivo completo e no banco.
+- No banco, a mudança entra pela migração `034` do data-platform: tabela de auditoria, upsert dos 26\*, remap determinístico das notícias de 19.03/19.04 e remoção dos 19.03\*/19.04\*. Depois, reclassificação por LLM dos candidatos.
+- Consumidores a atualizar junto: portal (pré-requisito), clipping, telegram-bot, activitypub-server e o `test-data` do data-platform.
+
+---
+
 ## Decisões Implementadas
 
 *(Implementação será feita na criação do themes_tree_enriched.yaml)*
@@ -177,12 +218,13 @@ Remover 13.03 e manter apenas 13.02 - Direitos Humanos.
 | 2025-12-17 | Criação do documento com 3 propostas iniciais |
 | 2025-12-18 | Atualização com dados de L2/L3, aprovação de decisões |
 | 2025-12-18 | Adição de DEC-004 e DEC-005 |
+| 2026-10-21 | Adição de DEC-006 (L1 26 - Defesa Civil e Gestão de Desastres); estrutura final com os códigos reais |
 
 ---
 
-## Estrutura Final Proposta
+## Estrutura Final (versão 3.2)
 
-Após aplicar todas as decisões:
+Após aplicar todas as decisões. Os códigos são os do banco: 22 e 23 ficaram vagos, e Minorias e Habitação mantiveram 24 e 25.
 
 | Código | Tema L1 |
 |--------|---------|
@@ -207,7 +249,8 @@ Após aplicar todas as decisões:
 | 19 | Defesa e Forças Armadas |
 | 20 | Políticas Públicas e Governança |
 | 21 | Legislação e Regulamentação |
-| 22 | Minorias e Grupos Especiais |
-| 23 | Habitação e Urbanismo |
+| 24 | Minorias e Grupos Especiais |
+| 25 | Habitação e Urbanismo |
+| 26 | Defesa Civil e Gestão de Desastres |
 
-**Total:** 23 temas L1 (redução de 2)
+**Total:** 24 temas L1 (23 após DEC-001/DEC-002, mais o 26 da DEC-006)
