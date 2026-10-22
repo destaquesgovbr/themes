@@ -1,3 +1,10 @@
+# Árvore Temática - DestaquesGovBr (apenas códigos e nomes)
+# Versão: 3.2
+# Data: 2026-10-21
+# Mesmos códigos e labels de themes_tree_enriched_full.yaml (fonte da tabela themes do banco):
+# 24 L1 (01–21, 24, 25 e 26), 106 L2 e 459 L3. 22 e 23 foram retirados (DEC-001/DEC-002).
+# 3.2: novo L1 26 - Defesa Civil e Gestão de Desastres (19.03 → 26.01, 19.04 → 26.02; DEC-006).
+
 01 - Economia e Finanças:
   01.01 - Política Econômica:
     - 01.01.01 - Política Fiscal
@@ -537,20 +544,6 @@
     - 19.02.04 - Treinamentos e Exercícios Militares
     - 19.02.05 - Operações Antidrogas
 
-  19.03 - Defesa Civil:
-    - 19.03.01 - Preparação para Desastres
-    - 19.03.02 - Planejamento de Evacuação
-    - 19.03.03 - Resposta a Desastres
-    - 19.03.04 - Monitoramento de Riscos Naturais
-    - 19.03.05 - Gestão de Abrigos
-
-  19.04 - Situações de Emergência:
-    - 19.04.01 - Resgate e Salvamento
-    - 19.04.02 - Logística de Emergência
-    - 19.04.03 - Ações Humanitárias
-    - 19.04.04 - Reconstrução Pós-Desastre
-    - 19.04.05 - Assistência a Deslocados Internos
-
   19.05 - Políticas e Estratégias de Defesa:
     - 19.05.01 - Planejamento de Defesa Nacional
     - 19.05.02 - Modernização das Forças Armadas
@@ -613,67 +606,6 @@
     - 21.05.02 - Inovação Jurídica e Regulatória
     - 21.05.03 - Política Regulatória
     - 21.05.04 - Cooperação Internacional em Regulação
-
-22 - Eventos Oficiais e Cerimônias:
-  22.01 - Discursos Oficiais:
-    - 22.01.01 - Pronunciamento em Rede Nacional
-    - 22.01.02 - Discursos em Cerimônias Públicas
-    - 22.01.03 - Entrevistas e Coletivas de Imprensa
-    - 22.01.04 - Discursos em Eventos Internacionais
-    - 22.01.05 - Mensagens de Fim de Ano e Comemorações
-
-  22.02 - Inaugurações:
-    - 22.02.01 - Inauguração de Obras Públicas
-    - 22.02.02 - Lançamento de Programas e Projetos
-    - 22.02.03 - Inauguração de Equipamentos Públicos
-    - 22.02.04 - Eventos de Entrega de Infraestrutura
-    - 22.02.05 - Cerimônias de Descerramento de Placas
-
-  22.03 - Visitas Oficiais:
-    - 22.03.01 - Visitas Internacionais de Chefes de Estado
-    - 22.03.02 - Visitas a Estados e Municípios
-    - 22.03.03 - Recepção de Dignitários Estrangeiros
-    - 22.03.04 - Encontros Bilaterais e Multilaterais
-    - 22.03.05 - Inspeções e Visitas Técnicas
-
-  22.04 - Luto Oficial:
-    - 22.04.01 - Declarações de Luto Nacional
-    - 22.04.02 - Homenagens Oficiais
-    - 22.04.03 - Cerimônias de Condolências
-
-  22.05 - Comemorações e Datas Festivas:
-    - 22.05.01 - Comemoração de Datas Cívicas
-    - 22.05.02 - Celebrações de Efemérides
-    - 22.05.03 - Eventos Comemorativos de Instituições Públicas
-    - 22.05.04 - Cerimônias de Posse e Aniversários de Instituições
-    - 22.05.05 - Homenagens e Reconhecimentos Públicos
-
-23 - Estatísticas e Dados Públicos:
-  23.01 - Censos e Pesquisas:
-    - 23.01.01 - Censo Demográfico
-    - 23.01.02 - Censo Agropecuário
-    - 23.01.03 - Pesquisa de Emprego e Renda
-    - 23.01.04 - Pesquisa de Saúde
-    - 23.01.05 - Pesquisa de Educação
-
-  23.02 - Indicadores Econômicos e Sociais:
-    - 23.02.01 - Índice de Preços
-    - 23.02.02 - Indicadores de Pobreza
-    - 23.02.03 - Índice de Desenvolvimento Humano (IDH)
-    - 23.02.04 - Taxa de Desemprego
-    - 23.02.05 - Taxa de Escolaridade
-
-  23.03 - Interoperabilidade:
-    - 23.03.01 - Dados Abertos
-    - 23.03.02 - Infraestrutura de Dados Públicos (IDP)
-    - 23.03.03 - Integração de Bases de Dados
-
-  23.04 - Transparência e Acesso à Informação:
-    - 23.04.01 - Portal da Transparência
-    - 23.04.02 - Lei de Acesso à Informação (LAI)
-    - 23.04.03 - Relatórios de Prestação de Contas
-    - 23.04.04 - Auditorias e Fiscalizações Públicas
-    - 23.04.05 - Dados sobre Licitações e Contratos Públicos
 
 24 - Minorias e Grupos Especiais:
   24.01 - Políticas para Mulheres:
@@ -741,3 +673,18 @@
     - 25.05.03 - Equipamentos Urbanos (praças, parques)
     - 25.05.04 - Acessibilidade Urbana
     - 25.05.05 - Conservação e Manutenção Urbana
+
+26 - Defesa Civil e Gestão de Desastres:
+  26.01 - Defesa Civil:
+    - 26.01.01 - Preparação para Desastres
+    - 26.01.02 - Planejamento de Evacuação
+    - 26.01.03 - Resposta a Desastres
+    - 26.01.04 - Monitoramento de Riscos Naturais
+    - 26.01.05 - Gestão de Abrigos
+
+  26.02 - Situações de Emergência:
+    - 26.02.01 - Resgate e Salvamento
+    - 26.02.02 - Logística de Emergência
+    - 26.02.03 - Ações Humanitárias
+    - 26.02.04 - Reconstrução Pós-Desastre
+    - 26.02.05 - Assistência a Deslocados Internos
