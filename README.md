@@ -8,28 +8,57 @@ Este diretório contém a árvore temática (vocabulário controlado) utilizada 
 
 ## Arquivos
 
-### Árvore Temática
-- **`themes_tree.yaml`** - Árvore temática atual (apenas códigos e nomes)
-- **`themes_tree_enriched.yaml`** - *(Em construção)* Árvore com descrições, keywords e exemplos
+### Árvore Temática (versão 3.2)
+- **`themes_tree_enriched_full.yaml`** - Fonte de verdade: L1, L2 e L3 com descrições, keywords, includes/excludes e exemplos. É a origem da tabela `themes` do banco.
+- **`themes_tree.yaml`** - A mesma árvore, só com códigos e nomes (lida pelo `activitypub-server`).
+- **`themes_tree_enriched.yaml`** - Só os L1, com os mesmos textos do arquivo completo.
 
-### Documentação do Projeto de Melhoria
+Os três arquivos têm os mesmos códigos e labels; `tests/test_themes_tree.py` garante isso no CI.
+
+### Documentação do Projeto de Melhoria (`_plan/`)
 - **`PLANO_ARVORE_TEMATICA.md`** - Plano mestre com fases e tarefas
 - **`DIAGNOSTICO_DISTRIBUICAO.md`** - Análise de distribuição de notícias por tema
-- **`DECISOES_ESTRUTURAIS.md`** - Registro de decisões sobre estrutura da árvore
+- **`DECISOES_ESTRUTURAIS.md`** - Registro de decisões sobre estrutura da árvore (DEC-001 a DEC-006)
 - **`TEMPLATE_DESCRICOES.md`** - Template e critérios para escrever descrições
 
 ---
 
 ## Estrutura da Árvore
 
-A árvore possui **3 níveis hierárquicos**:
+A árvore possui **3 níveis hierárquicos** (589 códigos na versão 3.2):
 
 ```
-Nível 1 (25 temas)     → Nível 2 (~113 subtemas)    → Nível 3 (~400 tópicos)
+Nível 1 (24 temas)     → Nível 2 (106 subtemas)     → Nível 3 (459 tópicos)
 01 - Economia          → 01.01 - Pol. Econômica    → 01.01.01 - Pol. Fiscal
                        → 01.02 - Fiscalização      → 01.02.01 - Fisc. Econômica
 02 - Educação          → 02.01 - Ensino Básico     → 02.01.01 - Ed. Infantil
 ```
+
+Os códigos L1 são 01–21, 24, 25 e 26. Os códigos 22 e 23 foram retirados (DEC-001/DEC-002) e não são reutilizados, porque cópias antigas da árvore ainda os usam com outro significado.
+
+Nos YAML estruturados, os códigos L1 e L2 ficam sempre entre aspas (`'08'`, `'26.01'`), para nenhum parser lê-los como número.
+
+---
+
+## Histórico de versões
+
+| Versão | Data | Mudança |
+|--------|------|---------|
+| 3.2 | 2026-10-21 | Novo L1 **26 - Defesa Civil e Gestão de Desastres** (DEC-006): 19.03 → 26.01 e 19.04 → 26.02, com os L3 renumerados e os mesmos labels. O 19 fica só com defesa militar. Termos de Defesa Civil saem de 05.02.01 e 15.02.03. `themes_tree.yaml` perde os 22 e 23 legados, e `themes_tree_enriched.yaml` passa a usar 24 e 25 (como o banco). |
+| 3.1 | 2025-12-18 | Árvore completa com descrições L1, L2 e L3; temas 22 e 23 removidos (DEC-001/DEC-002). |
+| 2.0 | 2025-12-18 | Descrições L1 (`themes_tree_enriched.yaml`). |
+
+---
+
+## Validação
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r tests/requirements.txt
+.venv/bin/pytest -q tests
+```
+
+Os testes conferem: carga com PyYAML, contagens por nível, códigos únicos, pais coerentes, alinhamento entre os três arquivos e o contrato do tema 26.
 
 ---
 
@@ -58,13 +87,18 @@ curl -s "http://34.39.186.38:8108/collections/news/documents/search?q=*&query_by
 
 ## Sincronização com Outros Repositórios
 
-A árvore temática precisa estar sincronizada em:
+A árvore precisa estar sincronizada em:
 
 | Local | Arquivo | Uso |
 |-------|---------|-----|
-| themes/ | `themes_tree.yaml` | Fonte de verdade |
-| scraper/src/enrichment/ | `themes_tree.yaml` | Classificação LLM |
-| scraper/src/enrichment/ | `themes_tree.json` | Estrutura programática |
-| portal/src/lib/ | `themes.yaml` | Navegação no portal |
+| themes/ | `themes_tree_enriched_full.yaml` | Fonte de verdade |
+| data-platform | tabela `themes` (Postgres) | Lida pelo classificador (`data-science/src/news_enrichment/taxonomy.py`) e pela API |
+| data-platform | `test-data/themes_tree_enriched_full.yaml` | Cópia usada nos testes de integração |
+| activitypub-server | `scripts/seed-actors.ts` | Lê os L1 de `themes_tree.yaml` |
+| clipping | `data/themes.yaml` | Prompt do agente do clipping (cópia) |
+| portal | `src/config/themes.yaml`, `src/data/themes.ts` | Navegação, ícones e descrições |
+| telegram-bot | `src/telegram_bot/data.py` | Lista de temas |
 
 Após alterações na árvore, sincronizar manualmente para todos os locais.
+
+**Banco:** mudanças de estrutura entram por migração no data-platform (o tema 26 entra pela `034`, com remap auditado das notícias). **Nunca** rode `scripts/populate_themes.py` em produção: ele faz `DELETE FROM themes` e reinsere tudo com ids novos.
