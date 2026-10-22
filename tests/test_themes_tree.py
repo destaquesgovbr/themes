@@ -10,6 +10,7 @@ Garante que os três YAML do repositório:
 
 from __future__ import annotations
 
+import hashlib
 import re
 from collections import Counter
 from pathlib import Path
@@ -21,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FULL = ROOT / "themes_tree_enriched_full.yaml"
 ENRICHED = ROOT / "themes_tree_enriched.yaml"
 LEGACY = ROOT / "themes_tree.yaml"
+README = ROOT / "README.md"
 
 EXPECTED_L1 = [f"{i:02d}" for i in range(1, 22)] + ["24", "25", "26"]
 EXPECTED_COUNTS = {1: 24, 2: 106, 3: 459}
@@ -302,3 +304,17 @@ def test_populate_themes_compativel(full_flat):
     rows = [(i["code"], i["label"], i["level"], i["parent"]) for i in full_flat]
     assert len(rows) == sum(EXPECTED_COUNTS.values())
     assert all(isinstance(c, str) and isinstance(lbl, str) for c, lbl, *_ in rows)
+
+
+def test_readme_registra_o_sha256_do_full_copiado_no_data_platform():
+    """data-platform/test-data é cópia byte a byte do full, com o sha256 fixado lá.
+
+    Mudar o full sem trocar o hash no README (e a cópia no data-platform) reabre o drift:
+    duas versões da mesma taxonomia, uma aqui e outra nos testes do data-platform.
+    """
+    digest = hashlib.sha256(FULL.read_bytes()).hexdigest()
+    assert digest in README.read_text(encoding="utf-8"), (
+        f"README não registra o sha256 atual do full ({digest}); copie o full para "
+        "data-platform/test-data/ e atualize o hash no README e em "
+        "data-platform/tests/unit/test_themes_test_data.py (SHA256_THEMES_FULL)"
+    )
