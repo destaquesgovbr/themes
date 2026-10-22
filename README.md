@@ -93,12 +93,14 @@ A árvore precisa estar sincronizada em:
 |-------|---------|-----|
 | themes/ | `themes_tree_enriched_full.yaml` | Fonte de verdade |
 | data-platform | tabela `themes` (Postgres) | Lida pelo classificador (`data-science/src/news_enrichment/taxonomy.py`) e pela API |
-| data-platform | `test-data/themes_tree_enriched_full.yaml` | Cópia usada nos testes de integração |
+| data-platform | `test-data/themes_tree_enriched_full.yaml` | Cópia byte a byte do full, usada nos testes (sha256 fixado) |
 | activitypub-server | `scripts/seed-actors.ts` | Lê os L1 de `themes_tree.yaml` |
 | clipping | `data/themes.yaml` | Prompt do agente do clipping (cópia) |
 | portal | `src/config/themes.yaml`, `src/data/themes.ts` | Navegação, ícones e descrições |
 | telegram-bot | `src/telegram_bot/data.py` | Lista de temas |
 
 Após alterações na árvore, sincronizar manualmente para todos os locais.
+
+**test-data do data-platform:** é cópia byte a byte do `themes_tree_enriched_full.yaml` daqui; o conteúdo não se edita lá. O `tests/unit/test_themes_test_data.py` do data-platform fixa o sha256 do arquivo (`SHA256_THEMES_FULL`). Ao mudar o full, copie o arquivo sem reformatar (`cp themes_tree_enriched_full.yaml ../data-platform/test-data/`) e troque o hash, aqui e no data-platform, pelo de `shasum -a 256 themes_tree_enriched_full.yaml` (o `tests/test_themes_tree.py` falha enquanto o README tiver o hash antigo). Na 3.2, o hash é `32a2fa43149ecd6bb1e8f5b26a341b3ee1b539750eb0c5d35120b2e2a32c92b0`.
 
 **Banco:** mudanças de estrutura entram por migração no data-platform (o tema 26 entra pela `034`, com remap auditado das notícias). **Nunca** rode `scripts/populate_themes.py` em produção: ele faz `DELETE FROM themes` e reinsere tudo com ids novos.
